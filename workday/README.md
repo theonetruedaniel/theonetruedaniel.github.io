@@ -4,6 +4,4 @@ A public portfolio overview of Daniel Abrams’s AdScale work: intake and enrich
 
 `index.html` is the static case walkthrough; `walkthrough.css` supplies responsive and print styles. It contains no customer records, live CRM connections or production configurations. The initial-outreach result is a reported historical outcome and is scoped to automated outreach.
 
-`exercise.html` is a separate four-account fictional GTM Workday simulation. It is not a deployed employer system or a reconstruction of AdScale. Its fixed templates send no messages, call no external services and do not persist changes. Reload or reset to restore the sample records.
-
 Serve the parent directory with a static HTTP server and open `/workday/`. The parent portfolio links from the AdScale case to this walkthrough.
