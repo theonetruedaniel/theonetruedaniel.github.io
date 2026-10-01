@@ -1,27 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Daniel Abrams — Portfolio Lab</title>
-    <meta name="description" content="An honest, inspectable portfolio of Daniel Abrams’ systems thinking: a fictional RevOps workflow and a local-first AI architecture explorer." />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="Daniel Abrams — Portfolio Lab" />
-    <meta property="og:description" content="An honest, inspectable portfolio of Daniel Abrams’ systems thinking: a fictional RevOps workflow and a local-first AI architecture explorer." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Daniel Abrams — Portfolio Lab" />
-    <meta name="twitter:description" content="An honest, inspectable portfolio of Daniel Abrams’ systems thinking: a fictional RevOps workflow and a local-first AI architecture explorer." />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <script>
-      // Directory hosting adds a trailing slash; preserve the original router URL.
-      if (location.pathname === '/lead-lab/' || location.pathname === '/architecture/') {
-        history.replaceState(history.state, '', location.pathname.slice(0, -1) + location.search + location.hash);
-      }
-    </script>
-    <script type="module" crossorigin src="/assets/index-XdO-6u07.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-xLbS2jRc.css">
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abrams Intelligence | Architecture &amp; bake-offs</title>
+    <meta name="description" content="Daniel Abrams’s personal AI platform architecture: authoritative Core, provider-neutral routing, planned bake-offs, and measured development evidence.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Abrams Intelligence | Architecture &amp; bake-offs">
+    <meta property="og:description" content="Daniel Abrams’s personal AI platform architecture: authoritative Core, provider-neutral routing, planned bake-offs, and measured development evidence.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Abrams Intelligence | Architecture &amp; bake-offs">
+    <meta name="twitter:description" content="Daniel Abrams’s personal AI platform architecture: authoritative Core, provider-neutral routing, planned bake-offs, and measured development evidence.">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <link rel="stylesheet" crossorigin="" href="/assets/index-xLbS2jRc.css">
+  <link rel="stylesheet" href="./architecture.css">
+</head>
   <body>
-    <div id="root"></div></body>
+    <div id="root">
+<div class="app-shell ">
+<header class="site-header">
+<div class="header-inner">
+<a data-testid="link-home" href="/" class="brand">
+<span class="brand-mark">D</span>
+<span class="brand-copy">
+<span class="brand-name">Daniel Abrams</span>
+<span class="brand-sub">Workflow demonstrations</span>
+</span>
+</a>
+<nav class="top-nav" aria-label="Primary navigation">
+<a href="https://theonetruedaniel.github.io/" class="nav-link" data-testid="link-portfolio">Back to portfolio</a>
+<a data-testid="link-lead-lab" href="/lead-lab/" class="nav-link ">Lead workflow</a>
+<a data-testid="link-architecture" href="/architecture/" class="nav-link active">AI architecture</a>
+</nav>
+</div>
+</header>
+<main class="main-content">
+<div class="page-wrap reveal">
+<section class="page-intro architecture-intro">
+<div>
+<div class="eyebrow">Demo 02 · in-development architecture</div>
+<h1 class="page-title">Abrams <em>Intelligence</em>
+<br>Architecture</h1>
+<nav class="story-nav" aria-label="Architecture page sections">
+<a href="#system-story">System design</a>
+<a href="#bakeoffs">Bake-offs</a>
+<a href="#evidence">Evidence</a>
+<a href="#walkthrough-title">Try the sample</a>
+</nav>
+</div>
+<div class="intro-copy">A personal AI platform designed to keep projects, memory, permissions, and durable work under one authoritative Core, with interchangeable cloud and local model paths.<div class="rule-note">Phase 2 preparation. Foundations and offline development tooling exist; the functioning Core and product UI are not yet built.</div>
+</div>
+</section>
+<section class="arch-overview">
+<div class="panel status-board">
+<div class="status-item established">
+<div class="status-heading">Established</div>
+<strong>Foundations</strong>
+<p>19-document baseline, traceability, decision records, evidence tooling, and an offline development dispatcher.</p>
+</div>
+<div class="status-item current">
+<div class="status-heading">Under preparation</div>
+<strong>Contract</strong>
+<p>Draft Core oracle fixtures define retries, durable acknowledgements, recovery, and Stop. Static validation is complete; execution is pending.</p>
+</div>
+<div class="status-item next">
+<div class="status-heading">Next application</div>
+<strong>Build &amp; compare</strong>
+<p>A minimal Core and shell, followed by equivalent bake-offs and qualified model / tool paths for useful personal workflows.</p>
+</div>
+</div>
+<div class="architect-note">
+<div class="section-label">Design focus</div>
+<p>Modular workflows, customizable memory, and adaptable model paths.</p>
+</div>
+</section>
+<section class="case-section system-story" id="system-story" aria-labelledby="story-title">
+  <div class="case-heading">
+<div>
+<div class="section-label">The system being built</div>
+<h2 id="story-title">One place to direct work. One core record of what happened.</h2>
+</div>
+<p>A personal platform for research, coding, planning, and documents. The design keeps projects, memory, permissions, and run history under Abrams Intelligence’s control as models and optional tools change.</p>
+</div>
+  <ol class="system-flow" aria-label="Planned system flow">
+    <li>
+<span>01 · Direct</span>
+<h3>Personal workspace</h3>
+<p>Choose a task, project context, and the outcome to review.</p>
+</li>
+    <li>
+<span>02 · Authorize</span>
+<h3>Abrams Core</h3>
+<p>Own grants, budgets, durable runs, audit, and external effects.</p>
+</li>
+    <li>
+<span>03 · Execute</span>
+<h3>Replaceable adapters</h3>
+<p>Use an admitted model, agent runtime, or tool within that task’s boundaries.</p>
+</li>
+    <li>
+<span>04 · Reconcile</span>
+<h3>Evidence &amp; review</h3>
+<p>Return a traceable result; preserve the record through retries, reconnects, and Stop.</p>
+</li>
+  </ol>
+  <p class="case-note">Planned application architecture. The functioning Core and product UI have not been implemented.</p>
+  <details class="routing-detail">
+<summary>How task routing fits the design</summary>
+<div class="routing-columns">
+<div>
+<h3>Product model router · planned</h3>
+<p>Provider-neutral, with admitted cloud and local routes. Manual choice takes precedence; automatic selection must respect task risk, permissions, compatibility, and budget. Switching a model must preserve project state and memory.</p>
+</div>
+<div>
+<h3>Development dispatcher · implemented offline</h3>
+<p>Separate Codex development tooling proposes Luna for routine work, Sol for implementation and synthesis, and Astra for consequential architecture or security work. These are starting policy heuristics, not proven quality rankings or savings. Live editing remains unqualified.</p>
+</div>
+</div>
+</details>
+</section>
+<div class="arch-grid">
+<section class="panel diagram-panel">
+<div class="panel-heading">
+<div>
+<div class="section-label">Architecture map · click a module</div>
+<h2 class="panel-title">A modular harness for adaptable personal workflows</h2>
+</div>
+<span class="panel-meta">not to scale</span>
+</div>
+<div class="diagram-canvas" aria-label="Architecture module diagram">
+<svg viewBox="0 0 800 410" preserveAspectRatio="none" aria-hidden="true">
+<path class="diagram-line" d="M145 95 C260 35, 315 70, 380 82 S570 85, 650 105">
+</path>
+<path class="diagram-line" d="M145 310 C255 250, 320 210, 380 300 S560 335, 650 310">
+</path>
+<path class="diagram-line" d="M470 120 C450 185, 450 250, 470 292">
+</path>
+<path class="diagram-line" d="M250 120 C230 200, 190 250, 145 295">
+</path>
+</svg>
+<button class="module one selected" data-testid="button-module-M01" data-module-id="M01" aria-pressed="true">
+<span class="module-id">M01 · Architecture design</span>
+<span class="module-name">Intent &amp; task design</span>
+<span class="module-state">Maps research, coding, planning, or document work into a bounded, inspectable plan before a model path is selected.</span>
+</button>
+<button class="module two " data-testid="button-module-M02" data-module-id="M02" aria-pressed="false">
+<span class="module-id">M02 · Architecture design</span>
+<span class="module-name">Model path design</span>
+<span class="module-state">Describes interchangeable cloud or local model paths through a clear model boundary.</span>
+</button>
+<button class="module three " data-testid="button-module-M03" data-module-id="M03" aria-pressed="false">
+<span class="module-id">M03 · Architecture design</span>
+<span class="module-name">Evidence &amp; tool design</span>
+<span class="module-state">Defines how normalized evidence, provenance, and readiness checks support future research, coding, document, runtime, and integration components.</span>
+</button>
+<button class="module four " data-testid="button-module-M04" data-module-id="M04" aria-pressed="false">
+<span class="module-id">M04 · Architecture design</span>
+<span class="module-name">Memory &amp; UI design</span>
+<span class="module-state">Makes customizable memory scopes, workflows, and interface choices visible to the person directing the system.</span>
+</button>
+<button class="module five " data-testid="button-module-M05" data-module-id="M05" aria-pressed="false">
+<span class="module-id">M05 · Architecture design</span>
+<span class="module-name">Permission design</span>
+<span class="module-state">Maps read, propose, and simulated act choices across the personal platform.</span>
+</button>
+<button class="module six " data-testid="button-module-M06" data-module-id="M06" aria-pressed="false">
+<span class="module-id">M06 · Foundation tooling</span>
+<span class="module-name">Foundation tooling</span>
+<span class="module-state">Provides environment inventory, evidence normalization, and artifact/readiness checks for planning and review.</span>
+</button>
+</div>
+<div class="maturity">
+<span class="section-label">Status</span>
+<div class="maturity-items">
+<span class="maturity-item">
+<i class="maturity-dot teal">
+</i>Foundation tooling</span>
+<span class="maturity-item">
+<i class="maturity-dot amber">
+</i>Architecture design</span>
+<span class="maturity-item">
+<i class="maturity-dot hollow">
+</i>Next application</span>
+</div>
+</div>
+</section>
+<aside class="panel module-detail" aria-label="Selected architecture module">
+<div class="section-label">M01 · Architecture design</div>
+<h2 data-testid="text-selected-module">Intent &amp; task design</h2>
+<p>Maps research, coding, planning, or document work into a bounded, inspectable plan before a model path is selected.</p>
+<div class="detail-block">
+<h3>Relationships</h3>
+<ul>
+<li>Receives scope from the personal platform shell.</li>
+<li>Defines the handoff to model and tool design.</li>
+</ul>
+</div>
+<div class="detail-block">
+<h3>Design decisions</h3>
+<ul>
+<li>Route by task risk and scope.</li>
+<li>No implicit tool access.</li>
+</ul>
+</div>
+</aside>
+</div>
+<section class="case-section bakeoff-section" id="bakeoffs" aria-labelledby="bakeoff-title">
+  <div class="case-heading">
+<div>
+<div class="section-label">Engineering choices · planned bake-offs</div>
+<h2 id="bakeoff-title">Choose the smallest option that passes the job.</h2>
+</div>
+<p>Compare candidates on the same frozen inputs, model route, permissions, and resource envelope. Keep failed runs and recovery evidence. A familiar tool or a fast response does not earn adoption by itself.</p>
+</div>
+  <div class="bakeoff-layout">
+<div class="bakeoff-choices" role="group" aria-label="Select a planned comparison">
+    <button type="button" data-bakeoff="desktop" aria-pressed="true">
+<span>BO-01</span>
+<strong>Desktop shell</strong>
+<small>Tauri vs. local web / PWA</small>
+</button>
+    <button type="button" data-bakeoff="core" aria-pressed="false">
+<span>BO-02</span>
+<strong>Core placement</strong>
+<small>TypeScript vs. narrow Rust vs. split service</small>
+</button>
+    <button type="button" data-bakeoff="runtime" aria-pressed="false">
+<span>BO-03</span>
+<strong>Agent runtime</strong>
+<small>Candidate loops vs. a contract oracle</small>
+</button>
+    <button type="button" data-bakeoff="memory" aria-pressed="false">
+<span>BO-06</span>
+<strong>Memory retrieval</strong>
+<small>SQLite / FTS5 vs. vector or hybrid search</small>
+</button>
+  </div>
+<article class="bakeoff-detail" id="bakeoff-detail" aria-live="polite" aria-atomic="true">
+<div class="section-label">BO-01 · planned comparison</div>
+<h3>Does a desktop shell earn its complexity?</h3>
+<p>Tauri 2 with React / TypeScript versus a contract-equivalent local web or PWA shell, driven by the same mock Core event stream.</p>
+<dl>
+<dt>Evaluate</dt>
+<dd>Keyboard access, approval and Stop visibility, crash / reconnect behavior, startup, and process resources.</dd>
+<dt>Decision rule</dt>
+<dd>Choose Tauri only when demonstrated native value passes the gates. Keep the web / PWA path as the fallback.</dd>
+<dt>Current evidence</dt>
+<dd>Planned comparison. No completed shell bake-off or product UI is claimed.</dd>
+</dl>
+</article>
+</div>
+  <details class="fairness-detail">
+<summary>What makes a comparison fair?</summary>
+<p>Preregister the hypothesis, corpus, thresholds, failures, and decision owner. Pin the exact artifacts and adapters. Use identical context, grants, budgets, retries, and recovery cases. Score quality, safety, privacy, latency, resources, cost, recovery, and maintenance separately. Adopt only the exact scope that passed and record the decision.</p>
+</details>
+</section>
+<section class="case-section evidence-section" id="evidence" aria-labelledby="evidence-title">
+  <div class="case-heading">
+<div>
+<div class="section-label">Evidence as of October 1, 2026</div>
+<h2 id="evidence-title">What is proven, and what still needs a run.</h2>
+</div>
+<p>Implementation checks, candidate measurements, and draft fixtures answer different questions. Passing one does not certify the complete application.</p>
+</div>
+  <div class="evidence-list">
+    <article>
+<div class="evidence-kind">Observed · baseline checks</div>
+<h3>219 Phase 0 assertions passed</h3>
+<p>Architecture baseline and planning consistency checks. These establish a reviewable starting point; they do not prove a functioning product.</p>
+</article>
+    <article>
+<div class="evidence-kind">Observed · development tooling</div>
+<h3>224 passed, 23 skipped</h3>
+<p>The local dispatcher integration’s default suite. Skipped checks are not qualification evidence. Offline implementation exists; live editing is not admitted.</p>
+</article>
+    <article class="selector-result">
+<div class="evidence-kind">Measured · selector not adopted</div>
+<h3>Laya: 45% ordinary agreement</h3>
+<p>18 of 40 ordinary cases, below the 90% threshold, within a 60-case synthetic evaluation. Corrected warm p95 was 0.547 seconds; quality still failed. Memory and paired-task qualification remain unresolved. No usage savings are demonstrated.</p>
+</article>
+    <article>
+<div class="evidence-kind">Draft · static validation only</div>
+<h3>56 Core traces + 9 retry traces</h3>
+<p>The original 40 oracle cases and the RC01–RC07 retry clarification have serialized draft fixtures. They remain unexecuted and unfrozen; no Core or candidate-runtime conformance result is claimed.</p>
+</article>
+  </div>
+  <div class="next-milestone">
+<div>
+<div class="section-label">Current milestone · Phase 2 preparation</div>
+<h3>Make the contract executable before choosing the runtime.</h3>
+</div>
+<p>Next: qualify the scoped environment, freeze the protocol and oracle fixtures, build the minimal Core / shell path, and execute equivalent comparisons. Prove retries, durable acknowledgement, recovery, and Stop before expanding to useful assistant workflows.</p>
+</div>
+</section>
+<section class="panel walkthrough feedback-walkthrough" aria-labelledby="walkthrough-title">
+<div>
+<div class="section-label">Interactive sample walkthrough</div>
+<h2 id="walkthrough-title">Follow a task from input to output.</h2>
+<p class="walkthrough-intro">Run a fictional task, inspect each decision, and see its sample output. All results are prewritten fixtures. No models, tools, payments or external actions run.</p>
+<div class="sample-input">
+<h3>Sample input</h3>
+<p>A sample document assistant must cite its sources, ask before sending a draft, and stop when requested.</p>
+</div>
+<div class="walkthrough-controls simulation-fields">
+<label class="field">
+<span class="field-label">Task scope</span>
+<select class="select" data-testid="select-task-scope">
+<option>Draft a requirements trace</option>
+<option>Research a topic</option>
+<option>Review a code change</option>
+<option>Plan a project</option>
+<option>Draft a document</option>
+<option>Propose an external action</option>
+</select>
+</label>
+<label class="field">
+<span class="field-label">Budget envelope</span>
+<select class="select" data-testid="select-budget-envelope">
+<option value="lean">Lean</option>
+<option value="balanced">Balanced</option>
+<option value="generous">Generous</option>
+</select>
+</label>
+<label class="field">
+<span class="field-label">Sample permission</span>
+<select class="select" data-testid="select-walkthrough-permission">
+<option value="read">Read only</option>
+<option value="propose">Read + propose</option>
+<option value="act">Read + propose + simulated act</option>
+</select>
+</label>
+<label class="field">
+<span class="field-label">Model path</span>
+<select class="select" data-testid="select-walkthrough-model">
+<option value="local-safe">Local / safe mock model</option>
+<option value="cloud-adaptive">Cloud / adaptive mock model</option>
+<option value="review">Human-guided review</option>
+</select>
+</label>
+<label class="field">
+<span class="field-label">Optional tool slot</span>
+<select class="select">
+<option value="none">No optional tool</option>
+<option value="research slot">Research slot</option>
+<option value="code slot">Code slot</option>
+<option value="document slot">Document slot</option>
+</select>
+</label>
+<label class="field">
+<span class="field-label">Memory scope</span>
+<input class="field-input" value="Task context only">
+</label>
+<label class="readiness-control">
+<input data-testid="checkbox-sample-ready" type="checkbox"> Sample evidence reviewed and ready</label>
+</div>
+<p class="simulation-help">Settings update the checks immediately. Changing a setting clears the previous run so its output cannot be mistaken for the new result.</p>
+<div class="simulation-actions">
+<button class="button secondary">Load ready example</button>
+<button class="button secondary" data-testid="button-reset-architecture">Reset walkthrough</button>
+</div>
+</div>
+<div class="walkthrough-result blocked">
+<div role="status" aria-live="polite" aria-atomic="true" data-testid="status-simulation-result">
+<div class="result-state">
+<strong>Needs changes</strong>
+</div>
+<p>Resolve the checks below, or load the ready example.</p>
+</div>
+<ul class="simulation-checks" aria-label="Route checks">
+<li class="needs-change">
+<strong>Change needed · Evidence</strong>
+<span>Check “Sample evidence reviewed and ready” to release this input.</span>
+</li>
+<li class="passed">
+<strong>Pass · Permission</strong>
+<span>Read + propose permits a sample draft; external actions remain held.</span>
+</li>
+<li class="passed">
+<strong>Pass · Budget</strong>
+<span>balanced covers this task under the illustrative policy; no money is spent.</span>
+</li>
+<li class="passed">
+<strong>Pass · Model path</strong>
+<span>Use a mock local response; no model is running.</span>
+</li>
+</ul>
+<div class="simulation-actions">
+<button class="button" disabled="" data-testid="button-run-simulation">Run sample</button>
+</div>
+<ol class="simulation-steps" aria-label="Walkthrough steps">
+<li class="pending">
+<div class="simulation-step-heading">
+<strong>1. Check the sample input</strong>
+<span>Pending</span>
+</div>
+</li>
+<li class="pending">
+<div class="simulation-step-heading">
+<strong>2. Select the route</strong>
+<span>Pending</span>
+</div>
+</li>
+<li class="pending">
+<div class="simulation-step-heading">
+<strong>3. Assemble the sample output</strong>
+<span>Pending</span>
+</div>
+</li>
+<li class="pending">
+<div class="simulation-step-heading">
+<strong>4. Check the handoff</strong>
+<span>Pending</span>
+</div>
+</li>
+</ol>
+</div>
+</section>
+<section class="about">
+<div class="panel about-card">
+<div class="section-label">About this portfolio</div>
+<h2>About the portfolio</h2>
+<p>Daniel contributes requirements definition, workflow design, architecture, and AI-assisted development across these portfolio demonstrations. The work makes the decisions, structure, and next application steps easy to review.</p>
+</div>
+<div class="panel about-card">
+<div class="section-label">Continue reading</div>
+<h2>More of the working notebook.</h2>
+<p>Find Daniel’s professional context and longer workflow and architecture references through these public links.</p>
+<div class="link-list">
+<a class="external-link" href="https://www.linkedin.com/in/danielmabrams/" target="_blank" rel="noreferrer" data-testid="link-linkedin">LinkedIn <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+<path d="M15 3h6v6">
+</path>
+<path d="M10 14 21 3">
+</path>
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+</path>
+</svg>
+</a>
+<a class="external-link" href="https://gamma.app/docs/q5fun7ugwjj0g9n" target="_blank" rel="noreferrer" data-testid="link-revops-brief">RevOps workflow <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+<path d="M15 3h6v6">
+</path>
+<path d="M10 14 21 3">
+</path>
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+</path>
+</svg>
+</a>
+<a class="external-link" href="https://gamma.app/docs/for2zexybupmugn" target="_blank" rel="noreferrer" data-testid="link-architecture-brief">Architecture brief <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+<path d="M15 3h6v6">
+</path>
+<path d="M10 14 21 3">
+</path>
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+</path>
+</svg>
+</a>
+</div>
+</div>
+</section>
+</div>
+</main>
+<section class="page-wrap" aria-label="Daniel Abrams credentials">
+<details class="panel credentials-card">
+<summary>Daniel Abrams — credentials &amp; resume</summary>
+<ul>
+<li>
+<a href="https://oaiacademy.credential.net/d8995a20-78e9-447d-abfd-37eb64763db9">Apply AI at Work</a> — OpenAI Academy</li>
+<li>
+<a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/DVSWZUXWH1NU">Google AI Professional</a>
+</li>
+<li>
+<a href="https://app-na2.hubspot.com/academy/achievements/twxq78yc/en/1/daniel-abrams/hubspot-revenue-operations-certified">HubSpot Revenue Operations Certified</a>
+</li>
+<li>
+<a href="https://app-na2.hubspot.com/academy/achievements/4ks7rjsy/en/1/daniel-abrams/hubspot-reporting-certified">HubSpot Reporting Certified</a>
+</li>
+</ul>
+<p>
+<a href="https://theonetruedaniel.github.io/Daniel_Abrams_GTM_Resume.pdf">Download resume (PDF)</a>
+</p>
+</details>
+</section>
+<footer class="footer">
+<span>Daniel Abrams · DMA USA Services</span>
+<span>RevOps workflow · Modular AI architecture</span>
+</footer>
+</div>
+</div>
+
+<script type="module" src="./architecture.js">
+</script>
+</body>
 </html>
