@@ -1,0 +1,2073 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-07",
+  "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
+  "registered_record_count": 185,
+  "github_repository_count": 83,
+  "production_integrations_adopted": 0,
+  "stage_definitions": {
+    "collected": "Collected reference",
+    "shortlisted": "Shortlisted / planned",
+    "tested": "Tested / not admitted",
+    "selected-content": "Selected advisory content",
+    "adopted": "Adopted integration"
+  },
+  "repositories": [
+    {
+      "repository": "Significant-Gravitas/AutoGPT",
+      "name": "AutoGPT",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Classic runtime, Platform workflow concepts and selected benchmark fixtures.",
+      "fit": "C / proposed BO-03 for Classic; H / BO-15 concepts; BO-T02 remains trigger-only.",
+      "disposition": "Mixed scopes: Classic admission proposed; Platform integration deferred.",
+      "next_gate": "Resolve component-specific reuse rights and fit; qualify each scope independently.",
+      "id": "significant-gravitas-autogpt",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "canonical_repository": "Significant-Gravitas/AutoGPT",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.autogpt-classic",
+        "evaluation.autogpt-classic-fixtures",
+        "workflow.autogpt-platform"
+      ],
+      "evidence_dates": [
+        "2026-09-09"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "98381ab27f733468bfe1f9c4f4942b4b416d9a8b"
+      ]
+    },
+    {
+      "repository": "cline/cline",
+      "name": "Cline",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Agent runtime and SDK configurations for controlled task execution.",
+      "fit": "C / BO-03: compare Agent, Core, Hub and SDK configurations behind AbramsRuntime; no incumbent advantage.",
+      "disposition": "Intake candidate; no completed runtime qualification.",
+      "next_gate": "Exact configuration and dependency intake, then the common frozen oracle.",
+      "id": "cline-cline",
+      "url": "https://github.com/cline/cline",
+      "canonical_repository": "cline/cline",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.cline-agent",
+        "agent.cline-core",
+        "agent.cline-hub",
+        "agent.cline-sdk"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "NousResearch/hermes-agent",
+      "name": "Hermes Agent",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Assistant runtime, memory, skills and scheduling reference.",
+      "fit": "C/E-I / Q-19: runtime admission and component/product studies are separate.",
+      "disposition": "Researched; initial runtime-set admission unresolved.",
+      "next_gate": "Reviewed BO-03 overlay plus exact containment, data, route and lifecycle intake.",
+      "id": "nousresearch-hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "canonical_repository": "NousResearch/hermes-agent",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.hermes"
+      ],
+      "evidence_dates": [
+        "2026-09-23"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "3dca25b6f65ae8e6bccc99ed1396cefdf9977b9c"
+      ]
+    },
+    {
+      "repository": "MoonshotAI/kimi-code",
+      "name": "Kimi Code",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Coding-agent runtime and adapter candidate.",
+      "fit": "C / BO-03: runtime conformance is distinct from Kimi model quality.",
+      "disposition": "Collected in the frozen runtime inventory; untested.",
+      "next_gate": "Exact package/route identity and common oracle qualification.",
+      "id": "moonshotai-kimi-code",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "canonical_repository": "MoonshotAI/kimi-code",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "model.kimi-code"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "langchain-ai/langchain",
+      "name": "LangChain",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Agent construction and middleware configuration.",
+      "fit": "C / proposed BO-03: a distinct create_agent configuration alongside LangGraph.",
+      "disposition": "Selected source reviewed; initial-set admission still proposed.",
+      "next_gate": "Reviewed catalog overlay, exact package intake and common runtime oracle.",
+      "id": "langchain-ai-langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "canonical_repository": "langchain-ai/langchain",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.langchain"
+      ],
+      "evidence_dates": [
+        "2026-09-09"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1611938f49dda48aa069d1fdce429430257488b7"
+      ]
+    },
+    {
+      "repository": "langchain-ai/langgraph",
+      "name": "LangGraph",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Graph-based agent orchestration with persistence and interrupts.",
+      "fit": "C / BO-03: replaceable runtime; Core retains canonical state, grants and effects.",
+      "disposition": "Documentation researched; runtime behavior untested in Abrams.",
+      "next_gate": "Common runtime oracle, recovery semantics and exact dependency review.",
+      "id": "langchain-ai-langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "canonical_repository": "langchain-ai/langgraph",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.langgraph"
+      ],
+      "evidence_dates": [
+        "2026-09-04",
+        "2026-09-09"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "e539ac122f4126f6dd850581c1494948cf620e31"
+      ]
+    },
+    {
+      "repository": "ruvnet/open-claude-code",
+      "name": "Open Claude Code (ruvnet)",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Alternative coding-agent runtime implementation.",
+      "fit": "C / BO-03: independently qualify behind the same authority boundary.",
+      "disposition": "Blocked on clean-room and provenance evidence.",
+      "next_gate": "Written eligibility, exact package intake and shared oracle qualification.",
+      "id": "ruvnet-open-claude-code",
+      "url": "https://github.com/ruvnet/open-claude-code",
+      "canonical_repository": "ruvnet/open-claude-code",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.openclaude.ruvnet"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "ymichael/open-codex",
+      "name": "Open Codex (ymichael)",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Codex-derived agent runtime candidate.",
+      "fit": "C / BO-03: isolated worker; compare fork behavior independently.",
+      "disposition": "Planned; fork delta and WSL isolation review remain open.",
+      "next_gate": "Review the exact fork, dependency closure and isolation before execution.",
+      "id": "ymichael-open-codex",
+      "url": "https://github.com/ymichael/open-codex",
+      "canonical_repository": "ymichael/open-codex",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.opencodex.ymichael"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "composio-community/open-dot",
+      "name": "Open Dot",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Assistant components spanning browser, approvals, schedules and voice.",
+      "fit": "E-I / Q-27: compare with Abrams controls and eligible assistant studies.",
+      "disposition": "Source screened; missing license evidence and execution eligibility unresolved.",
+      "next_gate": "Reuse rights, Windows fit, durable scheduling, exact grants and service qualification.",
+      "id": "composio-community-open-dot",
+      "url": "https://github.com/composio-community/open-dot",
+      "canonical_repository": "composio-community/open-dot",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "app.open-dot"
+      ],
+      "evidence_dates": [
+        "2026-10-03"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "f838e17cf5c3a88ade5ceea54680a8145d048c1d"
+      ]
+    },
+    {
+      "repository": "Gitlawb/openclaude",
+      "name": "OpenClaude (Gitlawb lineage)",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Coding-agent CLI considered as an alternative runtime.",
+      "fit": "C / BO-03: separate candidate from ruvnet's similarly named project.",
+      "disposition": "Blocked pending provenance and distribution eligibility; not adopted.",
+      "next_gate": "Resolve exact historical artifact and reuse eligibility before runtime execution.",
+      "id": "gitlawb-openclaude",
+      "url": "https://github.com/Twigpine/openclaude",
+      "canonical_repository": "Twigpine/openclaude",
+      "link_checked": "2026-10-07",
+      "link_state": "verified_redirect",
+      "source_records": [
+        "agent.openclaude.gitlawb"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "openclaw/openclaw",
+      "name": "OpenClaw",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Assistant runtime/gateway and build-versus-adapt reference.",
+      "fit": "C and E-I by capability: one canonical authority owner must remain clear.",
+      "disposition": "Source researched; initial runtime-set admission unresolved.",
+      "next_gate": "Reviewed runtime overlay, exact release, containment and separate product-study corpus.",
+      "id": "openclaw-openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "canonical_repository": "openclaw/openclaw",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.openclaw"
+      ],
+      "evidence_dates": [
+        "2026-09-09"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "78bfb8ad4674183268efdb954c6675b069c0cea4"
+      ]
+    },
+    {
+      "repository": "CopilotKit/openmuse",
+      "name": "OpenMuse",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "General-assistant components and whole-app adaptation reference.",
+      "fit": "E-I / Q-22: compare selected capabilities with Abrams controls.",
+      "disposition": "Researched; no live service or product adoption.",
+      "next_gate": "Qualify the separate Intelligence service, host, data and effect boundaries.",
+      "id": "copilotkit-openmuse",
+      "url": "https://github.com/CopilotKit/openmuse",
+      "canonical_repository": "CopilotKit/openmuse",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "app.openmuse"
+      ],
+      "evidence_dates": [
+        "2026-09-29"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "34b15bc80340e582fb8c25573646cfb0bbc5184d"
+      ]
+    },
+    {
+      "repository": "PrimeIntellect-ai/prime-agent",
+      "name": "Prime Agent",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Persistent programmatic harness, lifecycle and reviewed learning patterns.",
+      "fit": "E/H/J / Q-28: compare harness components with single-agent controls.",
+      "disposition": "October 5 intake; documentation only, no execution. Worker isolation is not a security sandbox.",
+      "next_gate": "External containment, Windows lifecycle, aggregate budgets and refinement promotion review.",
+      "id": "primeintellect-ai-prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "canonical_repository": "PrimeIntellect-ai/prime-agent",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.prime-agent"
+      ],
+      "evidence_dates": [
+        "2026-10-05"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "41e1f41c072e8f31ac6a79ad1b7fe19920c6d61f"
+      ]
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "name": "Qwen Code",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Coding-agent runtime candidate.",
+      "fit": "C / BO-03: compare the adapter and runtime using model-neutral fixtures.",
+      "disposition": "Collected candidate; no completed runtime comparison.",
+      "next_gate": "Exact runtime and dependency intake, then the common conformance corpus.",
+      "id": "qwenlm-qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "canonical_repository": "QwenLM/qwen-code",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "model.qwen-code"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "truefoundry/trueforge",
+      "name": "TrueForge",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Agent framework candidate in the frozen runtime inventory.",
+      "fit": "C / BO-03: compare runtime conformance, separate from model quality.",
+      "disposition": "Collected in the initial catalog; qualification unrun.",
+      "next_gate": "Exact identity, dependency and runtime-contract intake.",
+      "id": "truefoundry-trueforge",
+      "url": "https://github.com/truefoundry/trueforge",
+      "canonical_repository": "truefoundry/trueforge",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "agent.trueforge"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "logicrw/awesome-jev-projects",
+      "name": "Awesome Jev Projects",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Discovery directory for Jev applications and reference implementations.",
+      "fit": "Q-10/Q-11 discovery support; entries are not automatically candidates.",
+      "disposition": "Collected reference; directory contents are not bulk-admitted.",
+      "next_gate": "Inspect a named reference and define a capability-specific question first.",
+      "id": "logicrw-awesome-jev-projects",
+      "url": "https://github.com/logicrw/awesome-jev-projects",
+      "canonical_repository": "logicrw/awesome-jev-projects",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-23"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0c003c525f73db1d286c3acfd9c30315dd2dc2af"
+      ]
+    },
+    {
+      "repository": "qkal/Canny",
+      "name": "Canny",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Deterministic completion ledger with optional model advice.",
+      "fit": "H / Q-11C reference: advice cannot replace acceptance checks.",
+      "disposition": "Researched reference; no completion-accuracy result.",
+      "next_gate": "False-completion fixtures, hook lifecycle and independent outcomes.",
+      "id": "qkal-canny",
+      "url": "https://github.com/qkal/Canny",
+      "canonical_repository": "qkal/Canny",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "tamaratran/fast-jev-compaction",
+      "name": "Fast Jev Compaction",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Keep, truncate and drop decisions for conversation context.",
+      "fit": "E/H / Q-11A reference: compare compaction with existing context selection.",
+      "disposition": "Documentation reference; no measured token or task-quality gain.",
+      "next_gate": "Exact source/route intake, evidence retention and independently labeled replay tasks.",
+      "id": "tamaratran-fast-jev-compaction",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "canonical_repository": "tamaratran/fast-jev-compaction",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "thruwire/foreman",
+      "name": "Foreman",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Small supervisory decisions about worker progress, drift and stalls.",
+      "fit": "H / Q-11C-related reference; Core still owns Stop and retries.",
+      "disposition": "Source-backed research only; no proved supervisory advantage.",
+      "next_gate": "Replay stalled and legitimately slow runs against simple heuristics.",
+      "id": "thruwire-foreman",
+      "url": "https://github.com/thruwire/foreman",
+      "canonical_repository": "thruwire/foreman",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-22"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "sutro-sh/jev-align",
+      "name": "Jev Align",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Reviewed labels and definition revisions for typed decisions.",
+      "fit": "Later J / Q-11-related idea: controlled improvement with an untouched holdout.",
+      "disposition": "Collected in September 22 research; not a newly registered candidate.",
+      "next_gate": "Exact intake, held-out quality, rollback and explicit revision promotion.",
+      "id": "sutro-sh-jev-align",
+      "url": "https://github.com/sutro-sh/jev-align",
+      "canonical_repository": "sutro-sh/jev-align",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-22"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "0xNatoshi/jev-codex-router",
+      "name": "Jev Codex Router",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Per-turn model selection reference.",
+      "fit": "E/H / Q-11D: compare advisory selection over identical eligible routes.",
+      "disposition": "Reference only; no backend, subscription or fail-open behavior is admitted.",
+      "next_gate": "Exact route authority, manual-choice preservation, quality and full-cost comparison.",
+      "id": "0xnatoshi-jev-codex-router",
+      "url": "https://github.com/0xNatoshi/jev-codex-router",
+      "canonical_repository": "0xNatoshi/jev-codex-router",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "jkudish/jev-mcp",
+      "name": "Jev MCP",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Ranking and evidence-assessment tools through MCP.",
+      "fit": "E/F / Q-11B reference and direct-versus-wrapper comparison.",
+      "disposition": "Documentation researched; no admitted MCP or model route.",
+      "next_gate": "Freeze evidence labels and qualify exact wrapper, egress and retry semantics.",
+      "id": "jkudish-jev-mcp",
+      "url": "https://github.com/jkudish/jev-mcp",
+      "canonical_repository": "jkudish/jev-mcp",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "browser-use/jev-ultrafast",
+      "name": "Jev Ultrafast",
+      "layer": "Decision components",
+      "stage": "shortlisted",
+      "purpose": "Browser action-selection component.",
+      "fit": "G / Q-10: compare decisions with deterministic and general-model controls.",
+      "disposition": "Selected source reviewed; no browser task benchmark or model call qualification.",
+      "next_gate": "Independent synthetic browser tasks, exact route intake and effect receipts.",
+      "id": "browser-use-jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "canonical_repository": "browser-use/jev-ultrafast",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "browser.jev-ultrafast"
+      ],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1231850a0bf1a0c0341fe408ef1668dbbfdfac46"
+      ]
+    },
+    {
+      "repository": "moritzkremb/jev-voice-browser",
+      "name": "Jev Voice Browser",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Incremental voice interpretation and browser-control reference.",
+      "fit": "Later G/I: speech interpretation and browser effects have separate boundaries.",
+      "disposition": "Collected research; no voice, microphone or browser-control admission.",
+      "next_gate": "Exact consent, ambiguous-intent, cancellation and controlled outcome fixtures.",
+      "id": "moritzkremb-jev-voice-browser",
+      "url": "https://github.com/moritzkremb/jev-voice-browser",
+      "canonical_repository": "moritzkremb/jev-voice-browser",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-22"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "jkrup/jeveryword",
+      "name": "Jeveryword",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Field extraction using original source-word spans and offsets.",
+      "fit": "F/H research and ingestion reference; outputs remain proposals.",
+      "disposition": "Experimental reference; no Abrams extraction benchmark.",
+      "next_gate": "Exact-span labels, wrong-subject and abstention tests before real data use.",
+      "id": "jkrup-jeveryword",
+      "url": "https://github.com/jkrup/jeveryword",
+      "canonical_repository": "jkrup/jeveryword",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-22"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "fazlerocks/jevmail",
+      "name": "Jevmail",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Message classification and attention queues.",
+      "fit": "Later integration reference; separate predictions, corrections and source messages.",
+      "disposition": "Collected research; no inbox connection or model route admitted.",
+      "next_gate": "Synthetic triage against rules, action-required recall and separate data/egress intake.",
+      "id": "fazlerocks-jevmail",
+      "url": "https://github.com/fazlerocks/jevmail",
+      "canonical_repository": "fazlerocks/jevmail",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-22"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "keltokhy/jlink",
+      "name": "Jlink",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Candidate generation and typed pair judgments for record matching.",
+      "fit": "F/H deduplication reference; propose links while preserving originals.",
+      "disposition": "Collected research; upstream mixed results are not Abrams measurements.",
+      "next_gate": "Freeze candidate pools and measure recall and false merges separately.",
+      "id": "keltokhy-jlink",
+      "url": "https://github.com/keltokhy/jlink",
+      "canonical_repository": "keltokhy/jlink",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-22"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "jaredpalmer/kev",
+      "name": "Kev",
+      "layer": "Decision components",
+      "stage": "shortlisted",
+      "purpose": "Self-hosted typed-decision models.",
+      "fit": "E/H / Q-24: classification, evidence triage and separately scoped routing advice.",
+      "disposition": "Researched; Windows feasibility unresolved; reviewed 0.8B tool routing excluded.",
+      "next_gate": "Exact checkpoint/backend, independent labels, calibration and host resources.",
+      "id": "jaredpalmer-kev",
+      "url": "https://github.com/jaredpalmer/kev",
+      "canonical_repository": "jaredpalmer/kev",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "decision.kev"
+      ],
+      "evidence_dates": [
+        "2026-09-29"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0fe8fc97c2bcc247fa3efb6e5c32af4e99770e91"
+      ]
+    },
+    {
+      "repository": "NandhaKishorM/laya",
+      "name": "Laya",
+      "layer": "Decision components",
+      "stage": "tested",
+      "purpose": "Typed-decision classifier evaluated for developer task routing.",
+      "fit": "Separate development experiment; no product Auto-router adoption.",
+      "disposition": "Tested, not admitted: 18/40 ordinary proposals acceptable (45% vs 90% gate); earlier memory failed. October 4 retry stopped without a new score.",
+      "next_gate": "Retain rules; current resources and exact runtime admission must pass before another authorized run.",
+      "id": "nandhakishorm-laya",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "canonical_repository": "NandhaKishorM/laya",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-29",
+        "2026-10-04"
+      ],
+      "evidence_basis": "September 29 development-selector receipts and October 4 cancelled rerun; model quality, memory and timing scopes remain separate.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "mizorewww/laya-coreml",
+      "name": "Laya CoreML",
+      "layer": "Decision components",
+      "stage": "shortlisted",
+      "purpose": "Apple CoreML conversion and local decision-model backend.",
+      "fit": "E/F/H / Q-12: conversion fidelity and task quality are separate questions.",
+      "disposition": "Hardware-deferred on this Windows host; not the tested Linux Laya configuration.",
+      "next_gate": "Eligible Apple host, exact weights/backend and independent task evaluation.",
+      "id": "mizorewww-laya-coreml",
+      "url": "https://github.com/mizorewww/laya-coreml",
+      "canonical_repository": "mizorewww/laya-coreml",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "decision.laya-coreml"
+      ],
+      "evidence_dates": [
+        "2026-09-21"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "12b7501583c7f03a6b2e49ebe118a2c6302505b9"
+      ]
+    },
+    {
+      "repository": "bespokelabsai/nimble",
+      "name": "Nimble",
+      "layer": "Decision components",
+      "stage": "shortlisted",
+      "purpose": "Local typed-decision model and contrastive-fixture reference.",
+      "fit": "E/F/H / Q-13: compare with rules, eligible Jev/Laya and matched base Qwen.",
+      "disposition": "Documentation researched; source/model eligibility and serving resources unresolved.",
+      "next_gate": "Exact licenses, Windows/backend support, independent labels and complete memory costs.",
+      "id": "bespokelabsai-nimble",
+      "url": "https://github.com/bespokelabsai/nimble",
+      "canonical_repository": "bespokelabsai/nimble",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "decision.nimble"
+      ],
+      "evidence_dates": [
+        "2026-09-21"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "f136b3f75721fda4ea961f73993cc50b08488835"
+      ]
+    },
+    {
+      "repository": "itsmostafa/typesafe-mcp",
+      "name": "TypeSafe MCP reference",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Typed-decision MCP wrapper reference, now System One Connector.",
+      "fit": "Q-11 adapter comparison; the historical TypeSafe scope remains the assessed scope.",
+      "disposition": "Researched reference; current repository rename does not expand admission.",
+      "next_gate": "Review the exact current component and route before a wrapper comparison.",
+      "id": "itsmostafa-typesafe-mcp",
+      "url": "https://github.com/itsmostafa/system-one-connector",
+      "canonical_repository": "itsmostafa/system-one-connector",
+      "link_checked": "2026-10-07",
+      "link_state": "verified_redirect",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "GhalebDweikat/winnow",
+      "name": "Winnow",
+      "layer": "Decision components",
+      "stage": "collected",
+      "purpose": "Recoverable filtering of model-visible context.",
+      "fit": "E / Q-11A reference; preserve canonical history outside the filtered view.",
+      "disposition": "Researched reference; no context-quality benchmark.",
+      "next_gate": "Critical-evidence recall, recovery and matched downstream task scoring.",
+      "id": "ghalebdweikat-winnow",
+      "url": "https://github.com/GhalebDweikat/winnow",
+      "canonical_repository": "GhalebDweikat/winnow",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "danielpaulus/go-ios",
+      "name": "go-ios",
+      "layer": "Devices and access",
+      "stage": "shortlisted",
+      "purpose": "iOS device transport prerequisite.",
+      "fit": "I: one component in an independently qualified real-device control route.",
+      "disposition": "Deferred; no iOS device-control admission.",
+      "next_gate": "Eligible runner, device transport, enrollment, permissions and recovery proof.",
+      "id": "danielpaulus-go-ios",
+      "url": "https://github.com/danielpaulus/go-ios",
+      "canonical_repository": "danielpaulus/go-ios",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "platform.go-ios"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "mobile-next/mobilecli",
+      "name": "Mobile CLI",
+      "layer": "Devices and access",
+      "stage": "shortlisted",
+      "purpose": "Transitive native command backend for mobile control.",
+      "fit": "I / Q-01: qualify with the exact Mobile MCP adapter tuple.",
+      "disposition": "Collected prerequisite; does not independently authorize device actions.",
+      "next_gate": "Pin transitive binaries and prove platform-specific lifecycle and removal.",
+      "id": "mobile-next-mobilecli",
+      "url": "https://github.com/mobile-next/mobilecli",
+      "canonical_repository": "mobile-next/mobilecli",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "runtime.mobilecli"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "mobile-next/mobile-mcp",
+      "name": "Mobile MCP",
+      "layer": "Devices and access",
+      "stage": "shortlisted",
+      "purpose": "Native-device control through a mobile MCP adapter.",
+      "fit": "I / Q-01: Android emulator, reset Android and iOS scopes are separate.",
+      "disposition": "Qualification scheduled; no device platform is adopted.",
+      "next_gate": "Exact device/app/build scope, at least 20 workflows, receipts, Stop and recovery.",
+      "id": "mobile-next-mobile-mcp",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "canonical_repository": "mobile-next/mobile-mcp",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "mcp.mobile-next"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "appium/WebDriverAgent",
+      "name": "WebDriverAgent",
+      "layer": "Devices and access",
+      "stage": "shortlisted",
+      "purpose": "iOS UI automation prerequisite.",
+      "fit": "I: scoped iOS adapter; separate from desktop or Android evidence.",
+      "disposition": "Deferred; no iOS execution or adoption.",
+      "next_gate": "Exact runner/device/build identity and scope-specific control qualification.",
+      "id": "appium-webdriveragent",
+      "url": "https://github.com/appium/WebDriverAgent",
+      "canonical_repository": "appium/WebDriverAgent",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "platform.webdriveragent"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "AgentSystemLabs/agent-office",
+      "name": "Agent Office",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Spatial view for coding-worker activity and supervision.",
+      "fit": "E/H / Q-23: compare against a plain activity dashboard.",
+      "disposition": "Documentation researched; optional presentation, not worker authority.",
+      "next_gate": "Exact hooks, terminal permissions, budgets, accessibility and lifecycle review.",
+      "id": "agentsystemlabs-agent-office",
+      "url": "https://github.com/AgentSystemLabs/agent-office",
+      "canonical_repository": "AgentSystemLabs/agent-office",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "ui.agent-office"
+      ],
+      "evidence_dates": [
+        "2026-09-29"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "44aecc1ecf175939bce2049123626aa2bcddd7e2"
+      ]
+    },
+    {
+      "repository": "Comfy-Org/ComfyUI",
+      "name": "ComfyUI",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Graph-based image-generation runtime.",
+      "fit": "H: replaceable image-job adapter under provider-neutral job controls.",
+      "disposition": "Planned; no image backend or model admission.",
+      "next_gate": "Exact runtime/model/resource intake and synthetic job, cancellation and artifact checks.",
+      "id": "comfy-org-comfyui",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "canonical_repository": "Comfy-Org/ComfyUI",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "image.comfyui"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "CopilotKit/CopilotKit",
+      "name": "CopilotKit",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Interaction SDK and agent/UI integration patterns.",
+      "fit": "E/H / Q-21: compare with a custom interaction/event layer.",
+      "disposition": "Documentation researched; SDK and hosted-service scopes remain separate.",
+      "next_gate": "Canonical state, authorization, replay, data and accessibility qualification.",
+      "id": "copilotkit-copilotkit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "canonical_repository": "CopilotKit/CopilotKit",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "ui.copilotkit"
+      ],
+      "evidence_dates": [
+        "2026-09-29"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "b3d1aad2e3b4a5f0860ec7f3dd9c12ab757d0a13"
+      ]
+    },
+    {
+      "repository": "Louis-CFM/coucou",
+      "name": "Coucou",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Compact activity and companion presentation.",
+      "fit": "E/H/I / Q-26: compare with conventional tray and activity views.",
+      "disposition": "Documentation researched; no live hooks; code and media rights differ.",
+      "next_gate": "Windows provenance, asset eligibility, approvals and accessibility checks.",
+      "id": "louis-cfm-coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "canonical_repository": "Louis-CFM/coucou",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "ui.coucou"
+      ],
+      "evidence_dates": [
+        "2026-10-01"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "835421c7fff260f0f0be48927591b96bfad81cad"
+      ]
+    },
+    {
+      "repository": "PurpleDoubleD/locally-uncensored",
+      "name": "Locally Uncensored",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Desktop AI studio and engine, media and coding components.",
+      "fit": "E/H / Q-08: score concepts, component reuse and whole-app adaptation separately.",
+      "disposition": "Source researched; license, host and execution intake pending.",
+      "next_gate": "Exact reuse scope, dependencies, local/cloud boundaries and lifecycle/resource checks.",
+      "id": "purpledoubled-locally-uncensored",
+      "url": "https://github.com/PurpleDoubleD/locally-uncensored",
+      "canonical_repository": "PurpleDoubleD/locally-uncensored",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "desktop.locally-uncensored.purpledoubled"
+      ],
+      "evidence_dates": [
+        "2026-09-17"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "bc8dcc08520557ad63270a79b5362462150707d3"
+      ]
+    },
+    {
+      "repository": "wide-trace/open-higgsfield",
+      "name": "Open Higgsfield",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Image/video studio concepts, composer, history and job workflows.",
+      "fit": "H / Q-06: compare image jobs with the provider-neutral control; video separate.",
+      "disposition": "Source screened; unresolved reuse rights and provider/data boundaries.",
+      "next_gate": "License, exact endpoints, media egress, credentials, budgets and cancellation review.",
+      "id": "wide-trace-open-higgsfield",
+      "url": "https://github.com/wide-trace/open-higgsfield",
+      "canonical_repository": "wide-trace/open-higgsfield",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "media.open-higgsfield.wide-trace"
+      ],
+      "evidence_dates": [
+        "2026-09-17"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "b16a0efe4d7e2707b56f8ccb02387fd2a9d2eddf"
+      ]
+    },
+    {
+      "repository": "RyensX/OpenCodex",
+      "name": "OpenCodex browser adjacency",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Browser-facing adjacency to a Codex workflow.",
+      "fit": "C / Q-03: fixed-loopback study; remote access remains a separate scope.",
+      "disposition": "Planned adjacency qualification, not a BO-03 runtime competitor.",
+      "next_gate": "Exact artifact, loopback boundary, authentication and lifecycle qualification.",
+      "id": "ryensx-opencodex",
+      "url": "https://github.com/RyensX/OpenCodex",
+      "canonical_repository": "RyensX/OpenCodex",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "surface.opencodex.ryensx"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "jordan-gibbs/hyperresearch",
+      "name": "HyperResearch",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Research harness, source provenance and reusable evidence vault.",
+      "fit": "F / Q-07: compare against an Abrams-controlled research workflow.",
+      "disposition": "Source screening and a separate research-method exercise exist; product comparison unrun.",
+      "next_gate": "Canonical-store boundary, untrusted sources, routes, budgets and recovery qualification.",
+      "id": "jordan-gibbs-hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "canonical_repository": "jordan-gibbs/hyperresearch",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "research.hyperresearch.jordan-gibbs"
+      ],
+      "evidence_dates": [
+        "2026-09-17"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "75b1ecfb2891184fad2cc1a2ddf9abe476f5b54c"
+      ]
+    },
+    {
+      "repository": "mem0ai/mem0",
+      "name": "Mem0",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Retrieval and separately scored memory-extraction candidate.",
+      "fit": "E / proposed BO-06: optional projection; canonical SQLite stays authoritative.",
+      "disposition": "Selected source researched; no memory quality or isolation benchmark.",
+      "next_gate": "Passing simple memory control, inactive extraction proposals, telemetry/egress and deletion tests.",
+      "id": "mem0ai-mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "canonical_repository": "mem0ai/mem0",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "memory.mem0"
+      ],
+      "evidence_dates": [
+        "2026-09-09"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "02f7a9b2c4fe38dedb96631e48c85c74ad58b605"
+      ]
+    },
+    {
+      "repository": "jexp/neo4jev",
+      "name": "Neo4jev",
+      "layer": "Memory and research",
+      "stage": "collected",
+      "purpose": "Graph-navigation reference using typed decisions.",
+      "fit": "Later I reference after relevant graph and resource prerequisites.",
+      "disposition": "Deferred reference; no new graph admission or evaluation record.",
+      "next_gate": "Prove graph value and define the exact navigation comparison first.",
+      "id": "jexp-neo4jev",
+      "url": "https://github.com/jexp/neo4jev",
+      "canonical_repository": "jexp/neo4jev",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "semantica-agi/semantica",
+      "name": "Semantica",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Graph and evidence-store candidate.",
+      "fit": "I / BO-07: optional projection after passing simpler retrieval controls.",
+      "disposition": "Deferred by dependency and hardware gates; no graph benchmark.",
+      "next_gate": "Prove simple and vector controls first, then admit the exact workload and resources.",
+      "id": "semantica-agi-semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "canonical_repository": "semantica-agi/semantica",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "graph.semantica"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "decolua/9router",
+      "name": "9Router",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Optional provider-protocol adapter.",
+      "fit": "E / Q-05: compare against direct provider connections.",
+      "disposition": "Source screening complete; synthetic and real-route qualification unrun.",
+      "next_gate": "Fixed-loopback synthetic intake first; exact real routes need separate admission.",
+      "id": "decolua-9router",
+      "url": "https://github.com/decolua/9router",
+      "canonical_repository": "decolua/9router",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "proxy.9router.decolua"
+      ],
+      "evidence_dates": [
+        "2026-09-15"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "17c4cc76877bd1755030a8414f8d0083f48dcccf"
+      ]
+    },
+    {
+      "repository": "tashfeenahmed/freellmapi",
+      "name": "FreeLLMAPI",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Experimental provider gateway.",
+      "fit": "E / Q-14: compare with direct adapters and eligible 9Router routes.",
+      "disposition": "Source screened; no live calls, quotas or reliability validated.",
+      "next_gate": "Exact manual-route fidelity, provider data terms, quota and cancellation tests.",
+      "id": "tashfeenahmed-freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "canonical_repository": "tashfeenahmed/freellmapi",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "proxy.freellmapi"
+      ],
+      "evidence_dates": [
+        "2026-09-22"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "37f07fdc3a2cdf14b2cc804e63ce82ff9a178854"
+      ]
+    },
+    {
+      "repository": "FlashML-org/FreeToken",
+      "name": "FreeToken",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Inference-engine candidate.",
+      "fit": "E / BO-04: compare backend behavior independently from model quality.",
+      "disposition": "Cataloged; no engine benchmark or admission.",
+      "next_gate": "Exact executable/model/resource intake and matched backend tests.",
+      "id": "flashml-org-freetoken",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "canonical_repository": "FlashML-org/FreeToken",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "runtime.freetoken"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "MoonshotAI/Kimi-K2",
+      "name": "Kimi K2",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "General-model family for route-specific comparison.",
+      "fit": "E / BO-05: model quality separate from runtime and pairing qualification.",
+      "disposition": "Cataloged; no admitted model route or local benchmark.",
+      "next_gate": "Exact artifact, host eligibility, provider terms and repeated model corpus.",
+      "id": "moonshotai-kimi-k2",
+      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "canonical_repository": "MoonshotAI/Kimi-K2",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "model.kimi-k2"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "MoonshotAI/Kimi-K3",
+      "name": "Kimi K3 local",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Local large-model candidate retained for complete coverage.",
+      "fit": "E / BO-05: hardware eligibility is evaluated before inference.",
+      "disposition": "Local scope recorded as rejected/hardware-ineligible; not silently removed.",
+      "next_gate": "New exact hardware/backend evidence before reconsidering local execution.",
+      "id": "moonshotai-kimi-k3",
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "canonical_repository": "MoonshotAI/Kimi-K3",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "model.kimi-k3-local"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "MoonshotAI/Kimi-VL",
+      "name": "Kimi VL",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Vision-model candidate for separately scoped multimodal work.",
+      "fit": "E/G/H / BO-05: vision task and route qualification.",
+      "disposition": "Deferred; no visual-task benchmark or production pairing.",
+      "next_gate": "Exact vision inputs, artifact/backend, privacy and resource intake.",
+      "id": "moonshotai-kimi-vl",
+      "url": "https://github.com/MoonshotAI/Kimi-VL",
+      "canonical_repository": "MoonshotAI/Kimi-VL",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "model.kimi-vl-a3b"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "MoonshotAI/Kimi-Dev",
+      "name": "Kimi-Dev",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Specialist coding-model family reference.",
+      "fit": "E/H / BO-05: exact model route and coding-task evaluation.",
+      "disposition": "Planned; large-model resource eligibility unresolved.",
+      "next_gate": "Pin weights/backend or hosted route and preregister independent task scoring.",
+      "id": "moonshotai-kimi-dev",
+      "url": "https://github.com/MoonshotAI/Kimi-Dev",
+      "canonical_repository": "MoonshotAI/Kimi-Dev",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "model.kimi-dev-72b"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "ggml-org/llama.cpp",
+      "name": "llama.cpp",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Local model inference backend with CPU and Vulkan paths.",
+      "fit": "E / BO-04: compare eligible configurations against Ollama controls.",
+      "disposition": "Planned backend comparison; no Abrams production adoption.",
+      "next_gate": "Exact binary, model, backend and resource qualification.",
+      "id": "ggml-org-llama-cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "canonical_repository": "ggml-org/llama.cpp",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "runtime.llama-cpp"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "ollama/ollama",
+      "name": "Ollama",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Local model-serving backend.",
+      "fit": "E / BO-04: CPU/Vulkan comparison before model-route adoption.",
+      "disposition": "Planned; installation or API availability is not qualification.",
+      "next_gate": "Exact engine/model/backend, egress, Stop and resource checks.",
+      "id": "ollama-ollama",
+      "url": "https://github.com/ollama/ollama",
+      "canonical_repository": "ollama/ollama",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "runtime.ollama"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "lidge-jun/opencodex",
+      "name": "OpenCodex provider proxy",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Provider-protocol translation candidate.",
+      "fit": "E / Q-04: removable proxy only for a named protocol gap.",
+      "disposition": "Trigger-gated; not a BO-03 runtime competitor.",
+      "next_gate": "Prove a protocol gap and preserve Core route, credential and budget authority.",
+      "id": "lidge-jun-opencodex",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "canonical_repository": "lidge-jun/opencodex",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "proxy.opencodex.lidge-jun"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "QwenLM/Qwen3",
+      "name": "Qwen3 family",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Model family spanning local controls and larger capacity candidates.",
+      "fit": "E / BO-05: compare exact size, quantization, backend and task lane.",
+      "disposition": "Mixed scopes: smaller controls planned; larger variants deferred or hardware-gated.",
+      "next_gate": "Admit each artifact separately; do not transfer results across sizes.",
+      "id": "qwenlm-qwen3",
+      "url": "https://github.com/QwenLM/Qwen3",
+      "canonical_repository": "QwenLM/Qwen3",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "model.qwen3-14b",
+        "model.qwen3-30b-a3b",
+        "model.qwen3-32b"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "QwenLM/Qwen3-Next",
+      "name": "Qwen3-Next reference",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Recorded 80B-A3B model-family source reference.",
+      "fit": "E / BO-05: exact historical artifact remains distinct from the renamed repository.",
+      "disposition": "Cataloged; current URL redirects to Qwen3.8. No historical result transfers.",
+      "next_gate": "Resolve exact checkpoint identity and resource eligibility before evaluation.",
+      "id": "qwenlm-qwen3-next",
+      "url": "https://github.com/QwenLM/Qwen3.8",
+      "canonical_repository": "QwenLM/Qwen3.8",
+      "link_checked": "2026-10-07",
+      "link_state": "verified_redirect",
+      "source_records": [
+        "model.qwen3-next-80b-a3b"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "QwenLM/Qwen3.8-Flash-Next",
+      "name": "Qwen3.8 Flash Next",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "General-model candidate retained in the discovery inventory.",
+      "fit": "E / BO-05: qualify exact routes rather than a family name.",
+      "disposition": "Cataloged; model and provider qualification unrun.",
+      "next_gate": "Pin the exact artifact or API route, capability and evaluation corpus.",
+      "id": "qwenlm-qwen3-8-flash-next",
+      "url": "https://github.com/QwenLM/Qwen3.8-Flash-Next",
+      "canonical_repository": "QwenLM/Qwen3.8-Flash-Next",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "model.qwen3.8-flash-next"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "huggingface/transformers",
+      "name": "Transformers",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Model-loading and inference framework.",
+      "fit": "E / BO-04: backend candidate; experimental use does not admit the product route.",
+      "disposition": "Cataloged; no independent product backend qualification.",
+      "next_gate": "Exact dependency/model intake and separate memory/lifecycle evidence.",
+      "id": "huggingface-transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "canonical_repository": "huggingface/transformers",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "runtime.transformers"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "vllm-project/vllm",
+      "name": "vLLM",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Model-serving engine candidate.",
+      "fit": "E / BO-04: evaluate only on an eligible host/backend.",
+      "disposition": "Cataloged; no current-host serving benchmark.",
+      "next_gate": "Hardware support, exact dependency scope and matched engine tests.",
+      "id": "vllm-project-vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "canonical_repository": "vllm-project/vllm",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "runtime.vllm"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "PurpleAILAB/Decepticon",
+      "name": "Decepticon",
+      "layer": "Safety and recovery",
+      "stage": "shortlisted",
+      "purpose": "Autonomous red-team harness for a bounded security comparison.",
+      "fit": "H/J / BO-12: optional addition to mandatory conventional security checks.",
+      "disposition": "Planned and isolated-lab gated; upstream scores are not Abrams results.",
+      "next_gate": "Exact source and model intake, disposable lab and fixed rules of engagement.",
+      "id": "purpleailab-decepticon",
+      "url": "https://github.com/BitterSecurity/Decepticon",
+      "canonical_repository": "BitterSecurity/Decepticon",
+      "link_checked": "2026-10-07",
+      "link_state": "verified_redirect",
+      "source_records": [
+        "benchmark.xbow-validation",
+        "security.decepticon"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "restic/restic",
+      "name": "restic",
+      "layer": "Safety and recovery",
+      "stage": "shortlisted",
+      "purpose": "Backup, retention and restore tooling.",
+      "fit": "J / BO-13: compare with the Abrams encrypted-export control.",
+      "disposition": "Planned; no product backup-adapter qualification.",
+      "next_gate": "Application-consistent synthetic snapshots and independent restore/removal evidence.",
+      "id": "restic-restic",
+      "url": "https://github.com/restic/restic",
+      "canonical_repository": "restic/restic",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "backup.restic"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "PurpleAILAB/xbow-validation-benchmarks",
+      "name": "XBOW validation benchmarks",
+      "layer": "Safety and recovery",
+      "stage": "collected",
+      "purpose": "Security challenge corpus referenced in Decepticon's intake.",
+      "fit": "BO-12 benchmark reference; separate hinted and description-only profiles.",
+      "disposition": "Collected reference; no Abrams challenge run.",
+      "next_gate": "Review exact fixtures and fair-input conditions before any lab execution.",
+      "id": "purpleailab-xbow-validation-benchmarks",
+      "url": "https://github.com/BitterSecurity/xbow-validation-benchmarks",
+      "canonical_repository": "BitterSecurity/xbow-validation-benchmarks",
+      "link_checked": "2026-10-07",
+      "link_state": "verified_redirect",
+      "source_records": [
+        "benchmark.xbow-validation"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "msitarzewski/agency-agents",
+      "name": "Agency Agents",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Source collection of specialist, skill and workflow material.",
+      "fit": "H / Q-02, BO-09, BO-14, BO-15: normalize and evaluate selected content.",
+      "disposition": "Source inventory completed; content-value tests and activation remain separate.",
+      "next_gate": "Item-level classification, hostile-content checks and matched value comparisons.",
+      "id": "msitarzewski-agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "canonical_repository": "msitarzewski/agency-agents",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "catalog.agency-agents"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "name": "Apple design skill source",
+      "layer": "Skills and development",
+      "stage": "selected-content",
+      "purpose": "Source of a selected advisory design skill.",
+      "fit": "H: bounded design guidance; no runtime or tool authority.",
+      "disposition": "One pinned advisory skill is selected; the whole repository is not adopted.",
+      "next_gate": "Review exact content and reuse scope; UI acceptance still requires separate evidence.",
+      "id": "emilkowalski-skills",
+      "url": "https://github.com/emilkowalski/skills",
+      "canonical_repository": "emilkowalski/skills",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "skill.apple-design"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Frozen catalog records one pinned advisory skill as selected; no repository-wide integration.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "karpathy/autoresearch",
+      "name": "autoresearch",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Reference method for bounded, measured improvement loops.",
+      "fit": "H/J / Q-20: prompts, retrieval and skills compared under equal budgets.",
+      "disposition": "Planned adaptation; original GPU training execution deferred.",
+      "next_gate": "Protected evaluator/holdout, edit/resource limits and separate promotion review.",
+      "id": "karpathy-autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
+      "canonical_repository": "karpathy/autoresearch",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "workflow.karpathy-autoresearch"
+      ],
+      "evidence_dates": [
+        "2026-09-29"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "228791fb499afffb54b46200aca536f79142f117"
+      ]
+    },
+    {
+      "repository": "ellipsis-dev/blink",
+      "name": "Blink",
+      "layer": "Skills and development",
+      "stage": "collected",
+      "purpose": "Coding-search reference that scores repository file and folder names.",
+      "fit": "Later H reference; compare with ordinary repository search if needed.",
+      "disposition": "Deferred reference; no registered new evaluation or benchmark.",
+      "next_gate": "Named search need, exact source intake and independent retrieval labels.",
+      "id": "ellipsis-dev-blink",
+      "url": "https://github.com/ellipsis-dev/blink",
+      "canonical_repository": "ellipsis-dev/blink",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-20"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "name": "ECC",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Development harness and reusable content catalog.",
+      "fit": "H / Q-02 and BO-09/14/15; executable lifecycle pieces stay BO-T04 trigger-gated.",
+      "disposition": "Catalog inventory exists; hooks and executable tooling are not activated.",
+      "next_gate": "Select and normalize content; require a named gap before lifecycle tooling.",
+      "id": "affaan-m-ecc",
+      "url": "https://github.com/affaan-m/ECC",
+      "canonical_repository": "affaan-m/ECC",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "harness.ecc"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "name": "Impeccable",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Design guidance and tooling for interface work.",
+      "fit": "H / Q-15: compare with existing design guidance on matched briefs.",
+      "disposition": "Planned source/content evaluation; no activated tooling.",
+      "next_gate": "Exact component/hook intake and independent accessibility criteria.",
+      "id": "pbakaus-impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "canonical_repository": "pbakaus/impeccable",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "design.impeccable"
+      ],
+      "evidence_dates": [
+        "2026-09-23"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "e0881d2de397d5e9761d7b35ff5017d8f5ebf69b"
+      ]
+    },
+    {
+      "repository": "ShuhanSun/jev-oas-sentinel",
+      "name": "Jev OAS Sentinel",
+      "layer": "Skills and development",
+      "stage": "collected",
+      "purpose": "Structural and semantic OpenAPI change review.",
+      "fit": "H/J integration maintenance reference; advisory until separately qualified.",
+      "disposition": "Collected research; no contract-change benchmark or update authority.",
+      "next_gate": "Labeled breaking/nonbreaking pairs, failure handling and independent checks.",
+      "id": "shuhansun-jev-oas-sentinel",
+      "url": "https://github.com/ShuhanSun/jev-oas-sentinel",
+      "canonical_repository": "ShuhanSun/jev-oas-sentinel",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-09-22"
+      ],
+      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "gszhangwei/open-spdd",
+      "name": "Open-SPDD",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Specification-driven development templates and a distribution CLI.",
+      "fit": "H / BO-09/14/15 content studies; CLI stays a separate BO-T04 possibility.",
+      "disposition": "Researched; templates are not activated and CLI remains deferred.",
+      "next_gate": "Selected content normalization and value tests; named need before CLI execution.",
+      "id": "gszhangwei-open-spdd",
+      "url": "https://github.com/gszhangwei/open-spdd",
+      "canonical_repository": "gszhangwei/open-spdd",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "content.open-spdd.workflows",
+        "tooling.open-spdd.cli"
+      ],
+      "evidence_dates": [
+        "2026-09-09"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "59669ac18c1c0bdee76b780771ac51567a73d52c"
+      ]
+    },
+    {
+      "repository": "promptfoo/promptfoo",
+      "name": "Promptfoo",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Evaluation tooling for reproducible prompt and output checks.",
+      "fit": "H / BO-11: compare offline metrics with the Abrams-owned control.",
+      "disposition": "Planned; not an adopted evaluation backend.",
+      "next_gate": "Frozen synthetic fixtures, matching calculations and offline/removal checks.",
+      "id": "promptfoo-promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "canonical_repository": "promptfoo/promptfoo",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "eval.promptfoo"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "agent-substrate/substrate",
+      "name": "Substrate",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Infrastructure for larger isolated-worker fleets.",
+      "fit": "H/J / Q-16: compare with simpler isolated-worker lifecycle.",
+      "disposition": "Deferred deployment; no demonstrated scale requirement.",
+      "next_gate": "Establish a scale need before host, snapshot, auth and infrastructure qualification.",
+      "id": "agent-substrate-substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "canonical_repository": "agent-substrate/substrate",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "infra.agent-substrate"
+      ],
+      "evidence_dates": [
+        "2026-09-23"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "74bbfc529ca9b5554d20117c2c78a3aea48b5d55"
+      ]
+    },
+    {
+      "repository": "Panniantong/agent-reach",
+      "name": "Agent-Reach",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Source-access adapters for a named research coverage gap.",
+      "fit": "F / BO-T03: optional removable adapter, outside canonical data authority.",
+      "disposition": "Deferred; comparison remains trigger-only.",
+      "next_gate": "Demonstrate an unmet source need, then qualify exact endpoints and removal.",
+      "id": "panniantong-agent-reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "canonical_repository": "Panniantong/Agent-Reach",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "capability.agent-reach"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "trycua/cua",
+      "name": "Cua Driver and Bench",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Computer-use execution and benchmark components.",
+      "fit": "G/H / Q-18: compare each component with admitted routes and fixtures.",
+      "disposition": "Planned; native, browser, model and cloud scopes remain distinct.",
+      "next_gate": "Component-specific Windows, license, data and authority intake.",
+      "id": "trycua-cua",
+      "url": "https://github.com/trycua/cua",
+      "canonical_repository": "trycua/cua",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "computer.cua"
+      ],
+      "evidence_dates": [
+        "2026-09-23"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0722e6e9460520717b385e335380e19a0987e864"
+      ]
+    },
+    {
+      "repository": "github/github-mcp-server",
+      "name": "GitHub MCP server",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Repository operations exposed through MCP.",
+      "fit": "H: scoped code/project adapter behind Core permissions and effect receipts.",
+      "disposition": "Collected candidate; no product connector admission.",
+      "next_gate": "Exact endpoint, read/write grants, credential isolation and recovery tests.",
+      "id": "github-github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "canonical_repository": "github/github-mcp-server",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "mcp.github"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "modelcontextprotocol/servers",
+      "name": "MCP reference servers",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Reference fetch, filesystem, Git and SQLite server implementations.",
+      "fit": "Capability-specific adapters; Core owns grants and canonical storage.",
+      "disposition": "Individual server scopes differ; SQLite access remains deferred.",
+      "next_gate": "Pin each server and qualify its transport, paths, effects and removal independently.",
+      "id": "modelcontextprotocol-servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "canonical_repository": "modelcontextprotocol/servers",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "mcp.fetch",
+        "mcp.filesystem",
+        "mcp.git",
+        "mcp.sqlite"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "h4ckf0r0day/obscura",
+      "name": "Obscura",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Alternative browser-engine candidate.",
+      "fit": "G / Q-17: engine study alongside BO-08 transport comparison.",
+      "disposition": "Documentation researched; no browser-engine benchmark.",
+      "next_gate": "Compatibility, CDP isolation, exact engine and resource intake.",
+      "id": "h4ckf0r0day-obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "canonical_repository": "h4ckf0r0day/obscura",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "browser.obscura"
+      ],
+      "evidence_dates": [
+        "2026-09-23"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1a3169da276d7720732c7b20535474942917fb83"
+      ]
+    },
+    {
+      "repository": "microsoft/playwright-mcp",
+      "name": "Playwright MCP",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Browser automation exposed as MCP tools.",
+      "fit": "G / BO-08: adapter over a separately admitted browser transport.",
+      "disposition": "Planned; no personal browser profile or live action admission.",
+      "next_gate": "Dedicated profiles, exact tools, controlled fixtures and effect boundaries.",
+      "id": "microsoft-playwright-mcp",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "canonical_repository": "microsoft/playwright-mcp",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "mcp.playwright"
+      ],
+      "evidence_dates": [
+        "2026-09-04"
+      ],
+      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "adopted_integration": false,
+      "recorded_revisions": []
+    },
+    {
+      "repository": "superdesigndev/treg",
+      "name": "Treg",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Tool discovery and credential-injecting gateway.",
+      "fit": "H / Q-09: compare hosted, self-hosted and component reuse with direct adapters.",
+      "disposition": "Source screened; custom-license and route qualification pending.",
+      "next_gate": "Exact intended use, credential isolation, grants, receipts, cost and revocation checks.",
+      "id": "superdesigndev-treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "canonical_repository": "superdesigndev/treg",
+      "link_checked": "2026-10-07",
+      "link_state": "verified",
+      "source_records": [
+        "tools.treg.superdesigndev"
+      ],
+      "evidence_dates": [
+        "2026-09-18"
+      ],
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "f46704c4bed5100e36f6493b8253f62c99d34afd"
+      ]
+    }
+  ],
+  "model_repositories": [
+    {
+      "name": "Qwen3 4B GGUF",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF",
+      "state": "Planned local BO-05 control; exact quantization and backend qualification required.",
+      "link_checked": "2026-10-07"
+    },
+    {
+      "name": "Qwen3 8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "state": "Planned local BO-05 control; resource eligibility and route evaluation remain separate.",
+      "link_checked": "2026-10-07"
+    },
+    {
+      "name": "Qwen3.8 27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "state": "Q-25 model-card/configuration intake only; full-precision local execution hardware-deferred.",
+      "link_checked": "2026-10-07"
+    },
+    {
+      "name": "Laya multilingual",
+      "url": "https://huggingface.co/convaiinnovations/laya-multilingual",
+      "state": "Checkpoint e4e9ddf21a7b1903b7acffd8814ad4307bf63a67 used in the separate Laya development experiment; not a second successful evaluation.",
+      "link_checked": "2026-10-07"
+    }
+  ]
+}
