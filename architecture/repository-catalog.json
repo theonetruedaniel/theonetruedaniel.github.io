@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-09",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 186,
-  "github_repository_count": 85,
+  "registered_record_count": 187,
+  "github_repository_count": 86,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1644,6 +1644,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "markfulton/ai-employees",
+      "name": "AI Employees",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Reusable role routines, morning briefs, blocker tracking and task handoffs.",
+      "fit": "E/H / Q-30: selected components versus checklist and single-worker controls.",
+      "disposition": "Source researched; planned and untested. Business roles are optional adaptations.",
+      "next_gate": "Inspect helpers and harness permissions; test schedule recovery, verified outputs and reviewed self-edits.",
+      "id": "markfulton-ai-employees",
+      "url": "https://github.com/markfulton/ai-employees",
+      "canonical_repository": "markfulton/ai-employees",
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "source_records": [
+        "workflow.ai-employees"
+      ],
+      "evidence_dates": [
+        "2026-10-09"
+      ],
+      "evidence_basis": "README and selected documentation screened; no installation, model calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "37bfe17d9e0d06e0105eecabfac8335b1bbe07ac"
+      ]
     },
     {
       "repository": "emilkowalski/skills",
