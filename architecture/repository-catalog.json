@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-09",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 185,
-  "github_repository_count": 83,
+  "registered_record_count": 186,
+  "github_repository_count": 85,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1841,6 +1841,32 @@
       "recorded_revisions": []
     },
     {
+      "layer": "Skills and development",
+      "adopted_integration": false,
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "repository": "microsoft/SkillOpt",
+      "name": "SkillOpt",
+      "stage": "shortlisted",
+      "purpose": "Optimize reusable natural-language skills without changing model weights.",
+      "fit": "H/J / Q-29: compare unchanged skills, manual revisions and bounded search.",
+      "disposition": "Source researched; planned and untested. No skill adoption.",
+      "next_gate": "Exact backend, independent holdouts, critical regressions, total cost and reviewed promotion.",
+      "id": "microsoft-skillopt",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "canonical_repository": "microsoft/SkillOpt",
+      "source_records": [
+        "tool.skillopt"
+      ],
+      "evidence_dates": [
+        "2026-10-07"
+      ],
+      "evidence_basis": "Documentation screening; no independent benchmark replication or execution.",
+      "recorded_revisions": [
+        "343db229dbd5ddaf9df6b1d5540d8bcdb2604d5c"
+      ]
+    },
+    {
       "repository": "agent-substrate/substrate",
       "name": "Substrate",
       "layer": "Skills and development",
@@ -1864,6 +1890,30 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "74bbfc529ca9b5554d20117c2c78a3aea48b5d55"
+      ]
+    },
+    {
+      "layer": "Skills and development",
+      "adopted_integration": false,
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "repository": "asgeirtj/system_prompts_leaks",
+      "name": "System Prompts Leaks",
+      "stage": "collected",
+      "purpose": "Prompt-design discovery reference for original, testable instruction variants.",
+      "fit": "Q-29 / Q-28 research support; no separate runtime or evaluation lane.",
+      "disposition": "Collected reference; prompt authenticity, completeness and per-item provenance unverified.",
+      "next_gate": "Verify relevant sources and compare original Abrams instructions on independent tasks.",
+      "id": "asgeirtj-system-prompts-leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "canonical_repository": "asgeirtj/system_prompts_leaks",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-10-09"
+      ],
+      "evidence_basis": "README, repository listing and license-header screening; individual prompt bodies not evaluated.",
+      "recorded_revisions": [
+        "2d9b8f26c8b711481c19b63f1f62779432ef3768"
       ]
     },
     {

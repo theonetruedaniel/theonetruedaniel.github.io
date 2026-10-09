@@ -6,7 +6,7 @@ import { matchesRepository } from './repository-catalog.mjs';
 const catalog = JSON.parse(readFileSync(new URL('./repository-catalog.json', import.meta.url)));
 const rows = catalog.repositories.map(row => ({ ...row, search: Object.values(row).flat().join(' ') }));
 test('all records are visible with empty filters', () => {
-  assert.equal(rows.filter(row => matchesRepository(row)).length, 83);
+  assert.equal(rows.filter(row => matchesRepository(row)).length, catalog.github_repository_count);
 });
 test('all search terms must match, independent of case and whitespace', () => {
   const matches = rows.filter(row => matchesRepository(row, { query: '  PRIME   lifecycle ' }));
@@ -36,7 +36,7 @@ test('repository names and current canonical destinations are unique', () => {
 test('every upstream URL has dated verification and every card has a fit and next gate', () => {
   for (const row of rows) {
     assert.match(row.url, /^https:\/\/github\.com\/[^/]+\/[^/]+$/);
-    assert.equal(row.link_checked, '2026-10-07');
+    assert.match(row.link_checked, /^2026-10-(07|09)$/);
     assert.ok(row.purpose && row.fit && row.disposition && row.next_gate && row.evidence_basis);
   }
 });
