@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-09",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 188,
-  "github_repository_count": 87,
+  "registered_record_count": 193,
+  "github_repository_count": 92,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1009,6 +1009,32 @@
       ]
     },
     {
+      "repository": "dmtrKovalenko/fframes",
+      "name": "fframes",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Rust/SVG motion-video authoring with GPU rendering and frame/audio inspection.",
+      "fit": "H / Q-35: optional media artifact pipeline versus ordinary FFmpeg/template workflows.",
+      "disposition": "README and repository metadata researched; planned and untested. Admit each render as a bounded artifact job; preserve asset provenance, output review, budgets and Stop.",
+      "next_gate": "Review Windows FFmpeg/LLVM/Vulkan dependencies, codec licenses, build provenance, render quality and resource limits.",
+      "id": "dmtrkovalenko-fframes",
+      "url": "https://github.com/dmtrKovalenko/fframes",
+      "canonical_repository": "dmtrKovalenko/fframes",
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "source_records": [
+        "media.fframes"
+      ],
+      "evidence_dates": [
+        "2026-10-09"
+      ],
+      "evidence_basis": "Pinned README and public repository metadata screened; no execution, benchmark replication or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "e2b552892c0373a5c8dc79de9280a3289670f27b"
+      ]
+    },
+    {
       "repository": "PurpleDoubleD/locally-uncensored",
       "name": "Locally Uncensored",
       "layer": "Interface and media",
@@ -1183,6 +1209,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "VectifyAI/PageIndex",
+      "name": "PageIndex",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Hierarchical document indexing and model-guided retrieval for long documents.",
+      "fit": "E/I / Q-36 alongside BO-06: compare with FTS, hybrid retrieval and direct-document controls using matched answer models.",
+      "disposition": "README and repository metadata researched; planned and untested. Document trees and summaries are derived; Core owns canonical files, document grants, corrections, deletion, credentials and budgets.",
+      "next_gate": "Review local/cloud data flows, page citations, OCR/table limits, corpus authorization, indexing/query costs and host resources.",
+      "id": "vectifyai-pageindex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "canonical_repository": "VectifyAI/PageIndex",
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "source_records": [
+        "retrieval.pageindex"
+      ],
+      "evidence_dates": [
+        "2026-10-09"
+      ],
+      "evidence_basis": "Pinned README and public repository metadata screened; no execution, benchmark replication or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1a060dfc5c512ece03aeaa9cb80d76dbb5358bdf"
+      ]
     },
     {
       "repository": "semantica-agi/semantica",
@@ -1405,6 +1457,32 @@
       "recorded_revisions": []
     },
     {
+      "repository": "yetone/magpie",
+      "name": "Magpie",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Local model/provider configuration manager and protocol gateway.",
+      "fit": "E/H / Q-32: compare with direct provider adapters and eligible Q-05 9Router controls.",
+      "disposition": "README and repository metadata researched; planned and untested. Core owns exact routes, manual pins, credentials, budgets and egress; automatic account/model fallback requires explicit admission.",
+      "next_gate": "Review configuration writes, account terms, secret storage, protocol fidelity, updater provenance and explicit fallback policy.",
+      "id": "yetone-magpie",
+      "url": "https://github.com/yetone/magpie",
+      "canonical_repository": "yetone/magpie",
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "source_records": [
+        "proxy.magpie"
+      ],
+      "evidence_dates": [
+        "2026-10-09"
+      ],
+      "evidence_basis": "Pinned README and public repository metadata screened; no execution, benchmark replication or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "62d7cd7be305c6e0cc58ba8ad2604f2bb555d749"
+      ]
+    },
+    {
       "repository": "ollama/ollama",
       "name": "Ollama",
       "layer": "Models and inference",
@@ -1598,6 +1676,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "ifixai-ai/iFixAi",
+      "name": "iFixAi",
+      "layer": "Safety and recovery",
+      "stage": "shortlisted",
+      "purpose": "Adversarial agent auditing with configurable model judges and scorecards.",
+      "fit": "H/J / Q-33: supplementary audit evidence beside deterministic checks and independent human labels.",
+      "disposition": "README and repository metadata researched; planned and untested. Model judges remain advisory; audit scores cannot authorize effects, certify containment or replace required acceptance evidence.",
+      "next_gate": "Review fixtures, judge independence, false alarms/missed defects, plugin provisioning, data egress and complete evaluation cost.",
+      "id": "ifixai-ai-ifixai",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "canonical_repository": "ifixai-ai/iFixAi",
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "source_records": [
+        "evaluation.ifixai"
+      ],
+      "evidence_dates": [
+        "2026-10-09"
+      ],
+      "evidence_basis": "Pinned README and public repository metadata screened; no execution, benchmark replication or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "bef9c5eeb96fd255d83ee00a2930c4d19a329f6c"
+      ]
     },
     {
       "repository": "restic/restic",
@@ -1866,6 +1970,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "59669ac18c1c0bdee76b780771ac51567a73d52c"
+      ]
+    },
+    {
+      "repository": "stablyai/orca",
+      "name": "Orca",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Desktop coding-agent supervision with terminals, Git worktrees and a mobile companion.",
+      "fit": "H / Q-34: compare development supervision with a plain dashboard, terminals and Q-23 Agent Office.",
+      "disposition": "README and repository metadata researched; planned and untested. Worktrees separate files but do not enforce security isolation; Core retains execution grants, Stop and aggregate budgets.",
+      "next_gate": "Review native/terminal permissions, worktree recovery, Windows resources and separately scoped mobile/SSH authorization.",
+      "id": "stablyai-orca",
+      "url": "https://github.com/stablyai/orca",
+      "canonical_repository": "stablyai/orca",
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "source_records": [
+        "workflow.orca"
+      ],
+      "evidence_dates": [
+        "2026-10-09"
+      ],
+      "evidence_basis": "Pinned README and public repository metadata screened; no execution, benchmark replication or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "280ef3c6f3e100c3d54503832342c4d51fe84385"
       ]
     },
     {
