@@ -1,0 +1,126 @@
+/* Homepage content uses the existing Portfolio Lab theme and typography. */
+.portfolio-home {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--app-font-sans);
+  font-size: 15px;
+  line-height: 1.65;
+}
+.portfolio-home .main-content {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 54px 0 36px;
+}
+.portfolio-home .site-header { padding: 0; }
+.portfolio-home .top-nav { border: 0; padding: 0; font-size: 12px; }
+.portfolio-home .top-nav a { min-height: 44px; }
+.portfolio-home a { color: hsl(var(--accent)); }
+.portfolio-home .brand,
+.portfolio-home .nav-link { color: hsl(var(--foreground)); }
+.portfolio-home a:hover { color: hsl(var(--foreground)); }
+.portfolio-home a:focus-visible,
+.portfolio-home summary:focus-visible {
+  outline: 2px solid hsl(var(--accent));
+  outline-offset: 4px;
+}
+.portfolio-home .page-intro { padding: 0; }
+.portfolio-home .page-title { max-width: 720px; font-weight: 400; }
+.portfolio-home .intro-copy p { font-size: 15px; margin: 0 0 18px; }
+.portfolio-home .intro-copy .note { font-size: 12px; }
+.portfolio-home .intro-copy .links { font-size: 13px; gap: 8px 20px; }
+.portfolio-home .project,
+.portfolio-home .experience,
+.portfolio-home .details,
+.portfolio-home main > details {
+  border-color: hsl(var(--border));
+}
+.portfolio-home .project {
+  display: block;
+  margin: 0 0 22px;
+  padding: 28px 30px;
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card) / .86);
+  box-shadow: 0 8px 30px hsl(215 42% 17% / .035);
+}
+.portfolio-home .project:first-child { padding: 28px 30px; }
+.portfolio-home .project h2,
+.portfolio-home .experience h2 {
+  color: hsl(var(--foreground));
+  font-family: var(--app-font-serif);
+  font-size: clamp(30px, 3.5vw, 45px);
+  font-weight: 400;
+  letter-spacing: -.035em;
+  line-height: 1.15;
+  max-width: 900px;
+}
+.portfolio-home h3 { font-size: 15px; line-height: 1.4; }
+.portfolio-home .project > div > h3 { margin: 26px 0 12px; }
+.portfolio-home .context {
+  color: hsl(var(--accent));
+  font-family: var(--app-font-mono);
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.portfolio-home .note,
+.portfolio-home dt,
+.portfolio-home .results span,
+.portfolio-home .experience dd span,
+.portfolio-home .research-scale span {
+  color: hsl(var(--muted-foreground));
+}
+.portfolio-home .results,
+.portfolio-home .experience dl > div { border-color: hsl(var(--border)); }
+.portfolio-home .results dd,
+.portfolio-home .research-scale strong { font-family: var(--app-font-serif); }
+.portfolio-home summary {
+  color: hsl(var(--accent));
+  min-height: 44px;
+  font-size: 14px;
+}
+.portfolio-home .case-body { font-size: 14px; }
+.portfolio-home #skills-and-approach,
+.portfolio-home #operating-notes {
+  padding: 18px 28px;
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card) / .86);
+  margin: 22px 0;
+}
+.portfolio-home #skills-and-approach .case-body h3 { margin-top: 24px; }
+.portfolio-home .experience { padding: 35px 0; }
+.portfolio-home .experience dd { font-family: var(--app-font-sans); }
+.portfolio-home .details {
+  border-top: 0;
+  padding-top: 0;
+  gap: 18px;
+}
+.portfolio-home .details > div {
+  padding: 24px;
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card) / .86);
+}
+.portfolio-home .details > div > h3 {
+  font-family: var(--app-font-serif);
+  font-size: 31px;
+  font-weight: 400;
+}
+.portfolio-home footer {
+  border-color: hsl(var(--border));
+  color: hsl(var(--muted-foreground));
+}
+.portfolio-home .skip { background: hsl(var(--card)); }
+@media (max-width: 700px) {
+  .portfolio-home .header-inner { flex-wrap: wrap; padding: 16px 0 6px; gap: 8px; }
+  .portfolio-home .top-nav { flex-wrap: wrap; width: 100%; gap: 2px; }
+  .portfolio-home .main-content { padding-top: 34px; }
+  .portfolio-home .page-intro { grid-template-columns: minmax(0, 1fr); gap: 24px; margin-bottom: 36px; }
+  .portfolio-home .page-title { font-size: clamp(44px, 12vw, 64px); }
+  .portfolio-home .intro-copy { max-width: 100%; }
+  .portfolio-home .project,
+  .portfolio-home .project:first-child { padding: 24px 20px; }
+  .portfolio-home .project h2 { font-size: 30px; }
+  .portfolio-home .details { grid-template-columns: minmax(0, 1fr); }
+  .portfolio-home #skills-and-approach,
+  .portfolio-home #operating-notes { padding: 14px 20px; }
+}
