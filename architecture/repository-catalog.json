@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-09",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 187,
-  "github_repository_count": 86,
+  "registered_record_count": 188,
+  "github_repository_count": 87,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1083,6 +1083,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "vectorize-io/hindsight",
+      "name": "Hindsight",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Memory extraction, temporal/hybrid recall and evidence-linked observations and knowledge pages.",
+      "fit": "E/I / Q-31 alongside BO-06/BO-07: compare with relational/FTS and eligible hybrid controls.",
+      "disposition": "Source researched; planned and untested. Canonical sources remain under Abrams Core.",
+      "next_gate": "Review provenance, correction/deletion, bank authorization, exact backends, total cost and resources.",
+      "id": "vectorize-io-hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "canonical_repository": "vectorize-io/hindsight",
+      "link_checked": "2026-10-09",
+      "link_state": "verified",
+      "source_records": [
+        "memory.hindsight"
+      ],
+      "evidence_dates": [
+        "2026-10-09"
+      ],
+      "evidence_basis": "README, license header and repository tree screened; no independent replication or execution.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "44d5340148fd47efb34e184d61f87ab5e2d8d1e2"
+      ]
     },
     {
       "repository": "jordan-gibbs/hyperresearch",
