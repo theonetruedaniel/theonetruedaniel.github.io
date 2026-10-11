@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 193,
-  "github_repository_count": 92,
+  "registered_record_count": 194,
+  "github_repository_count": 93,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2171,6 +2171,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "feder-cr/invisible_playwright",
+      "name": "Invisible Playwright",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Playwright-style browser automation using a patched Firefox and reproducible fingerprints.",
+      "fit": "H / Q-37: optional browser-engine comparison with stock Playwright Firefox/Chromium and eligible browser adapters.",
+      "disposition": "Source researched; optional/conditional comparison, planned and untested. Tracing, HAR, CDP and API-request contexts are documented exclusions.",
+      "next_gate": "Review exact wrapper/core/browser provenance and licenses, API coverage, evidence capture, profile/egress isolation and Windows resources.",
+      "id": "feder-cr-invisible-playwright",
+      "url": "https://github.com/feder-cr/invisible_playwright",
+      "canonical_repository": "feder-cr/invisible_playwright",
+      "link_checked": "2026-10-10",
+      "link_state": "verified",
+      "source_records": [
+        "browser.invisible-playwright"
+      ],
+      "evidence_dates": [
+        "2026-10-10"
+      ],
+      "evidence_basis": "Pinned README, package metadata, fork/security docs and selected engine-resolution source screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0819cd4e235ea35fcc3920b62a54ed8e2147056a"
+      ]
     },
     {
       "repository": "modelcontextprotocol/servers",

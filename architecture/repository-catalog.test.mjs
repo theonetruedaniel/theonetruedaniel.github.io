@@ -36,7 +36,7 @@ test('repository names and current canonical destinations are unique', () => {
 test('every upstream URL has dated verification and every card has a fit and next gate', () => {
   for (const row of rows) {
     assert.match(row.url, /^https:\/\/github\.com\/[^/]+\/[^/]+$/);
-    assert.match(row.link_checked, /^2026-10-(07|09)$/);
+    assert.match(row.link_checked, /^2026-10-(07|09|10)$/);
     assert.ok(row.purpose && row.fit && row.disposition && row.next_gate && row.evidence_basis);
   }
 });
