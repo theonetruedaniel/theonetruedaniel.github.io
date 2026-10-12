@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-10",
+  "updated": "2026-10-12",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 194,
-  "github_repository_count": 93,
+  "registered_record_count": 195,
+  "github_repository_count": 94,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2021,6 +2021,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "morluto/rea",
+      "name": "REA",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "CLI/MCP analysis of application artifacts, binaries and observed runtime behavior.",
+      "fit": "H/J / Q-38: optional development and interoperability investigation versus direct static-analysis tools and source-first inspection.",
+      "disposition": "Source researched; optional/conditional investigation, planned and untested. Static parsing, provider launches and runtime/device capture require distinct scopes.",
+      "next_gate": "Review exact npm/main/provider versions, dependencies and licenses, Windows scope, parser isolation, evidence fidelity, data egress and cleanup.",
+      "id": "morluto-rea",
+      "url": "https://github.com/morluto/rea",
+      "canonical_repository": "morluto/rea",
+      "link_checked": "2026-10-12",
+      "link_state": "verified",
+      "source_records": [
+        "tool.rea"
+      ],
+      "evidence_dates": [
+        "2026-10-12"
+      ],
+      "evidence_basis": "Pinned README, package metadata, security policy and Windows Ghidra P0 documentation screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0043d9b134c0a353e8bf85c0bde4492275f1f720"
+      ]
     },
     {
       "layer": "Skills and development",
