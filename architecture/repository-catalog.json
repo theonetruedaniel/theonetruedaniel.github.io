@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 195,
-  "github_repository_count": 94,
+  "registered_record_count": 196,
+  "github_repository_count": 95,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1032,6 +1032,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "e2b552892c0373a5c8dc79de9280a3289670f27b"
+      ]
+    },
+    {
+      "repository": "LibreChat-AI/LibreChat",
+      "name": "LibreChat",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Self-hosted multi-provider chat and agent interface with files, tools and artifacts.",
+      "fit": "H / Q-39: compare selected interface/components; separate E-I build-versus-adapt study with Abrams and eligible assistant candidates.",
+      "disposition": "Source researched; interface/component, app-adaptation and evaluation-interface studies planned and untested. Core authority and independent harness evidence remain required.",
+      "next_gate": "Review exact app/service/image identities, Windows resources, grants, data/credential flows, all-child cancellation, export/recovery and adaptation effort.",
+      "id": "librechat-ai-librechat",
+      "url": "https://github.com/LibreChat-AI/LibreChat",
+      "canonical_repository": "LibreChat-AI/LibreChat",
+      "link_checked": "2026-10-13",
+      "link_state": "verified",
+      "source_records": [
+        "interface.librechat"
+      ],
+      "evidence_dates": [
+        "2026-10-13"
+      ],
+      "evidence_basis": "Pinned README, package metadata, Compose definition and security policy screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "e1dfc10449ff713faffacd60273fddcfe2c0a698"
       ]
     },
     {
