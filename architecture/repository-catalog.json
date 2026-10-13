@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-13",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 197,
-  "github_repository_count": 96,
+  "registered_record_count": 198,
+  "github_repository_count": 97,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1996,6 +1996,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "59669ac18c1c0bdee76b780771ac51567a73d52c"
+      ]
+    },
+    {
+      "repository": "oracle/opengrok",
+      "name": "OpenGrok",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Source-code search, cross-reference navigation and version-history browsing.",
+      "fit": "H/J / Q-41: optional source-investigation aid for bake-off integration maps versus ripgrep, Git and editor navigation; complements Q-38 REA.",
+      "disposition": "Source researched; optional source-navigation and integration-map study planned and untested. Setup/resources, access and license review remain open.",
+      "next_gate": "Review exact Java/ctags/server artifacts and licenses, pinned-source freshness, authorization, index leakage/deletion, Windows resources and measured investigation value.",
+      "id": "oracle-opengrok",
+      "url": "https://github.com/oracle/opengrok",
+      "canonical_repository": "oracle/opengrok",
+      "link_checked": "2026-10-13",
+      "link_state": "verified",
+      "source_records": [
+        "search.opengrok"
+      ],
+      "evidence_dates": [
+        "2026-10-13"
+      ],
+      "evidence_basis": "Pinned README, license/notice header and Docker guide plus dated setup wiki screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "3ca9d73ebb0ddb5560fbc7631322d29d9fdc2ec3"
       ]
     },
     {
