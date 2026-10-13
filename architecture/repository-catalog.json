@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-13",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 196,
-  "github_repository_count": 95,
+  "registered_record_count": 197,
+  "github_repository_count": 96,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2173,6 +2173,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "jo-inc/camofox-browser",
+      "name": "Camofox Browser",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Agent-facing REST/MCP browser server over Camoufox with snapshots, element references and session tools.",
+      "fit": "H / Q-40: browser-adapter comparison with stock Playwright, Q-37 Invisible Playwright and eligible existing browser tools.",
+      "disposition": "Source researched; browser-server/adapter comparison planned and untested. API grants, persistence, telemetry and engine qualification remain open.",
+      "next_gate": "Review exact server/engine/add-on identities, API authorization, session/trace retention, telemetry/egress, upload/download bounds and Windows resources.",
+      "id": "jo-inc-camofox-browser",
+      "url": "https://github.com/jo-inc/camofox-browser",
+      "canonical_repository": "jo-inc/camofox-browser",
+      "link_checked": "2026-10-13",
+      "link_state": "verified",
+      "source_records": [
+        "browser.camofox"
+      ],
+      "evidence_dates": [
+        "2026-10-13"
+      ],
+      "evidence_basis": "Pinned README, package/plugin metadata and selected postinstall/config source screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "39c82094013480b373df6600d44c7f036f58356e"
+      ]
     },
     {
       "repository": "trycua/cua",
