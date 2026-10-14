@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-13",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 198,
-  "github_repository_count": 97,
+  "registered_record_count": 199,
+  "github_repository_count": 98,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1727,6 +1727,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "bef9c5eeb96fd255d83ee00a2930c4d19a329f6c"
+      ]
+    },
+    {
+      "repository": "vxcontrol/pentagi",
+      "name": "PentAGI",
+      "layer": "Safety and recovery",
+      "stage": "shortlisted",
+      "purpose": "Autonomous/assistant-guided penetration-testing orchestration and evidence reporting.",
+      "fit": "J / Q-42: optional security-evaluation aid for isolated app fixtures versus direct scanners, static review and independent manual verification.",
+      "disposition": "Source researched; optional isolated-lab security study planned and untested. External containment and independent finding verification remain prerequisites.",
+      "next_gate": "Review source/image/tool identities and terms, Docker control privileges, external containment, target/egress limits, all-child Stop, evidence and full resources/cost.",
+      "id": "vxcontrol-pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "canonical_repository": "vxcontrol/pentagi",
+      "link_checked": "2026-10-13",
+      "link_state": "verified",
+      "source_records": [
+        "security.pentagi"
+      ],
+      "evidence_dates": [
+        "2026-10-13"
+      ],
+      "evidence_basis": "Pinned README, license, EULA introduction and selected Compose fields screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "843dfeb4bfc809c09d1bc5022e567c602d8fc9dd"
       ]
     },
     {
