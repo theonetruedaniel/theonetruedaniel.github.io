@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-13",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 199,
-  "github_repository_count": 98,
+  "registered_record_count": 200,
+  "github_repository_count": 99,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1310,6 +1310,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "17c4cc76877bd1755030a8414f8d0083f48dcccf"
+      ]
+    },
+    {
+      "repository": "lyogavin/airllm",
+      "name": "AirLLM",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Layer-streamed local model execution to reduce resident GPU weight memory.",
+      "fit": "E/G / Q-43 alongside BO-04/BO-05: engine feasibility versus eligible resident/quantized/offload backends; quality and runtime/model pairing stay separate.",
+      "disposition": "Source researched; conditional engine-feasibility comparison planned and untested. Low VRAM claims do not establish full resources, latency or pairing admission.",
+      "next_gate": "Review engine/model/dependency pins, remote-code trust, Windows/backend compatibility, RAM/VRAM/disk/I/O, latency, correctness, cancellation and cache removal.",
+      "id": "lyogavin-airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "canonical_repository": "lyogavin/airllm",
+      "link_checked": "2026-10-13",
+      "link_state": "verified",
+      "source_records": [
+        "inference.airllm"
+      ],
+      "evidence_dates": [
+        "2026-10-13"
+      ],
+      "evidence_basis": "Pinned README, package metadata and selected AutoModel/base source excerpts screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "cb807515f640f9489f267adc0c66afb249e90a17"
       ]
     },
     {
