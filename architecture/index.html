@@ -54,7 +54,7 @@
 <a href="#walkthrough-title">Try the sample</a>
 </nav>
 </div>
-<div class="intro-copy">A personal AI platform designed to keep projects, memory, permissions, and durable work under one authoritative Core, with interchangeable cloud and local model paths.<div class="rule-note">Phase 2 preparation. Foundations and offline development tooling exist; the functioning Core and product UI are not yet built.</div>
+<div class="intro-copy">A personal AI platform designed to keep projects, memory, permissions, and durable work under one authoritative Core, with interchangeable cloud and local model paths.<div class="rule-note">Phase 2 implementation and verification are in progress. Partial local Core/client/SQLite implementation has scoped tests; full integration and product acceptance remain unfinished. <a href="https://github.com/theonetruedaniel/abrams-intelligence/blob/main/docs/progress.md">Current development status</a>.</div>
 </div>
 </section>
 <section class="arch-overview">
@@ -67,7 +67,7 @@
 <div class="status-item current">
 <div class="status-heading">Under preparation</div>
 <strong>Contract</strong>
-<p>Draft Core oracle fixtures define retries, durable acknowledgements, recovery, and Stop. Static validation is complete; execution is pending.</p>
+<p>Core oracle fixtures define retries, durable acknowledgements, recovery, and Stop. Partial local implementation has scoped tests; full product acceptance remains incomplete.</p>
 </div>
 <div class="status-item next">
 <div class="status-heading">Next application</div>
@@ -110,7 +110,7 @@
 <p>Return a traceable result; preserve the record through retries, reconnects, and Stop.</p>
 </li>
   </ol>
-  <p class="case-note">Planned application architecture. The functioning Core and product UI have not been implemented.</p>
+  <p class="case-note">Intended application architecture. Parts of the Core, client and SQLite-backed storage are implemented locally; this explorer remains a simulation and does not demonstrate full product integration.</p>
   <details class="routing-detail">
 <summary>How task routing fits the design</summary>
 <div class="routing-columns">
@@ -541,14 +541,14 @@
 <div class="catalog-links"><a href="./repository-catalog.json" download>Download catalog JSON</a><a href="https://github.com/theonetruedaniel/abrams-intelligence/blob/main/docs/repository-catalog.md">Read the repository catalog on GitHub</a><a href="https://github.com/theonetruedaniel/abrams-intelligence/blob/main/docs/candidate-research.md">Full 201-entry register</a></div>
 </section>
 <section class="case-section" id="progress" aria-labelledby="progress-title">
-<div class="case-heading"><div><div class="section-label">Progress / evidence through October 7, 2026</div><h2 id="progress-title">Built tooling. Reviewed contracts. An unfinished Core.</h2></div><p>Development tooling, specification review and product acceptance are different milestones. These are recorded observations, not a live status feed or a claim that the assistant is ready.</p></div>
+<div class="case-heading"><div><div class="section-label">Progress / status updated October 15, 2026</div><h2 id="progress-title">Built tooling. Reviewed contracts. An unfinished Core.</h2></div><p>Development tooling, specification review and product acceptance are different milestones. These are recorded observations, not a live status feed or a claim that the assistant is ready.</p></div>
 <div class="progress-board">
 <article class="progress-card"><span class="evidence-kind">Published / development tooling</span><h3>Offline dispatcher and routing demo</h3><p>The source release includes five passing preview scenarios. Its October 4 default suite recorded 227 passed and 23 skipped, with no model dispatch. This is developer tooling, not product Core acceptance.</p><a href="https://github.com/theonetruedaniel/abrams-intelligence/blob/main/tools/development-dispatcher/VERIFICATION.md">Published verification</a></article>
 <article class="progress-card"><span class="evidence-kind">Implemented locally / publication pending</span><h3>Synthetic write qualification</h3><p>The reviewed nine-file update adds nine controller probes and preserves completed receipts independently. Its review export recorded 238 passed and 23 skipped, plus 11 focused tests. It remains a separate unpublished candidate.</p><a href="https://github.com/theonetruedaniel/abrams-intelligence/blob/main/docs/progress.md#developer-tooling">Scope and evidence</a></article>
 <article class="progress-card"><span class="evidence-kind">Measured / not admitted</span><h3>Laya development selector</h3><p>September 29: 18 of 40 ordinary proposals were acceptable (45%, against a 90% gate). An earlier memory measurement also failed. The October 4 retry stopped at the host-memory guard and produced no new score.</p><a href="https://github.com/theonetruedaniel/abrams-intelligence/blob/main/docs/results-and-evidence.md#september-29-laya-development-selector">Measurements and limits</a></article>
-<article class="progress-card"><span class="evidence-kind">Phase 2 / specification frozen, implementation unrun</span><h3>Shared reference before shell comparison</h3><p>Scoped host and dependency preparation is recorded. The October 1 R3 input packet has a review freeze; the shared reference, product Core and Tauri/PWA acceptance remain unimplemented or unrun.</p><a href="https://github.com/theonetruedaniel/abrams-intelligence/blob/main/docs/progress.md#next-unfinished-step">Next step in the plan</a></article>
+<article class="progress-card"><span class="evidence-kind">Phase 2 / partial local implementation</span><h3>Shared reference before shell comparison</h3><p>Partial local shared in-process Core/client/SQLite implementation has scoped tests. Full integration, product acceptance and equivalent Tauri/PWA comparison remain incomplete. This local work is separate from the published dispatcher.</p><a href="https://github.com/theonetruedaniel/abrams-intelligence/blob/main/docs/progress.md#next-unfinished-step">Next step in the plan</a></article>
 </div>
-<details class="catalog-legend"><summary>What comes next, in the existing order?</summary><ol class="plan-sequence"><li><strong>Next unfinished step:</strong> shared-reference implementation preflight. Recheck host/AC headroom and the frozen inputs; complete required native source, ABI, build-permission and capture-lifetime reviews.</li><li>Implement and verify the shared deterministic reference and runner against the reviewed protocol/oracle. Static fixture checks are not behavior tests.</li><li>Run the equivalent Tauri/PWA comparison when its intake and execution gates pass. Then qualify every eligible initial runtime against the same oracle before the production Core comparison.</li><li>Build the authority/data foundation, then admit exact model routes and production pairings. Later optional catalog studies retain their own milestones.</li></ol><p>No phase, runtime or model is advanced by this catalog update.</p></details>
+<details class="catalog-legend"><summary>What comes next, in the existing order?</summary><ol class="plan-sequence"><li><strong>Next unfinished step:</strong> complete and verify the remaining shared Core/client/storage integration, preserving the existing review and execution prerequisites.</li><li>Continue verifying the partial shared reference and runner against the reviewed protocol/oracle. Scoped component tests do not establish full product acceptance.</li><li>Run the equivalent Tauri/PWA comparison when its intake and execution gates pass. Then qualify every eligible initial runtime against the same oracle before the production Core comparison.</li><li>Build the authority/data foundation, then admit exact model routes and production pairings. Later optional catalog studies retain their own milestones.</li></ol><p>No phase, runtime or model is advanced by this catalog update.</p></details>
 </section>
 
 <section class="case-section evidence-section" id="evidence" aria-labelledby="evidence-title">
@@ -578,15 +578,15 @@
     <article>
 <div class="evidence-kind">Draft · static validation only</div>
 <h3>56 Core traces + 9 retry traces</h3>
-<p>The original 40 oracle cases and the RC01–RC07 retry clarification have serialized draft fixtures. They remain unexecuted and unfrozen; no Core or candidate-runtime conformance result is claimed.</p>
+<p>The original 40 oracle cases and the RC01–RC07 retry clarification have serialized draft fixtures. This is a historical fixture checkpoint, not the current implementation status. It does not establish full Core or candidate-runtime acceptance.</p>
 </article>
   </div>
   <div class="next-milestone">
 <div>
-<div class="section-label">Current milestone · Phase 2 preparation</div>
+<div class="section-label">Current milestone · Phase 2 implementation and verification</div>
 <h3>Make the contract executable before choosing the runtime.</h3>
 </div>
-<p>Next: qualify the scoped environment, freeze the protocol and oracle fixtures, build the minimal Core / shell path, and execute equivalent comparisons. Prove retries, durable acknowledgement, recovery, and Stop before expanding to useful assistant workflows.</p>
+<p>Next: complete and verify the remaining Core/client/storage integration, then execute eligible equivalent comparisons. Full acceptance must establish retries, durable acknowledgement, recovery, and Stop before expanding to useful assistant workflows.</p>
 </div>
 </section>
 <section class="panel walkthrough feedback-walkthrough" aria-labelledby="walkthrough-title">
