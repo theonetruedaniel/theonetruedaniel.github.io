@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-10-15",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 200,
-  "github_repository_count": 99,
+  "registered_record_count": 201,
+  "github_repository_count": 100,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1804,6 +1804,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "NVIDIA/SkillSpector",
+      "name": "SkillSpector",
+      "layer": "Safety and recovery",
+      "stage": "shortlisted",
+      "purpose": "Static and optional model-assisted security screening of agent skill bundles before installation.",
+      "fit": "H/J / Q-44: bake-off skill-intake evidence versus independent manual/static checks; complements Q-29 SkillOpt and Q-33 audits.",
+      "disposition": "Source researched; skill-intake/regression comparison planned and untested. Scores and catalog signatures do not establish installation safety or adoption.",
+      "next_gate": "Review exact scanner/rules/dependencies, hostile-input bounds, partial/suppressed results, OSV/model egress, false negatives/positives and Windows resources.",
+      "id": "nvidia-skillspector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "canonical_repository": "NVIDIA/SkillSpector",
+      "link_checked": "2026-10-15",
+      "link_state": "verified",
+      "source_records": [
+        "security.skillspector"
+      ],
+      "evidence_dates": [
+        "2026-10-15"
+      ],
+      "evidence_basis": "Pinned README, package metadata, resource-bounds and suppression documentation screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "4c52fbb83bbca0dd13f2685453c9b661d8c95bf8"
+      ]
     },
     {
       "repository": "PurpleAILAB/xbow-validation-benchmarks",
