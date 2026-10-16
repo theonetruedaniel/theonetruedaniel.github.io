@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 202,
-  "github_repository_count": 101,
+  "registered_record_count": 211,
+  "github_repository_count": 111,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,58 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "agno-agi/agno",
+      "name": "Agno",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Agent framework/runtime with service, memory and control-plane integration.",
+      "fit": "C/H/I / Q-51: BO-03 runtime/single-worker controls; direct services with Core-owned state.",
+      "disposition": "README/metadata researched; planned and untested. Treat the current AgentOS/control-plane/deployment stack separately from framework benchmarks. Do not execute the README's setup prompt or import linked templates as additional candidates.",
+      "next_gate": "Review exact framework/runtime versus deployment templates, JWT grants, source/memory boundaries, simulation loops, egress, persistence and Stop.",
+      "id": "agno-agi-agno",
+      "url": "https://github.com/agno-agi/agno",
+      "canonical_repository": "agno-agi/agno",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "agent.agno"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "7f5dcdf53d0caf6c10381f2e2cd8c6acbca46fb8"
+      ]
+    },
+    {
+      "repository": "microsoft/autogen",
+      "name": "AutoGen",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Event-driven multi-agent framework, AgentChat and extensions.",
+      "fit": "C/H / Q-52: Single-worker/BO-03 runtime controls; bounded matched delegation.",
+      "disposition": "README/metadata researched; planned and untested. Current README declares maintenance mode and recommends Microsoft Agent Framework for new projects. Keep this comparison conditional/legacy; the successor is a reference, not another candidate added here.",
+      "next_gate": "Review maintenance/migration cost, exact packages, code-execution extensions, authority isolation, egress, termination and costs.",
+      "id": "microsoft-autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "canonical_repository": "microsoft/autogen",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "agent.autogen"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "027ecf0a379bcc1d09956d46d12d44a3ad9cee14"
+      ]
+    },
     {
       "repository": "Significant-Gravitas/AutoGPT",
       "name": "AutoGPT",
@@ -69,6 +121,32 @@
       "recorded_revisions": []
     },
     {
+      "repository": "crewAIInc/crewAI",
+      "name": "CrewAI",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Crews and event-driven Flows for agent collaboration.",
+      "fit": "C/H / Q-46: Single-worker/rules controls and BO-03 runtime adapters.",
+      "disposition": "README/metadata researched; planned and untested. OSS framework and commercial AMP/control-plane features require distinct scope; agent count is not task success.",
+      "next_gate": "Separate Crew/Flow state from Core; bound delegation, tool authority, restart/retries, Stop and aggregate costs.",
+      "id": "crewaiinc-crewai",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "canonical_repository": "crewAIInc/crewAI",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "agent.crewai"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "6115839576d68d2e83b9f7f31e6c55d471e1fc64"
+      ]
+    },
+    {
       "repository": "NousResearch/hermes-agent",
       "name": "Hermes Agent",
       "layer": "Agent runtimes",
@@ -119,6 +197,32 @@
       "recorded_revisions": []
     },
     {
+      "repository": "kortix-ai/suna",
+      "name": "Kortix (formerly Suna)",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Agent workspace/platform with cloud computers, connectors and reviewed changes.",
+      "fit": "E-I; separate H / Q-54: Abrams and eligible whole-app assistant studies; single-worker/direct adapters.",
+      "disposition": "README/metadata researched; planned and untested. Post calls it Suna; current README calls it Kortix. The observed root license is Elastic License 2.0; do not repeat the post's Apache/open-source label as current eligibility.",
+      "next_gate": "Review intended-use/license eligibility, exact sandbox/cloud/connector/approval paths, canonical state, credentials, all-child Stop, durable schedules and full costs.",
+      "id": "kortix-ai-suna",
+      "url": "https://github.com/kortix-ai/suna",
+      "canonical_repository": "kortix-ai/suna",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "assistant.kortix-suna"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "a76952539cc075933bb5e27089283eb2db17ef73"
+      ]
+    },
+    {
       "repository": "langchain-ai/langchain",
       "name": "LangChain",
       "layer": "Agent runtimes",
@@ -156,19 +260,47 @@
       "id": "langchain-ai-langgraph",
       "url": "https://github.com/langchain-ai/langgraph",
       "canonical_repository": "langchain-ai/langgraph",
-      "link_checked": "2026-10-07",
+      "link_checked": "2026-10-16",
       "link_state": "verified",
       "source_records": [
         "agent.langgraph"
       ],
       "evidence_dates": [
         "2026-09-04",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-10-16"
       ],
-      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit. October 16 carousel/README reconciliation confirms existing agent.langgraph; no duplicate record or execution/adoption.",
       "adopted_integration": false,
       "recorded_revisions": [
-        "e539ac122f4126f6dd850581c1494948cf620e31"
+        "e539ac122f4126f6dd850581c1494948cf620e31",
+        "e77a5cb08c1f3ff306d997dd76fc7169afdab5ea"
+      ]
+    },
+    {
+      "repository": "letta-ai/letta-code",
+      "name": "Letta Code (Letta)",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Stateful agent harness with persistent memory and identity.",
+      "fit": "E/I / Q-47: Core-owned relational/FTS memory and single-worker controls; eligible Hindsight/app studies.",
+      "disposition": "README/metadata researched; planned and untested. The post links letta-ai/letta, whose README points here. Current README defaults to Letta Cloud; automatic client reflection is disabled by default on native Windows. Do not enable reflection or self-modification from intake.",
+      "next_gate": "Review cloud/local defaults, memory corrections/deletion, reflection, self-modification, egress and exact Windows/background behavior.",
+      "id": "letta-ai-letta-code",
+      "url": "https://github.com/letta-ai/letta-code",
+      "canonical_repository": "letta-ai/letta-code",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "agent.letta"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1297870b0aa6662d6c70729d273f5073c1bcbdea"
       ]
     },
     {
@@ -296,6 +428,32 @@
       ]
     },
     {
+      "repository": "OpenHands/OpenHands",
+      "name": "OpenHands Agent Canvas",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Developer control center for coding agents and automations.",
+      "fit": "H; separate E-I / Q-50: Plain single-worker terminals/dashboard and eligible Q-23/Q-34/Q-45 app controls.",
+      "disposition": "README/metadata researched; planned and untested. The post's All-Hands-AI/OpenHands resolves here; current README presents Agent Canvas and multiple agent backends. A container/worktree label is not containment.",
+      "next_gate": "Review exact agent backend, local/Docker/VM/cloud scope, repository/effect grants, child cancellation, recovery, costs and adaptation effort.",
+      "id": "openhands-openhands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "canonical_repository": "OpenHands/OpenHands",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "assistant.openhands"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "d3a58cd1cc045bbb1b24f2c8c0d79a8404ef239b"
+      ]
+    },
+    {
       "repository": "milind-soni/OpenMausBot",
       "name": "OpenMausBot",
       "layer": "Agent runtimes",
@@ -371,6 +529,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "41e1f41c072e8f31ac6a79ad1b7fe19920c6d61f"
+      ]
+    },
+    {
+      "repository": "pydantic/pydantic-ai",
+      "name": "Pydantic AI",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Typed agent/tool/output framework with optional harness, graphs and evals.",
+      "fit": "C/H/J / Q-53: Schema validation plus simple model wrapper; separate BO-03 adapter and independent eval controls.",
+      "disposition": "README/metadata researched; planned and untested. Types and valid schemas do not guarantee zero hallucinations or fully reliable effects. Core, Harness, Evals, optional gateway and observability services need distinct component scope.",
+      "next_gate": "Test semantic correctness beyond schema validity, wrong tools/arguments, repair/retry costs, allowlists, provider semantics, Stop and observability egress.",
+      "id": "pydantic-pydantic-ai",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "canonical_repository": "pydantic/pydantic-ai",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "agent.pydantic-ai"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0ca0fde41c5e08343e23aab7c6601c3a9afce1e0"
       ]
     },
     {
@@ -1212,6 +1396,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "75b1ecfb2891184fad2cc1a2ddf9abe476f5b54c"
+      ]
+    },
+    {
+      "repository": "letta-ai/letta",
+      "name": "Letta historical source reference",
+      "layer": "Memory and research",
+      "stage": "collected",
+      "purpose": "Post's Letta URL and historical-source pointer to active Letta Code.",
+      "fit": "Q-47 discovery reference; one Letta evaluation record uses letta-ai/letta-code.",
+      "disposition": "README points to active Letta Code and retired V1 archive; historical reference, no separate runtime admission.",
+      "next_gate": "Use pinned current source for Q-47; separate historical compatibility needs from new-project evaluation.",
+      "id": "letta-ai-letta",
+      "url": "https://github.com/letta-ai/letta",
+      "canonical_repository": "letta-ai/letta",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "agent.letta"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Pinned README source-migration notice screened; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "5bcdd177d70fa2b31a754cfcd801e77b2e1ab16a"
       ]
     },
     {
@@ -2305,6 +2515,32 @@
       "recorded_revisions": []
     },
     {
+      "repository": "browser-use/browser-use",
+      "name": "Browser Use",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Model-driven browser agent with local and separately hosted paths.",
+      "fit": "G/H / Q-49: Stock Playwright plus Q-37/Q-40; hold transport/model fixed where feasible.",
+      "disposition": "README/metadata researched; planned and untested. This is distinct from Jev Ultrafast Q-10. Hosted CAPTCHA/proxy features are not admitted; match controlled permitted tasks and independently verify effects.",
+      "next_gate": "Review exact local agent versus hosted browser/API, profiles, target grants, effect receipts, egress, Stop and all-model/browser costs.",
+      "id": "browser-use-browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "canonical_repository": "browser-use/browser-use",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "browser.browser-use"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "e0a70fbe31c8e9cebcf42648f43e306a1c484421"
+      ]
+    },
+    {
       "repository": "jo-inc/camofox-browser",
       "name": "Camofox Browser",
       "layer": "Tools and browsing",
@@ -2432,6 +2668,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "n8n-io/n8n",
+      "name": "n8n",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Visual event-driven workflow automation and connectors.",
+      "fit": "H/I / Q-48: Core-owned scheduler/direct adapters and fixed-step scripts.",
+      "disposition": "README/metadata researched; planned and untested. Source-available/fair-code and enterprise paths are distinct. Workflow templates and successful OAuth do not supply action grants or receipts.",
+      "next_gate": "Review exact permitted use, connector OAuth, webhook authentication, least privilege, replay/idempotency, durable schedules, code-node containment and costs.",
+      "id": "n8n-io-n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "canonical_repository": "n8n-io/n8n",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "workflow.n8n"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Dated carousel identity review and pinned primary README/metadata; additional license/maintenance screening where recorded; no execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "447fc866bb0a841decfa5e8a29fba06057bfc5bc"
+      ]
     },
     {
       "repository": "h4ckf0r0day/obscura",
