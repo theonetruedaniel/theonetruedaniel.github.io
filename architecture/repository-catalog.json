@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-16",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 213,
-  "github_repository_count": 112,
+  "registered_record_count": 214,
+  "github_repository_count": 113,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,32 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "mvschwarz/openrig",
+      "name": "OpenRig",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Persistent coding-agent teams with topology, queues, shared context and session recovery.",
+      "fit": "H/I/J / Q-57: development and bake-off coordination versus a simple bounded worker queue; compare Q-55 lifecycle and Q-56 supervision separately.",
+      "disposition": "Source researched; planned and untested. WSL2 prerequisite on Windows; native Windows unsupported. No runtime admission.",
+      "next_gate": "Review startup hook/trust/permission mutations and exact WSL2/provider pins; test isolated matched teams, queue/effect recovery, all-child Stop, total cost and context leakage before live use.",
+      "id": "mvschwarz-openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "canonical_repository": "mvschwarz/openrig",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "orchestration.openrig"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Pinned README, security policy, package metadata and as-built daemon/lifecycle docs reviewed; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "e0c65c41e429678272522eb5f9875583a69b48a5"
+      ]
+    },
     {
       "repository": "agno-agi/agno",
       "name": "Agno",
