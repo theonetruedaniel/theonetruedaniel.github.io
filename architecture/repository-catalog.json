@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-15",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 201,
-  "github_repository_count": 100,
+  "registered_record_count": 202,
+  "github_repository_count": 101,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -293,6 +293,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "78bfb8ad4674183268efdb954c6675b069c0cea4"
+      ]
+    },
+    {
+      "repository": "milind-soni/OpenMausBot",
+      "name": "OpenMausBot",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Local-first chat interface and harness for CLI agents, computer sessions and connected apps.",
+      "fit": "E-I / Q-45: whole-app build-versus-adapt plus separate H component/UI study against Abrams and eligible LibreChat/OpenMuse/Open Dot/Hermes studies.",
+      "disposition": "Source researched; whole-app and selected-component studies planned and untested. OSS/enterprise, CLI permissions and platform-specific computer access remain unqualified.",
+      "next_gate": "Review OSS/enterprise scope, exact CLI/app/backend identities, platform-specific host/VM access, connector grants, pairing, all-child Stop, resources and recovery.",
+      "id": "milind-soni-openmausbot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "canonical_repository": "milind-soni/OpenMausBot",
+      "link_checked": "2026-10-15",
+      "link_state": "verified",
+      "source_records": [
+        "assistant.openmausbot"
+      ],
+      "evidence_dates": [
+        "2026-10-15"
+      ],
+      "evidence_basis": "Pinned README, licensing guide, security-policy excerpts and package metadata screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "113ec83256971c62088a0bbd507c6fa3a2cd4091"
       ]
     },
     {
