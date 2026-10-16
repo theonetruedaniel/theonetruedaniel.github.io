@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-16",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 215,
-  "github_repository_count": 114,
+  "registered_record_count": 216,
+  "github_repository_count": 115,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2173,6 +2173,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "raysonmeng/agent-bridge",
+      "name": "AgentBridge",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Bidirectional Claude Code–Codex message relay for coding handoffs and cross-review.",
+      "fit": "H/J / Q-59 alongside Q-57 OpenRig: narrow developer/bake-off collaboration study versus manual handoffs and a simple review queue.",
+      "disposition": "Source researched; planned and untested. Permission-bypassing launch defaults, experimental channels and unsupported Windows remain admission gates.",
+      "next_gate": "Review safe-launch enforcement, install/plugin mutations, exact protocol/host pins, peer-message authority, queue loss/replay, all-child Stop, privacy and aggregate cost; remote rooms and quota auto-resume require separate admission.",
+      "id": "raysonmeng-agent-bridge",
+      "url": "https://github.com/raysonmeng/agent-bridge",
+      "canonical_repository": "raysonmeng/agent-bridge",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "development.agent-bridge"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Pinned README, package/security metadata, room documentation and selected launcher/postinstall source reviewed; no installation, sessions, messaging or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0244dfa2d6dfd36a67531426b01714eda1b215eb"
+      ]
     },
     {
       "repository": "msitarzewski/agency-agents",
