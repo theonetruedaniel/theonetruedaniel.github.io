@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-16",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 214,
-  "github_repository_count": 113,
+  "registered_record_count": 215,
+  "github_repository_count": 114,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1402,6 +1402,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "opendatalab/MinerU",
+      "name": "MinerU",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Document parsing and OCR into structured text, tables, formulas and page/block references.",
+      "fit": "E/I / Q-58 alongside Q-36 PageIndex and BO-06: compare ingestion quality independently of retrieval and answer models.",
+      "disposition": "Source researched; planned and untested. Custom license terms, model assets and exact engine/host qualification remain open.",
+      "next_gate": "Compare native text extraction, OCR and MinerU tiers on labeled documents; verify table/formula fidelity, page coverage, citations, deletion, telemetry/egress, model licenses and peak resources.",
+      "id": "opendatalab-mineru",
+      "url": "https://github.com/opendatalab/MinerU",
+      "canonical_repository": "opendatalab/MinerU",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "documents.mineru"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Pinned README, custom license, package/security metadata, quick-start and model-asset docs reviewed; no install, model download, execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "b7f3dd0c5f6e6d66a298239ffd02b328b873918e"
+      ]
     },
     {
       "repository": "vectorize-io/hindsight",
