@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated": "2026-10-16",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 212,
+  "registered_record_count": 213,
   "github_repository_count": 112,
   "production_integrations_adopted": 0,
   "stage_definitions": {
@@ -703,23 +703,28 @@
       "repository": "thruwire/foreman",
       "name": "Foreman",
       "layer": "Decision components",
-      "stage": "collected",
-      "purpose": "Small supervisory decisions about worker progress, drift and stalls.",
-      "fit": "H / Q-11C-related reference; Core still owns Stop and retries.",
-      "disposition": "Source-backed research only; no proved supervisory advantage.",
-      "next_gate": "Replay stalled and legitimately slow runs against simple heuristics.",
+      "stage": "shortlisted",
+      "purpose": "Decision-model supervision of coding-worker progress, drift, stalls and completion.",
+      "fit": "H/J / Q-56 alongside Q-11C: advisory supervision; Core owns Stop, retries and grants.",
+      "disposition": "Source researched; planned and untested. No demonstrated supervisory advantage or runtime admission.",
+      "next_gate": "Replay frozen stalled, legitimately slow and false-completion traces against deterministic heuristics; assess calibration, harmful interventions, independent outputs, cost, egress and exact worker/host containment.",
       "id": "thruwire-foreman",
       "url": "https://github.com/thruwire/foreman",
       "canonical_repository": "thruwire/foreman",
-      "link_checked": "2026-10-07",
+      "link_checked": "2026-10-16",
       "link_state": "verified",
-      "source_records": [],
-      "evidence_dates": [
-        "2026-09-22"
+      "source_records": [
+        "supervision.foreman"
       ],
-      "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
+      "evidence_dates": [
+        "2026-09-22",
+        "2026-10-16"
+      ],
+      "evidence_basis": "Pinned README, evidence/routing/feasibility docs, package and security metadata reviewed; no execution or full audit.",
       "adopted_integration": false,
-      "recorded_revisions": []
+      "recorded_revisions": [
+        "c3142ef636617f32f772140125aa310d81ceece9"
+      ]
     },
     {
       "repository": "sutro-sh/jev-align",
