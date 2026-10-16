@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-16",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 211,
-  "github_repository_count": 111,
+  "registered_record_count": 212,
+  "github_repository_count": 112,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -91,6 +91,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "98381ab27f733468bfe1f9c4f4942b4b416d9a8b"
+      ]
+    },
+    {
+      "repository": "google/ax",
+      "name": "AX",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Declarative cluster orchestration of agent tasks, workspaces and model bindings on Agent Substrate.",
+      "fit": "H/I/J / Q-55: optional cluster-worker lifecycle study alongside Q-16 Substrate versus a simpler isolated-worker controller.",
+      "disposition": "Source researched; optional/deferred cluster-worker study planned and untested. Cluster/Substrate/runner admission and current-versus-roadmap enforcement remain open.",
+      "next_gate": "Review exact AX/Substrate/runner/cluster identities, current versus roadmap controls, bootstrap model/skill/MCP egress, resource/cost limits, tenant isolation and all-child recovery.",
+      "id": "google-ax",
+      "url": "https://github.com/google/ax",
+      "canonical_repository": "google/ax",
+      "link_checked": "2026-10-16",
+      "link_state": "verified",
+      "source_records": [
+        "orchestration.google-ax"
+      ],
+      "evidence_dates": [
+        "2026-10-16"
+      ],
+      "evidence_basis": "Pinned README, sandbox/roadmap documentation and go.mod screened; no execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "92d297e97c43ff381f82d83315736c270ea1bc69"
       ]
     },
     {
