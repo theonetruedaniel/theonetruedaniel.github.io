@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 217,
-  "github_repository_count": 116,
+  "registered_record_count": 218,
+  "github_repository_count": 117,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2199,6 +2199,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "trailhq/Trail-Code",
+      "name": "Trail-Code",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Local code graph and reviewed development learnings for code navigation, impact analysis and integration research.",
+      "fit": "H/J / Q-61 alongside Q-41 OpenGrok and Q-38 REA: compare source navigation and context reuse against ripgrep/Git/editor controls.",
+      "disposition": "Source researched; planned and untested. Graph completeness, learning provenance, package identity, setup mutations and telemetry/model egress remain gates.",
+      "next_gate": "Pin exact Trail/graft artifacts; test navigation/impact correctness, edit freshness, stale or poisoned learnings, independent task quality, total cost, native/WASM host behavior, privacy and removal.",
+      "id": "trailhq-trail-code",
+      "url": "https://github.com/trailhq/Trail-Code",
+      "canonical_repository": "trailhq/Trail-Code",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "development.trail-code"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, package/security/telemetry metadata and selected postinstall source reviewed; no install, hooks, transcript imports, model calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "ead585b2707055f47f1e97d9b0d4209af5285805"
+      ]
     },
     {
       "repository": "raysonmeng/agent-bridge",
