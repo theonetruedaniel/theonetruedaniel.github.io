@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 227,
-  "github_repository_count": 126,
+  "registered_record_count": 234,
+  "github_repository_count": 133,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,84 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "anthropics/claude-code",
+      "name": "Claude Code",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Vendor coding-agent development control and separately scoped worker comparison.",
+      "fit": "C/H / Q-77: Existing Codex development tooling, OpenCode and eligible BO-03 adapters; distinct from Free Claude Code proxy.",
+      "disposition": "Source researched; planned and untested. All rights reserved; Anthropic Commercial Terms of Service. Public repository does not establish an open-source client implementation; Windows installation documented; no account/executable admission.",
+      "next_gate": "Review exact executable/service/account eligibility, filesystem/shell/network grants, hooks/MCP, feedback/retention, real model and billing, retries/effect receipts, Stop and removal.",
+      "id": "anthropics-claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "canonical_repository": "anthropics/claude-code",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "agent.claude-code"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README and LICENSE.md reviewed; no installation, accounts/credentials, runtime/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "c017428c8c27e604840435048d5bce6a9a22c040"
+      ]
+    },
+    {
+      "repository": "langgenius/dify",
+      "name": "Dify",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Visual AI app/workflow platform, RAG and agent product comparison.",
+      "fit": "C/H/I / Q-74: Core-owned orchestration/direct adapters, n8n and separately scoped Langflow; component study distinct from platform replacement.",
+      "disposition": "Source researched; planned and untested. Modified Apache-2.0 with workspace/multi-tenant and branding conditions. Compose includes 1.17.1 app images, database/cache and sandbox components; server/host not qualified.",
+      "next_gate": "Review exact reuse/license scope, plugin/sandbox execution, provider credentials/egress, state ownership, workflow export, retries/idempotency, resources/cost, cancellation and removal.",
+      "id": "langgenius-dify",
+      "url": "https://github.com/langgenius/dify",
+      "canonical_repository": "langgenius/dify",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "platform.dify"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, LICENSE and Compose manifest reviewed; no installation, accounts/credentials, runtime/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "7c7f93bd530cc0a9fb7465ef59c28803edd1e286"
+      ]
+    },
+    {
+      "repository": "anomalyco/opencode",
+      "name": "OpenCode",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Terminal/desktop coding-agent worker and integration-bake-off development control.",
+      "fit": "C/H / Q-71: BO-03 runtime controls, OpenHands and existing coding adapters; product worker and development tool scopes separate.",
+      "disposition": "Source researched; planned and untested. MIT. 2.0.32 root metadata; Bun 1.4.2; Windows install/desktop documented, not qualified.",
+      "next_gate": "Qualify exact client/provider pairing, filesystem/shell/tool grants, session storage, config/plugins, model identity, retry/effect handling, cost and Stop.",
+      "id": "anomalyco-opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "canonical_repository": "anomalyco/opencode",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "agent.opencode"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README and root package metadata reviewed; no installation, accounts/credentials, runtime/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "86c7f7c84048d776ba94b94bfab782b2b0a6d776"
+      ]
+    },
     {
       "repository": "deepseek-ai/deepseek-harness",
       "name": "DeepSeek Harness",
@@ -1226,6 +1304,32 @@
       "recorded_revisions": []
     },
     {
+      "repository": "open-webui/open-webui",
+      "name": "Open WebUI",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Self-hosted chat/research interface with local and cloud model adapters.",
+      "fit": "H/I / Q-75: LibreChat, CopilotKit and current interface concepts; UI/component evaluation separate from backend adoption.",
+      "disposition": "Source researched; planned and untested. Custom Open WebUI License with branding conditions and stated exceptions. Pinned Python >=3.11,<3.13.0a1 excludes the available planning Python 3.13; offline claims require network verification.",
+      "next_gate": "Review branding/reuse and exact Python/build; test auth/user isolation, uploads/RAG citations, executable plugins/tools, routes/egress, accessibility, export/delete, resources and Stop.",
+      "id": "open-webui-open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "canonical_repository": "open-webui/open-webui",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "surface.open-webui"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, LICENSE and pyproject reviewed; no installation, accounts/credentials, runtime/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "91ea4e3421d1d8069f13d4a463fcb5986d94ea60"
+      ]
+    },
+    {
       "repository": "Anil-matcha/Open-Generative-AI",
       "name": "Open Generative AI",
       "layer": "Interface and media",
@@ -2357,6 +2461,32 @@
       "recorded_revisions": []
     },
     {
+      "repository": "anthropics/skills",
+      "name": "Anthropic Agent Skills",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Selected instructions/scripts/resources for repeatable assistant tasks and development.",
+      "fit": "H/J / Q-73: Existing native skills, Impeccable and task-specific controls; evaluate selected skills independently, not the whole collection.",
+      "disposition": "Source researched; planned and untested. Per-folder: many Apache-2.0; document skills source-available under service terms. User confirmed screenshot identity; no skill instructions executed, imported or installed.",
+      "next_gate": "Pin each selected skill/scripts/license; inspect executable/network/file effects, injection and dependencies; compare held-out task quality/review effort, portability and removal before explicit promotion.",
+      "id": "anthropics-skills",
+      "url": "https://github.com/anthropics/skills",
+      "canonical_repository": "anthropics/skills",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "skills.anthropic"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README and selected skill-creator/docx license files reviewed; no installation, accounts/credentials, runtime/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+      ]
+    },
+    {
       "repository": "comet-ml/opik",
       "name": "Opik",
       "layer": "Skills and development",
@@ -2857,6 +2987,58 @@
       "evidence_basis": "README, repository listing and license-header screening; individual prompt bodies not evaluated.",
       "recorded_revisions": [
         "2d9b8f26c8b711481c19b63f1f62779432ef3768"
+      ]
+    },
+    {
+      "repository": "langflow-ai/langflow",
+      "name": "Langflow",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Visual Python component/agent workflow builder with API and JSON export.",
+      "fit": "H/I / Q-76: Core-owned fixed-step scripts, n8n and Dify on matched workflows; canvas convenience separate from execution authority.",
+      "disposition": "Source researched; planned and untested. MIT; components/dependencies/services separate. Root version 1.13.0; Python >=3.10,<3.15; Windows desktop documented, dependencies/backends still need exact qualification.",
+      "next_gate": "Inspect custom Python/components, secrets/auth/egress, workflow export reproducibility, state ownership, retries/idempotency, resources/cost, cancellation and Windows/build support.",
+      "id": "langflow-ai-langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "canonical_repository": "langflow-ai/langflow",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "workflow.langflow"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README and pyproject reviewed; no installation, accounts/credentials, runtime/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "972d56c47d3830d17060ee85cfaad152df823041"
+      ]
+    },
+    {
+      "repository": "firecrawl/firecrawl",
+      "name": "Firecrawl",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Website scraping/crawling into text and structured research inputs.",
+      "fit": "E/I / Q-72: Direct fetch, eligible browser/read adapters and source-preserving research controls; cloud and self-host feature sets separate.",
+      "disposition": "Source researched; planned and untested. Primarily AGPL-3.0; SDKs/some UI MIT; cloud scope separate. Self-host services include browser worker, Redis, RabbitMQ, PostgreSQL/queue and FoundationDB paths; exact selected topology required.",
+      "next_gate": "Verify permitted sources, egress/SSRF/redirect limits, robots/site terms, dynamic-page fidelity, provenance, crawl budgets, retries, secrets and Stop; review service resources/licenses.",
+      "id": "firecrawl-firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "canonical_repository": "firecrawl/firecrawl",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "research.firecrawl"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README and Compose manifest reviewed; no installation, accounts/credentials, runtime/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "acd9d4155c213e1239e3cc1d65aefd2286a55fda"
       ]
     },
     {
