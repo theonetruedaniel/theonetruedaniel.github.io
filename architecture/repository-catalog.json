@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 235,
-  "github_repository_count": 133,
+  "registered_record_count": 236,
+  "github_repository_count": 134,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,32 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "aaif-goose/goose",
+      "name": "Goose",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "General-purpose local agent with desktop, CLI/API, MCP extensions and reusable recipes.",
+      "fit": "C/H/I / Q-79 alongside BO-03, Hermes, OpenHands and OpenCode: runtime admission, development-control and product/interface scopes separate.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; documented default Autonomous mode, ACP tool forwarding, session/privacy and exact host/provider admission remain gates.",
+      "next_gate": "Test externally enforced grants across native/MCP/ACP tools, mode/session persistence, recipe trust, effect receipts/retries, Stop, session export/delete, provider identity/eligibility, full cost and Windows/build resources.",
+      "id": "aaif-goose-goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "canonical_repository": "aaif-goose/goose",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "agent.goose"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, license/build metadata and permission, ACP, recipe, session/security docs reviewed; no install, credentials/accounts, agent/tool/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "bfcc6ee6f1ee18d0c4c852a65c49b25f87ee40dc"
+      ]
+    },
     {
       "repository": "anthropics/claude-code",
       "name": "Claude Code",
