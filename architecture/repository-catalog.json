@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 226,
-  "github_repository_count": 125,
+  "registered_record_count": 227,
+  "github_repository_count": 126,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2355,6 +2355,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "comet-ml/opik",
+      "name": "Opik",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Tracing, evaluation datasets/experiments and prompt/agent optimization for the assistant bake-off.",
+      "fit": "H/J / Q-70 alongside BO-11 Promptfoo, the Abrams evaluation control and the Braintrust comparison; benchmark infrastructure separate from candidates under test.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; cloud defaults, enabled SDK analytics, self-host infrastructure, judge bias/cost and export integrity remain gates.",
+      "next_gate": "Compare fixed fixtures and immutable exports; verify trace completeness/redaction, explicit local endpoints and analytics settings, judge calibration/holdouts, overhead, retention/deletion, auth, Stop and total hosting/judge cost.",
+      "id": "comet-ml-opik",
+      "url": "https://github.com/comet-ml/opik",
+      "canonical_repository": "comet-ml/opik",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "eval.opik"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, LICENSE, version, Compose docs/manifest and Python setup/config reviewed; no install, containers, accounts, telemetry, evaluation/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "535e6110129e81552677c41e93859e4d8a677e72"
+      ]
     },
     {
       "repository": "honojs/hono",
