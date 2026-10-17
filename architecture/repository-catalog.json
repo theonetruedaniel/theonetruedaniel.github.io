@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 224,
-  "github_repository_count": 123,
+  "registered_record_count": 225,
+  "github_repository_count": 124,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1734,6 +1734,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "google-ai-edge/LiteRT-LM",
+      "name": "LiteRT-LM",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "On-device language-model and embedding inference across eligible CPU/GPU/NPU backends.",
+      "fit": "E/I / Q-68 alongside BO-04/BO-05: engine feasibility, model quality and production pairing evaluated separately.",
+      "disposition": "Source researched; planned and untested. Exact release/model conversion, hardware/backend/API eligibility, licenses and resource headroom remain gates.",
+      "next_gate": "Pin engine/model/tokenizer/backend/driver; compare matched checkpoints and quantization, correctness and useful latency, full RAM/VRAM/disk, offline behavior, context limits, cancellation and removal.",
+      "id": "google-ai-edge-litert-lm",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "canonical_repository": "google-ai-edge/LiteRT-LM",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "inference.litert-lm"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README/version/build docs and dated official overview reviewed; no SDK/build/model downloads, device changes, inference or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "48b82892f1340013e6b0b42547c5b91ec712798d"
+      ]
     },
     {
       "repository": "decolua/9router",
