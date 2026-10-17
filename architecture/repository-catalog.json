@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 219,
-  "github_repository_count": 118,
+  "registered_record_count": 220,
+  "github_repository_count": 119,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1198,6 +1198,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "OpenWhispr/openwhispr",
+      "name": "OpenWhispr",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Desktop voice dictation, meeting transcription and notes with local or cloud speech models.",
+      "fit": "H/I / Q-63: voice-input/component comparison; separate ASR quality, Windows audio capture, text insertion and optional assistant actions.",
+      "disposition": "Source researched; planned and untested. Exact model/engine/build, focused-target behavior, system-audio scope and privacy remain gates.",
+      "next_gate": "Compare matched speech fixtures and end-to-end correction effort; verify headphones/loopback, no unintended paste/send, cancel/mute, transcript deletion, local-versus-cloud egress, model licenses and resources.",
+      "id": "openwhispr-openwhispr",
+      "url": "https://github.com/OpenWhispr/openwhispr",
+      "canonical_repository": "OpenWhispr/openwhispr",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "voice.openwhispr"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, package/license/security metadata and selected Windows loopback-manager source reviewed; no install, models, recording, accounts or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "3577e5c9b2b06f7667a4b9d489935addba488341"
+      ]
     },
     {
       "repository": "AgentSystemLabs/agent-office",
