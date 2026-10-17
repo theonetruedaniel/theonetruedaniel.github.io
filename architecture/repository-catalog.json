@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 221,
-  "github_repository_count": 120,
+  "registered_record_count": 222,
+  "github_repository_count": 121,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2727,6 +2727,32 @@
       "evidence_basis": "README, repository listing and license-header screening; individual prompt bodies not evaluated.",
       "recorded_revisions": [
         "2d9b8f26c8b711481c19b63f1f62779432ef3768"
+      ]
+    },
+    {
+      "repository": "activeing123/mcptoon",
+      "name": "MCPToon",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "MCP tool discovery, on-demand schemas, compact result delivery and scoped skill/config management.",
+      "fit": "E/H / Q-65 alongside Q-11A: compare native lazy discovery and context controls; Core retains exact tool grants and original evidence.",
+      "disposition": "Source researched; planned and untested. Discovery savings, omitted evidence, retrieval/cache isolation, config mutations and exact transport/host behavior remain gates.",
+      "next_gate": "Compare native versus indexed discovery, re-encoding and compression separately; verify task quality, full-result retrieval, schema freshness, credential/server scope, no authority bypass, Stop and total token/latency cost.",
+      "id": "activeing123-mcptoon",
+      "url": "https://github.com/activeing123/mcptoon",
+      "canonical_repository": "activeing123/mcptoon",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "tools.mcptoon"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, package/security/NOTICE and selected compressor/client source reviewed; no install, agent config/skill sync, servers, tool calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "14aa8bf274581cd4e35ed10afc352534719f5c26"
       ]
     },
     {
