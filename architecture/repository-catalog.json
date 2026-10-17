@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 218,
-  "github_repository_count": 117,
+  "registered_record_count": 219,
+  "github_repository_count": 118,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1428,6 +1428,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "pocketbase/pocketbase",
+      "name": "PocketBase",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Embedded SQLite backend with authentication, files, realtime updates and an admin interface.",
+      "fit": "D/I / Q-62: optional storage/API and prototype-backend study versus current SQLite/API controls; no canonical-store replacement implied.",
+      "disposition": "Source researched; planned and untested. Pre-1.0 compatibility, access/file rules, migrations, restore and exact Windows/build qualification remain gates.",
+      "next_gate": "Verify Core-bound adapter contracts, per-record/file/realtime authorization, no worker superuser access, concurrent writes, crash/migration/restore fidelity, deletion/export, resource limits and removal.",
+      "id": "pocketbase-pocketbase",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "canonical_repository": "pocketbase/pocketbase",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "storage.pocketbase"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, go.mod, release targets and security policy plus dated official access/file/production/FAQ docs reviewed; no install, server, migration or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "6f370ea741f33adf889eef02e3c1b884a47aa522"
+      ]
     },
     {
       "repository": "opendatalab/MinerU",
