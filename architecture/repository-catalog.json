@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 216,
-  "github_repository_count": 115,
+  "registered_record_count": 217,
+  "github_repository_count": 116,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,32 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "andrewyng/openworker",
+      "name": "OpenWorker",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Desktop personal-assistant runtime with documents, connectors, scheduled work and approval/audit controls.",
+      "fit": "C/E-I / Q-60: general-assistant and component comparison alongside BO-03; Core retains grants, sources, effects and Stop.",
+      "disposition": "Source researched; planned and untested. Beta, optional sandbox/connector boundaries and exact Windows/build qualification remain open.",
+      "next_gate": "Compare matched assistant tasks and independent outputs; verify human-only floors, revocation, connector authority, optional sandbox modes, scheduled-run approvals, privacy, updates, aggregate cost and all-child Stop.",
+      "id": "andrewyng-openworker",
+      "url": "https://github.com/andrewyng/openworker",
+      "canonical_repository": "andrewyng/openworker",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "agent.openworker"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, security/package metadata and Windows/OpenShell sandbox docs reviewed; no installation, accounts, connectors, model calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "7e20213dc88faaaaccace59461876c76e76b134a"
+      ]
+    },
     {
       "repository": "mvschwarz/openrig",
       "name": "OpenRig",
