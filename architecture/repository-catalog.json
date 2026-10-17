@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 223,
-  "github_repository_count": 122,
+  "registered_record_count": 224,
+  "github_repository_count": 123,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1224,6 +1224,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "Anil-matcha/Open-Generative-AI",
+      "name": "Open Generative AI",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Creative-media studio with cloud-backed image/video/audio workflows and separate local inference paths.",
+      "fit": "H/I / Q-67 alongside Q-06 Open Higgsfield, Q-22 OpenMuse and Q-35 rendering: scoped media UI/job-adapter comparison.",
+      "disposition": "Source researched; planned and untested. Self-hosted UI is not local/free model access; exact provider, model, submodule and native-engine admission pending.",
+      "next_gate": "Compare matched media jobs and independent artifacts; verify MuAPI/local route identities, upload/key privacy, full costs, cancellation/retry receipts, exact submodules/builds, Windows resources and removal.",
+      "id": "anil-matcha-open-generative-ai",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "canonical_repository": "Anil-matcha/Open-Generative-AI",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "media.open-generative-ai"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README/package, submodule/deployment metadata and selected proxy/Electron/local-provider source reviewed; no install, accounts, models, uploads or execution audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0668c210ebfe893f16c5149405a08d00b9ae90df"
+      ]
     },
     {
       "repository": "OpenWhispr/openwhispr",
