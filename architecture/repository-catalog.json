@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 236,
-  "github_repository_count": 134,
+  "registered_record_count": 237,
+  "github_repository_count": 135,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1636,6 +1636,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "assafelovic/gpt-researcher",
+      "name": "GPT Researcher",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Web/local-document research worker with cited reports, recursive exploration and selectable passage filters.",
+      "fit": "F/I / Q-80 alongside Q-07 HyperResearch, Abrams-controlled research and Q-11 Jev evidence support; frozen-page filter ablations separate from end-to-end research.",
+      "disposition": "Source researched; planned and untested. Root Apache-2.0 conflicts with MIT package metadata; Jev/key-dependent filtering, keyword fallbacks, source fidelity, recursive costs and host/privacy remain gates.",
+      "next_gate": "Compare fixed-source Jev/keyword/embeddings/no-filter controls and matched end-to-end tasks; verify claim-level citation support, lost counterevidence, actual filter/fallback, search/model cost, egress, local-file boundaries, cancellation and evidence export.",
+      "id": "assafelovic-gpt-researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "canonical_repository": "assafelovic/gpt-researcher",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "research.gpt-researcher"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, LICENSE/package/Compose/default config, context/deep-research/eval docs and selected context-selection source reviewed; no install, credentials/accounts, research/model/search/Jev calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "3582a6841fe7dc801e2a34e34ee408641aea9bce"
+      ]
     },
     {
       "repository": "pocketbase/pocketbase",
