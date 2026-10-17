@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 220,
-  "github_repository_count": 119,
+  "registered_record_count": 221,
+  "github_repository_count": 120,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2251,6 +2251,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "honojs/hono",
+      "name": "Hono",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Web-standards HTTP routing and middleware for scoped APIs, streaming and adapter prototypes.",
+      "fit": "D/H/I / Q-64: optional transport/component study versus current API controls; Q-62 PocketBase is a separate storage/backend comparison.",
+      "disposition": "Source researched; planned and untested. Exact framework/runtime/adapter pins, route contracts, middleware ordering and security boundaries remain gates.",
+      "next_gate": "Compare matched API contracts, authorization and malformed-request handling; test streaming abort/backpressure, idempotency, file boundaries, shutdown, Windows/runtime adapters and total implementation/resource cost.",
+      "id": "honojs-hono",
+      "url": "https://github.com/honojs/hono",
+      "canonical_repository": "honojs/hono",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "transport.hono"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README/package and selected CSRF source plus dated official Node/CSRF/body-limit docs reviewed; no install, server, cloud deployment or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "08807ce12aa3aa27c8c5adf63e677bbab6bceda9"
+      ]
     },
     {
       "repository": "trailhq/Trail-Code",
