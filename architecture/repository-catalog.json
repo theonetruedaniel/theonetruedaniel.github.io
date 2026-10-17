@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 225,
-  "github_repository_count": 124,
+  "registered_record_count": 226,
+  "github_repository_count": 125,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1734,6 +1734,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "Alishahryar1/free-claude-code",
+      "name": "Free Claude Code",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Local multi-provider protocol proxy and coding-agent launchers with optional browser/messaging interfaces.",
+      "fit": "E/H / Q-69 alongside Q-05 9Router and Q-32 Magpie: adapter/routing comparison; underlying model quality and runtime pairing separate.",
+      "disposition": "Source researched; planned and untested. Free-tier/account eligibility, AGPL reuse, credential/auth controls, fallback semantics and exact host/Python build remain gates.",
+      "next_gate": "Compare direct provider/native adapters on matched routes; verify real model identity, streaming/tool semantics, no unauthorized fallback or quota bypass, per-attempt cost/egress, proxy auth, cancellation and config removal.",
+      "id": "alishahryar1-free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "canonical_repository": "Alishahryar1/free-claude-code",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "routing.free-claude-code"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README/pyproject and selected Claude launcher source reviewed; no install, account/credential access, proxy/session, provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "ec10cafdb0aaea86b135c5724ffd00394d385739"
+      ]
     },
     {
       "repository": "google-ai-edge/LiteRT-LM",
