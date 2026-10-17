@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-17",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 222,
-  "github_repository_count": 121,
+  "registered_record_count": 223,
+  "github_repository_count": 122,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,32 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "name": "DeepSeek Harness",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Plugin-composed agent harness with replaceable model, tool, session and interaction components.",
+      "fit": "C/H/I / Q-66 alongside BO-03: runtime/component and bake-off-worker study; exact composed profile and external Core controls required.",
+      "disposition": "Source researched; planned and untested. Developer preview; profile-dependent permissions, plugin lifecycle, persistence and host isolation remain unqualified.",
+      "next_gate": "Pin complete plugin tree/runtime/model route; compare mock conformance and matched tasks, verify safe profiles versus full-access minimal defaults, grant/reload/restart behavior, Stop, raw evidence, privacy and total cost.",
+      "id": "deepseek-ai-deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "canonical_repository": "deepseek-ai/deepseek-harness",
+      "link_checked": "2026-10-17",
+      "link_state": "verified",
+      "source_records": [
+        "agent.deepseek-harness"
+      ],
+      "evidence_dates": [
+        "2026-10-17"
+      ],
+      "evidence_basis": "Pinned README, package/safety, architecture/config-catalog and base/sdk-minimal bundle docs reviewed; no install, plugins, sessions, calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "687f282e8625c6b8d11ff58211a90524be2e4317"
+      ]
+    },
     {
       "repository": "andrewyng/openworker",
       "name": "OpenWorker",
