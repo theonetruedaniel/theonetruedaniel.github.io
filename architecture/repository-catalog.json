@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-18",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 238,
-  "github_repository_count": 136,
+  "registered_record_count": 239,
+  "github_repository_count": 137,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2511,6 +2511,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "google-research/harness2",
+      "name": "Harness2",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Recursive propose/probe/compose framework for improving agent prompts, memory, skills, scripts and tool guidance with fixed model weights.",
+      "fit": "H/J / Q-82 alongside Q-20 autoresearch, Q-29 SkillOpt and unchanged/manual harness controls; product-side improvement and bake-off method separate from model quality/pairing.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; Linux benchmark setup, unrestricted executor network and Codex sandbox/hook-trust bypass are execution-admission blockers.",
+      "next_gate": "Compare upstream, licensed components, a bounded independent loop and deferral; enforce immutable Core grants/guardrails, isolated probes, equal total budgets, hidden holdouts, provenance, promotion/rollback and Stop; qualify exact cloud/local adapters and costs.",
+      "id": "google-research-harness2",
+      "url": "https://github.com/google-research/harness2",
+      "canonical_repository": "google-research/harness2",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "optimization.harness2"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README, pyproject, setup/experiment/third-party docs and selected Codex/OpenCode substrate source reviewed; no installation, demo, benchmark, credentials or model/tool/cloud execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1cfe254e8d25b15f37048c3730134686abe60335"
+      ]
     },
     {
       "repository": "reason-machines/reason-network",
