@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-18",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 256,
-  "github_repository_count": 154,
+  "registered_record_count": 257,
+  "github_repository_count": 155,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2516,6 +2516,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "perplexityai/SPACE",
+      "name": "SPACE",
+      "layer": "Safety and recovery",
+      "stage": "shortlisted",
+      "purpose": "API-managed isolated code-execution environments using Firecracker microVMs, command streams and sandbox lifecycle controls.",
+      "fit": "C/I/J / Q-100: product-side execution backend and isolated bake-off workers versus existing AppContainer/Hyper-V/container controls; Core execution adapter and model/provider routing separate.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; Linux/KVM/privileged local setup, host-side services, auth/egress, snapshot compatibility and exact Windows client/host feasibility remain gates.",
+      "next_gate": "Compare upstream/eligible components/thin Core adapter to qualified isolation/deferral; verify host and guest bounds, management versus attach tokens, network/secret policy, resource quotas, replay-safe lifecycle, kill/delete/Stop, snapshots, full cost and rollback.",
+      "id": "perplexityai-space",
+      "url": "https://github.com/perplexityai/SPACE",
+      "canonical_repository": "perplexityai/SPACE",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "isolation.space"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README, Cargo/toolchain/Python metadata, SECURITY/dependency and architecture/install/egress/versioning docs reviewed; no installation, VM/container/cluster, credentials, code/model/API execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "57c7c0c47a73373a974c5b542d180599795465da"
+      ]
     },
     {
       "repository": "resemble-ai/detect-skill",
