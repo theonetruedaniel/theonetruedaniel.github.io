@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-18",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 240,
-  "github_repository_count": 138,
+  "registered_record_count": 241,
+  "github_repository_count": 139,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2537,6 +2537,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "mattpocock/skills",
+      "name": "Matt Pocock Skills",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Composable engineering/productivity skills for planning, specs, debugging, review and source-linked handoffs.",
+      "fit": "H/J / Q-84: selected skills versus existing native methods, Q-73 Anthropic skills and unchanged/manual controls; product productivity and development/bake-off uses separate.",
+      "disposition": "Source researched; planned and untested. MIT root signal; package/plugin 1.3.1. Per-skill effects, delegation/tracker assumptions, question burden, auto-updates and frozen misc content remain gates.",
+      "next_gate": "Select/pin individual skills and dependencies; compare reuse, minimal original methods and deferral on held-out outcomes; verify instruction precedence, question burden, handoff fidelity/privacy, tool/write grants, update rollback and full cost.",
+      "id": "mattpocock-skills",
+      "url": "https://github.com/mattpocock/skills",
+      "canonical_repository": "mattpocock/skills",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "skills.mattpocock"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README, LICENSE/package/plugin/SCOPE, file inventory and selected planning/handoff/review/setup skill text reviewed as data; no installation, activation, scripts, delegation, tracker/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "49dd158d1076134a641b33efb035946536778336"
+      ]
     },
     {
       "repository": "google-research/harness2",
