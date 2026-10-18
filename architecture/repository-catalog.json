@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 237,
-  "github_repository_count": 135,
+  "registered_record_count": 238,
+  "github_repository_count": 136,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2511,6 +2511,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "reason-machines/reason-network",
+      "name": "Reason Network",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Peer-to-peer agent directory/messaging for cloud/local worker handoffs and development/bake-off coordination.",
+      "fit": "E/H/J / Q-81: product-side cloud/local worker coordination alongside Core's provider-neutral router; compare direct adapters plus Q-59 AgentBridge/Q-16 Substrate. Session messaging is not model/API switching.",
+      "disposition": "Source researched; planned and untested. MIT OR Apache-2.0 root signal; product handoff/adapter feasibility, default team acceptance, metadata/invites, hooks/wake and updates require qualification.",
+      "next_gate": "Compare direct cloud/local adapters and session handoffs; verify effective provider/model, context fidelity, manual route/privacy/budget controls, IPC/invites/revocation, peer authority, replay/Stop and pinned updates.",
+      "id": "reason-machines-reason-network",
+      "url": "https://github.com/reason-machines/reason-network",
+      "canonical_repository": "reason-machines/reason-network",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "coordination.reason-network"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README, Cargo/license/NOTICE, SECURITY/DESIGN, selected MCP source and installer text reviewed; no installation, peers/accounts, messages, daemon/network or agent execution/full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "226eda792c16764d5afa485f593828f14283ccb2"
+      ]
     },
     {
       "repository": "anthropics/skills",
