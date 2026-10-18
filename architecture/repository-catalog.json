@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-18",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 239,
-  "github_repository_count": 137,
+  "registered_record_count": 240,
+  "github_repository_count": 138,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,32 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "paperclipai/paperclip",
+      "name": "Paperclip",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Task/goal and agent orchestration dashboard with adapters, heartbeats, approvals and reported-spend budgets.",
+      "fit": "H/I/J / Q-83: product-side multi-provider worker coordination and bake-off management versus Core queue/direct adapters, Q-81 Reason Network, Q-59 AgentBridge and n8n; not a base model.",
+      "disposition": "Source researched; planned and untested. MIT root signal; default no-login loopback mode, agent secret handoff, adapter containment, budget overshoot and dual-state authority remain gates.",
+      "next_gate": "Compare upstream/component reuse/independent minimal queue/deferral; verify exact cloud/local model adapters, Core state/grants, auth/secrets, heartbeat claims/retries, concurrency/cost reservations, cancellation/recovery, export and host resources.",
+      "id": "paperclipai-paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "canonical_repository": "paperclipai/paperclip",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "orchestration.paperclip"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README, package/license identity, deployment/budget/secret/adapter docs and selected Codex adapter source reviewed; no installation, onboarding, agents, credentials/accounts, heartbeat/provider calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "c9669a6c2237626ab0b0b2059d34c3965a86f02f"
+      ]
+    },
     {
       "repository": "aaif-goose/goose",
       "name": "Goose",
