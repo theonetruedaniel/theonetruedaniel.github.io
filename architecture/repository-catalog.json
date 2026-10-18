@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-18",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 241,
-  "github_repository_count": 139,
+  "registered_record_count": 256,
+  "github_repository_count": 154,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1356,6 +1356,58 @@
       "recorded_revisions": []
     },
     {
+      "repository": "calesthio/OpenMontage",
+      "name": "OpenMontage",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Agentic video planning, asset assembly, editing and render workflows.",
+      "fit": "H/I / Q-91: fframes, Q-67 media study and simple licensed-asset FFmpeg workflows.",
+      "disposition": "Source researched; planned and untested. AGPL-3.0 root signal. Python3.10+, Node18+, FFmpeg; a stock-footage/local path differs from a paid generative path. No publish/upload rights implied.",
+      "next_gate": "Review AGPL/assets/music/footage rights, provider schemas/eligibility, exact model/host, full render/storage cost, preview/quality, no silent paid fallback, Stop and removal.",
+      "id": "calesthio-openmontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "canonical_repository": "calesthio/OpenMontage",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "media.openmontage"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README and provider guide reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "c8066452325cb57c8fc1ba8c2a71b6e8842e6b65"
+      ]
+    },
+    {
+      "repository": "agent37-platform/minions",
+      "name": "Minions",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Hermes task/session supervision board with local task metadata.",
+      "fit": "H/I / Q-89: Core queue/UI and Q-83 Paperclip plus manual supervision.",
+      "disposition": "Source researched; planned and untested. MIT root signal. README Node 18+ differs from package engines >=20; 0.1.27 shell/rsync build paths need Windows qualification.",
+      "next_gate": "Verify Hermes version/schema, dual SQLite ownership, auth/bind, heartbeat/cron/child sessions, grants, claims/effect retries, model routes, Stop and export.",
+      "id": "agent37-platform-minions",
+      "url": "https://github.com/agent37-platform/minions",
+      "canonical_repository": "agent37-platform/minions",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "surface.minions"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README and package.json reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "a0787971cb207fd80f7e54991a52665874fe914a"
+      ]
+    },
+    {
       "repository": "open-webui/open-webui",
       "name": "Open WebUI",
       "layer": "Interface and media",
@@ -1662,6 +1714,84 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "kepano/defuddle",
+      "name": "Defuddle",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "HTML main-content extraction and Markdown normalization for research input.",
+      "fit": "F/I / Q-94: Raw source/DOM plus current extraction, Q-72 Firecrawl and Readability-style controls.",
+      "disposition": "Source researched; planned and untested. MIT root signal. 0.19.5; browser/Node DOM/CLI paths differ, Node import requires ESM per docs. Parsing Markdown is not factual verification.",
+      "next_gate": "Verify tables/code/math/footnotes/citations and deleted context, URL/file/DOM safety, fetch versus parse egress, size limits, dependencies and exact Windows build.",
+      "id": "kepano-defuddle",
+      "url": "https://github.com/kepano/defuddle",
+      "canonical_repository": "kepano/defuddle",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "research.defuddle"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README and package.json reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "556d74e8c8fd68c49912d4b11a4ae9ec04d7b2b5"
+      ]
+    },
+    {
+      "repository": "DeusData/codebase-memory-mcp",
+      "name": "Codebase Memory MCP",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Local code indexing and graph queries through MCP with optional visualization/chat.",
+      "fit": "F/H / Q-88: rg/LSP and Q-41 OpenGrok plus source-preserving Core projections.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Native C/SQLite/tree-sitter artifacts; main's Lens Beta differs from documented v0.11.0 release. Speed/token claims unverified.",
+      "next_gate": "Measure parser/graph correctness, stale/deleted/ignored files, generated code, file/privacy scope, resources, API/UI auth, read/write tools and exact local-model pairing.",
+      "id": "deusdata-codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "canonical_repository": "DeusData/codebase-memory-mcp",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "memory.codebase-memory-mcp"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1346ac4ea2835c15b1aa257e970abbd520e92c74"
+      ]
+    },
+    {
+      "repository": "ZeroPointRepo/youtube-skills",
+      "name": "YouTube Skills",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "YouTube transcript, video/channel/playlist search via TranscriptAPI-backed skills.",
+      "fit": "F/I / Q-86: Native transcript/source checks and direct eligible transcript services.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Matched to ZeroPointRepo from description and author profile; screenshot has no owner. Keep original-post identity confirmation gate.",
+      "next_gate": "Verify intended repository, TranscriptAPI pricing/quotas/key storage, authorized access, timestamp/language fidelity, coverage, privacy and cancellation.",
+      "id": "zeropointrepo-youtube-skills",
+      "url": "https://github.com/ZeroPointRepo/youtube-skills",
+      "canonical_repository": "ZeroPointRepo/youtube-skills",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "research.youtube-skills"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README including account/key setup reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "4f7994b94e7d5e250c3b51102d609992e04d5d0d"
+      ]
     },
     {
       "repository": "assafelovic/gpt-researcher",
@@ -2388,6 +2518,58 @@
       "recorded_revisions": []
     },
     {
+      "repository": "resemble-ai/detect-skill",
+      "name": "Resemble Detect Skill",
+      "layer": "Safety and recovery",
+      "stage": "shortlisted",
+      "purpose": "API-guided synthetic-media detection and follow-up media analysis.",
+      "fit": "F/I / Q-99: Provenance/source inspection and known-label synthetic test corpus.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal. Apache-2.0 wrapper uses hosted REST APIs. A completed score remains probabilistic evidence, not proof of authorship/authenticity or someone's intent.",
+      "next_gate": "Verify exact Detect model/API eligibility/cost, authorized uploads/retention, subgroup/base-rate calibration and false positives, incomplete/error results, privacy, bounded polling and deletion.",
+      "id": "resemble-ai-detect-skill",
+      "url": "https://github.com/resemble-ai/detect-skill",
+      "canonical_repository": "resemble-ai/detect-skill",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "media.resemble-detect"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "4d31eac1ff9aed33b9a0a192e64f7db57821dc9f"
+      ]
+    },
+    {
+      "repository": "mukul975/Anthropic-Cybersecurity-Skills",
+      "name": "Anthropic Cybersecurity Skills (community)",
+      "layer": "Safety and recovery",
+      "stage": "shortlisted",
+      "purpose": "Selected security-analysis and reporting skill references for scoped defensive fixtures.",
+      "fit": "H/J / Q-92: Independent manual/static review, Q-44 and existing security methods.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal. Community-owned mukul975 repository; name is not Anthropic endorsement. No bulk installation, scanning or attack execution.",
+      "next_gate": "Select exact defensive skill and lawful synthetic target; verify tool effects, framework/version mapping accuracy, finding validation, dependency rights, false positives, egress/cost and Stop.",
+      "id": "mukul975-anthropic-cybersecurity-skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "canonical_repository": "mukul975/Anthropic-Cybersecurity-Skills",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "skills.cybersecurity.mukul975"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "54a798831d2266a3ca61ce68a7acb80b81160d57"
+      ]
+    },
+    {
       "repository": "PurpleAILAB/Decepticon",
       "name": "Decepticon",
       "layer": "Safety and recovery",
@@ -2537,6 +2719,188 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "composio-community/skills",
+      "name": "Composio Community Skills",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Composio Tool Router/auth/trigger guidance and skill-creation references.",
+      "fit": "H/I/J / Q-98: Native/direct service adapters, existing skill creator and Q-27 Open Dot context.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Community repository metadata still references composiohq/skills. Build scripts generate agent docs; collection is not every app integration admitted.",
+      "next_gate": "Pin selected guides/scripts and provenance, separate service terms/costs, OAuth scopes/secret custody, event replay/effect grants, portability, Stop and removal.",
+      "id": "composio-community-skills",
+      "url": "https://github.com/composio-community/skills",
+      "canonical_repository": "composio-community/skills",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "skills.composio-community"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README and package.json reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "c4b270016aa8c832bb6d5824175da1bb94690b89"
+      ]
+    },
+    {
+      "repository": "AMAP-ML/SkillClaw",
+      "name": "SkillClaw",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Session-capture proxy and optional skill evolution/shared-library service.",
+      "fit": "H/J / Q-97: Unchanged/manual skills, Q-29 and Q-82 with Core-governed promotion.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Python>=3.10; Windows manual path documented. Background evolution is not permission to rewrite active Core policies/skills.",
+      "next_gate": "Inspect intercepted traffic/secrets/retention, local/OSS/S3 sharing, endpoint/config changes, poisoning/holdouts, cross-user isolation, explicit promotion/rollback, cumulative cost and Stop.",
+      "id": "amap-ml-skillclaw",
+      "url": "https://github.com/AMAP-ML/SkillClaw",
+      "canonical_repository": "AMAP-ML/SkillClaw",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "optimization.skillclaw"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "3938f7537645c961d94498a0a79fc0a977019595"
+      ]
+    },
+    {
+      "repository": "jakubkrehel/make-interfaces-feel-better",
+      "name": "Make Interfaces Feel Better",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Selected UI-polish and interaction-review guidance.",
+      "fit": "H/J / Q-96: Impeccable and existing design/accessibility controls.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Evaluate as advisory content; no UI changes or skill activation here.",
+      "next_gate": "Measure real usability/accessibility and reduced motion, preserve existing styling, avoid unrequested redesign, bound edits, verify references/rights and regressions.",
+      "id": "jakubkrehel-make-interfaces-feel-better",
+      "url": "https://github.com/jakubkrehel/make-interfaces-feel-better",
+      "canonical_repository": "jakubkrehel/make-interfaces-feel-better",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "skills.interfaces-feel-better"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README and selected SKILL.md reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "35545ea1512ad59fa463e6b1f95ca9c052981fe6"
+      ]
+    },
+    {
+      "repository": "Forward-Future/loopy",
+      "name": "Loopy / Loop Library",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Catalog and optional skill for bounded iterative agent workflows with checks and stop rules.",
+      "fit": "H/J / Q-95: Fixed-step/manual loops, Q-20 and Q-82 harness improvement.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Website catalog and optional Loopy skill are separate; installation does not host website. Node/npx installation not executed.",
+      "next_gate": "Pin selected loop and live-catalog content, validate independent verifier/budget/Stop, privacy, approval-before-publication and no implicit schedules.",
+      "id": "forward-future-loopy",
+      "url": "https://github.com/Forward-Future/loopy",
+      "canonical_repository": "Forward-Future/loopy",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "workflow.loopy"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "75966cbd572a4185064971c9fe5e9c52e8f8456d"
+      ]
+    },
+    {
+      "repository": "witt3rd/oh-my-hermes",
+      "name": "Oh My Hermes",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Hermes-native planning/research/verification orchestration skills and optional hooks/plugin.",
+      "fit": "H/J / Q-90: Hermes baseline, native methods, Q-84 and simple serial controls.",
+      "disposition": "Source researched; planned and untested. MIT root signal. witt3rd/master matches native-primitives description; other same-name projects are not silently admitted. Optional plugin Python3.10+/PyYAML.",
+      "next_gate": "Verify exact identity/client/plugin, bounded delegation, consensus versus truth, branch/stash/commit effects, evidence fidelity, costs, Stop and recovery.",
+      "id": "witt3rd-oh-my-hermes",
+      "url": "https://github.com/witt3rd/oh-my-hermes",
+      "canonical_repository": "witt3rd/oh-my-hermes",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "skills.oh-my-hermes"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "3b06e33ae67b202b342989b484f08143e65e250d"
+      ]
+    },
+    {
+      "repository": "addyosmani/agent-skills",
+      "name": "Addy Osmani Agent Skills",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Selected engineering methods from specification to verification and shipping.",
+      "fit": "H/J / Q-87: Existing native engineering, Q-73 and Q-84 skills; unchanged/manual controls.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Selected install can omit repository-level references; global Git rewrite suggestions are not authorized configuration.",
+      "next_gate": "Inspect per-skill references/dependencies, name conflicts, tool/delegation/write scopes, missing-reference packaging, held-out outcomes and updates.",
+      "id": "addyosmani-agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "canonical_repository": "addyosmani/agent-skills",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "skills.addyosmani"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README including per-skill reference portability warning reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "aeac41d4d005999432bb7312f7ff06383a91d59d"
+      ]
+    },
+    {
+      "repository": "blader/humanizer",
+      "name": "Humanizer",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Meaning-preserving prose editing for personal-assistant drafts.",
+      "fit": "H/J / Q-85: Existing stop-slop/voice editing and manual revision.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Skill metadata 3.1.0; editing guidance, not authorship evidence or truth verification.",
+      "next_gate": "Verify factual/voice/citation preservation, no detector-evasion success claim, instruction precedence and editing effort.",
+      "id": "blader-humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "canonical_repository": "blader/humanizer",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "skills.humanizer"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README and selected SKILL.md reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "8c307f367c91bd974002f10f2be2965d642c13df"
+      ]
     },
     {
       "repository": "mattpocock/skills",
@@ -3143,6 +3507,32 @@
       "evidence_basis": "README, repository listing and license-header screening; individual prompt bodies not evaluated.",
       "recorded_revisions": [
         "2d9b8f26c8b711481c19b63f1f62779432ef3768"
+      ]
+    },
+    {
+      "repository": "browser-use/browser-harness",
+      "name": "Browser Harness",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Agent-driven browser control over CDP using existing or separately hosted browsers.",
+      "fit": "I / Q-93: Existing browser tools, Browser Use/Playwright and Cua controls.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Python>=3.11 package0.1.13; vendor shared-cloud-browser benchmark does not qualify local authenticated Chrome.",
+      "next_gate": "Qualify isolated profile/CDP auth/ports, credential exposure, editable helpers/protected harness, prompt injection, navigation versus effects, recovery/replay, actual provider cost and Stop.",
+      "id": "browser-use-browser-harness",
+      "url": "https://github.com/browser-use/browser-harness",
+      "canonical_repository": "browser-use/browser-harness",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "browser.browser-harness"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README and pyproject reviewed as source material; no installation, activation, credentials/accounts, target/media/agent/model/service execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "c6a941287424f32e2d20c7b7b892c8493f46808d"
       ]
     },
     {
