@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-18",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 257,
-  "github_repository_count": 155,
+  "registered_record_count": 258,
+  "github_repository_count": 156,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -2745,6 +2745,32 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "alvinunreal/lazyskills",
+      "name": "LazySkills",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Terminal inventory, visibility checks and lock-based health/restore management for agent skills.",
+      "fit": "H/J / Q-101: Skill-management tooling for bake-off reproducibility and optional Core-controlled product inventory views.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Inventory/doctor is distinct from mutating restore/update/remove and from skill security or admission.",
+      "next_gate": "Compare upstream, eligible inventory components, minimal original read-only inventory and deferral; qualify Windows paths/symlinks, scope isolation, command provenance, races/partial recovery, egress, Stop, costs and removal.",
+      "id": "alvinunreal-lazyskills",
+      "url": "https://github.com/alvinunreal/lazyskills",
+      "canonical_repository": "alvinunreal/lazyskills",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "skills.lazyskills"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README, Go metadata and selected doctor/restore source reviewed; no install, activation, skill execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "4ce98ca91650d3a0154cd93bbed50fd65771f7b4"
+      ]
     },
     {
       "repository": "composio-community/skills",
