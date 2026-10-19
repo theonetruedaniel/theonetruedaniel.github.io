@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-18",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 258,
-  "github_repository_count": 156,
+  "registered_record_count": 259,
+  "github_repository_count": 157,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -3559,6 +3559,32 @@
       "evidence_basis": "README, repository listing and license-header screening; individual prompt bodies not evaluated.",
       "recorded_revisions": [
         "2d9b8f26c8b711481c19b63f1f62779432ef3768"
+      ]
+    },
+    {
+      "repository": "monid-ai/monid",
+      "name": "Monid",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Shared tool discovery/execution API and open connector engine for external service providers.",
+      "fit": "E/I/J / Q-102: Provider-neutral tool selection inside Abrams and matched external-tool bake-offs versus direct/native integrations.",
+      "disposition": "Source researched; planned and untested. MIT connector-layer source; hosted discovery, billing and service operations are separate. Tool routing does not qualify model routes or every catalog endpoint.",
+      "next_gate": "Compare hosted/upstream, eligible connector reuse, minimal original Core adapter and deferral; verify exact endpoint rights/costs, executable-hook isolation, grants/credentials/workspaces, data egress, spend holds, async replay, Stop, receipts and exit.",
+      "id": "monid-ai-monid",
+      "url": "https://github.com/monid-ai/monid",
+      "canonical_repository": "monid-ai/monid",
+      "link_checked": "2026-10-18",
+      "link_state": "verified",
+      "source_records": [
+        "tools.monid"
+      ],
+      "evidence_dates": [
+        "2026-10-18"
+      ],
+      "evidence_basis": "Pinned README, Deno/config metadata, selected auth/transport/link/run source and Exa definitions; dated hosted pricing/OAuth/run docs. No install, account, credentials, API/tool/model execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "96e1569dee3a0beee8a6aa8a70ec8c1773e32a21"
       ]
     },
     {
