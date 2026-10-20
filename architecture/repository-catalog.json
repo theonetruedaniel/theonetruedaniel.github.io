@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated": "2026-10-19",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 260,
+  "registered_record_count": 261,
   "github_repository_count": 158,
   "production_integrations_adopted": 0,
   "stage_definitions": {
@@ -4029,6 +4029,26 @@
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "state": "Q-78 / BO-05: pinned model/encoding intake; text/vision and tool-use quality, engine and pairing separate. MIT signal; about 510 GB checkpoint. Local execution hardware-deferred; hosted identity, terms, privacy, cost and support unqualified. Planned and untested.",
       "link_checked": "2026-10-17"
+    }
+  ],
+  "hosted_model_routes": [
+    {
+      "id": "model.mercury-3-hosted",
+      "name": "Mercury 3",
+      "url": "https://docs.inceptionlabs.ai/get-started/models",
+      "provider": "Inception",
+      "model_id": "mercury-3",
+      "base_url": "https://api.inceptionlabs.ai/v1",
+      "endpoint": "chat/completions",
+      "state": "Q-104 / BO-05 / E/H: hosted diffusion LLM for responsive general-assistant chat, research and tool use. Planned and untested; exact route/reasoning, privacy, protocol, latency-quality-cost and Stop qualification required. No verified local artifact.",
+      "link_checked": "2026-10-19",
+      "source_records": [
+        "model.mercury-3-hosted"
+      ],
+      "evidence_basis": "Official launch/models/streaming/reasoning/tool-use/rate-limit documentation observed October 19; no API/account/credential use or benchmark replication.",
+      "approval_scope": "none",
+      "execution_authority": "none",
+      "adopted_integration": false
     }
   ]
 }
