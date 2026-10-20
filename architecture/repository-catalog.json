@@ -3,7 +3,7 @@
   "updated": "2026-10-20",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
   "registered_record_count": 262,
-  "github_repository_count": 159,
+  "github_repository_count": 161,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,30 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "e2b-dev/awesome-ai-agents",
+      "name": "E2B Awesome AI Agents",
+      "layer": "Agent runtimes",
+      "stage": "collected",
+      "purpose": "Discovery directory of open and closed agent projects and use cases.",
+      "fit": "E-J / Q-107: gap discovery for general-assistant capabilities and bake-off tooling; individual projects need separate direct-source intake.",
+      "disposition": "Collected discovery reference; source reviewed, no executable candidate admission. Root LICENSE.md signals CC-BY-NC-SA-4.0. Descriptions may be stale; list membership is not qualification.",
+      "next_gate": "Resolve canonical identities and duplicates, verify selected projects directly, then assess rights, maintenance, cloud/local fit, data routes, costs and independent useful-task evidence. Do not bulk-install or inherit directory claims.",
+      "id": "e2b-dev-awesome-ai-agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "canonical_repository": "e2b-dev/awesome-ai-agents",
+      "link_checked": "2026-10-20",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-10-20"
+      ],
+      "evidence_basis": "Pinned README and root-tree/license metadata reviewed; lexical link overlap only, no validation of every listed project or execution.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "9596ab1e69fbbb6c95291141c8dab5c181083216"
+      ]
+    },
     {
       "repository": "paperclipai/paperclip",
       "name": "Paperclip",
@@ -2800,6 +2824,30 @@
       "evidence_basis": "Dated research reference; no new registered evaluation or execution authority.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "e2b-dev/awesome-ai-sdks",
+      "name": "E2B Awesome AI SDKs",
+      "layer": "Skills and development",
+      "stage": "collected",
+      "purpose": "Discovery directory of agent SDKs, frameworks, monitoring and deployment tools.",
+      "fit": "E-J / Q-107: gap discovery for general-assistant capabilities and bake-off tooling; individual projects need separate direct-source intake.",
+      "disposition": "Collected discovery reference; source reviewed, no executable candidate admission. No root license file in reviewed tree. Descriptions may be stale; list membership is not qualification.",
+      "next_gate": "Resolve canonical identities and duplicates, verify selected projects directly, then assess rights, maintenance, cloud/local fit, data routes, costs and independent useful-task evidence. Do not bulk-install or inherit directory claims.",
+      "id": "e2b-dev-awesome-ai-sdks",
+      "url": "https://github.com/e2b-dev/awesome-ai-sdks",
+      "canonical_repository": "e2b-dev/awesome-ai-sdks",
+      "link_checked": "2026-10-20",
+      "link_state": "verified",
+      "source_records": [],
+      "evidence_dates": [
+        "2026-10-20"
+      ],
+      "evidence_basis": "Pinned README and root-tree/license metadata reviewed; lexical link overlap only, no validation of every listed project or execution.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "7c55394afb3e27d755c89bb29f1c35a55888fcd4"
+      ]
     },
     {
       "repository": "alvinunreal/lazyskills",
