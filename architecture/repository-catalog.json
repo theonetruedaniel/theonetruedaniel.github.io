@@ -1542,24 +1542,27 @@
       "name": "ComfyUI",
       "layer": "Interface and media",
       "stage": "shortlisted",
-      "purpose": "Graph-based image-generation runtime.",
-      "fit": "H: replaceable image-job adapter under provider-neutral job controls.",
-      "disposition": "Planned; no image backend or model admission.",
-      "next_gate": "Exact runtime/model/resource intake and synthetic job, cancellation and artifact checks.",
+      "purpose": "Node-graph creative workflow engine, UI and API for model-based image, video, audio and other media processing.",
+      "fit": "H/I/J / Q-106: General-assistant creative backend and reproducible media-workflow bake-offs versus direct model APIs and smaller admitted pipelines.",
+      "disposition": "Source researched; planned and untested. GPL-3.0 root signal; models, frontend, nodes and hosted terms separate. Custom nodes execute Python; local and paid partner/cloud paths need distinct admission.",
+      "next_gate": "Compare upstream process/API, eligible licensed components, minimal original Core job adapter and deferral; qualify exact model/workflow/node pins, GPL/distribution rights, VRAM/RAM, process/files/network, queue/effect identity, Stop, metadata/privacy, costs and removal.",
       "id": "comfy-org-comfyui",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "canonical_repository": "Comfy-Org/ComfyUI",
-      "link_checked": "2026-10-07",
+      "link_checked": "2026-10-20",
       "link_state": "verified",
       "source_records": [
         "image.comfyui"
       ],
       "evidence_dates": [
-        "2026-09-04"
+        "2026-09-04",
+        "2026-10-20"
       ],
-      "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
+      "evidence_basis": "Pinned README, Python/requirements/version/security metadata and selected server/CLI/node-loader excerpts reviewed; no installation, models/nodes/downloads, API or workflow execution, accounts/credentials or full audit.",
       "adopted_integration": false,
-      "recorded_revisions": []
+      "recorded_revisions": [
+        "b1a247c9cf9dbfda4b2c0a0c1d50950667eeaa0c"
+      ]
     },
     {
       "repository": "CopilotKit/CopilotKit",
