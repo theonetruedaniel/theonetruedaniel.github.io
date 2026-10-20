@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 259,
-  "github_repository_count": 157,
+  "registered_record_count": 260,
+  "github_repository_count": 158,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -838,6 +838,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "Elevatormusic/hermes-warm-compaction",
+      "name": "Hermes Warm Compaction",
+      "layer": "Decision components",
+      "stage": "shortlisted",
+      "purpose": "Hermes context compaction using a cached main-model handoff, retained tail and tool-derived work ledger.",
+      "fit": "E/H/J / Q-103: General-assistant continuity and bake-off context fidelity versus native summaries, Q-11A Jev and bounded Core projections.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal. Cache benefit is route/server-dependent; historical synthetic results do not qualify current behavior. Hermes plugin is not durable canonical memory.",
+      "next_gate": "Compare pinned plugin, eligible ledger/layout components, minimal original Core projection and deferral; qualify exact host/provider/cache path, fallback egress, evidence/constraint retention, clipping, route races, cancellation, costs and rollback.",
+      "id": "elevatormusic-hermes-warm-compaction",
+      "url": "https://github.com/Elevatormusic/hermes-warm-compaction",
+      "canonical_repository": "Elevatormusic/hermes-warm-compaction",
+      "link_checked": "2026-10-19",
+      "link_state": "verified",
+      "source_records": [
+        "context.hermes-warm-compaction"
+      ],
+      "evidence_dates": [
+        "2026-10-19"
+      ],
+      "evidence_basis": "Pinned README/provider-support, Python/plugin metadata and selected engine/warm/fallback/ledger/register source reviewed; no installation, host configuration, provider/model calls, benchmark replication or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "be1ca35321d5eb61de8c593dcd8011e205928b9d"
+      ]
     },
     {
       "repository": "logicrw/awesome-jev-projects",
