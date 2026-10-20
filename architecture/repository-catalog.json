@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 261,
-  "github_repository_count": 158,
+  "registered_record_count": 262,
+  "github_repository_count": 159,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1742,6 +1742,32 @@
       "recorded_revisions": []
     },
     {
+      "repository": "aiming-lab/AutoResearchClaw",
+      "name": "AutoResearchClaw",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Staged literature, hypothesis, experiment, analysis and paper-drafting workflow with human-intervention modes.",
+      "fit": "F/H/J / Q-105: General-assistant evidence-backed research and bake-off experiment orchestration versus direct research and bounded Core workflows; complements Q-20.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Pipeline/citation-verification claims are unreplicated; local sandbox defaults can execute generated code on the host.",
+      "next_gate": "Compare upstream, eligible stage/verification components, minimal original Core workflow and deferral; protect sources/holdouts, qualify subprocess/container/CLI/remote paths, grants, data/model routes, real versus simulated results, cost reservations, Stop and promotion.",
+      "id": "aiming-lab-autoresearchclaw",
+      "url": "https://github.com/aiming-lab/AutoResearchClaw",
+      "canonical_repository": "aiming-lab/AutoResearchClaw",
+      "link_checked": "2026-10-20",
+      "link_state": "verified",
+      "source_records": [
+        "workflow.autoresearchclaw"
+      ],
+      "evidence_dates": [
+        "2026-10-20"
+      ],
+      "evidence_basis": "Pinned README, package/config and selected local/container sandbox and pipeline executor excerpts reviewed; no install/setup, agents, credentials, generated-code/research/model execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "be4ba4755bf1b52220f25e13b2293b5956590070"
+      ]
+    },
+    {
       "repository": "kepano/defuddle",
       "name": "Defuddle",
       "layer": "Memory and research",
@@ -3270,19 +3296,20 @@
       "purpose": "Reference method for bounded, measured improvement loops.",
       "fit": "H/J / Q-20: prompts, retrieval and skills compared under equal budgets.",
       "disposition": "Planned adaptation; original GPU training execution deferred.",
-      "next_gate": "Protected evaluator/holdout, edit/resource limits and separate promotion review.",
+      "next_gate": "Resolve exact license notice before reuse; protected evaluator/holdout, enforced edit/resource/spend limits, all-attempt evidence and separate promotion review.",
       "id": "karpathy-autoresearch",
       "url": "https://github.com/karpathy/autoresearch",
       "canonical_repository": "karpathy/autoresearch",
-      "link_checked": "2026-10-07",
+      "link_checked": "2026-10-20",
       "link_state": "verified",
       "source_records": [
         "workflow.karpathy-autoresearch"
       ],
       "evidence_dates": [
-        "2026-09-29"
+        "2026-09-29",
+        "2026-10-20"
       ],
-      "evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
+      "evidence_basis": "October 20 refresh: upstream pin unchanged; README/manifest rechecked alongside original Q-20 review. Build/reuse, license notice, protected evaluator and bounded-loop gates retained. No execution or full audit.",
       "adopted_integration": false,
       "recorded_revisions": [
         "228791fb499afffb54b46200aca536f79142f117"
