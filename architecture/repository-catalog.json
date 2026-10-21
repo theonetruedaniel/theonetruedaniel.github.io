@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-21",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 263,
-  "github_repository_count": 162,
+  "registered_record_count": 264,
+  "github_repository_count": 163,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -3663,6 +3663,32 @@
       "evidence_basis": "README, repository listing and license-header screening; individual prompt bodies not evaluated.",
       "recorded_revisions": [
         "2d9b8f26c8b711481c19b63f1f62779432ef3768"
+      ]
+    },
+    {
+      "repository": "pinchtab/pinchtab",
+      "name": "PinchTab",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Chrome control-plane HTTP server with structured page access, browser actions, profiles and instance orchestration.",
+      "fit": "G/H/I/J / Q-109: General-assistant web research and bounded browser tasks; compare native Playwright/CDP and existing browser backends, plus bake-off fixture orchestration.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Local privileged operator service; API/MCP/dashboard/profile capabilities and domain policy require exact qualification.",
+      "next_gate": "Compare pinned upstream, eligible bridge components, minimal original Core browser adapter and deferral; qualify profile/session isolation, exact auth/domain defaults, redirects/private hosts, effect grants, process containment, stale targets, Stop, privacy, resources and costs.",
+      "id": "pinchtab-pinchtab",
+      "url": "https://github.com/pinchtab/pinchtab",
+      "canonical_repository": "pinchtab/pinchtab",
+      "link_checked": "2026-10-21",
+      "link_state": "verified",
+      "source_records": [
+        "browser.pinchtab"
+      ],
+      "evidence_dates": [
+        "2026-10-21"
+      ],
+      "evidence_basis": "Pinned README, security guide/policy, Go/Docker metadata and selected auth/tab-policy source reviewed; no install/daemon/browser launch, profiles, credentials, navigation/actions, API/model execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "a62662027f233444c579c29fbe42ad90df0d5bc7"
       ]
     },
     {
