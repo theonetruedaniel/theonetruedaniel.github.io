@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 262,
-  "github_repository_count": 161,
+  "registered_record_count": 263,
+  "github_repository_count": 162,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -3663,6 +3663,32 @@
       "evidence_basis": "README, repository listing and license-header screening; individual prompt bodies not evaluated.",
       "recorded_revisions": [
         "2d9b8f26c8b711481c19b63f1f62779432ef3768"
+      ]
+    },
+    {
+      "repository": "HKUDS/CLI-Anything",
+      "name": "CLI-Anything",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Application-specific CLI harnesses and a source-guided method for generating structured agent-accessible commands.",
+      "fit": "H/I/J / Q-108: General-assistant desktop/document/creative tools and bake-off adapter construction versus native APIs/CLIs and Core adapters; includes Q-106 ComfyUI comparison.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; representative ComfyUI setup metadata says MIT, so component provenance needs reconciliation. Generated CLIs do not admit their apps or effects.",
+      "next_gate": "Compare pinned harness, eligible components, minimal original Core adapter and deferral; qualify exact target/version/rights, native effects and artifacts, paths/arguments/URLs, isolation, grants, retries/Stop, costs and removal.",
+      "id": "hkuds-cli-anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "canonical_repository": "HKUDS/CLI-Anything",
+      "link_checked": "2026-10-21",
+      "link_state": "verified",
+      "source_records": [
+        "tools.cli-anything"
+      ],
+      "evidence_dates": [
+        "2026-10-21"
+      ],
+      "evidence_basis": "Pinned README/security policy and representative ComfyUI setup, queue and HTTP-backend source reviewed; no plugin activation, generation, installation, target/CLI/model execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "34f519533bc175d2fe287ab8316b0dd99bb9cc43"
       ]
     },
     {
