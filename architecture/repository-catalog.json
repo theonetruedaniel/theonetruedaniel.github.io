@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-21",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 264,
-  "github_repository_count": 163,
+  "registered_record_count": 265,
+  "github_repository_count": 164,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1404,6 +1404,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "VERT-sh/VERT",
+      "name": "VERT",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Browser-based file conversion UI using local WebAssembly/media engines, with a separate server option for video.",
+      "fit": "F/H/I/J / Q-110: General-assistant document/media transformation and conversion bake-offs versus direct Pandoc/FFmpeg/ImageMagick and smaller Core adapters.",
+      "disposition": "Source researched; planned and untested. AGPL-3.0 root signal. Local browser conversion, external asset requests and video-server processing are distinct paths; no blanket offline/privacy qualification.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal original conversion adapter and deferral; qualify exact format fidelity/rights, offline egress, explicit video recipient, parser/resource limits, cancellation, artifact metadata, Windows/browser fit, costs and removal.",
+      "id": "vert-sh-vert",
+      "url": "https://github.com/VERT-sh/VERT",
+      "canonical_repository": "VERT-sh/VERT",
+      "link_checked": "2026-10-21",
+      "link_state": "verified",
+      "source_records": [
+        "conversion.vert"
+      ],
+      "evidence_dates": [
+        "2026-10-21"
+      ],
+      "evidence_basis": "Pinned README, package/env/video docs and selected converter/Pandoc/FFmpeg source reviewed; no install/build, file uploads/conversions, daemon, API/model execution or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "257bcb3b2bb6a501bae0faf9ffb05060ee00c3f7"
+      ]
     },
     {
       "repository": "calesthio/OpenMontage",
