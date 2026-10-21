@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-21",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 267,
-  "github_repository_count": 166,
+  "registered_record_count": 268,
+  "github_repository_count": 167,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,32 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "SouravBeraAkaSpeed/xiryn",
+      "name": "Xiryn",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Self-hosted personal agents with per-agent Docker Linux desktops, cloud/local model selection, memory, routines and optional Telegram control.",
+      "fit": "E/H/I/J / Q-113: General-assistant product/runtime and background workstation comparison versus Core/direct adapters, Hermes, OpenClaw and CUA; model routing evaluated separately.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Self-hosting does not establish local inference, safe Docker control, protected secrets or authority over effects.",
+      "next_gate": "Compare upstream, eligible component reuse, minimal original Core adapters and deferral; qualify Docker controller/guest boundaries, Windows resources, route/egress identity, vault/site/payment approvals, remote takeover, budgets, durable recovery, Stop and removal.",
+      "id": "souravberaakaspeed-xiryn",
+      "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+      "canonical_repository": "SouravBeraAkaSpeed/xiryn",
+      "link_checked": "2026-10-21",
+      "link_state": "verified",
+      "source_records": [
+        "runtime.xiryn"
+      ],
+      "evidence_dates": [
+        "2026-10-21"
+      ],
+      "evidence_basis": "Pinned README, architecture, security, deployment and package metadata reviewed with independent representative source screening; no install, Docker/model/Telegram execution or runtime qualification.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0a55cd9ecdc9f2d8dbb7ff057226607613dcc64b"
+      ]
+    },
     {
       "repository": "e2b-dev/awesome-ai-agents",
       "name": "E2B Awesome AI Agents",
