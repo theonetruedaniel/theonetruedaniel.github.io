@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-21",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 265,
-  "github_repository_count": 164,
+  "registered_record_count": 266,
+  "github_repository_count": 165,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1793,6 +1793,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "lfnovo/open-notebook",
+      "name": "Open Notebook",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Self-hosted source notebooks with retrieval, source-backed chat, transformations and optional podcast workflows across model providers.",
+      "fit": "F/H/I/J / Q-111: General-assistant research/learning workspace and evidence organization; compare Core retrieval/notebook views, direct provider adapters and existing research tools.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Self-hosted UI/storage does not imply all extraction, embedding, chat or speech is local. API password is optional in reviewed source.",
+      "next_gate": "Compare full upstream, eligible retrieval/UI components, minimal original Core research view and deferral; qualify source/citation fidelity, notebook isolation, auth/secrets, exact cloud/local routes, ingestion egress, async Stop, deletion/backup/export, resources and full costs.",
+      "id": "lfnovo-open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "canonical_repository": "lfnovo/open-notebook",
+      "link_checked": "2026-10-21",
+      "link_state": "verified",
+      "source_records": [
+        "research.open-notebook"
+      ],
+      "evidence_dates": [
+        "2026-10-21"
+      ],
+      "evidence_basis": "Pinned README, Python/Compose/env/security metadata and selected auth/source/search/credential excerpts reviewed; no install/services, data ingestion, credentials, provider/media/API/model calls or full audit.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "a0f6f3081ae06328f0a451b3a3ef2959ca25721d"
+      ]
     },
     {
       "repository": "aiming-lab/AutoResearchClaw",
