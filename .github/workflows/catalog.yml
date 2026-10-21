@@ -1,0 +1,30 @@
+name: Architecture catalog checks
+
+'on':
+  push:
+    branches: [main]
+    paths:
+      - 'architecture/repository-catalog.*'
+      - '.github/workflows/catalog.yml'
+  pull_request:
+    paths:
+      - 'architecture/repository-catalog.*'
+      - '.github/workflows/catalog.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+      - name: Check catalog filters, counts, uniqueness and evidence fields
+        run: node --test architecture/repository-catalog.test.mjs
