@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-21",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 266,
-  "github_repository_count": 165,
+  "registered_record_count": 267,
+  "github_repository_count": 166,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -1404,6 +1404,32 @@
       "evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "adopted_integration": false,
       "recorded_revisions": []
+    },
+    {
+      "repository": "spacedriveapp/spaceui",
+      "name": "SpaceUI",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "React design-system packages for tokens, primitives, forms, AI interaction and file-explorer interfaces.",
+      "fit": "H/I/J / Q-112: Reusable presentation components for Abrams chat, tools, models, knowledge and artifact views; compare existing UI primitives and minimal original components.",
+      "disposition": "Source researched; planned and untested. MIT root signal. Component presentation does not implement provider routing, permission grants, canonical task/memory state or file authority.",
+      "next_gate": "Compare upstream packages, eligible component reuse, minimal original UI and deferral; qualify React/Tailwind/bundler fit, untrusted rendering, keyboard/screen-reader/focus/contrast/motion, Core state/approval/Stop bindings, performance, rights, costs and removal.",
+      "id": "spacedriveapp-spaceui",
+      "url": "https://github.com/spacedriveapp/spaceui",
+      "canonical_repository": "spacedriveapp/spaceui",
+      "link_checked": "2026-10-21",
+      "link_state": "verified",
+      "source_records": [
+        "ui.spaceui"
+      ],
+      "evidence_dates": [
+        "2026-10-21"
+      ],
+      "evidence_basis": "Pinned README, integration guide and package metadata reviewed with independent representative component source screening; no dependency install/build, rendered accessibility/security test or runtime adoption.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "a48b17047d3ff1d05268acb6f88a79460ad4fa7b"
+      ]
     },
     {
       "repository": "VERT-sh/VERT",
