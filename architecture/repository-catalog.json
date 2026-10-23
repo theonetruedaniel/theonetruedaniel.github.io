@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-23",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 268,
-  "github_repository_count": 167,
+  "registered_record_count": 269,
+  "github_repository_count": 168,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,32 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "xerj-org/xerj",
+      "name": "XERJ",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Local-first Rust search engine and MCP server for BM25, vector/hybrid retrieval, code/document indexing and derived agent-memory views.",
+      "fit": "F/H/I/J / Q-115: General-assistant knowledge/project/log retrieval and bake-off source search versus SQLite FTS, existing vector/search tools and minimal Core retrieval adapters; optional Jev reranking separate.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 with NOTICE. Indexes/memory remain derived; insecure mode grants every reachable caller full access. Local, proxy embedding, reranking and corpus-import paths need separate qualification.",
+      "next_gate": "Compare upstream, eligible components, minimal original Core adapter and defer; qualify Windows/resources, indexing scope/parser fidelity, source rights, auth/namespace isolation, exact embedding/rerank/egress routes, deletion/rebuild, Stop, costs and exit.",
+      "id": "xerj-org-xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "canonical_repository": "xerj-org/xerj",
+      "link_checked": "2026-10-23",
+      "link_state": "verified",
+      "source_records": [
+        "retrieval.xerj"
+      ],
+      "evidence_dates": [
+        "2026-10-23"
+      ],
+      "evidence_basis": "Pinned README, Cargo/security/retrieval/corpus documentation and independent representative source screening; no install, indexing, model/corpus download, MCP/server/provider call or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "5ad85724e14602259f264de3e33fd0a9b5d106f0"
+      ]
+    },
     {
       "repository": "SouravBeraAkaSpeed/xiryn",
       "name": "Xiryn",
