@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 270,
-  "github_repository_count": 169,
+  "registered_record_count": 271,
+  "github_repository_count": 170,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,32 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "ruvnet/ruflo",
+      "name": "Ruflo",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Agent meta-harness with swarm/workflow coordination, memory/learning, model-routing integrations, MCP tools and client-specific hooks/plugins.",
+      "fit": "E/H/I/J / Q-117: General-assistant worker coordination and development/bake-off workflows versus Core queues/direct adapters, OpenRig, Paperclip and Reason Network; exact cloud/local route and memory quality tests separate.",
+      "disposition": "Source researched; planned and untested. MIT root signal; repository retains Claude Flow package identities. Advertised orchestration, learning and governance do not establish exact package/client enforcement, useful-task gains or production admission.",
+      "next_gate": "Compare selected upstream, eligible components, minimal original Core adapters and defer; qualify package/protocol/Windows identity, init/hooks/mod permissions, canonical state/learning promotion, cloud/local routing and fallback, egress/auth, budgets, all-child Stop, resources and exit.",
+      "id": "ruvnet-ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "canonical_repository": "ruvnet/ruflo",
+      "link_checked": "2026-10-24",
+      "link_state": "verified",
+      "source_records": [
+        "orchestration.ruflo"
+      ],
+      "evidence_dates": [
+        "2026-10-24"
+      ],
+      "evidence_basis": "Pinned README, root package/license/security and selected host/audit/meta-harness docs with independent representative source screening; no install, init/hooks/mods, agents, model calls or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "d36d72a9ff6c8fa4fa728f44ff535f2c0b5bd7cc"
+      ]
+    },
     {
       "repository": "xorcise-ai/xorcise",
       "name": "XORCISE",
