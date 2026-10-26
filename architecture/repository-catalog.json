@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-26",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
   "registered_record_count": 271,
   "github_repository_count": 170,
@@ -328,25 +328,27 @@
       "name": "OpenRig",
       "layer": "Agent runtimes",
       "stage": "shortlisted",
-      "purpose": "Persistent coding-agent teams with topology, queues, shared context and session recovery.",
-      "fit": "H/I/J / Q-57: development and bake-off coordination versus a simple bounded worker queue; compare Q-55 lifecycle and Q-56 supervision separately.",
-      "disposition": "Source researched; planned and untested. WSL2 prerequisite on Windows; native Windows unsupported. No runtime admission.",
-      "next_gate": "Review startup hook/trust/permission mutations and exact WSL2/provider pins; test isolated matched teams, queue/effect recovery, all-child Stop, total cost and context leakage before live use.",
+      "purpose": "Persistent coding-agent teams with topology, task ownership/queues, shared context, tmux sessions and recovery.",
+      "fit": "H/I/J / Q-57 refresh: General-assistant development and bake-off coordination versus serial work/simple Core queue, AgentBridge Q-59, Paperclip Q-83 and Ruflo Q-117; lifecycle/supervision evidence separate.",
+      "disposition": "Source researched; planned and untested. New source pin reports 0.7.1. WSL2 remains the Windows route; native Windows unsupported and WSL2 automation unverified. Kernel and team permission defaults differ; no runtime admission.",
+      "next_gate": "Compare pinned upstream, eligible coordination components, minimal original Core queue and defer; qualify exact WSL2/client/native modules, setup/startup trust/hooks/global mutations, effective permissions/routes, context/queue/effect recovery, aggregate budgets, all-child Stop, resources and removal.",
       "id": "mvschwarz-openrig",
       "url": "https://github.com/mvschwarz/openrig",
       "canonical_repository": "mvschwarz/openrig",
-      "link_checked": "2026-10-16",
+      "link_checked": "2026-10-26",
       "link_state": "verified",
       "source_records": [
         "orchestration.openrig"
       ],
       "evidence_dates": [
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-26"
       ],
-      "evidence_basis": "Pinned README, security policy, package metadata and as-built daemon/lifecycle docs reviewed; no execution or full audit.",
+      "evidence_basis": "Pinned README, license/security/package metadata and independent representative source screening refreshed; historical intake retained; no install, setup, hooks, daemon/team launch, session adoption, messages or provider calls.",
       "adopted_integration": false,
       "recorded_revisions": [
-        "e0c65c41e429678272522eb5f9875583a69b48a5"
+        "e0c65c41e429678272522eb5f9875583a69b48a5",
+        "44e10a1e5b44012d65319b689d22aad607a6b2bc"
       ]
     },
     {
