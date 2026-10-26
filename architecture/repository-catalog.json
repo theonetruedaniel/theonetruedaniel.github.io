@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated": "2026-10-26",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 271,
+  "registered_record_count": 272,
   "github_repository_count": 170,
   "production_integrations_adopted": 0,
   "stage_definitions": {
@@ -3756,22 +3756,24 @@
       "name": "REA",
       "layer": "Skills and development",
       "stage": "shortlisted",
-      "purpose": "CLI/MCP artifact analysis and investigation of integration points for app-repository candidates.",
-      "fit": "H/J / Q-38: optional artifact/interoperability study and bake-off integration aid; compare source-first/direct-tool controls and independently verified adapter outcomes.",
-      "disposition": "Source researched; planned and untested. Scope includes integration maps, behavior gaps and adaptation effort; benchmark acceptance remains with the harness.",
-      "next_gate": "Review exact tool/provider/host scopes, licenses, isolation and egress; verify integration maps, effort estimates and resulting adapters with independent tests.",
+      "purpose": "CLI/MCP artifact analysis and bake-off integration aid; selective investigation tool for the major-chatbot interface/workflow contender study.",
+      "fit": "H/I/J / Q-38 plus Q-118: Named as-is ChatGPT, Codex, Claude, Gemini and Perplexity interface/workflow contenders, with further identified products and separately tested original Abrams variants; REA supports scoped artifact questions.",
+      "disposition": "Existing REA source screen retained. Q-118 is newly planned and untested: no chatbot UI/artifact/runtime inspected, app build pinned or reconstruction made. Frontend study cannot establish proprietary backend behavior or reuse rights.",
+      "next_gate": "Compare each identified product/surface as-is, rights-qualified components, original Abrams interaction variants and defer; pin future app/web/account/feature context, distinguish observation/static inference/backend unknowns, qualify privacy/rights, accessibility/tasks/Core bindings, costs and exit.",
       "id": "morluto-rea",
       "url": "https://github.com/morluto/rea",
       "canonical_repository": "morluto/rea",
       "link_checked": "2026-10-12",
       "link_state": "verified",
       "source_records": [
-        "tool.rea"
+        "tool.rea",
+        "app.major-chatbot-interface-study"
       ],
       "evidence_dates": [
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-26"
       ],
-      "evidence_basis": "Pinned README, package metadata, security policy and Windows Ghidra P0 documentation screened; no execution or full audit.",
+      "evidence_basis": "Pinned README, package metadata, security policy and Windows Ghidra P0 documentation screened; no execution or full audit. October 26 planning addition only: major chatbot UI/app/workflow contender study; no new REA or chatbot analysis.",
       "adopted_integration": false,
       "recorded_revisions": [
         "0043d9b134c0a353e8bf85c0bde4492275f1f720"
