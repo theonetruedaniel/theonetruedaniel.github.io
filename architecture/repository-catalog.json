@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-26",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 272,
-  "github_repository_count": 170,
+  "registered_record_count": 274,
+  "github_repository_count": 172,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -13,6 +13,58 @@
     "adopted": "Adopted integration"
   },
   "repositories": [
+    {
+      "repository": "codewithMUHILAN/Lightswind-UI-Library",
+      "name": "Lightswind UI",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Copy-source React UI components with animated effects, CLI delivery and MCP discovery; free and Pro content have separate scopes.",
+      "fit": "H/I/J / Q-119: Selected general-assistant presentation components versus SpaceUI Q-112/current primitives and original components; Q-118 interaction studies remain separate.",
+      "disposition": "Source researched; planned and untested. MIT public-root signal; Pro assets separately licensed. Accessibility, motion, responsive/resource behavior and mutable hosted delivery need qualification.",
+      "next_gate": "Compare upstream, eligible components, minimal original UI and defer; pin delivered source/dependencies/rights, CLI/MCP/config/credential/analytics effects, keyboard/focus/reduced motion, Core bindings, performance, costs and removal.",
+      "id": "codewithmuhilan-lightswind-ui-library",
+      "url": "https://github.com/codewithMUHILAN/Lightswind-UI-Library",
+      "source_records": [
+        "ui.lightswind"
+      ],
+      "evidence_basis": "Pinned README/package/license, representative component/CLI/MCP source and official pricing-page screen; no install, auth, UI rendering or runtime accessibility/security qualification.",
+      "recorded_revisions": [
+        "53ef2ee0cf211a794a3bb4b2ed1e62d3f0f2544a"
+      ],
+      "canonical_repository": "codewithMUHILAN/Lightswind-UI-Library",
+      "link_checked": "2026-10-26",
+      "link_state": "verified",
+      "evidence_dates": [
+        "2026-10-26"
+      ],
+      "adopted_integration": false
+    },
+    {
+      "repository": "StarTrail-org/LEANN",
+      "name": "LEANN",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Compact vector retrieval using graph-based selective embedding recomputation, with document/code ingestion, RAG applications and MCP access.",
+      "fit": "F/H/I/J / Q-120: General-assistant personal/project knowledge and bake-off source retrieval versus Core FTS, conventional vector search and XERJ Q-115; embedding/answer routes separate.",
+      "disposition": "Source researched; planned and untested. MIT root signal; model/native dependency and data-source rights separate. Storage/privacy/accuracy claims are not local measurements; recomputation changes resource/latency trade-offs.",
+      "next_gate": "Compare upstream, eligible components, minimal Core adapter and defer; qualify Windows/WSL/backend identity, source/model fidelity and egress, index serialization/MCP/path trust, update/deletion/rebuild, resources/recall/latency, Stop, costs and exit.",
+      "id": "startrail-org-leann",
+      "url": "https://github.com/StarTrail-org/LEANN",
+      "source_records": [
+        "retrieval.leann"
+      ],
+      "evidence_basis": "Pinned README, Python/MCP/security metadata and independent representative source screening; no install, data/index/model downloads, indexing, MCP/embedding/LLM calls or benchmark.",
+      "recorded_revisions": [
+        "a63f484a0b00627fbc641b500ee377d35344eb72"
+      ],
+      "canonical_repository": "StarTrail-org/LEANN",
+      "link_checked": "2026-10-26",
+      "link_state": "verified",
+      "evidence_dates": [
+        "2026-10-26"
+      ],
+      "adopted_integration": false
+    },
     {
       "repository": "ruvnet/ruflo",
       "name": "Ruflo",
