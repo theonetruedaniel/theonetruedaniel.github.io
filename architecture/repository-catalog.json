@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-27",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 276,
-  "github_repository_count": 174,
+  "registered_record_count": 277,
+  "github_repository_count": 175,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4423,6 +4423,32 @@
       ],
       "evidence_basis": "Pinned README/license/package metadata and representative source screening with independent review; no installation, memory capture/import, model/provider/MCP calls or benchmark.",
       "adopted_integration": false
+    },
+    {
+      "repository": "Egonex-AI/Understand-Anything",
+      "name": "Understand Anything",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Interactive codebase and knowledge-base graphs, explanations, guided tours, search and change-impact views combining static analysis and LLM interpretation.",
+      "fit": "H/I/J / Q-123: Personal/project knowledge exploration and development/bake-off repository understanding versus rg/Git/LSP, OpenGrok Q-41, Codebase Memory MCP Q-88 and REA Q-38; retrieval and inferred relationships evaluated separately.",
+      "disposition": "Source researched; planned and untested. MIT public-root signal; generated graph claims and advertised client compatibility are not verified completeness, correctness, permissions or Windows results.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal original Core projection and defer; qualify source/claim provenance, graph freshness and deletion, client/model egress, project/path grants, dashboard endpoints, native builds/resources, Stop, costs and export/removal.",
+      "id": "egonex-ai-understand-anything",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "canonical_repository": "Egonex-AI/Understand-Anything",
+      "link_checked": "2026-10-27",
+      "link_state": "verified",
+      "source_records": [
+        "knowledge.understand-anything"
+      ],
+      "evidence_dates": [
+        "2026-10-27"
+      ],
+      "evidence_basis": "Pinned README/package/license and representative source screening with independent review; no installation, project scanning, graph generation, server/client activation, model calls or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "4e6d3299017a7432da15957874992837a315c5b4"
+      ]
     }
   ],
   "model_repositories": [
