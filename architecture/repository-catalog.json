@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 274,
-  "github_repository_count": 172,
+  "registered_record_count": 276,
+  "github_repository_count": 174,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4371,6 +4371,58 @@
       "recorded_revisions": [
         "f46704c4bed5100e36f6493b8253f62c99d34afd"
       ]
+    },
+    {
+      "repository": "rohitg00/agentmemory",
+      "name": "AgentMemory",
+      "purpose": "Persistent cross-session and cross-agent observations, decisions and lessons, with coding-agent integrations and MCP access.",
+      "fit": "F/H/I/J / Q-121: General-assistant continuity and development/bake-off handoffs versus Core canonical memory, Hindsight, Mem0 and explicit notes; broader personal-domain value measured separately.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; default shared agent scope, provider auto-detection and consolidation require explicit isolation and route qualification.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal Core adapter and defer; qualify grants/project isolation, capture and injection, explicit local/cloud routes, provenance/conflicts, deletion/export/recovery, Windows/resources, Stop and full costs.",
+      "id": "rohitg00-agentmemory",
+      "source_records": [
+        "memory.agentmemory"
+      ],
+      "recorded_revisions": [
+        "c5b8ebfb32eb6a08fe301d3bb75840f3597b66c8"
+      ],
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "canonical_repository": "rohitg00/agentmemory",
+      "link_checked": "2026-10-27",
+      "link_state": "verified",
+      "evidence_dates": [
+        "2026-10-27"
+      ],
+      "evidence_basis": "Pinned README/license/package metadata and representative source screening with independent review; no installation, memory capture/import, model/provider/MCP calls or benchmark.",
+      "adopted_integration": false
+    },
+    {
+      "repository": "memvid/memvid",
+      "name": "Memvid",
+      "purpose": "Portable single-file versioned memory and retrieval using the current Rust v2 .mv2 format, lexical search and optional vector/embedding features.",
+      "fit": "F/H/I/J / Q-122: Personal/project knowledge and portable derived memory versus Core SQLite FTS, Hindsight, LEANN Q-120 and conventional vector retrieval; memory policy and canonical truth stay in Core.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; current v2 differs from legacy QR/video descriptions. Tombstone deletion is not demonstrated physical erasure; cloud and local features need separate qualification.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal Core adapter and defer; qualify exact SDK/feature/model identity, Windows and native resources, offline/egress, WAL/crash/rebuild/concurrency, retained versions/deletion/export, Stop and full costs.",
+      "id": "memvid-memvid",
+      "source_records": [
+        "memory.memvid"
+      ],
+      "recorded_revisions": [
+        "e6bd9f7b9c38cd8d5370fa0fc936ac1dcd751813"
+      ],
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "url": "https://github.com/memvid/memvid",
+      "canonical_repository": "memvid/memvid",
+      "link_checked": "2026-10-27",
+      "link_state": "verified",
+      "evidence_dates": [
+        "2026-10-27"
+      ],
+      "evidence_basis": "Pinned README/license/package metadata and representative source screening with independent review; no installation, memory capture/import, model/provider/MCP calls or benchmark.",
+      "adopted_integration": false
     }
   ],
   "model_repositories": [
@@ -4426,3 +4478,4 @@
     }
   ]
 }
+
