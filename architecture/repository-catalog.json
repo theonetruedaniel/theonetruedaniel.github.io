@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 277,
-  "github_repository_count": 175,
+  "registered_record_count": 278,
+  "github_repository_count": 176,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4448,6 +4448,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "4e6d3299017a7432da15957874992837a315c5b4"
+      ]
+    },
+    {
+      "repository": "Edge0-AI/Edge0",
+      "name": "Edge0",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Streaming sparse-MoE inference using SSD expert offload with platform-specific engines, model adapters and routing prediction.",
+      "fit": "E/H/I/J / Q-124: Local general-assistant model serving under memory pressure versus conventional llama.cpp/Ollama, AirLLM Q-43 and LiteRT-LM Q-68; engine conformance, model quality and exact pairing remain separate.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; model/adapters and patched engine require separate pins and rights. Headline low-RAM claims and warm-memory Windows timings are not laptop measurements.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal Core serving adapter and defer; qualify exact platform/model/quantization/LoRA/prerouter/engine artifacts, full RAM/VRAM/SSD and context pressure, API/tool fidelity, offline/egress, cancellation/recovery, costs and removal.",
+      "id": "edge0-ai-edge0",
+      "url": "https://github.com/Edge0-AI/Edge0",
+      "canonical_repository": "Edge0-AI/Edge0",
+      "link_checked": "2026-10-28",
+      "link_state": "verified",
+      "source_records": [
+        "inference.edge0"
+      ],
+      "evidence_dates": [
+        "2026-10-28"
+      ],
+      "evidence_basis": "Pinned README/platform/package/license and representative source screening with independent review; no install, build, model download/conversion, inference/server activation or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "e9cc00cfb44b0fd2abf7195dcbe707b75ea6c3e5"
       ]
     }
   ],
