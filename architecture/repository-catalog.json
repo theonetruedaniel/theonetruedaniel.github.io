@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-10-28",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 278,
-  "github_repository_count": 176,
+  "registered_record_count": 279,
+  "github_repository_count": 177,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4474,6 +4474,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "e9cc00cfb44b0fd2abf7195dcbe707b75ea6c3e5"
+      ]
+    },
+    {
+      "repository": "Mesh-LLM/mesh-llm",
+      "name": "Mesh LLM",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Distributed model serving with peer discovery/routing and Skippy native inference/stage splits behind an OpenAI-compatible API.",
+      "fit": "E/H/I/J / Q-125: General-assistant compute pooling and model access across permitted machines versus direct local serving, Core route adapters, Edge0 Q-124 and existing routing candidates; single-node, peer routing and model splits compared separately.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root signal; auto mode can download models and join a public mesh. Local API, encrypted transport and pooled compute do not establish private inference, trusted peers or model quality.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal Core adapter and defer; qualify local/private/public modes, peer identity/grants/egress and fallback, exact model/runtime/split artifacts, Windows/network/resources, API/cancellation/recovery, costs and removal.",
+      "id": "mesh-llm-mesh-llm",
+      "url": "https://github.com/Mesh-LLM/mesh-llm",
+      "canonical_repository": "Mesh-LLM/mesh-llm",
+      "link_checked": "2026-10-28",
+      "link_state": "verified",
+      "source_records": [
+        "inference.mesh-llm"
+      ],
+      "evidence_dates": [
+        "2026-10-28"
+      ],
+      "evidence_basis": "Pinned README/security/license/build metadata and representative source screening with independent review; no install, setup, model download, inference, peer discovery/network join or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "877de9fa94f8868b33091f4ae81b6cc25368ee55"
       ]
     }
   ],
