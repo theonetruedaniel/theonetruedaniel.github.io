@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 279,
-  "github_repository_count": 177,
+  "registered_record_count": 280,
+  "github_repository_count": 178,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4500,6 +4500,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "877de9fa94f8868b33091f4ae81b6cc25368ee55"
+      ]
+    },
+    {
+      "repository": "CopilotKit/generative-ui",
+      "name": "CopilotKit Generative UI guide",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Documentation and examples for controlled, declarative and open-ended agent UI; supplied repository is README/assets and points to the existing CopilotKit monorepo.",
+      "fit": "E/H/I/J / Q-126: General-assistant task cards, forms, research/project views and interactive artifacts versus fixed UI; extends CopilotKit Q-21 alongside OpenMuse Q-22 without selecting an interface concept.",
+      "disposition": "Source researched; planned and untested. Guide/resource repository, not a runnable standalone framework. No root license found at intake; CopilotKit licensing does not automatically license this snapshot/assets. Monorepo implementation requires separate artifact review.",
+      "next_gate": "Compare existing fixed UI, selected upstream patterns, rights-cleared components, minimal original Core UI and defer; qualify implementation/spec versions, generated content/schema/iframe isolation, state/effect grants, accessibility, replay/Stop, routes, costs and removal.",
+      "id": "copilotkit-generative-ui",
+      "url": "https://github.com/CopilotKit/generative-ui",
+      "canonical_repository": "CopilotKit/generative-ui",
+      "link_checked": "2026-10-29",
+      "link_state": "verified",
+      "source_records": [
+        "ui.generative-ui-patterns"
+      ],
+      "evidence_dates": [
+        "2026-10-29"
+      ],
+      "evidence_basis": "Pinned guide/asset-tree review and independent consolidation/license screen; no package installed, demo run, generated UI rendered, service/model call or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "12aa81e3deeb9c6c15c7863b67a3f8f63144e383"
       ]
     }
   ],
