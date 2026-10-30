@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 280,
+  "registered_record_count": 281,
   "github_repository_count": 178,
   "production_integrations_adopted": 0,
   "stage_definitions": {
