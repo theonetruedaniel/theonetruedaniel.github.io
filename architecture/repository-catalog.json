@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 281,
-  "github_repository_count": 178,
+  "registered_record_count": 282,
+  "github_repository_count": 179,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4526,6 +4526,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "12aa81e3deeb9c6c15c7863b67a3f8f63144e383"
+      ]
+    },
+    {
+      "repository": "Ryder-Sun/Meldwork",
+      "name": "Meldwork",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Local-first Electron workspace coordinating existing agent CLIs through direct chats, concurrent responses and multi-agent discussion with run history and human decisions.",
+      "fit": "E/H/I/J / Q-128: General-assistant research/writing/projects and bake-off coordination versus single-agent/Core workflows, Hermes/Ruflo and existing workspace studies; product adaptation, component reuse and independent implementation separate.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root/commercial-use signal; current 1.0.8 preview targets Apple-silicon macOS. Local coordination does not prove offline models, enforced containment, correct peer review or Windows compatibility.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal Core adapter/workspace and defer; qualify native CLI/model/permission pairing, credential/data egress, cross-run write conflicts, IPC/attachments/ledger fidelity, bounded aggregate cost, Stop/recovery/export/removal and Windows portability.",
+      "id": "ryder-sun-meldwork",
+      "url": "https://github.com/Ryder-Sun/Meldwork",
+      "canonical_repository": "Ryder-Sun/Meldwork",
+      "link_checked": "2026-10-31",
+      "link_state": "verified",
+      "source_records": [
+        "workspace.meldwork"
+      ],
+      "evidence_dates": [
+        "2026-10-31"
+      ],
+      "evidence_basis": "Pinned README/package/license/commercial/security metadata and representative source screening with independent review; no install, CLI/provider invocation, workspace attachment import, build or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "ef405bb7219c9d929d86d26893da37c6741e8df7"
       ]
     }
   ],
