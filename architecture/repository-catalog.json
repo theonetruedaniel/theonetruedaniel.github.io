@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-02",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 284,
-  "github_repository_count": 181,
+  "registered_record_count": 285,
+  "github_repository_count": 182,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4604,6 +4604,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "1e6fe6cbff8556d4d2afd366e5b4668bffef30dd"
+      ]
+    },
+    {
+      "repository": "Orkas-AI/Orkas",
+      "name": "Orkas",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Electron multi-agent desktop workspace with a coordinating Commander, specialist agents, project context/memory, to-dos, scheduled automations, connectors and external CLI agents.",
+      "fit": "E/H/I/J / Q-131: General-assistant research, writing, documents/media/projects and bake-off coordination versus single-agent/Core workflows, Meldwork Q-128, Hermes, OpenMuse and Ruflo; whole-app adaptation and components separately compared.",
+      "disposition": "Source researched; planned and untested. MIT root signal; Windows/macOS packaging and cloud/local route claims need exact artifact/pairing qualification. Local-first state does not prove offline inference, bounded autonomy, enforced permissions or accurate outcomes.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal Core workspace/adapter and defer; qualify provider/CLI credentials and egress, tool/shell/connector grants, scheduler/auto-advance and effect replay, memory provenance, aggregate cost, Windows lifecycle, Stop/recovery/export/removal.",
+      "id": "orkas-ai-orkas",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "canonical_repository": "Orkas-AI/Orkas",
+      "link_checked": "2026-11-02",
+      "link_state": "verified",
+      "source_records": [
+        "workspace.orkas"
+      ],
+      "evidence_dates": [
+        "2026-11-02"
+      ],
+      "evidence_basis": "Pinned README/package/license and representative source screening with independent review; no install/build/postinstall, model download/provider/CLI/connector calls, schedules or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "dce78adb2a2ffdfbf9159cc89352e4335940bc64"
       ]
     }
   ],
