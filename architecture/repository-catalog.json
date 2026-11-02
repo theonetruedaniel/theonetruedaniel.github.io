@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 282,
-  "github_repository_count": 179,
+  "registered_record_count": 283,
+  "github_repository_count": 180,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4552,6 +4552,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "ef405bb7219c9d929d86d26893da37c6741e8df7"
+      ]
+    },
+    {
+      "repository": "joaniberian9588/janas",
+      "name": "Janas (identity unresolved)",
+      "layer": "Models and inference",
+      "stage": "collected",
+      "purpose": "Source/provenance check of a repository advertised as low-memory MoE inference; pinned tree instead identifies a Python paper-PDF retrieval/conversion package.",
+      "fit": "E/H/J / Q-129: Resolve identity and artifact provenance before any comparison with Edge0, AirLLM or local inference controls; observed paper tooling is not automatically a separate eligible candidate.",
+      "disposition": "Collected reference; provenance-blocked and untested. README, package metadata and source identity conflict. MIT text is present but does not establish download provenance, Windows/inference capability or archive safety.",
+      "next_gate": "Reconcile maintainer/upstream/history, source-to-release mapping and rights; require inspectable matching implementation and immutable artifact hashes before any execution review. Do not install, run linked downloads or load the bundled archive.",
+      "id": "joaniberian9588-janas",
+      "url": "https://github.com/joaniberian9588/janas",
+      "canonical_repository": "joaniberian9588/janas",
+      "link_checked": "2026-11-01",
+      "link_state": "verified",
+      "source_records": [
+        "research.janas-provenance"
+      ],
+      "evidence_dates": [
+        "2026-11-01"
+      ],
+      "evidence_basis": "Pinned README, recursive tree, Python metadata/license/context and independent passive provenance screen; no binary/archive download, extraction, installation, model load or execution.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "c993d3227cd8f9fc1c870bbce9b7434cfc157434"
       ]
     }
   ],
