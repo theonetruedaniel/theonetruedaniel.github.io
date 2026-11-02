@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 283,
-  "github_repository_count": 180,
+  "registered_record_count": 284,
+  "github_repository_count": 181,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4578,6 +4578,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "c993d3227cd8f9fc1c870bbce9b7434cfc157434"
+      ]
+    },
+    {
+      "repository": "lightpanda-io/browser",
+      "name": "Lightpanda Browser",
+      "layer": "Tools and browsing",
+      "stage": "shortlisted",
+      "purpose": "Zig headless browser engine for DOM/JavaScript automation and structured extraction with browser-control protocol integrations.",
+      "fit": "G/H/I/J / Q-130: General-assistant web research and controlled DOM tasks versus Chromium/Playwright, Camofox and Pinchtab; extraction, interactive effects and visual-browser fidelity compared separately.",
+      "disposition": "Source researched; planned and untested. AGPL-3.0-only signal; no native Windows binary, WSL2/Linux pairing separate. Upstream speed/memory figures and protocol compatibility are not local task results or complete browser equivalence.",
+      "next_gate": "Compare pinned upstream, rights-qualified components, minimal Core transport adapter and defer; qualify exact CDP/BiDi/client coverage, DOM/JS/site and rendering limits, egress/SSRF/control auth, sessions/profile isolation, WSL/resources, Stop/recovery, costs and removal.",
+      "id": "lightpanda-io-browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "canonical_repository": "lightpanda-io/browser",
+      "link_checked": "2026-11-02",
+      "link_state": "verified",
+      "source_records": [
+        "browser.lightpanda"
+      ],
+      "evidence_dates": [
+        "2026-11-02"
+      ],
+      "evidence_basis": "Pinned README/license/build/security metadata and representative source screening with independent review; no install/build/WSL change, browser or CDP/MCP activation, website actions or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1e6fe6cbff8556d4d2afd366e5b4668bffef30dd"
       ]
     }
   ],
