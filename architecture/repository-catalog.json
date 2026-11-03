@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 285,
-  "github_repository_count": 182,
+  "registered_record_count": 286,
+  "github_repository_count": 183,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4630,6 +4630,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "dce78adb2a2ffdfbf9159cc89352e4335940bc64"
+      ]
+    },
+    {
+      "repository": "vercel-labs/agent-desktop",
+      "name": "Agent Desktop",
+      "layer": "Devices and access",
+      "stage": "shortlisted",
+      "purpose": "Native accessibility-tree computer-use CLI and C library with snapshot-scoped element references, structured action/errors and platform-specific desktop adapters.",
+      "fit": "G/H/I/J / Q-132: General-assistant native desktop observation/action and verification versus qualified native UIA, trycua/cua, OpenMausBot and agent-bridge controls; accessibility transport, agent/model and exact app/action pairing separate.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 signal; Windows/macOS/Linux source and packages require exact host/helper qualification. Headless accessibility actions still create effects; stale-reference guards do not replace authorization or Stop.",
+      "next_gate": "Compare pinned upstream, eligible components, minimal Core native adapter and defer; qualify Windows integrity/helper identity, app/window/refs and headed fallback, action grants/receipts, screenshot/clipboard/artifact and JEV egress, CLI/C surfaces, Stop/recovery, costs and removal.",
+      "id": "vercel-labs-agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "canonical_repository": "vercel-labs/agent-desktop",
+      "link_checked": "2026-11-03",
+      "link_state": "verified",
+      "source_records": [
+        "desktop.agent-desktop"
+      ],
+      "evidence_dates": [
+        "2026-11-03"
+      ],
+      "evidence_basis": "Pinned README/Cargo/license/security metadata and representative native/source screening with independent review; no install/build/permission grant, screen/app/clipboard access, CLI/FFI execution or model call.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "d3dc190afbf34cd2377252398ddd5c30efbd093a"
       ]
     }
   ],
