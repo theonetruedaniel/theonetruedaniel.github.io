@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-03",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 286,
-  "github_repository_count": 183,
+  "registered_record_count": 287,
+  "github_repository_count": 184,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4656,6 +4656,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "d3dc190afbf34cd2377252398ddd5c30efbd093a"
+      ]
+    },
+    {
+      "repository": "routerhubSI/uncensored-ai-api",
+      "name": "RouterHub API reference",
+      "layer": "Models and inference",
+      "stage": "collected",
+      "purpose": "Documentation and client examples for a hosted multi-model gateway advertising OpenAI/Anthropic compatibility; no self-hostable gateway backend found in the pinned tree.",
+      "fit": "E/H/J / Q-133: General-assistant cloud route/provider switching versus direct providers, OpenRouter, 9router and eligible local routes; hosted trust, exact model quality and client compatibility evaluated separately.",
+      "disposition": "Collected hosted-provider reference; planned and untested. MIT docs do not license or verify the service. Live public endpoint/model/rate listings differ from pinned dashboard-placeholder docs; upstream identity, privacy, billing and fallback remain unqualified.",
+      "next_gate": "Qualify counterparty/service terms, exact endpoint/model/version/account route and data recipients, retention/training/caching, billing/rate limits, SDK/stream/tool fidelity, failure/fallback/Stop and exit before a synthetic pilot. Compare direct use, eligible docs/client reuse, minimal Core adapter and defer.",
+      "id": "routerhubsi-uncensored-ai-api",
+      "url": "https://github.com/routerhubSI/uncensored-ai-api",
+      "canonical_repository": "routerhubSI/uncensored-ai-api",
+      "link_checked": "2026-11-03",
+      "link_state": "verified",
+      "source_records": [
+        "provider.routerhub-reference"
+      ],
+      "evidence_dates": [
+        "2026-11-03"
+      ],
+      "evidence_basis": "Pinned documentation/tree/license and independent public-service screen; no account/key creation, authenticated dashboard, API/provider calls, payment, install or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "0c361604156fa44c8f49c36d1847f6b9bdd0a53f"
       ]
     }
   ],
