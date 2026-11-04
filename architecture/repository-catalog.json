@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-03",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 289,
-  "github_repository_count": 186,
+  "registered_record_count": 292,
+  "github_repository_count": 189,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4734,6 +4734,84 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "4f7745afbd9d0197c6475b4c7ac846d4932eaeda"
+      ]
+    },
+    {
+      "repository": "JetBrains/thinkrail",
+      "name": "ThinkRail",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Agentic coding IDE around pi, with worktree workspaces, living specs, concurrent chats, multi-provider/custom model servers and desktop/browser workbench.",
+      "fit": "E/H/I/J / Q-136: Development and bake-off integration workspace plus general-assistant interaction/component research versus Core/current tools, Meldwork, Orkas and existing chatbot UI study; coding scope does not establish a complete personal assistant.",
+      "disposition": "Source researched; planned and untested. Apache-2.0; Bun1.4.4/pi1.5.0 with Windows source/artifact paths. Worktrees are not sandboxes. Keyed human runs retain basic/error telemetry despite no-analytics; saved-model fallback can select another available model without a separate warning.",
+      "next_gate": "Compare upstream, eligible UI/spec/workspace components, minimal original Core adapter and defer; qualify exact Windows/package/provider pairing, command/MCP/extension/GitHub grants, telemetry/credentials/egress, explicit routes and fallback, all-child Stop/recovery, costs and removal.",
+      "id": "jetbrains-thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "canonical_repository": "JetBrains/thinkrail",
+      "link_checked": "2026-11-03",
+      "link_state": "verified",
+      "source_records": [
+        "workspace.thinkrail"
+      ],
+      "evidence_dates": [
+        "2026-11-03"
+      ],
+      "evidence_basis": "Pinned README/license/package and representative source with independent read-only review; no installation, candidate execution, credentials/provider calls, benchmark, downloads of models/firmware or host changes.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "c10f8808cee693e4abffeeb1844a132ed0a91cc5"
+      ]
+    },
+    {
+      "repository": "Nutlope/hallmark",
+      "name": "Hallmark",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Design skill with theme/reference material, static/rendered lint and screenshot tooling for generated interfaces and explicit redesign/audit workflows.",
+      "fit": "H/I/J / Q-137: General-assistant UI concepts, artifacts and bake-off design-quality review versus Impeccable, existing design methods and minimal original checklist; preserve equal-fidelity Calm Canvas, Intelligence Desk and Living Library concepts.",
+      "disposition": "Source researched; planned and untested. MIT package2.0.0/Node18+; browser checks require Chrome/Puppeteer. Skill is not a UI runtime. Photo/model assets retain separate terms; optional Together image generation and repository-only evaluation cost extra.",
+      "next_gate": "Compare upstream skill, eligible references/lint, minimal original checklist and defer; qualify asset attribution/rights, untrusted HTML/Chrome isolation and remote resources, accessibility/task fidelity, protected data/wiring, independent blind review, total generation/evaluation costs and cancellation. No redesign selected.",
+      "id": "nutlope-hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "canonical_repository": "Nutlope/hallmark",
+      "link_checked": "2026-11-03",
+      "link_state": "verified",
+      "source_records": [
+        "skill.hallmark"
+      ],
+      "evidence_dates": [
+        "2026-11-03"
+      ],
+      "evidence_basis": "Pinned README/license/package and representative source with independent read-only review; no installation, candidate execution, credentials/provider calls, benchmark, downloads of models/firmware or host changes.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "52328cb3129135499e4e178d4864ee90029dea2b"
+      ]
+    },
+    {
+      "repository": "Zagitta/gpu-unlock",
+      "name": "GPU Unlock",
+      "layer": "Models and inference",
+      "stage": "collected",
+      "purpose": "Linux boot-time kernel module and packaging that adjust supported GeForce tensor speed selectors before the stock NVIDIA driver binds.",
+      "fit": "A/B/E/J / Q-138: Deferred optional host-performance research for eligible local inference/training/image workloads; compare unchanged stock configuration first. Not an inference engine, model, Windows utility or additional VRAM.",
+      "disposition": "Collected/deferred host experiment; untested. VERSION2.0.0, Linux kernel/initramfs/DKMS changes with separately licensed firmware. Workload-specific tensor-throughput claims do not imply faster memory-bound token decode; native Windows is outside this repository.",
+      "next_gate": "Before any execution establish actual supported GPU/PCI/OS/kernel/driver and task need, firmware/license provenance, signing/Secure Boot compatibility, boot/display/power/suspend recovery and reversible rollback on a separate recoverable host. Measure matched end-to-end quality/throughput/latency/power/thermals; preserve current host-readiness gates.",
+      "id": "zagitta-gpu-unlock",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "canonical_repository": "Zagitta/gpu-unlock",
+      "link_checked": "2026-11-03",
+      "link_state": "verified",
+      "source_records": [
+        "host.gpu-unlock-reference"
+      ],
+      "evidence_dates": [
+        "2026-11-03"
+      ],
+      "evidence_basis": "Pinned README/license/package and representative source with independent read-only review; no installation, candidate execution, credentials/provider calls, benchmark, downloads of models/firmware or host changes.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "7eb51bccae0a0b7e599e084d971170e9a1e82d0c"
       ]
     }
   ],
