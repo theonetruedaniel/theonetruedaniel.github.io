@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-03",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 287,
-  "github_repository_count": 184,
+  "registered_record_count": 288,
+  "github_repository_count": 185,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4682,6 +4682,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "0c361604156fa44c8f49c36d1847f6b9bdd0a53f"
+      ]
+    },
+    {
+      "repository": "microsoft/agent-lightning",
+      "name": "Agent Lightning",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Benchmark-guided editable-agent optimization skill plus v1 reinforcement-learning infrastructure using real agent harnesses, a model proxy and local/Kubernetes rollout controllers.",
+      "fit": "E/H/J / Q-134: General-assistant and bake-off improvement of prompts, tools, workflows and model routing versus SkillOpt, autoresearch and bounded manual optimization; GPU weight training is a separate deferred variant. Opik/Braintrust remain measurement controls.",
+      "disposition": "Source researched; planned and untested. MIT package1.0.3/Python>=3.12. Prioritize the GPU-independent skill study; v1 RL requires a qualified CUDA/verl/vLLM stack. Native Windows local runner unsupported; installation docs default W&B trajectory uploads; gateway defaults unauthenticated on all interfaces.",
+      "next_gate": "Compare upstream skill/framework, eligible components, minimal original Core experiment loop and defer. Freeze scorer/holdouts/deployment contract, paired repeated cross-domain trials and all-attempt optimization plus deployed cost; qualify rights, data/egress, gateway auth, worker environment/isolation, Stop/recovery, resources and exit. No automatic promotion or route admission.",
+      "id": "microsoft-agent-lightning",
+      "url": "https://github.com/microsoft/agent-lightning",
+      "canonical_repository": "microsoft/agent-lightning",
+      "link_checked": "2026-11-03",
+      "link_state": "verified",
+      "source_records": [
+        "workflow.agent-lightning"
+      ],
+      "evidence_dates": [
+        "2026-11-03"
+      ],
+      "evidence_basis": "Pinned README/license/package, installation/gateway/controller docs, optimization skill and representative local-controller source with independent review; no skill installation, workers, GPU/cloud setup, telemetry upload, model/API calls or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "cbc56e41e0eab643aa71d195e92e5bba652fa683"
       ]
     }
   ],
