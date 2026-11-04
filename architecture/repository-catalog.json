@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 292,
-  "github_repository_count": 189,
+  "registered_record_count": 293,
+  "github_repository_count": 190,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4812,6 +4812,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "7eb51bccae0a0b7e599e084d971170e9a1e82d0c"
+      ]
+    },
+    {
+      "repository": "cloudflare/computer",
+      "name": "Cloudflare Computer",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Durable Object SQLite-backed virtual filesystem and pluggable execution workspace with isolated JavaScript, simulated shell and Linux container backends.",
+      "fit": "E/H/I/J / Q-139: Bounded cloud workers, durable scratch files, code execution and artifact creation for the broad personal assistant and bake-off integration; compare Core minimal workers, Substrate, SPACE and qualified sandbox controls. Separate filesystem-only, JavaScript, shell and container variants.",
+      "disposition": "Source researched; planned and untested. MIT @cloudflare/computer0.9.0 at a main source pin; release availability unverified. Upstream marks core filesystem/JavaScript stable but shell/container/sync/recovery features experimental. Cloud SQLite authority stays scoped to the workspace, not Abrams canonical state.",
+      "next_gate": "Compare upstream, eligible filesystem/runtime components, minimal original Core worker adapter and defer. Qualify Cloudflare entitlements and costs, exact backend/image/bindings/egress/auth, source/artifact rights and retention, resource/concurrency limits, replay/idempotent effects, durable evidence/export and all-worker Stop/billing release before a synthetic trial.",
+      "id": "cloudflare-computer",
+      "url": "https://github.com/cloudflare/computer",
+      "canonical_repository": "cloudflare/computer",
+      "link_checked": "2026-11-04",
+      "link_state": "verified",
+      "source_records": [
+        "infra.cloudflare-computer"
+      ],
+      "evidence_dates": [
+        "2026-11-04"
+      ],
+      "evidence_basis": "Pinned README/license/package/status and representative workspace/runtime/egress/backend source with independent read-only review; no install, deployment, Cloudflare resources/accounts/credentials, model/provider calls, private-data upload or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "b995d86503eab22793ba1feb07c3c67818e6f6b9"
       ]
     }
   ],
