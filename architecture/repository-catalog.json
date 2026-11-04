@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-03",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 288,
-  "github_repository_count": 185,
+  "registered_record_count": 289,
+  "github_repository_count": 186,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4708,6 +4708,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "cbc56e41e0eab643aa71d195e92e5bba652fa683"
+      ]
+    },
+    {
+      "repository": "MemPalace/mempalace",
+      "name": "MemPalace",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Verbatim conversation/project memory with structured semantic retrieval, pluggable vector backends, temporal entity graph and CLI/MCP access.",
+      "fit": "E/F/I/J / Q-135; BO-06/BO-07: General-assistant source-linked recall across people, projects, research and everyday tasks versus Core relational/FTS, Hindsight, AgentMemory and Memvid; shared hub, background ingestion and task coordination are separately gated variants.",
+      "disposition": "Source researched; planned and untested. MIT package3.12.0/Python>=3.10 at a develop pin. Default embedded Chroma disables anonymized telemetry; local embeddings need first-use model downloads. Upstream retrieval-recall scores do not establish answer accuracy or superiority over other memory systems.",
+      "next_gate": "Compare upstream, eligible components, minimal original Core retrieval adapter and defer. Qualify source rights/provenance, correction/deletion across revisions/backups/replicas, exact embedder/backend/Windows resources, cloud/hub egress/auth, untrusted recall, ingestion scope and all-worker Stop. Use held-out matched recall plus grounded-answer/abstention tests and total costs.",
+      "id": "mempalace-mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "canonical_repository": "MemPalace/mempalace",
+      "link_checked": "2026-11-03",
+      "link_state": "verified",
+      "source_records": [
+        "memory.mempalace"
+      ],
+      "evidence_dates": [
+        "2026-11-03"
+      ],
+      "evidence_basis": "Pinned README/license/package, benchmark disclosure and representative backend/embedding/provider/MCP/deletion source with independent review; no install, model download, personal-data scan/import, hooks/services/schedules, hub connection, API/model calls or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "4f7745afbd9d0197c6475b4c7ac846d4932eaeda"
       ]
     }
   ],
