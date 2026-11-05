@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 293,
-  "github_repository_count": 190,
+  "registered_record_count": 294,
+  "github_repository_count": 191,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4838,6 +4838,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "b995d86503eab22793ba1feb07c3c67818e6f6b9"
+      ]
+    },
+    {
+      "repository": "kalil0321/reverse-api-engineer",
+      "name": "Reverse API Engineer",
+      "layer": "Tools and browsing",
+      "stage": "collected",
+      "purpose": "Browser-traffic capture and model-assisted generation of typed API clients, with manual/agent capture, prior-HAR regeneration and a separate structured-data collector.",
+      "fit": "F/H/I/J / Q-140: Authorized API-adapter discovery and integration work for broad personal-assistant tasks and bake-off repositories, alongside REA Q-38 and CLI-Anything; compare official APIs/OpenAPI/SDKs, manual capture/minimal Core adapter and browser controls.",
+      "disposition": "Collected methodology/component reference; direct use deferred and untested. MIT package0.14.0/Python>=3.11. Source prompts explicitly hardcode captured credentials/tokens and add automatic reauthentication; agent backends auto-approve broad tools. These defaults require replacement before use. Default real-Chrome capture has no reusable HAR.",
+      "next_gate": "Compare official APIs first, eligible components, a minimal original Core adapter and defer. Replace hardcoded secrets and automatic permissions with scoped secret references, redaction and fail-closed grants; qualify synthetic target/action rights, exact browser/SDK/model recipients, dependency pins, client correctness/retries/idempotency, retention, all-child Stop and total cost.",
+      "id": "kalil0321-reverse-api-engineer",
+      "url": "https://github.com/kalil0321/reverse-api-engineer",
+      "canonical_repository": "kalil0321/reverse-api-engineer",
+      "link_checked": "2026-11-05",
+      "link_state": "verified",
+      "source_records": [
+        "tool.reverse-api-engineer"
+      ],
+      "evidence_dates": [
+        "2026-11-05"
+      ],
+      "evidence_basis": "Pinned README/license/package and representative capture/agent/config/runtime source with independent read-only review; no install, target browsing/capture, cookie access, generated-client execution, credentials/provider calls or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "cd221e9ef5fe30d4fb66ad0d5198f179191aca57"
       ]
     }
   ],
