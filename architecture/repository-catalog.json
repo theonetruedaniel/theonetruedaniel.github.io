@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-07",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 294,
-  "github_repository_count": 191,
+  "registered_record_count": 295,
+  "github_repository_count": 192,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4864,6 +4864,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "cd221e9ef5fe30d4fb66ad0d5198f179191aca57"
+      ]
+    },
+    {
+      "repository": "puppyone-ai/puppyone",
+      "name": "PuppyOne",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "File-centric Electron workspace for local folders, document views, agent sessions and optional Git-backed cloud collaboration with MCP/CLI/SSH access.",
+      "fit": "E/H/I/J / Q-141: Broad personal-assistant file/artifact workspace and local/cloud multi-agent handoff, plus bake-off integration review; compare Core file adapters, Cloudflare Computer, Meldwork and Orkas. Keep local-only, cloud sharing and each agent/provider pairing separate.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 desktop0.4.2/Electron41 source with Windows-x64 packaging paths; brands and third-party assets have separate terms. Optional cloud/agent connectivity and Git history do not establish data grants, full rollback or complete audit.",
+      "next_gate": "Compare upstream, eligible workspace/document/adapter components, minimal original Core file interface and defer. Qualify exact Windows/native/runtime pairing, path/IPC/tool permissions, agent/model/cloud recipients and auth, telemetry, file fidelity/conflicts/history/restore/deletion, all-agent Stop, cloud-service provenance/entitlements, costs and removal; preserve canonical Core state.",
+      "id": "puppyone-ai-puppyone",
+      "url": "https://github.com/puppyone-ai/puppyone",
+      "canonical_repository": "puppyone-ai/puppyone",
+      "link_checked": "2026-11-07",
+      "link_state": "verified",
+      "source_records": [
+        "workspace.puppyone"
+      ],
+      "evidence_dates": [
+        "2026-11-07"
+      ],
+      "evidence_basis": "Pinned README/package/license/NOTICE/privacy and representative cloud/agent/filesystem source with independent read-only review; no install/build, folder opening/import, cloud publication/sync, agent/credential/provider calls or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "1dcc67b9ade2e5c23e484fbb2e8d483d0e95d60e"
       ]
     }
   ],
