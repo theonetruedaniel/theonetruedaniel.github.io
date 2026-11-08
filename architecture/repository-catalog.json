@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-08",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 296,
-  "github_repository_count": 193,
+  "registered_record_count": 297,
+  "github_repository_count": 194,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4916,6 +4916,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "c447003f72a822301e927196a4ecb5b597c308d5"
+      ]
+    },
+    {
+      "repository": "Bearisbug/imbo",
+      "name": "Imbo",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Cross-tool and cross-machine messaging for coding-agent sessions, with background delivery, contacts/groups, attachments and optional phone/web access.",
+      "fit": "H/I/J / Q-143: Bounded agent handoffs, cross-review and remote coordination for Abrams development/bake-off work; compare AgentBridge, OpenRig, PuppyOne handoffs, manual relay and minimal Core review queue. Messaging is not a complete assistant, sandbox or grant to execute requests.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 Rust0.2.24/MSRV1.90, macOS/Linux only. Direct automatic inbound execution deferred: MCP instructions tell agents to follow sender requests without local confirmation and exempt replies from outbound checks. Setup expands tool approvals/hooks; messages may reopen sessions.",
+      "next_gate": "Compare upstream, eligible transport/inbox components, minimal original Core handoff queue and defer. Qualify sender/recipient/action grants, untrusted messages/attachments and auto-resume, exact host/hooks/config/daemon pairing, relay encryption/retention/auth, fan-out/deduplication, all-session Stop/revocation, costs and cleanup before synthetic messaging.",
+      "id": "bearisbug-imbo",
+      "url": "https://github.com/Bearisbug/imbo",
+      "canonical_repository": "Bearisbug/imbo",
+      "link_checked": "2026-11-08",
+      "link_state": "verified",
+      "source_records": [
+        "coordination.imbo"
+      ],
+      "evidence_dates": [
+        "2026-11-08"
+      ],
+      "evidence_basis": "Pinned README/Cargo/license and representative client/server delivery/auth/setup source with independent read-only review; no install, daemon/hooks/config changes, accounts/contacts/messages, attachments, provider calls or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "f91d019f2732e1aa2b46b9d4160474c83bfe8334"
       ]
     }
   ],
