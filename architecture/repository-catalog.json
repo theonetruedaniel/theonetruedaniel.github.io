@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 295,
-  "github_repository_count": 192,
+  "registered_record_count": 296,
+  "github_repository_count": 193,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4890,6 +4890,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "1dcc67b9ade2e5c23e484fbb2e8d483d0e95d60e"
+      ]
+    },
+    {
+      "repository": "NVIDIA/auto-ontology",
+      "name": "NVIDIA Auto-Ontology",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Semantic catalog and ontology layer over relational metadata/data, with graph-based context retrieval, natural-language SQL workflows and API/CLI/MCP access.",
+      "fit": "E/F/I/J / Q-142; BO-06/BO-07: Broad-assistant structured-data understanding, entity/metric definitions, provenance and grounded analytics versus Core relational/FTS, curated schemas and eligible graph/retrieval controls including Semantica/Hindsight. Schema generation, retrieval and SQL execution are separate variants.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 package1.2.0/Python>=3.12,<3.14, Postgres/pgvector plus web/backend/ingestion stack. Defaults use hosted NVIDIA NIM roles; local deployment does not establish local inference. Generated ontologies and SQL remain proposals, not canonical facts or guaranteed deterministic answers.",
+      "next_gate": "Compare upstream, eligible metadata/schema/retrieval components, minimal original Core semantic adapter and defer. Qualify source rights and provenance/certification/corrections, database/tenant read-only grants and query limits, model endpoint/key/embedding pairing and egress, secrets/auth/ports, host/resources, all-query/worker Stop, deletion/export, total costs and independent held-out answer checks.",
+      "id": "nvidia-auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "canonical_repository": "NVIDIA/auto-ontology",
+      "link_checked": "2026-11-08",
+      "link_state": "verified",
+      "source_records": [
+        "knowledge.auto-ontology"
+      ],
+      "evidence_dates": [
+        "2026-11-08"
+      ],
+      "evidence_basis": "Pinned README/license/package/deployment/model configuration and representative catalog/query/auth source with independent read-only review; no install, containers, source/database import, credentials, model/API/query execution or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "c447003f72a822301e927196a4ecb5b597c308d5"
       ]
     }
   ],
