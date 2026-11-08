@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-08",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 297,
-  "github_repository_count": 194,
+  "registered_record_count": 298,
+  "github_repository_count": 195,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4942,6 +4942,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "f91d019f2732e1aa2b46b9d4160474c83bfe8334"
+      ]
+    },
+    {
+      "repository": "ItzCrazyKns/Vane",
+      "name": "Vane (formerly Perplexica)",
+      "layer": "Memory and research",
+      "stage": "shortlisted",
+      "purpose": "Self-hosted search-and-answer workspace combining SearxNG, web/document retrieval, citations, research modes and selectable local or cloud model providers.",
+      "fit": "E/F/H/I/J / Q-144: General-assistant research/learning, cited answers and document questions versus Core search/source adapter, HyperResearch, GPT Researcher and Open Notebook; research pipeline, selected UI components and whole application are separate comparisons.",
+      "disposition": "Source researched; planned and untested. MIT package1.12.2/Next16 with SQLite/native/browser dependencies; old Perplexica repository redirects to this same identity. Local deployment does not make web searches, remote models or uploaded-document processing private/offline; citations require independent verification.",
+      "next_gate": "Compare upstream, eligible retrieval/source/UI components, minimal original Core research adapter and defer. Qualify auth/config/secret boundaries, exact provider/embedding/search recipients, URL/SSRF/browser and upload isolation, source fidelity/citation coverage, retention/deletion/export, host/resources, complete cancellation and total per-answer cost.",
+      "id": "itzcrazykns-vane",
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "canonical_repository": "ItzCrazyKns/Vane",
+      "link_checked": "2026-11-08",
+      "link_state": "verified",
+      "source_records": [
+        "research.vane"
+      ],
+      "evidence_dates": [
+        "2026-11-08"
+      ],
+      "evidence_basis": "Pinned README/license/package/Compose/config/search/upload source and verified Perplexica redirect with independent read-only review; no install/build, searches/scraping, uploads, credentials, model/provider calls or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "348feca3e378fb4157b217724ed508dc707f853f"
       ]
     }
   ],
