@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-08",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 298,
-  "github_repository_count": 195,
+  "registered_record_count": 299,
+  "github_repository_count": 196,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -4968,6 +4968,32 @@
       "adopted_integration": false,
       "recorded_revisions": [
         "348feca3e378fb4157b217724ed508dc707f853f"
+      ]
+    },
+    {
+      "repository": "lxe/phoneuse",
+      "name": "PhoneUse",
+      "layer": "Devices and access",
+      "stage": "shortlisted",
+      "purpose": "Real-iPhone observation and input transport from Linux: AirPlay screen mirroring plus Bluetooth HID mouse/keyboard, optional ESP32 Wi-Fi bridge, CLI and MCP actions.",
+      "fit": "G/H/I/J / Q-145: Separately gated real-iPhone observation/action and user takeover for broad personal-assistant mobile tasks; compare qualified iPhone access/direct app APIs and relevant cua/desktop controls by role, without inheriting Android/emulator/simulator results.",
+      "disposition": "Source researched; planned and untested. MIT technology demo tested upstream on one iPhone17Pro/iOS26 Arch/Hyprland setup; no native Windows qualification. Installation changes privileged Bluetooth services; saved passcode, screenshot/model handling and optional bridge require exact device/host scope.",
+      "next_gate": "Compare upstream, eligible mirror/HID components, minimal original Core device adapter and defer. Qualify iPhone/iOS/BlueZ/display/model pairing, host Bluetooth rollback, target binding/auth, passcode/unlock grants, screen/credential/model egress, bridge replay/firmware rights, action receipts/takeover/all-input Stop, resources/cost and cleanup before reset-device synthetic trials.",
+      "id": "lxe-phoneuse",
+      "url": "https://github.com/lxe/phoneuse",
+      "canonical_repository": "lxe/phoneuse",
+      "link_checked": "2026-11-08",
+      "link_state": "verified",
+      "source_records": [
+        "device.phoneuse"
+      ],
+      "evidence_dates": [
+        "2026-11-08"
+      ],
+      "evidence_basis": "Pinned README/license/architecture and representative install/config/unlock/HID/vision source with independent read-only review; no installation, services, pairing, phone/screen/passcode access, firmware/model download, input actions or benchmark.",
+      "adopted_integration": false,
+      "recorded_revisions": [
+        "3bcecde243b5e024989bd7b043794271a9180863"
       ]
     }
   ],
