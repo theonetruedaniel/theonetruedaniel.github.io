@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-09",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 299,
-  "github_repository_count": 196,
+  "registered_record_count": 300,
+  "github_repository_count": 197,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -15164,6 +15164,94 @@
         ],
         "execution_authority": "none"
       }
+    },
+    {
+      "repository": "meta/astryx",
+      "canonical_repository": "meta/astryx",
+      "id": "meta-astryx",
+      "name": "Astryx",
+      "url": "https://github.com/meta/astryx",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Beta React19+ design system with typed components, themes, prebuilt CSS and agent-oriented documentation/scaffolding/customization CLI.",
+      "fit": "E/H/I/J / Q-146: Broad personal-assistant chat, projects, files, settings and activity UI primitives versus SpaceUI Q-112, Lightswind Q-119, current primitives and minimal original components; Impeccable remains a separate advisory-content baseline.",
+      "disposition": "Source researched; planned and untested. MIT root; core/CLI0.7.12, React19+ and StyleX. Component accessibility and consumer styling claims require rendered qualification. CLI/global setup, scaffolding, codemods and source ejection are separate file/config-changing capabilities. CLI/global setup deferred: global invocation defaults to home-level agent-instruction writes and can start detached workers/package downloads.",
+      "next_gate": "Keep CLI/global setup deferred; separate file/config grants, background worker retirement and package-cache/network review before any tooling trial. Compare upstream library, eligible components/tokens, minimal original UI and defer. Pin package/CSS/theme/dependency/assets and delivered CLI content; qualify Windows/Node/React bundling, keyboard/screen-reader/focus/reduced-motion/zoom, SSR/hydration/theme layering, resource costs, file/config grants/diffs/rollback, Core approval/route/Stop bindings and removal.",
+      "source_records": [
+        "ui.astryx"
+      ],
+      "link_checked": "2026-11-09",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "c0327e060d77676be9754e10998995fe4f38a345"
+      ],
+      "evidence_dates": [
+        "2026-11-09"
+      ],
+      "evidence_basis": "Pinned README/LICENSE/core+CLI manifests and documentation, representative implementation and independent source review; no package install, scaffolding, global setup, rendering or runtime accessibility/security benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-09",
+        "reviewed_revision": "c0327e060d77676be9754e10998995fe4f38a345",
+        "review_state": "source-reviewed-bounded",
+        "findings": [
+          "Root MIT license inspected; package manifests core/CLI0.7.12. React19+ peer requirement aligns with the separate browser demo React19.2 manifest, but does not qualify package integration or product UI.",
+          "Consumers can use shipped CSS without adopting the source-build StyleX plugin; full source builds, themes, experimental lab and canary chart packages have distinct dependency/maintenance scopes.",
+          "CLI requires Node>=22.13; project/global entry points, init, swizzle and codemods require separate file/config grants and rollback. README explicitly warns the unscoped npx astryx name resolves to an unrelated package.",
+          "Accessibility and production-readiness claims remain upstream claims pending actual keyboard/focus/screen-reader/responsive/rendered tests. No library should own Core grants, credentials, route selection or Stop semantics.",
+          "Global CLI handoff can start an agent-text worker; missing/unreadable settings default computerAgentText.install=true. Worker writes home-level skill/instruction links or copies, with edited/foreign-file safeguards. Update-notifier opt-out is not a universal write/download opt-out. Windows skips background Core fetch, but read commands can fetch it on demand."
+        ],
+        "evidence": [
+          {
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/README.md",
+            "path": "README.md"
+          },
+          {
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/LICENSE",
+            "path": "LICENSE"
+          },
+          {
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/core/package.json",
+            "path": "packages/core/package.json"
+          },
+          {
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/core/README.md",
+            "path": "packages/core/README.md"
+          },
+          {
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/cli/package.json",
+            "path": "packages/cli/package.json"
+          },
+          {
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/cli/README.md",
+            "path": "packages/cli/README.md"
+          },
+          {
+            "path": "packages/cli/foundation/release/handoff.mjs",
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/cli/foundation/release/handoff.mjs"
+          },
+          {
+            "path": "packages/cli/foundation/env/user-settings.mjs",
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/cli/foundation/env/user-settings.mjs"
+          },
+          {
+            "path": "packages/cli/foundation/release/agent-text-worker.mjs",
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/cli/foundation/release/agent-text-worker.mjs"
+          },
+          {
+            "path": "packages/cli/foundation/agent-docs/computer-agent-text.mjs",
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/cli/foundation/agent-docs/computer-agent-text.mjs"
+          },
+          {
+            "path": "packages/cli/foundation/release/global-state.mjs",
+            "url": "https://github.com/meta/astryx/blob/c0327e060d77676be9754e10998995fe4f38a345/packages/cli/foundation/release/global-state.mjs"
+          }
+        ],
+        "execution_authority": "none",
+        "limitations": [
+          "Representative source inspection, not exhaustive security audit or rendered accessibility qualification."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -17599,6 +17687,14 @@
         "JetBrains/thinkrail"
       ],
       "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD."
+    },
+    {
+      "record_id": "ui.astryx",
+      "coverage": "November9 pinned source intake; planning only",
+      "related_repositories": [
+        "meta/astryx"
+      ],
+      "upstream_check_scope": "Q-146 representative source assessment; no runtime admission."
     }
   ],
   "source_review_followthrough": {
