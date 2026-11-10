@@ -1,5 +1,5 @@
 # theonetruedaniel.github.io
-Daniel Abrams portfolio — RevOps case studies, interactive demos, AI architecture and verified credentials.
+Daniel Abrams portfolio — Sales Operations case studies, interactive demos, AI architecture and verified credentials.
 
 ## Check the architecture catalog
 
