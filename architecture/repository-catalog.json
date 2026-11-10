@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 301,
-  "github_repository_count": 198,
+  "registered_record_count": 302,
+  "github_repository_count": 199,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -15333,6 +15333,83 @@
           "Review convergence may retain accepted risks; cannot inherit runtime admission."
         ]
       }
+    },
+    {
+      "repository": "reacher-z/Awesome-REA",
+      "canonical_repository": "reacher-z/Awesome-REA",
+      "id": "reacher-z-awesome-rea",
+      "name": "Awesome REA",
+      "url": "https://github.com/reacher-z/Awesome-REA",
+      "layer": "Skills and development",
+      "stage": "collected",
+      "purpose": "Source-backed reverse-engineering discovery/reference catalog of tools, reconstruction cases, papers and a separate unreviewed repository index across web/app/binary/firmware/protocol domains.",
+      "fit": "H/J; relevant G/I / Q-148: Discover methods, primary sources and controlled cases for REA Q-38, authorized major-chatbot interface studies Q-118 and bake-off integration research. Compare official APIs/docs/source, existing REA references and a narrow original evidence index; not an assistant runtime or model.",
+      "disposition": "Collected reference; pinned catalog/schema and representative source researched. MIT original content/code; linked projects and target assets have separate rights. Curated source review and unreviewed automated discovery remain distinct; no bundled runtime, integration or safety qualification.",
+      "next_gate": "Use upstream read-only reference, eligible licensed metadata/evidence patterns, a minimal original task-specific index or defer. Select and duplicate-check each relevant source individually; pin current identity/artifact/rights and exact authorized target, preserve evidence dates and review levels, inspect untrusted data/scripts before use, qualify host/egress/credentials/Stop/resources and full provider/hosting/maintenance costs where applicable. Protect benchmark holdouts and retain Core authority; no bulk import, installation, account access or circumvention.",
+      "source_records": [
+        "reference.awesome-rea"
+      ],
+      "link_checked": "2026-11-10",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "0e699079b73d4761b6d2a83770cb9e8a02d803e9"
+      ],
+      "evidence_dates": [
+        "2026-11-10"
+      ],
+      "evidence_basis": "Pinned README/LICENSE/security/data-format/scan-method documentation and representative index, scope and immutable-source recheck code; no repository scripts or linked tools executed, no scanning/import/target capture or benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-10",
+        "reviewed_revision": "0e699079b73d4761b6d2a83770cb9e8a02d803e9",
+        "review_state": "source-reviewed-reference",
+        "findings": [
+          "A curated collection and generated static reference site, not the separate morluto/rea CLI/MCP implementation and not a qualified tool bundle. One collection entry is added; linked repositories are not bulk-registered or admitted.",
+          "The catalog separates source-reviewed curated resources/cases/papers from automated unreviewed README discovery scans. Its security policy explicitly says source-reviewed does not mean installed, tested, security-reviewed or safe to run.",
+          "Data schema retains source evidence, review dates, platform/input/license requirements and REA relationship labels. Source-scope code separates scope decisions from captured bytes; the review helper rechecks numeric repository identity and immutable blob byte/hash equality, failing on mismatch or unconfirmed public identity.",
+          "Original descriptions/code have MIT rights; linked code, model assets, rebuilt interfaces, papers and original targets retain independent terms. A case study or decompilation does not establish clean-room rights or permission to bypass access controls.",
+          "Useful as a discovery and evidence-method reference for authorized chatbot/interface studies and bake-off candidate integration. Prefer official APIs/source and bounded observation; primary-source review, protected test cases and target authorization remain separate. No scripts, crawlers, linked tools, downloads of executable artifacts, target sessions or benchmarks were run."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/reacher-z/Awesome-REA/blob/0e699079b73d4761b6d2a83770cb9e8a02d803e9/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/reacher-z/Awesome-REA/blob/0e699079b73d4761b6d2a83770cb9e8a02d803e9/LICENSE"
+          },
+          {
+            "path": "SECURITY.md",
+            "url": "https://github.com/reacher-z/Awesome-REA/blob/0e699079b73d4761b6d2a83770cb9e8a02d803e9/SECURITY.md"
+          },
+          {
+            "path": "data/README.md",
+            "url": "https://github.com/reacher-z/Awesome-REA/blob/0e699079b73d4761b6d2a83770cb9e8a02d803e9/data/README.md"
+          },
+          {
+            "path": "docs/source-scan.md",
+            "url": "https://github.com/reacher-z/Awesome-REA/blob/0e699079b73d4761b6d2a83770cb9e8a02d803e9/docs/source-scan.md"
+          },
+          {
+            "path": "scripts/source_scope.py",
+            "url": "https://github.com/reacher-z/Awesome-REA/blob/0e699079b73d4761b6d2a83770cb9e8a02d803e9/scripts/source_scope.py"
+          },
+          {
+            "path": "scripts/source_scope_review.py",
+            "url": "https://github.com/reacher-z/Awesome-REA/blob/0e699079b73d4761b6d2a83770cb9e8a02d803e9/scripts/source_scope_review.py"
+          },
+          {
+            "path": "scripts/build_repository_index.py",
+            "url": "https://github.com/reacher-z/Awesome-REA/blob/0e699079b73d4761b6d2a83770cb9e8a02d803e9/scripts/build_repository_index.py"
+          }
+        ],
+        "execution_authority": "none",
+        "limitations": [
+          "Representative collection/schema/code inspection only; not verification of every linked resource or paper.",
+          "README/generated counters and historical scan totals are dated upstream observations, not Abrams evaluation counts or successful runs."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -17784,6 +17861,14 @@
         "google/elephant-goldfish-model"
       ],
       "upstream_check_scope": "Q147 representative workflow source assessment; no runtime admission."
+    },
+    {
+      "record_id": "reference.awesome-rea",
+      "coverage": "November10 pinned collection/reference intake",
+      "related_repositories": [
+        "reacher-z/Awesome-REA"
+      ],
+      "upstream_check_scope": "Q148 reference source assessment; linked entries not imported or admitted."
     }
   ],
   "source_review_followthrough": {
