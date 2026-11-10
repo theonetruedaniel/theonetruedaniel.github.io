@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-10",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 302,
-  "github_repository_count": 199,
+  "registered_record_count": 303,
+  "github_repository_count": 200,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -15410,6 +15410,118 @@
           "README/generated counters and historical scan totals are dated upstream observations, not Abrams evaluation counts or successful runs."
         ]
       }
+    },
+    {
+      "repository": "JosssphZhou/poki",
+      "canonical_repository": "JosssphZhou/poki",
+      "id": "josssphzhou-poki",
+      "name": "Poki",
+      "url": "https://github.com/JosssphZhou/poki",
+      "layer": "Devices and access",
+      "stage": "shortlisted",
+      "purpose": "Physical-iPhone and iOS Simulator observation/action through a native bridge and MCP daemon, with separate iPhone app/setup utility, optional standalone agent and messaging channels.",
+      "fit": "G/H/I/J / Q-149: Broad personal-assistant mobile tasks versus PhoneUse Q-145, Mobile MCP, go-ios/WebDriverAgent, qualified direct app APIs and existing device controls. Real iPhone, simulator, on-phone app, setup utility and channel/agent variants require separate comparisons.",
+      "disposition": "Source researched; planned and untested. AGPL-3.0-only original MCP code, package0.1.1/Node24+; dependency and app/artifact rights separate. Native MCP targets macOS15+/full Xcode; Windows setup-app support does not establish native Windows MCP eligibility. Real-device findings remain limited upstream evidence; no Abrams device trial.",
+      "next_gate": "Compare upstream, eligible licensed observation/bridge components, minimal original Core device adapter and defer. Pin exact app/runner/native bridge/model and dependency artifacts; qualify AGPL/third-party distribution and provider terms, macOS/Windows/setup/community-port separation, reset-device iOS/language/orientation/IME matrix, signing/pairing/VPN/DeveloperMode recovery, exact device/action grants and approvals, screenshot/passcode/record/model/channel recipients and storage, auth/TLS/replay, stale-frame/action receipts, all-child Stop/takeover/ambiguous-effect recovery, resources and total lifecycle cost. No Apple login, signing, install, pairing, real screen access or actions under this intake.",
+      "source_records": [
+        "device.poki"
+      ],
+      "link_checked": "2026-11-10",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "0b986264db2ba036599e44fb2a87b6e65f302178"
+      ],
+      "evidence_dates": [
+        "2026-11-10"
+      ],
+      "evidence_basis": "Pinned README/license/manifests, notices, setup/configuration/verification/agent documentation and representative implementation with independent read-only source review; no install/build, Apple credentials, signing/pairing, phone or screen access, model/provider calls or benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-10",
+        "reviewed_revision": "0b986264db2ba036599e44fb2a87b6e65f302178",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "findings": [
+          "AGPL-3.0-only root metadata covers original Poki MCP contributions. Notices separately pin idevice/MIT, idb references, WebDriverAgent and optional downloaded BlueBubbles/native/codec assets; repository source pin alone does not admit rolling release binaries or all distribution terms.",
+          "Native MCP requires macOS15+, full Xcode, Rust/Node24+/ffmpeg for source setup; a prebuilt arm64 package removes only some build prerequisites. The iPhone app/setup route has different macOS14+/iOS18+/Apple signing/VPN requirements and a Windows setup utility. Community Linux/Windows MCP ports remain separate unqualified repositories.",
+          "Physical-phone verification is upstream single-setup evidence, limited to Chinese UI and portrait; sent:true means a write to a connection without device acknowledgement. screen_changed and a screenshot are evidence to inspect, not proof the intended effect occurred. Simulator timings and fixture tests do not qualify the real phone.",
+          "HTTP bridge defaults to loopback, random per-start bearer token and Host validation; remote binds and fixed tokens are separate deployment surfaces. POKI_MCP_APPROVAL_MODE=allow preapproves listed sensitive operations; session queues/device locks are coordination, not Core action authorization.",
+          "Standalone agent currently uses OpenAI/pi credential routes and defaults GPT-6.1 Terra low with Fast requested; screen data goes to the configured model. Its step clock can reset on progress and is not a whole-task deadline; route learning and task records persist under agent/.runtime. No local-model or subscription entitlement is established by this source review.",
+          "Experimental typing panel is explicitly not yet device-validated. Installer dry-run downloads and starts a real setup helper, and its records command exports personal conversations/logs: neither is a harmless offline/source-only check. Apple accounts, passcodes, signing and phone data need separately scoped owner handling.",
+          "MCP human approval covers seven named tools, not ordinary taps/typing or an in-app deletion confirmed by tapping. All tools are registered while the profile filters tools/list; hidden tools are not an authorization allowlist. iPhone-app approval heuristics are a separate surface and cannot be credited to MCP.",
+          "Stop is transport-specific: stdio forwards abort/session cleanup, but already-dispatched input cannot be undone; native iOS Core ignores notifications/cancelled, and the app loop stops after the current step. Telegram/iMessage require exact sender configuration; literal /stop interrupts while other mid-task text steers. No global all-device/effect/billing Stop is proven.",
+          "Standalone agent defaults serviceTier=priority and supports OpenAI API-key/ChatGPT routes only; advertised iPhone-app provider names include partially wired options. Reply-photo opt-in is not model-image-egress consent. App Keychain handling and host agent credential/session stores require separate exact-route privacy and entitlement checks."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/README.md"
+          },
+          {
+            "path": "package.json",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/package.json"
+          },
+          {
+            "path": "THIRD_PARTY_NOTICES.md",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/THIRD_PARTY_NOTICES.md"
+          },
+          {
+            "path": "docs/verification.md",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/docs/verification.md"
+          },
+          {
+            "path": "docs/configuration.md",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/docs/configuration.md"
+          },
+          {
+            "path": "agent/README.md",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/agent/README.md"
+          },
+          {
+            "path": "bin/install-iphone.mjs",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/bin/install-iphone.mjs"
+          },
+          {
+            "path": "src/device.mjs",
+            "lines": "496-510",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/src/device.mjs#L496"
+          },
+          {
+            "path": "src/tools.mjs",
+            "lines": "82-96",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/src/tools.mjs#L82"
+          },
+          {
+            "path": "src/coordination.mjs",
+            "lines": "52-64",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/src/coordination.mjs#L52"
+          },
+          {
+            "path": "agent/model-config.mjs",
+            "lines": "1-17",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/agent/model-config.mjs#L1"
+          },
+          {
+            "path": "native/ios/PokiCore/Sources/PokiCore/Core.swift",
+            "lines": "456-477",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/native/ios/PokiCore/Sources/PokiCore/Core.swift#L456"
+          },
+          {
+            "path": "native/ios-app/Poki/Chat/PiLoop.swift",
+            "lines": "85-89",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/native/ios-app/Poki/Chat/PiLoop.swift#L85"
+          },
+          {
+            "path": "native/ios/PokiCore/Sources/PokiCore/Approvals.swift",
+            "lines": "3-61",
+            "url": "https://github.com/JosssphZhou/poki/blob/0b986264db2ba036599e44fb2a87b6e65f302178/native/ios/PokiCore/Sources/PokiCore/Approvals.swift#L3"
+          }
+        ],
+        "limitations": [
+          "Representative source review, not device/platform/security qualification.",
+          "No inherited real-device success from simulator or other mobile-control candidates."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -17869,6 +17981,14 @@
         "reacher-z/Awesome-REA"
       ],
       "upstream_check_scope": "Q148 reference source assessment; linked entries not imported or admitted."
+    },
+    {
+      "record_id": "device.poki",
+      "coverage": "November10 pinned source intake",
+      "related_repositories": [
+        "JosssphZhou/poki"
+      ],
+      "upstream_check_scope": "Q149 physical/simulator/app variants separately gated; no execution."
     }
   ],
   "source_review_followthrough": {
