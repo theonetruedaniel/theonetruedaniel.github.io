@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-09",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 300,
-  "github_repository_count": 197,
+  "registered_record_count": 301,
+  "github_repository_count": 198,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -15252,6 +15252,87 @@
           "Representative source inspection, not exhaustive security audit or rendered accessibility qualification."
         ]
       }
+    },
+    {
+      "repository": "google/elephant-goldfish-model",
+      "canonical_repository": "google/elephant-goldfish-model",
+      "id": "google-elephant-goldfish-model",
+      "name": "Elephant-Goldfish Model (EGM)",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Context-preserving drafting and fresh-context reviewer workflow for design specifications and configurable document reviews; also codebase bootstrap and document/code drift reports.",
+      "fit": "H/J; applicable C-I / Q-147: Improve Abrams design, candidate integration specifications and bake-off methodology through explicit reviewer personas/standards/context and finding resolution. Compare current independent reviews, existing design/spec workflow and a fixed-budget no-review control; general document review remains a separate optional scope.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 workflow/plugin, Codex manifest0.1.1; not another LLM or canonical-memory store. Freshness, tool restrictions and approval/turn-taking depend on exact host behavior. Convergence or stage advancement is not correctness, security approval or an Abrams gate pass.",
+      "next_gate": "Compare upstream plugin, eligible reviewer/rubric components, minimal original review protocol and defer. Pin complete bundle/personas/standards and exact harness; verify fresh parent-turn context versus host-instruction exclusion separately, read-only grants/tool enforcement, context/provider privacy, path/symlink writes and approval boundaries, failure/timeout/Stop/cleanup, aggregate model-call/token/time/USD budgets. Use protected planted defects/holdouts and blinded adjudication to measure true/false findings, fidelity, integration usefulness, user burden and total cost; no self-awarded pass or candidate influence over evaluator.",
+      "source_records": [
+        "workflow.elephant-goldfish"
+      ],
+      "link_checked": "2026-11-09",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31"
+      ],
+      "evidence_dates": [
+        "2026-11-09"
+      ],
+      "evidence_basis": "Pinned README/LICENSE/plugin manifest, review-loop/design-review skills, representative reviewer, harness/privacy/testing source and independent source review; no plugin installation, workflow invocation, account/provider calls or benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-09",
+        "reviewed_revision": "bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31",
+        "review_state": "source-reviewed-bounded",
+        "findings": [
+          "EGM is a drafting/design/document-review workflow plugin, not a pretrained language model, inference router or durable-memory engine. Apache-2.0 root; Codex manifest0.1.1 requires a local executor and isolated subagents.",
+          "Goldfish source instructions require fresh subagents without earlier conversation and stop if unavailable. Host instruction files, memory/filesystem and model/provider remain separate exposure channels; parent-turn isolation does not establish instruction exclusion.",
+          "Review loop retries a failed reviewer once, treats not-run as not clean, requires two consecutive clean rounds and caps at five. Settled contested/accepted risks can remain; a stage re-audit cap may advance with recorded trade-offs, which cannot pass an Abrams gate.",
+          "Draft/bootstrap/resolve workflows write project documents and reports. URL context snapshots, repository reads, output paths and edits require exact data/file grants; no EGM-hosted inference service does not mean no host-provider retention or off-device processing.",
+          "Upstream offline schema/link/fixture checks are not evidence of better decisions or this host support. Python3.10+, Node22 for advisory tests and POSIX shell assumptions are distinct from native plugin/harness qualification; no test suite or plugin was run."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/LICENSE"
+          },
+          {
+            "path": ".codex-plugin/plugin.json",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/.codex-plugin/plugin.json"
+          },
+          {
+            "path": "skills/egm-review-loop/SKILL.md",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/skills/egm-review-loop/SKILL.md"
+          },
+          {
+            "path": "skills/egm-review/SKILL.md",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/skills/egm-review/SKILL.md"
+          },
+          {
+            "path": "docs/harnesses.md",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/docs/harnesses.md"
+          },
+          {
+            "path": "docs/codex.md",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/docs/codex.md"
+          },
+          {
+            "path": "docs/privacy.md",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/docs/privacy.md"
+          },
+          {
+            "path": "TESTING.md",
+            "url": "https://github.com/google/elephant-goldfish-model/blob/bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31/TESTING.md"
+          }
+        ],
+        "execution_authority": "none",
+        "limitations": [
+          "Representative source review; host isolation, model quality and live workflow behavior unqualified.",
+          "Review convergence may retain accepted risks; cannot inherit runtime admission."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -17695,6 +17776,14 @@
         "meta/astryx"
       ],
       "upstream_check_scope": "Q-146 representative source assessment; no runtime admission."
+    },
+    {
+      "record_id": "workflow.elephant-goldfish",
+      "coverage": "November9 pinned source intake; planning only",
+      "related_repositories": [
+        "google/elephant-goldfish-model"
+      ],
+      "upstream_check_scope": "Q147 representative workflow source assessment; no runtime admission."
     }
   ],
   "source_review_followthrough": {
