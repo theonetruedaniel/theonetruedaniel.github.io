@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-12",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 305,
-  "github_repository_count": 202,
+  "registered_record_count": 306,
+  "github_repository_count": 203,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -16360,6 +16360,236 @@
           "Kernel, backend, model, calibration recipe and hardware variants cannot inherit one another's results."
         ]
       }
+    },
+    {
+      "repository": "JustVugg/colibri",
+      "canonical_repository": "JustVugg/colibri",
+      "id": "justvugg-colibri",
+      "name": "Colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Hierarchical native inference engine that streams mixture-of-experts weights between disk, RAM and optional GPU tiers, with per-model C engines, GGUF support, Python setup/API gateway and dashboard/MCP lifecycle interfaces.",
+      "fit": "E/I/J; separate H / Q-152: BO-04 local engine and memory/I/O feasibility versus llama.cpp/Ollama, AirLLM, LiteRT-LM and direct Core adapters, with separate BO-05 exact model-quality controls. Compare exact upstream engine/API, eligible licensed streaming/cache/protocol components, a minimal original adapter and defer. Expert selection is model-internal routing, not Abrams cloud/local provider policy or an assistant runtime decision.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root with retained third-party notices; model, quantized artifact, tokenizer and backend rights are separate. Python>=3.10 launcher and native Windows/Linux/macOS source paths exist, but exact CPU/GPU/backend/model compatibility and useful latency on Abrams hardware are unqualified. Low resident-memory examples do not remove full model storage, I/O or KV/scratch costs. Setup, downloads, MCP jobs and exposed services remain deferred pending admission.",
+      "next_gate": "Compare upstream, eligible components, minimal original Core adapter and defer under exact source/release/model/tokenizer/quantization/backend/compiler/driver pins. Qualify native Windows CPU/Vulkan/CUDA eligibility, artifact hashes/rights, actual available RAM/VRAM/disk/SSD bandwidth and full cold/warm/context/concurrency resource usage. Require matched task quality, prompt/template/tool schemas, TTFT and sustained/tail decode, cache misses/bytes read, cancellation and disk/energy/full lifecycle cost versus simpler smaller models and resident engines. Review API/UI/MCP bind/auth/credential/recipient boundaries separately; prevent automatic setup or unapproved egress, preserve canonical state/run lineage and retention/deletion. Prove all engine/setup/download/worker Stop, retry/ambiguity handling and aggregate time/token/resource/spend reservations; preserve USD25 monthly metered cap. No binary/model download, compilation, installer, provider or candidate benchmark is authorized by this intake.",
+      "source_records": [
+        "inference.colibri"
+      ],
+      "link_checked": "2026-11-12",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "0a5504a1dc64f86fcd0fe7db298b0448c730e7e6"
+      ],
+      "evidence_dates": [
+        "2026-11-12"
+      ],
+      "evidence_basis": "Pinned README/LICENSE/NOTICE/third-party notices/package and setup scripts, representative engine/platform/measurement and API/UI/MCP lifecycle source with two independent bounded reviews. No candidate imports, installation/build, binary/model/dataset downloads, providers, credentials, personal data or benchmark execution.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-12",
+        "reviewed_revision": "0a5504a1dc64f86fcd0fe7db298b0448c730e7e6",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative public source and artifact metadata; not exhaustive audit, model endorsement or runtime qualification.",
+        "findings": [
+          "This is an inference engine and memory/I/O strategy, not a new LLM or a full assistant. Streaming experts reduces simultaneous residency while the full selected model still occupies disk; shared weights, KV cache, buffers, OS page cache and transfer bandwidth remain resource costs. Dense models and model-internal decision classifiers have different requirements.",
+          "README advertises CPU-only operation and optional GPU paths; its minimum8GB RAM/22GB disk is for the smallest supported setup, not arbitrary frontier models. Its own examples include hundreds of GB of model storage and sub-token-per-second decode for some configurations. Headline resident RAM is not useful single-user latency or evidence of model quality.",
+          "Root Apache-2.0 and third-party MIT/Apache/BSD notices are separate from model weights, GGUF/qpack conversions, backend binaries and oracle dependencies. Python package metadata is Beta with Python>=3.10; native Windows source paths and platform classifiers do not establish a qualified exact hardware/runtime pairing.",
+          "START-HERE.bat can offer a user-scoped Python installation when missing, then runs setup. Setup can build or fetch engines, download large models and start a local service/dashboard. None of those actions or upstream assistant-setup instructions were executed; MCP lifecycle and automatic setup are separate effects from inference calls.",
+          "The inference gateway defaults to loopback; a configured API key or explicit insecure override changes non-loopback admission. The separate UI server has different host/route controls, so the gateway guard cannot qualify every listening surface. Treat bind/auth/proxy/download endpoints as separate configuration scopes.",
+          "MCP install can launch detached setup with yes/default auto-start; cancellation notifications are ignored in the inspected handler and service stop is separate from installation-job cancellation. A successful stop response does not prove all model downloads, compilers, engine children or GPU work retired; require owned-process and resource receipts.",
+          "The inspected chat gateway emits model function-call names/arguments to its client; that is separate from MCP install/start/stop or UI coding-agent launch, which perform real host effects. OpenAI/Anthropic compatibility does not establish every schema, tool, vision, error, token-accounting or streaming behavior for Abrams clients.",
+          "Generation cancellation sends a request-ID CANCEL and retains scheduler admission until engine acknowledgement; engine close uses bounded best-effort terminate/kill. These controls are useful but require runtime evidence for prefill/disconnect/unresponsive-engine and every descendant/setup/download path. Token/queue limits are not aggregate memory, I/O or spend reservations.",
+          "Web search and public-page fetching introduce separate off-device recipients; image URL/path handling has different restrictions. Local inference alone does not establish offline operation across UI/search/MCP features. Bound prompt/usage/install logs, credential exposure, retention/deletion and recipient grants per surface.",
+          "Expert-usage history adapts cache/residency placement; it is not demonstrated assistant memory or improved reasoning. Explicit cache-preferring routing and DEGRADE_ZERO can change outputs; reported lossy calibration is OLMoE-specific and warm-cache only. Keep approximate modes off for the initial correctness baseline and qualify each model/context independently.",
+          "Native Windows GPU support is engine/backend-specific; documented HIP evidence is one configuration, and CPU fallback can preserve successful exit without GPU residency. Require actual resident tensors/backend diagnostics and numerical/task correctness. Published better-of-two throughput on one host is separate from matched rotating-prompt median, cold-start and tail latency.",
+          "Laya/other decision-engine support is a separate numerical-parity and task-calibration study. Tiny or117-question upstream parity checks do not establish Abrams decision quality; the documented act/escalate head has no usable signal and cannot supply approval or escalation authority."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/LICENSE"
+          },
+          {
+            "path": "NOTICE",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/NOTICE"
+          },
+          {
+            "path": "THIRD_PARTY_NOTICES.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/THIRD_PARTY_NOTICES.md"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/pyproject.toml"
+          },
+          {
+            "path": "START-HERE.bat",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/START-HERE.bat"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L8179-L8230"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L8450-L8465"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L10272-L10305"
+          },
+          {
+            "path": "ui/server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/ui/server.py#L47-L81"
+          },
+          {
+            "path": "ui/server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/ui/server.py#L106-L146"
+          },
+          {
+            "path": "ui/server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/ui/server.py#L175-L228"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L9490-L9515"
+          },
+          {
+            "path": "c/mcp_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/mcp_server.py#L65-L108"
+          },
+          {
+            "path": "ui/agents.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/ui/agents.py#L205-L255"
+          },
+          {
+            "path": "c/mcp_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/mcp_server.py#L45-L49"
+          },
+          {
+            "path": "c/mcp_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/mcp_server.py#L209-L281"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L7500-L7584"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L7639-L7677"
+          },
+          {
+            "path": "c/mcp_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/mcp_server.py#L382-L409"
+          },
+          {
+            "path": "c/mcp_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/mcp_server.py#L307-L311"
+          },
+          {
+            "path": "c/setup_flow.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/setup_flow.py#L1578-L1596"
+          },
+          {
+            "path": "ui/web.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/ui/web.py#L117-L141"
+          },
+          {
+            "path": "ui/web.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/ui/web.py#L211-L236"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L3577-L3613"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L8057-L8058"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L5642-L5675"
+          },
+          {
+            "path": "c/openai_server.py",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/openai_server.py#L10272-L10284"
+          },
+          {
+            "path": "c/expert_store.h",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/expert_store.h#L16-L38"
+          },
+          {
+            "path": "c/expert_store.h",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/expert_store.h#L40-L68"
+          },
+          {
+            "path": "c/colibri.c",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/colibri.c#L3640-L3682"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/README.md#L52-L54"
+          },
+          {
+            "path": "docs/benchmarks.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/docs/benchmarks.md#L7-L34"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/README.md#L620-L636"
+          },
+          {
+            "path": "docs/windows.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/docs/windows.md#L31-L49"
+          },
+          {
+            "path": "GPU_BACKENDS.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/GPU_BACKENDS.md#L100-L127"
+          },
+          {
+            "path": "docs/tuning.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/docs/tuning.md#L35-L41"
+          },
+          {
+            "path": "docs/tuning.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/docs/tuning.md#L188-L213"
+          },
+          {
+            "path": "c/colibri.c",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/colibri.c#L1563-L1577"
+          },
+          {
+            "path": "c/colibri.c",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/c/colibri.c#L7093-L7104"
+          },
+          {
+            "path": "docs/tuning.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/docs/tuning.md#L294-L324"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/README.md#L606-L618"
+          },
+          {
+            "path": "docs/benchmarks.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/docs/benchmarks.md#L69-L98"
+          },
+          {
+            "path": "docs/laya.md",
+            "url": "https://github.com/JustVugg/colibri/blob/0a5504a1dc64f86fcd0fe7db298b0448c730e7e6/docs/laya.md#L64-L108"
+          }
+        ],
+        "limitations": [
+          "Representative paths only; uninspected families, native kernels, dependencies and transports remain unqualified.",
+          "No target execution/import/install/build, binary/model/dataset downloads, providers, credentials, personal data or benchmark.",
+          "Per-model family, quantization, CPU/GPU, API/UI/MCP and standalone/cluster variants require independent qualification."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -18848,6 +19078,14 @@
         "OpenBitSys/BitDecoding-FP4"
       ],
       "upstream_check_scope": "Q151 FP4 KV-cache kernel/backend and exact hardware/model/calibration variants separately gated; no execution."
+    },
+    {
+      "record_id": "inference.colibri",
+      "coverage": "November12 pinned source intake",
+      "related_repositories": [
+        "JustVugg/colibri"
+      ],
+      "upstream_check_scope": "Q152 hierarchical inference, exact model/backend/hardware and API/UI/MCP variants separately gated; no execution."
     }
   ],
   "source_review_followthrough": {
