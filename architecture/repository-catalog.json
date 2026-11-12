@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 303,
-  "github_repository_count": 200,
+  "registered_record_count": 304,
+  "github_repository_count": 201,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -15522,6 +15522,345 @@
           "No inherited real-device success from simulator or other mobile-control candidates."
         ]
       }
+    },
+    {
+      "repository": "open-jarvis/OpenJarvis",
+      "canonical_repository": "open-jarvis/OpenJarvis",
+      "id": "open-jarvis-openjarvis",
+      "name": "OpenJarvis",
+      "url": "https://github.com/open-jarvis/OpenJarvis",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Composable local-first personal-AI framework with selectable inference engines, agent/tool presets, retrieval/memory, trace-driven learning and accuracy/energy/latency/cost evaluation; optional desktop, cloud and scheduled integrations.",
+      "fit": "E/H/I/J; separately gated C / Q-150: General personal-assistant framework versus existing Core/runtime adapters and eligible agent frameworks; compare engine/provider routing under BO-05, retrieval/trace-learning components and bake-off instrumentation by role. Whole framework, selected components and original adapters require separate evidence; no change to frozen initial runtime set or production Core decision.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root, Alpha metadata, Python>=3.10,<3.14; source GUI Node>=22.22/npm11.19+, optional Rust/native/model stacks. Native Windows installers are documented, not Abrams-qualified. Cloud routing, trace privacy, execution backend parity, auth and Stop/budget behavior remain gates; shell/code execution integration deferred pending those controls.",
+      "next_gate": "Compare upstream exact preset/framework, eligible engine/router/retrieval/trace/evaluation components, minimal original Core adapters and defer. Pin source/release/model/dependencies/rights and exact Windows/WSL/macOS engine pairing; qualify installer PATH/service/background-model effects and clean removal. Enforce Core-owned routes/manual overrides, recipient consent, canonical state/trace retention/deletion/export, credential/OAuth scopes, authenticated API/WS/tools, fail-closed capability/action grants and real sandboxing. Prove Python/Rust shell environment/timeout/exit-status parity, all-child/provider Stop and ambiguous-effect recovery, aggregate pre-reserved token/time/USD budgets, protected learning/holdouts and promotion approval. Report energy/FLOPs/cost as measured, estimated or unavailable without conflating them; preserve USD25 monthly metered cap.",
+      "source_records": [
+        "assistant.openjarvis"
+      ],
+      "link_checked": "2026-11-11",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "6201505cd3425079459589f54764667b4758ce48"
+      ],
+      "evidence_dates": [
+        "2026-11-11"
+      ],
+      "evidence_basis": "Pinned README/LICENSE/pyproject/frontend manifests, Windows/Bash installer and telemetry documentation, representative API/tool execution and engine/router/trace/learning/evaluation source, with two independent bounded source reviews. No install/build, models, providers, credentials/OAuth, schedules, personal-data access or candidate benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-11",
+        "reviewed_revision": "6201505cd3425079459589f54764667b4758ce48",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "findings": [
+          "Apache-2.0 framework source is separate from model, skill and native dependency rights. Python is capped below3.14 for Windows wheel compatibility; MLX optional dependencies are macOS-specific. The source frontend requires Node>=22.22/npm11.19+. A source pin is not a packaged-desktop/model/backend admission pin.",
+          "Installers can install Python/git/uv/Ollama, change PATH/config, start Ollama, pull a starter model and continue Rust/larger-model work in the background; native Windows service setup is a separate scheduled-task/elevation scope. No installer, model or background work was started for this review.",
+          "The tool-free chat-simple preset differs from coding, research, scheduled monitoring and OAuth-connected digest presets. Local-first is a design goal; actual recipient, tool and recurring-effect authority must be qualified for each chosen configuration.",
+          "MultiEngine rejects an unknown non-cloud model rather than silently treating it as cloud. The broader engine discovery path can fall back across engine classes when an exact key is omitted; explicit engine selection does not substitute on failure. Learned query-class routing is not calibrated capability or privacy enforcement.",
+          "Full response text, conversation messages and tool arguments/results can be retained in local trace storage; trace/telemetry collection and optional PostHog analytics are different controls. Analytics is opt-in, while local trace/telemetry defaults need separate minimization/retention review. Local storage is not proof of no cloud or model egress.",
+          "Learning can write evolved configuration before optional evaluation and can accept when no evaluation callback exists; learning and skill auto-optimization defaults are disabled. Protect holdouts and require independent promotion. Optional teacher/session budget defaults do not replace Abrams's shared USD25 monthly cap.",
+          "API authentication depends on configured keys; non-loopback binding has a separate safety check and WebSocket paths need their own checker. Tool confirmation fails closed without an interactive callback, but capability enforcement requires an installed policy. These controls do not establish a complete Core grant boundary.",
+          "Shell guarantees are backend-dependent: the Python path prepares restricted environment/timeout, while the inspected Rust bridge forwards command/cwd to a shell path without equivalent environment clearing or timeout and may lose failure-status meaning in the Python wrapper. Shell/code integration remains deferred until exact backend parity and host containment are proven.",
+          "Running Python-thread tools cannot necessarily be cancelled; queued-work shutdown and post-tick positive maxcost/maxtoken checks do not prove hard all-child Stop or pre-reserved aggregate spend. Upstream efficiency/accuracy results and framework telemetry must remain separate from Abrams measurements and exact device/backend resource qualification.",
+          "Unknown model prices can be reported as zero; missing energy monitors can produce zero totals. Abrams must preserve unavailable versus measured zero, estimated versus billed cost, monitor method/rail basis and quality-equivalent task boundaries. CPU RAPL is Linux-specific; native Windows and GPU monitoring require separate qualification."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/LICENSE"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/pyproject.toml"
+          },
+          {
+            "path": "frontend/package.json",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/frontend/package.json"
+          },
+          {
+            "path": "deploy/windows/install.ps1",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/deploy/windows/install.ps1"
+          },
+          {
+            "path": "docs/getting-started/install.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/docs/getting-started/install.md"
+          },
+          {
+            "path": "docs/telemetry.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/docs/telemetry.md"
+          },
+          {
+            "path": "src/openjarvis/tools/shell_exec.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/shell_exec.py#L137"
+          },
+          {
+            "path": "src/openjarvis/tools/shell_exec.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/shell_exec.py#L213"
+          },
+          {
+            "path": "rust/crates/openjarvis-python/src/tools.rs",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/rust/crates/openjarvis-python/src/tools.rs#L116"
+          },
+          {
+            "path": "rust/crates/openjarvis-tools/src/builtin/shell.rs",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/rust/crates/openjarvis-tools/src/builtin/shell.rs#L39"
+          },
+          {
+            "path": "src/openjarvis/tools/_stubs.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/_stubs.py#L31"
+          },
+          {
+            "path": "src/openjarvis/tools/_stubs.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/_stubs.py#L92"
+          },
+          {
+            "path": "src/openjarvis/tools/_stubs.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/_stubs.py#L434"
+          },
+          {
+            "path": "src/openjarvis/server/agent_manager_routes.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/agent_manager_routes.py#L1696"
+          },
+          {
+            "path": "src/openjarvis/agents/manager.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/agents/manager.py#L288"
+          },
+          {
+            "path": "src/openjarvis/server/app.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/app.py#L321"
+          },
+          {
+            "path": "src/openjarvis/tools/_stubs.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/_stubs.py#L220"
+          },
+          {
+            "path": "src/openjarvis/tools/_stubs.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/_stubs.py#L280"
+          },
+          {
+            "path": "src/openjarvis/tools/_stubs.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/_stubs.py#L394"
+          },
+          {
+            "path": "docs/user-guide/security.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/docs/user-guide/security.md#L63"
+          },
+          {
+            "path": "docs/user-guide/security.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/docs/user-guide/security.md#L124"
+          },
+          {
+            "path": "src/openjarvis/server/app.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/app.py#L201"
+          },
+          {
+            "path": "src/openjarvis/server/auth_middleware.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/auth_middleware.py#L37"
+          },
+          {
+            "path": "src/openjarvis/server/auth_middleware.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/auth_middleware.py#L104"
+          },
+          {
+            "path": "src/openjarvis/server/auth_middleware.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/auth_middleware.py#L160"
+          },
+          {
+            "path": "src/openjarvis/server/app.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/app.py#L500"
+          },
+          {
+            "path": "src/openjarvis/server/cloud_router.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/cloud_router.py#L1"
+          },
+          {
+            "path": "src/openjarvis/server/cloud_router.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/cloud_router.py#L367"
+          },
+          {
+            "path": "src/openjarvis/server/routes.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/routes.py#L945"
+          },
+          {
+            "path": "src/openjarvis/server/app.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/server/app.py#L36"
+          },
+          {
+            "path": "src/openjarvis/agents/executor.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/agents/executor.py#L807"
+          },
+          {
+            "path": "src/openjarvis/tools/code_interpreter.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/code_interpreter.py#L1"
+          },
+          {
+            "path": "src/openjarvis/tools/code_interpreter.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/code_interpreter.py#L93"
+          },
+          {
+            "path": "src/openjarvis/tools/code_interpreter.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/tools/code_interpreter.py#L185"
+          },
+          {
+            "path": "src/openjarvis/engine/multi.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/engine/multi.py#L43"
+          },
+          {
+            "path": "src/openjarvis/engine/_discovery.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/engine/_discovery.py#L201"
+          },
+          {
+            "path": "src/openjarvis/engine/_discovery.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/engine/_discovery.py#L221"
+          },
+          {
+            "path": "src/openjarvis/learning/routing/router.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/learning/routing/router.py#L55"
+          },
+          {
+            "path": "src/openjarvis/learning/routing/learned_router.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/learning/routing/learned_router.py#L43"
+          },
+          {
+            "path": "src/openjarvis/learning/routing/learned_router.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/learning/routing/learned_router.py#L92"
+          },
+          {
+            "path": "src/openjarvis/learning/routing/learned_router.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/learning/routing/learned_router.py#L221"
+          },
+          {
+            "path": "src/openjarvis/core/config.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/core/config.py#L1191"
+          },
+          {
+            "path": "src/openjarvis/traces/collector.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/traces/collector.py#L81"
+          },
+          {
+            "path": "src/openjarvis/traces/collector.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/traces/collector.py#L150"
+          },
+          {
+            "path": "src/openjarvis/traces/collector.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/traces/collector.py#L184"
+          },
+          {
+            "path": "src/openjarvis/traces/store.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/traces/store.py#L17"
+          },
+          {
+            "path": "src/openjarvis/traces/store.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/traces/store.py#L67"
+          },
+          {
+            "path": "src/openjarvis/core/config.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/core/config.py#L954"
+          },
+          {
+            "path": "src/openjarvis/memory/extractor.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/memory/extractor.py#L55"
+          },
+          {
+            "path": "src/openjarvis/core/config.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/core/config.py#L797"
+          },
+          {
+            "path": "src/openjarvis/core/config.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/core/config.py#L833"
+          },
+          {
+            "path": "src/openjarvis/learning/learning_orchestrator.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/learning/learning_orchestrator.py#L149"
+          },
+          {
+            "path": "src/openjarvis/learning/training/data.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/learning/training/data.py#L52"
+          },
+          {
+            "path": "src/openjarvis/engine/cloud.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/engine/cloud.py#L274"
+          },
+          {
+            "path": "src/openjarvis/evals/core/pricing.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/evals/core/pricing.py#L8"
+          },
+          {
+            "path": "src/openjarvis/core/config.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/core/config.py#L839"
+          },
+          {
+            "path": "src/openjarvis/telemetry/energy_rapl.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/telemetry/energy_rapl.py#L19"
+          },
+          {
+            "path": "src/openjarvis/telemetry/energy_rapl.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/telemetry/energy_rapl.py#L92"
+          },
+          {
+            "path": "src/openjarvis/telemetry/energy_nvidia.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/telemetry/energy_nvidia.py#L77"
+          },
+          {
+            "path": "src/openjarvis/bench/energy.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/bench/energy.py#L111"
+          },
+          {
+            "path": "src/openjarvis/bench/energy.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/bench/energy.py#L143"
+          },
+          {
+            "path": "src/openjarvis/bench/latency.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/bench/latency.py#L17"
+          },
+          {
+            "path": "src/openjarvis/bench/energy.py",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/src/openjarvis/bench/energy.py#L17"
+          },
+          {
+            "path": "docs/showcase/cost-savings.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/docs/showcase/cost-savings.md#L10"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/README.md#L35"
+          },
+          {
+            "path": "docs/getting-started/windows-native.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/docs/getting-started/windows-native.md#L1"
+          },
+          {
+            "path": "docs/getting-started/windows-native.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/docs/getting-started/windows-native.md#L16"
+          },
+          {
+            "path": "docs/getting-started/windows-native.md",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/docs/getting-started/windows-native.md#L74"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/pyproject.toml#L14"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/pyproject.toml#L55"
+          },
+          {
+            "path": "rust/crates/openjarvis-tools/src/executor.rs",
+            "url": "https://github.com/open-jarvis/OpenJarvis/blob/6201505cd3425079459589f54764667b4758ce48/rust/crates/openjarvis-tools/src/executor.rs#L92"
+          }
+        ],
+        "limitations": [
+          "Representative source review, not exhaustive security audit or runtime qualification.",
+          "No installer, source tool, engine/model, API, OAuth connection, learning job, schedule or candidate benchmark executed.",
+          "Whole-framework, component, model/engine and platform variants cannot inherit one another's results."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -17989,6 +18328,14 @@
         "JosssphZhou/poki"
       ],
       "upstream_check_scope": "Q149 physical/simulator/app variants separately gated; no execution."
+    },
+    {
+      "record_id": "assistant.openjarvis",
+      "coverage": "November11 pinned source intake",
+      "related_repositories": [
+        "open-jarvis/OpenJarvis"
+      ],
+      "upstream_check_scope": "Q150 framework, routing, memory/learning and evaluation components separately gated; no execution."
     }
   ],
   "source_review_followthrough": {
