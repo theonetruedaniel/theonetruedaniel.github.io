@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-11",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 304,
-  "github_repository_count": 201,
+  "registered_record_count": 305,
+  "github_repository_count": 202,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -15861,6 +15861,282 @@
           "Whole-framework, component, model/engine and platform variants cannot inherit one another's results."
         ]
       }
+    },
+    {
+      "repository": "OpenBitSys/BitDecoding-FP4",
+      "canonical_repository": "OpenBitSys/BitDecoding-FP4",
+      "id": "openbitsys-bitdecoding-fp4",
+      "name": "BitDecoding-FP4",
+      "url": "https://github.com/OpenBitSys/BitDecoding-FP4",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "FP4 KV-cache quantization and native NVIDIA attention/decode kernels integrated as a custom vLLM backend; a serving-efficiency component rather than a standalone model or assistant.",
+      "fit": "E/H/I/J / Q-151 and BO-04 engine/component qualification, with separate BO-05 model-quality controls: Conditional long-context inference-efficiency study for eligible local or self-hosted worker routes. Compare exact upstream vLLM backend, eligible quantization/kernel components, existing engine KV-cache alternatives, a minimal original Core adapter and defer. Not a cloud/local API switcher or a replacement for the current local prototype.",
+      "disposition": "Source researched; planned and untested. Documented target is NVIDIA B200/B300 SM100/SM103 with CUDA13+ and driver580+, Python3.12 setup; native Windows, consumer-GPU compatibility and Abrams host eligibility are not established. Original code MIT; packaged composition includes BSD and NVIDIA-proprietary helper terms. GPU execution/integration deferred pending hardware, rights, exact dependency and quality/cost qualification.",
+      "next_gate": "Compare upstream, eligible components, independent adapter and deferral under exact model/tokenizer/vLLM/submodule/kernel/compiler/GPU/driver pins. Qualify target hardware/platform and model/dataset/helper rights; isolate installation and generated-code grading, restrict egress and credentials, preserve calibration/holdout separation and replayable cache/session isolation. Measure actual task quality, long-context retrieval, per-task failures, TTFT/prefill/decode latency, concurrency, total VRAM including scales/BF16 buffers/scratch, energy and full setup/serving/maintenance/exit costs against BF16/FP8/native alternatives. Prove Core-owned route grants, all-process/GPU Stop and aggregate pre-reserved budgets; preserve USD25 monthly metered cap. No rented GPU, provider call or model/dataset download is authorized by this intake.",
+      "source_records": [
+        "inference.bitdecoding-fp4"
+      ],
+      "link_checked": "2026-11-11",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f"
+      ],
+      "evidence_dates": [
+        "2026-11-11"
+      ],
+      "evidence_basis": "Pinned README, license/NOTICE/package/submodule metadata, bootstrap, benchmark/evaluation and representative kernel/vLLM source, with independent hardware/measurement and integration reviews. No install/build/kernel/model/dataset downloads, GPU runtime, provider calls or candidate benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-11",
+        "reviewed_revision": "4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "findings": [
+          "This changes attention/KV-cache storage and decoding, not all model weights or the whole assistant. BF16 sink/recent-token buffers, quantization scales and runtime scratch remain relevant to total memory; nominal FP4 payload is not whole-model fourfold memory reduction.",
+          "README requires B200/B300 SM100/SM103, CUDA13+, driver580+ and Python3.12/uv. Package metadata permits Python>=3.10 but that is not a tested platform matrix. Bash bootstrap and Linux-style environment paths do not establish native Windows or consumer Blackwell compatibility.",
+          "Original code is MIT but the package explicitly declares MIT AND BSD-3-Clause AND LicenseRef-NvidiaProprietary; NOTICE identifies a NVIDIA CUTLASS DSL helper under separate terms and Apache-2.0 vLLM submodule. Model, dataset, binary and transitive dependency rights require separate intake.",
+          "The bootstrap creates a managed Python environment, installs CUDA PyTorch and editable vLLM/custom plugin plus evaluation packages, and uses multiple package indexes with unsafe-best-match. Source pinning alone does not lock all artifacts or authorize installation.",
+          "Upstream near-lossless accuracy and 3.00x/2.62x B300 throughput are reported results for named Qwen models, long contexts and concurrency settings. These do not establish Abrams accuracy, single-user responsiveness, consumer-hardware speedup or spend savings; each quality/resource boundary needs matched independent measurement.",
+          "Dataset preparation, calibration and generated-code grading are separate executable/data-access scopes. Use synthetic or authorized data, exact artifact hashes and uncontaminated held-out evaluation; calibration sidecars and output retention need provenance and cleanup controls.",
+          "An out-of-tree vLLM backend does not provide Abrams authorization, cloud/local policy, shared budget reservation or all-process Stop. Keep those controls in Core and qualify exact engine/GPU worker cleanup before admitting a route. Hardware rental, storage, transfer, warmup/compilation and maintenance costs remain unknown, not free.",
+          "The inspected backend fixes NVFP4 page/head sizes to128 and gates compute capability major10; configuration guards reject prefix caching, chunked prefill, speculative decode, KV offloading, pipeline parallelism above1, sliding-window attention, ALiBi and soft capping. These restrictions can change real workload tradeoffs; source backend eligibility is not tested hardware admission.",
+          "The root records vLLM gitlink1ad84fea866bc478942efa8550036ffa52a51283, but precompiled wheels and all transitive artifacts still need independent identity and rights review. Evaluation uses trust_remote_code=True; mutable dataset/evaluator paths coexist with some pinned revisions and digest checks.",
+          "LiveCodeBench grading executes generated code. Its user/network/PID namespaces do not establish filesystem or credential isolation; marker and no-sandbox bypasses exist. Per-process limits and best-effort engine shutdown do not prove aggregate resource reservation or all-child/GPU Stop. Grading must remain deferred on the shared personal-data host.",
+          "The serving benchmark estimates decode rate from the median duration difference between2048-token and128-token generations at64K or128K prompts; it is not direct whole-request latency or time-to-first-token. Compare total startup/calibration/prefill/decode time, task quality and concurrency under matched settings, including restrictions that disable other engine optimizations."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/LICENSE"
+          },
+          {
+            "path": "NOTICE",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/NOTICE"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/pyproject.toml"
+          },
+          {
+            "path": "tools/bootstrap_env.sh",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/bootstrap_env.sh"
+          },
+          {
+            "path": "tools/bootstrap_env.sh",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/bootstrap_env.sh#L9"
+          },
+          {
+            "path": ".gitmodules",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/.gitmodules#L1"
+          },
+          {
+            "path": "NOTICE",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/NOTICE#L4"
+          },
+          {
+            "path": "datasets/MANIFEST.json",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/datasets/MANIFEST.json#L4"
+          },
+          {
+            "path": "src/nvfp4_vllm/engine.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/engine.py#L14"
+          },
+          {
+            "path": "src/nvfp4_vllm/backend.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/backend.py#L17"
+          },
+          {
+            "path": "src/nvfp4_vllm/backend.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/backend.py#L69"
+          },
+          {
+            "path": "evaluation/vllm_runner.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/vllm_runner.py#L44"
+          },
+          {
+            "path": "src/nvfp4_vllm/calibrate.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/calibrate.py#L1"
+          },
+          {
+            "path": "tools/calibrate_key_smooth_sidecar.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/calibrate_key_smooth_sidecar.py#L60"
+          },
+          {
+            "path": "evaluation/run_eval.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/run_eval.py#L874"
+          },
+          {
+            "path": "tools/prepare_data.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/prepare_data.py#L374"
+          },
+          {
+            "path": "tools/lcb_data.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/lcb_data.py#L37"
+          },
+          {
+            "path": "tools/lcb_data.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/lcb_data.py#L67"
+          },
+          {
+            "path": "tools/score_lcb.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/score_lcb.py#L2"
+          },
+          {
+            "path": "tools/score_lcb.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/score_lcb.py#L41"
+          },
+          {
+            "path": "tools/score_lcb.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/score_lcb.py#L83"
+          },
+          {
+            "path": "tools/score_lcb.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/score_lcb.py#L153"
+          },
+          {
+            "path": "evaluation/vllm_runner.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/vllm_runner.py#L312"
+          },
+          {
+            "path": "evaluation/run_eval.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/run_eval.py#L904"
+          },
+          {
+            "path": "evaluation/run_eval.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/run_eval.py#L1156"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/README.md#L11"
+          },
+          {
+            "path": "src/nvfp4_vllm/backend.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/backend.py#L18"
+          },
+          {
+            "path": "src/nvfp4_decode_kernel/interface.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_decode_kernel/interface.py#L14"
+          },
+          {
+            "path": "src/nvfp4_vllm/engine.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/engine.py#L63"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/README.md#L43"
+          },
+          {
+            "path": "src/nvfp4_vllm/backend.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/backend.py#L89"
+          },
+          {
+            "path": "benchmark/bench_kernel_sm10x.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/bench_kernel_sm10x.py#L364"
+          },
+          {
+            "path": "tools/bootstrap_env.sh",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/tools/bootstrap_env.sh#L16"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/pyproject.toml#L7"
+          },
+          {
+            "path": "src/nvfp4_vllm/backend.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/backend.py#L79"
+          },
+          {
+            "path": "src/nvfp4_vllm/guards.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/guards.py#L182"
+          },
+          {
+            "path": "src/nvfp4_vllm/guards.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/guards.py#L271"
+          },
+          {
+            "path": "benchmark/README.md",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/README.md#L15"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/README.md#L20"
+          },
+          {
+            "path": "evaluation/config.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/config.py#L14"
+          },
+          {
+            "path": "evaluation/config.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/config.py#L238"
+          },
+          {
+            "path": "evaluation/compare.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/compare.py#L38"
+          },
+          {
+            "path": "evaluation/compare.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/compare.py#L282"
+          },
+          {
+            "path": "src/nvfp4_vllm/probability_calibration.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/src/nvfp4_vllm/probability_calibration.py#L46"
+          },
+          {
+            "path": "benchmark/README.md",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/README.md#L3"
+          },
+          {
+            "path": "benchmark/bench_kernel_sm10x.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/bench_kernel_sm10x.py#L130"
+          },
+          {
+            "path": "benchmark/bench_kernel_sm10x.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/bench_kernel_sm10x.py#L251"
+          },
+          {
+            "path": "benchmark/bench_e2e_throughput.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/bench_e2e_throughput.py#L53"
+          },
+          {
+            "path": "benchmark/bench_e2e_throughput.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/bench_e2e_throughput.py#L179"
+          },
+          {
+            "path": "benchmark/bench_e2e_throughput.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/bench_e2e_throughput.py#L309"
+          },
+          {
+            "path": "benchmark/bench_e2e_throughput.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/benchmark/bench_e2e_throughput.py#L377"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/README.md#L32"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/pyproject.toml#L5"
+          },
+          {
+            "path": "NOTICE",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/NOTICE#L1"
+          },
+          {
+            "path": "evaluation/vllm_runner.py",
+            "url": "https://github.com/OpenBitSys/BitDecoding-FP4/blob/4e2907d74d8b1cdb3bce2b4795fc86bf76385e7f/evaluation/vllm_runner.py#L47"
+          }
+        ],
+        "limitations": [
+          "Representative source screening, not exhaustive audit or runtime qualification.",
+          "No target installation/import/build, models, datasets, GPU work, providers, credentials, personal data or benchmark execution.",
+          "Kernel, backend, model, calibration recipe and hardware variants cannot inherit one another's results."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -18336,6 +18612,14 @@
         "open-jarvis/OpenJarvis"
       ],
       "upstream_check_scope": "Q150 framework, routing, memory/learning and evaluation components separately gated; no execution."
+    },
+    {
+      "record_id": "inference.bitdecoding-fp4",
+      "coverage": "November11 pinned source intake",
+      "related_repositories": [
+        "OpenBitSys/BitDecoding-FP4"
+      ],
+      "upstream_check_scope": "Q151 FP4 KV-cache kernel/backend and exact hardware/model/calibration variants separately gated; no execution."
     }
   ],
   "source_review_followthrough": {
