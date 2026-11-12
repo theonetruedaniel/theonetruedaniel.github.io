@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
   "registered_record_count": 305,
   "github_repository_count": 202,
@@ -6041,87 +6041,310 @@
       "name": "Locally Uncensored",
       "layer": "Interface and media",
       "stage": "shortlisted",
-      "purpose": "Desktop AI studio and engine, media and coding components.",
-      "fit": "E/H / Q-08: score concepts, component reuse and whole-app adaptation separately.",
-      "disposition": "Source researched; license, host and execution intake pending.",
-      "next_gate": "Compare selected AGPL-compatible components/whole app/minimal implementation; verify per-surface run identity, approval policy and actual in-flight shell/media Stop, exact model/engine/resources and all cloud/update recipients/cost.",
+      "purpose": "Desktop AI studio combining chat/projects/memory, selectable local and cloud engines, image/video/audio creation and coding/agent interfaces; whole-app and selected-component comparisons are separate.",
+      "fit": "E/H/I/J / existing Q-08: General personal-assistant chat/project/model-choice UX and selected inference/media/coding components versus Abrams Core adapters and eligible studios. Separate BO-04 engine feasibility from BO-05 model quality; compare upstream, AGPL-compatible components, a minimal original implementation and defer. No change to frozen initial runtimes or Core decision.",
+      "disposition": "Source researched; refreshed November12 at source package3.0.10, planned and untested. AGPL-3.0-only; Windows release claims are upstream, not Abrams qualification. Installer/backend/model rights, real host/resources, cloud recipients, tool grants, durable state and Stop remain gates; desktop/mobile/remote/voice/training variants require separate admission.",
+      "next_gate": "Compare exact upstream app, eligible licensed components, independent Core adapters and defer. Resolve AGPL/dependency/model/media rights; pin release/build/updater/transitive downloads and exact Windows/engine/model pairing. Qualify selectable routes/manual overrides, no unapproved cloud fallback, endpoint auth/egress, credentials and local/remote capability grants. Test backup/restore/deletion with attachments and tombstones, desktop versus mobile credential retention, run lineage, queued versus in-flight all-child shell/media/MCP Stop, ambiguity/replay and aggregate budget reservation. Measure full RAM/VRAM/disk, useful task quality/latency, provider and maintenance/removal costs; preserve USD25 monthly metered cap.",
       "id": "purpledoubled-locally-uncensored",
       "url": "https://github.com/PurpleDoubleD/locally-uncensored",
       "canonical_repository": "PurpleDoubleD/locally-uncensored",
-      "link_checked": "2026-11-09",
+      "link_checked": "2026-11-12",
       "link_state": "verified",
       "source_records": [
         "desktop.locally-uncensored.purpledoubled"
       ],
       "evidence_dates": [
         "2026-09-17",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-12"
       ],
-      "evidence_basis": "November9 pinned source screen: README.md:7-11, README.md:40-41, src/api/agents/tool-executor.ts:34-50, src/api/agents/tool-executor.ts:76-93, src/api/agents/tool-executor.ts:357-373. No installation, candidate execution, provider calls, benchmark, runtime admission or adoption. Prior measured evidence remains historical and unchanged.",
+      "evidence_basis": "November12 bounded pinned source refresh: README/LICENSE/package/Cargo/Tauri, backup/recovery/privacy and independent engine/route and tool/permission/Stop reviews. Source package3.0.10 is not a verified release artifact. No installation/build, candidate execution, downloads of models/binaries, providers, personal data, voice capture, benchmark or adoption. September17 and November9 evidence remains historical.",
       "adopted_integration": false,
       "recorded_revisions": [
         "bc8dcc08520557ad63270a79b5362462150707d3",
-        "d4935af470a8a4b231d0ffef3b8c8708fdd4a10c"
+        "d4935af470a8a4b231d0ffef3b8c8708fdd4a10c",
+        "3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3"
       ],
       "currentness": {
-        "checked_at": "2026-11-09T09:49:07.982819+00:00",
-        "observed_head": "d4935af470a8a4b231d0ffef3b8c8708fdd4a10c",
+        "checked_at": "2026-11-12",
+        "observed_head": "3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3",
         "default_branch": "master",
         "state": "changed",
         "review_required": false,
-        "scope": "Read-only remote HEAD observation; recorded_revisions and dated source evidence preserved.",
+        "scope": "Current master pinned and representative source reviewed; prior pins/evidence preserved. No runtime qualification.",
         "source_assessment_completed": true,
         "qualification_required": true,
-        "assessment_outcome": "source-screened-not-tested"
+        "assessment_outcome": "source-reviewed-bounded"
       },
       "upstream_metadata": {
         "repository_id": "1191052193",
         "archived": false,
         "default_branch": "master",
-        "checked_date": "2026-11-09"
+        "checked_date": "2026-11-12"
       },
       "historical_evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
       "historical_recorded_revisions": [
         "bc8dcc08520557ad63270a79b5362462150707d3"
       ],
       "source_review": {
-        "review_date": "2026-11-09",
-        "reviewed_revision": "d4935af470a8a4b231d0ffef3b8c8708fdd4a10c",
-        "review_state": "source-screened-not-tested",
+        "review_date": "2026-11-12",
+        "reviewed_revision": "3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative public source, not exhaustive audit or runtime qualification.",
         "findings": [
-          "AGPLv3 studio still combines local chat/media/coding with optional nonlocal routes; Windows installer/release test claims remain upstream, not Abrams tests.",
-          "Parallel executor groups side-effect keys, validates arguments and awaits explicit runtime approval; runtime may explicitly approve all, so gate wiring matters.",
-          "Run context is optional for unthreaded surfaces; AbortSignal is forwarded to cancellable tools, but source comments document prior long-running shell cancellation gap. Qualify each actual tool implementation, not presence of signal alone."
+          "Source package, Cargo and Tauri manifests report3.0.10 and AGPL-3.0-only; frontend requires Node>=22. App code, model/media weights, engines and third-party artifacts have separate rights and provenance. A signed update channel is not proof of a code-signed or qualified Windows installer.",
+          "README documents chat/project/engine choice, media and coding/agent surfaces, with local and optional nonlocal modes. Cloud-only media and connected/remote features must not inherit a local-only privacy claim or tool grant; exact configured endpoints and modes require separate Core admission.",
+          "Current README describes3.0.10 chat-loss/backup recovery changes. The inspected recovery helper reads native backup and merges conversations by id and updatedAt; that heuristic is not a proven tombstone journal, crash-safe canonical store or complete deletion/restore guarantee. Test attachment migration, partial writes, failures and intentional deletion with synthetic fixtures.",
+          "Backup credential cleanup is explicitly conditional on mobile mode: valueForSnapshot returns raw values on desktop and only runs selected secret cleaners on mobile. Local backup storage can therefore retain sensitive state; require exact secure-store fallback, file permissions/encryption, backup/retention/deletion/export and per-platform restore review.",
+          "The privacy image helper returns external URLs directly in Tauri mode while development uses a local proxy. Tauri CSP permits named cloud/model/media domains; CSP and localhost routing do not prove network isolation or no recipient visibility. Review actual request recipients and logs per feature.",
+          "Fresh provider state enables the loopback LU engine; explicit provider/model routing and unprefixed Ollama routing are different paths. A stale extra-provider entry is rejected rather than silently rerouted. Explicit selection alone does not qualify all auxiliary recipients, model discovery, engine downloads or cloud features.",
+          "Cloud-content consent is installed by the phone path; the inspected desktop path has no additional gate and the helper permits the call. Memory extraction is enabled in the inspected defaults with cloud memory opt-in true; LUCloud silent extraction may choose another model through a preferred-model list or parameter-size heuristic and consumes billable tokens like chat; the heuristic does not verify actual prices. Qualify every background model/recipient and reserve combined spend; local default selection is not evidence that cloud-mode memory stays on device.",
+          "Representative permission/executor/shell source is byte-identical to the November9 pin, so this refresh establishes no new executor fix. Current source has per-call shell cancel IDs, early-cancel race handling and process-tree kill plumbing, while optional run context/signal and mode-dependent approval remain qualification questions. Verify actual process retirement and each shell/media/MCP path; an AbortSignal or source test does not prove all-child Stop.",
+          "Credential persistence has OS-vault and fallback paths; failed or unavailable vault paths can use reversible obfuscation in localStorage. Native Windows build support exists for the managed llama.cpp backend, while MLX media is Apple-Silicon/macOS-only. Feature thresholds and GGUF planners are resource estimates, not current free-headroom or model/backend qualification.",
+          "Artifact checks vary: model verification can be size-only, SHA256 or unconfirmed; the Windows Ollama installer path uses a mutable current-release URL and signature checks without an exact version/digest in that call. Managed ComfyUI and app updater pins/signatures are separate controls. Pin every acquired backend/model/helper and verify removal, update and rollback behavior before execution."
         ],
-        "limitations": [
-          "Representative paths only; uninspected code/dependencies remain unqualified.",
-          "Windows compatibility, resource consumption, complete egress, cancellation/Stop and total costs require bounded runtime qualification unless explicitly established by separate existing evidence."
-        ],
-        "scope": "Human-reviewed pinned public README, rights signals and representative implementation/configuration; targeted source screen, not exhaustive security review.",
         "evidence": [
           {
-            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/README.md#L7",
-            "lines": "7-11"
+            "path": "README.md",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/README.md"
           },
           {
-            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/README.md#L40",
-            "lines": "40-41"
+            "path": "LICENSE",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/LICENSE"
           },
           {
-            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/src/api/agents/tool-executor.ts#L34",
-            "lines": "34-50"
+            "path": "package.json",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/package.json"
           },
           {
-            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/src/api/agents/tool-executor.ts#L76",
-            "lines": "76-93"
+            "path": "src-tauri/Cargo.toml",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/Cargo.toml"
           },
           {
-            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/src/api/agents/tool-executor.ts#L357",
-            "lines": "357-373"
+            "path": "src-tauri/tauri.conf.json",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/tauri.conf.json"
+          },
+          {
+            "path": "src/lib/chat-backup-recovery.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/chat-backup-recovery.ts"
+          },
+          {
+            "path": "src/lib/store-backup.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/store-backup.ts"
+          },
+          {
+            "path": "src/lib/privacy.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/privacy.ts"
+          },
+          {
+            "path": "src/lib/agent-approval-policy.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/agent-approval-policy.ts#L124-L189"
+          },
+          {
+            "path": "src/api/agents/sub-agent.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/agents/sub-agent.ts#L340-L427"
+          },
+          {
+            "path": "src/api/agent-context.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/agent-context.ts#L64-L166"
+          },
+          {
+            "path": "src/api/agent-context.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/agent-context.ts#L205-L259"
+          },
+          {
+            "path": "src/api/agents/tool-executor.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/agents/tool-executor.ts#L357-L404"
+          },
+          {
+            "path": "src/api/mcp/builtin-tools.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/mcp/builtin-tools.ts#L951-L989"
+          },
+          {
+            "path": "src/lib/shell-command-classify.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/shell-command-classify.ts#L60-L150"
+          },
+          {
+            "path": "src-tauri/src/commands/shell.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/shell.rs#L882-L987"
+          },
+          {
+            "path": "src/api/mcp/builtin-tools.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/mcp/builtin-tools.ts#L1100-L1121"
+          },
+          {
+            "path": "src-tauri/src/commands/shell.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/shell.rs#L650-L763"
+          },
+          {
+            "path": "src-tauri/src/commands/shell.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/shell.rs#L232-L325"
+          },
+          {
+            "path": "src-tauri/src/commands/shell.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/shell.rs#L989-L1074"
+          },
+          {
+            "path": "src/api/agents/tool-executor.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/agents/tool-executor.ts#L399-L485"
+          },
+          {
+            "path": "src-tauri/src/commands/shell.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/shell.rs#L31-L69"
+          },
+          {
+            "path": "src-tauri/src/commands/shell.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/shell.rs#L904-L918"
+          },
+          {
+            "path": "src/hooks/codexShellGate.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/hooks/codexShellGate.ts#L39-L100"
+          },
+          {
+            "path": "src/stores/providerStore.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/stores/providerStore.ts#L112"
+          },
+          {
+            "path": "src/api/providers/registry.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/providers/registry.ts#L70"
+          },
+          {
+            "path": "src/api/providers/retry.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/providers/retry.ts#L30"
+          },
+          {
+            "path": "src/api/providers/lu-cloud-provider.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/providers/lu-cloud-provider.ts#L35"
+          },
+          {
+            "path": "src/api/cloud/config.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/cloud/config.ts#L1"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/README.md#L118"
+          },
+          {
+            "path": "src/lib/cloud-content-gate.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/cloud-content-gate.ts#L1"
+          },
+          {
+            "path": "src/api/cloud/memory-sync.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/api/cloud/memory-sync.ts#L47"
+          },
+          {
+            "path": "src/lib/constants.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/constants.ts#L114"
+          },
+          {
+            "path": "src/stores/memoryStore.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/stores/memoryStore.ts#L501"
+          },
+          {
+            "path": "src/lib/silent-model-calls.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/silent-model-calls.ts#L3"
+          },
+          {
+            "path": "src/lib/silent-model-calls.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/silent-model-calls.ts#L35"
+          },
+          {
+            "path": "src/stores/providerStore.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/stores/providerStore.ts#L20"
+          },
+          {
+            "path": "src/stores/providerStore.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/stores/providerStore.ts#L103"
+          },
+          {
+            "path": "scripts/build-llama.sh",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/scripts/build-llama.sh#L11"
+          },
+          {
+            "path": "scripts/build-llama.sh",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/scripts/build-llama.sh#L50"
+          },
+          {
+            "path": "src-tauri/src/commands/mlx.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/mlx.rs#L117"
+          },
+          {
+            "path": "src/lib/hardware.ts",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src/lib/hardware.ts#L33"
+          },
+          {
+            "path": "src-tauri/src/commands/vram_plan.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/vram_plan.rs#L13"
+          },
+          {
+            "path": "src-tauri/src/commands/model_verify.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/model_verify.rs#L144"
+          },
+          {
+            "path": "src-tauri/src/commands/install/ollama.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/install/ollama.rs#L157"
+          },
+          {
+            "path": "src-tauri/src/commands/install/download.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/install/download.rs#L275"
+          },
+          {
+            "path": "src-tauri/src/commands/install/comfy_pin.rs",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/src/commands/install/comfy_pin.rs#L1"
+          },
+          {
+            "path": "src-tauri/tauri.conf.json",
+            "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3/src-tauri/tauri.conf.json#L32"
           }
         ],
-        "execution_authority": "none"
-      }
+        "limitations": [
+          "Representative source refresh only; prior assessments are historical, not current runtime evidence.",
+          "No installation, source execution/import, model/binary downloads, provider/credential use, personal data, voice/remote access, benchmark or adoption.",
+          "Whole-app, component, engine/model, media/coding and desktop/mobile/remote variants cannot inherit each other's qualification.",
+          "The bounded collector declined oversized main commands/engine.rs; smaller provider/build/planner/verification paths do not establish every engine startup or lifecycle branch."
+        ]
+      },
+      "historical_source_reviews": [
+        {
+          "review_date": "2026-11-09",
+          "reviewed_revision": "d4935af470a8a4b231d0ffef3b8c8708fdd4a10c",
+          "review_state": "source-screened-not-tested",
+          "findings": [
+            "AGPLv3 studio still combines local chat/media/coding with optional nonlocal routes; Windows installer/release test claims remain upstream, not Abrams tests.",
+            "Parallel executor groups side-effect keys, validates arguments and awaits explicit runtime approval; runtime may explicitly approve all, so gate wiring matters.",
+            "Run context is optional for unthreaded surfaces; AbortSignal is forwarded to cancellable tools, but source comments document prior long-running shell cancellation gap. Qualify each actual tool implementation, not presence of signal alone."
+          ],
+          "limitations": [
+            "Representative paths only; uninspected code/dependencies remain unqualified.",
+            "Windows compatibility, resource consumption, complete egress, cancellation/Stop and total costs require bounded runtime qualification unless explicitly established by separate existing evidence."
+          ],
+          "scope": "Human-reviewed pinned public README, rights signals and representative implementation/configuration; targeted source screen, not exhaustive security review.",
+          "evidence": [
+            {
+              "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/README.md#L7",
+              "lines": "7-11"
+            },
+            {
+              "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/README.md#L40",
+              "lines": "40-41"
+            },
+            {
+              "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/src/api/agents/tool-executor.ts#L34",
+              "lines": "34-50"
+            },
+            {
+              "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/src/api/agents/tool-executor.ts#L76",
+              "lines": "76-93"
+            },
+            {
+              "url": "https://github.com/PurpleDoubleD/locally-uncensored/blob/d4935af470a8a4b231d0ffef3b8c8708fdd4a10c/src/api/agents/tool-executor.ts#L357",
+              "lines": "357-373"
+            }
+          ],
+          "execution_authority": "none"
+        }
+      ]
     },
     {
       "repository": "wide-trace/open-higgsfield",
@@ -16947,7 +17170,12 @@
       "related_repositories": [
         "PurpleDoubleD/locally-uncensored"
       ],
-      "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD."
+      "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD.",
+      "current_refresh": {
+        "date": "2026-11-12",
+        "revision": "3dff4291f8ad5a86078679e23c7a0a2cd2adf9b3",
+        "scope": "Existing Q08 representative source refresh; no count/runtime/adoption change."
+      }
     },
     {
       "record_id": "desktop.nextjs",
