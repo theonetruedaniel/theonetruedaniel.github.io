@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-12",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 306,
-  "github_repository_count": 203,
+  "registered_record_count": 308,
+  "github_repository_count": 205,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -8013,79 +8013,145 @@
       "name": "FreeLLMAPI",
       "layer": "Models and inference",
       "stage": "shortlisted",
-      "purpose": "Experimental provider gateway.",
-      "fit": "E / Q-14: compare with direct adapters and eligible 9Router routes.",
-      "disposition": "Source screened; no live calls, quotas or reliability validated.",
-      "next_gate": "Verify exact manually selected model/route fidelity and disable unapproved fallback; separately qualify API/admin/MCP/tunnel auth, key encryption/revocation, provider terms/quotas/data recipients, cancellation/retries and observed full cost; no aggregated free-capacity assumption.",
+      "purpose": "Self-hosted provider/model gateway with OpenAI, Responses, Anthropic, Gemini and optional Ollama-compatible surfaces; provider fallbacks, catalog/key quotas, optional compression/cache and multi-model synthesis.",
+      "fit": "E/I/J / existing Q-14: Abrams product-side manual/Auto local/cloud API switching and provider-neutral gateway comparison versus direct Core adapters, eligible9Router/LiteLLM and existing routers. Protocol compatibility, exact route fidelity, privacy and aggregate spend require separate evidence. Compare upstream, licensed router/protocol components, minimal original adapters and defer.",
+      "disposition": "Source researched; refreshed November12; planned and untested. MIT source, Node>=20.18<25/npm>=10 metadata; native SQLite/desktop/server variants separate. Advertised34providers/635endpoints/7.4Btokens are catalog/quota claims, not verified available capacity or provider entitlement. Free delayed feed versus paid live feed and actual third-party quotas/terms remain gates; no provider calls or adoption.",
+      "next_gate": "Qualify exact manual model/provider fidelity and disable unapproved fallback/fan-out/compression/cache/catalog changes. Review API/admin/MCP/tunnel bind/auth, credential encryption/revocation/backups, provider terms/quotas/retention and every retry/panel/judge recipient. Pin executable/catalog/artifacts and Windows/runtime dependencies; preserve canonical state, context lineage and full-response correctness. Prove cancellation/ambiguous effects, aggregate pre-reserved spend/time/token budgets across keys/processes/providers and rate limits; measure task quality, full latency/TTFT/cost plus maintenance/exit burden. Preserve USD25 monthly metered cap; no free-capacity pooling assumption or paid subscription authorized.",
       "id": "tashfeenahmed-freellmapi",
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "canonical_repository": "tashfeenahmed/freellmapi",
-      "link_checked": "2026-11-09",
+      "link_checked": "2026-11-12",
       "link_state": "verified",
       "source_records": [
         "proxy.freellmapi"
       ],
       "evidence_dates": [
         "2026-09-22",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-12"
       ],
-      "evidence_basis": "Pinned README, rights/build metadata and representative implementation source review; source paths and lines retained. No execution or benchmark.",
+      "evidence_basis": "November12 pinned README/LICENSE/manifests and representative gateway auth, router/fallback, fusion, catalog-sync, crypto and per-key budget source. No install/build, credential/provider use, catalog service calls, live endpoint tests or candidate benchmark. Earlier pins/assessments remain historical.",
       "adopted_integration": false,
       "recorded_revisions": [
         "37f07fdc3a2cdf14b2cc804e63ce82ff9a178854",
-        "7f3fece4f9daec0d32877d0a4b8038045dc9daf3"
+        "7f3fece4f9daec0d32877d0a4b8038045dc9daf3",
+        "ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98"
       ],
       "currentness": {
-        "checked_at": "2026-11-09T09:49:09.023680+00:00",
-        "observed_head": "7f3fece4f9daec0d32877d0a4b8038045dc9daf3",
+        "checked_at": "2026-11-12",
+        "observed_head": "ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98",
         "default_branch": "main",
         "state": "changed",
         "review_required": false,
-        "scope": "Read-only remote HEAD observation; recorded_revisions and dated source evidence preserved.",
+        "scope": "Current HEAD and bounded source refresh; no runtime/endpoint/entitlement qualification.",
         "source_assessment_completed": true,
         "qualification_required": true,
-        "assessment_outcome": "reviewed"
+        "assessment_outcome": "source-reviewed-bounded"
       },
       "upstream_metadata": {
         "repository_id": "1217040185",
         "archived": false,
         "default_branch": "main",
-        "checked_date": "2026-11-09"
+        "checked_date": "2026-11-12"
       },
       "historical_evidence_basis": "Dated public-source intake; review scope is documentation and selected source where recorded, not full audit.",
       "historical_recorded_revisions": [
         "37f07fdc3a2cdf14b2cc804e63ce82ff9a178854"
       ],
       "source_review": {
-        "review_date": "2026-11-09",
-        "reviewed_revision": "7f3fece4f9daec0d32877d0a4b8038045dc9daf3",
-        "review_state": "reviewed",
+        "review_date": "2026-11-12",
+        "reviewed_revision": "ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative source only; not an exhaustive audit or endpoint qualification.",
         "findings": [
-          "Current README advertises34providers/635free endpoints and aggregated7.4Btokens; these are vendor catalog/quota claims, not available Abrams capacity. Automatic fallback can change provider/model and cannot override manual route, privacy or budget.",
-          "Dashboard middleware validates its own session token; comment distinguishes /v1 unified-key auth from /api admin session boundary. Encrypted keys at rest do not establish provider eligibility or retention policy.",
-          "Desktop/Node20+/Windows routes and secure MCP tunnel are additional components requiring separate recipient/auth/Stop qualification."
+          "The screenshot endpoint count matches the README headline, not a verified count of callable models for this account. Provider keys/accounts, changing free-tier quotas and terms remain independent; neither catalog totals nor unused quotas establish interchangeable free capacity.",
+          "README advertises a monthly delayed catalog and a premium live feed (claimed USD19/year). Source schedules signed catalog fetches twice daily against a configurable catalog origin and pinned verification key. Signing authenticates feed bytes, not route suitability, confidentiality, entitlement or unchanged routing; pin/approve catalog changes separately.",
+          "Fallback and profile routing can select different models/keys/providers; optional fusion fans the prompt to multiple panel models and a judge. Model selection and recipient authorization must be exact and visible, including retry and synthesis paths; OpenAI/Anthropic wire compatibility is not proof of every client/tool/streaming semantic.",
+          "Per-key monthly request/token caps are opt-in with0 meaning unlimited. The inspected code reserves estimated active-request tokens in the current process and settles successful usage in SQLite. This is useful admission plumbing, not exact billed USD or independently proven cross-process/global budgeting; combined provider/retry/panel spend remains Core-owned.",
+          "Dashboard requireAuth validates its own session while the proxy uses a different unified-key boundary. Keys use AES-256-GCM; production requires explicit encryption key and development can create a local key file beside the DB. Qualify file permissions, key backup/rotation/revocation and every exposed API/admin/MCP/tunnel route independently.",
+          "Compression/cache and optional handoff can alter what downstream models see; preserve raw request/response lineage, retention/deletion and matched quality. Abort signals and tool-call timeouts in fusion are not a universal guarantee that every downstream provider or asynchronous effect stops. No service, account, endpoint or quota was exercised."
         ],
-        "limitations": [
-          "Representative source screening, not exhaustive security audit or runtime qualification.",
-          "Current pin is observed source evidence, not an approved artifact or new benchmark."
-        ],
-        "scope": "Read-only public source review; no candidate installation, code execution, providers, credentials, downloads of binaries/models or adoption.",
         "evidence": [
           {
-            "url": "https://github.com/tashfeenahmed/freellmapi/blob/7f3fece4f9daec0d32877d0a4b8038045dc9daf3/README.md#L5",
-            "lines": "5-12"
+            "path": "README.md",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/README.md#L5"
           },
           {
-            "url": "https://github.com/tashfeenahmed/freellmapi/blob/7f3fece4f9daec0d32877d0a4b8038045dc9daf3/README.md#L7",
-            "lines": "7-14"
+            "path": "package.json",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/package.json#L23"
           },
           {
-            "url": "https://github.com/tashfeenahmed/freellmapi/blob/7f3fece4f9daec0d32877d0a4b8038045dc9daf3/server/src/middleware/requireAuth.ts#L6",
-            "lines": "6-13"
+            "path": "server/src/services/catalog-sync.ts",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/server/src/services/catalog-sync.ts#L24"
+          },
+          {
+            "path": "server/src/services/router.ts",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/server/src/services/router.ts#L181"
+          },
+          {
+            "path": "server/src/lib/fallback-loop.ts",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/server/src/lib/fallback-loop.ts#L1"
+          },
+          {
+            "path": "server/src/services/fusion.ts",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/server/src/services/fusion.ts#L40"
+          },
+          {
+            "path": "server/src/services/key-budget.ts",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/server/src/services/key-budget.ts#L103"
+          },
+          {
+            "path": "server/src/middleware/requireAuth.ts",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/server/src/middleware/requireAuth.ts#L4"
+          },
+          {
+            "path": "server/src/lib/crypto.ts",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/server/src/lib/crypto.ts#L12"
+          },
+          {
+            "path": "server/src/services/compression/pipeline.ts",
+            "url": "https://github.com/tashfeenahmed/freellmapi/blob/ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98/server/src/services/compression/pipeline.ts#L1"
           }
         ],
-        "execution_authority": "none"
-      }
+        "limitations": [
+          "No candidate execution, installation, credentials/providers, catalog fetch, benchmark or adoption.",
+          "Advertised prices/capacity/compatibility are upstream claims, not measured cost or account availability.",
+          "Per-route/surface/variant and provider rights require independent admission."
+        ]
+      },
+      "historical_source_reviews": [
+        {
+          "review_date": "2026-11-09",
+          "reviewed_revision": "7f3fece4f9daec0d32877d0a4b8038045dc9daf3",
+          "review_state": "reviewed",
+          "findings": [
+            "Current README advertises34providers/635free endpoints and aggregated7.4Btokens; these are vendor catalog/quota claims, not available Abrams capacity. Automatic fallback can change provider/model and cannot override manual route, privacy or budget.",
+            "Dashboard middleware validates its own session token; comment distinguishes /v1 unified-key auth from /api admin session boundary. Encrypted keys at rest do not establish provider eligibility or retention policy.",
+            "Desktop/Node20+/Windows routes and secure MCP tunnel are additional components requiring separate recipient/auth/Stop qualification."
+          ],
+          "limitations": [
+            "Representative source screening, not exhaustive security audit or runtime qualification.",
+            "Current pin is observed source evidence, not an approved artifact or new benchmark."
+          ],
+          "scope": "Read-only public source review; no candidate installation, code execution, providers, credentials, downloads of binaries/models or adoption.",
+          "evidence": [
+            {
+              "url": "https://github.com/tashfeenahmed/freellmapi/blob/7f3fece4f9daec0d32877d0a4b8038045dc9daf3/README.md#L5",
+              "lines": "5-12"
+            },
+            {
+              "url": "https://github.com/tashfeenahmed/freellmapi/blob/7f3fece4f9daec0d32877d0a4b8038045dc9daf3/README.md#L7",
+              "lines": "7-14"
+            },
+            {
+              "url": "https://github.com/tashfeenahmed/freellmapi/blob/7f3fece4f9daec0d32877d0a4b8038045dc9daf3/server/src/middleware/requireAuth.ts#L6",
+              "lines": "6-13"
+            }
+          ],
+          "execution_authority": "none"
+        }
+      ]
     },
     {
       "repository": "FlashML-org/FreeToken",
@@ -9700,86 +9766,168 @@
       "layer": "Safety and recovery",
       "stage": "shortlisted",
       "purpose": "Static and optional model-assisted security screening of agent skill bundles before installation.",
-      "fit": "H/J / Q-44: bake-off skill-intake evidence versus independent manual/static checks; complements Q-29 SkillOpt and Q-33 audits.",
-      "disposition": "Source researched; skill-intake/regression comparison planned and untested. Scores and catalog signatures do not establish installation safety or adoption.",
-      "next_gate": "Compare static/semantic scanner signals with held-out skill incidents and false positives; qualify Linux worker path versus exactWindows scope, all fetch/dependency/provider recipients and secrets, adversarial inputs/resource limits and full scan cancellation before intake automation.",
+      "fit": "H/J / existing Q-44: Skill-intake and bake-off evidence versus independent manual/static checks, held-out malicious/benign skill fixtures and simpler controls; complements Q-29 SkillOpt and Q-33 audits. Compare exact upstream scanner, eligible licensed analyzers/report components, minimal original intake checks and defer; Core retains installation authority.",
+      "disposition": "Source researched; refreshed November12 at source package2.12.0, planned and untested. Scanner scores/signatures are advisory evidence, not antivirus containment, a safety guarantee or adoption. Static, semantic, remote-acquisition and dependency-worker modes require separate admission.",
+      "next_gate": "Compare upstream/components/independent checks/defer using held-out incidents, false positives, severity and incomplete-coverage handling. Pin scanner, rules, parser/dependency artifacts and actual provider/model/endpoint; qualify source disclosure, OSV/dependency acquisition, credential fallback and costs. Separate ordinary Windows static scans from Linux-only dependency-worker and unsupported file-output scopes. Review suppression provenance, adversarial scanner inputs, resource ceilings, output/log retention and all-worker/provider cancellation. Never auto-install from score/exit0; preserve Core grants and aggregate pre-reserved token/time/USD budget with USD25 monthly metered cap.",
       "id": "nvidia-skillspector",
       "url": "https://github.com/NVIDIA/SkillSpector",
       "canonical_repository": "NVIDIA/SkillSpector",
-      "link_checked": "2026-11-09",
+      "link_checked": "2026-11-12",
       "link_state": "verified",
       "source_records": [
         "security.skillspector"
       ],
       "evidence_dates": [
         "2026-10-15",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-12"
       ],
-      "evidence_basis": "November9 pinned source screen: README.md:3-6, README.md:39-39, README.md:322-333, src/skillspector/dependency_sandbox.py:4-22, src/skillspector/dependency_sandbox.py:88-121. No installation, candidate execution, provider calls, benchmark, runtime admission or adoption. Prior measured evidence remains historical and unchanged.",
+      "evidence_basis": "November12 bounded source refresh of README/package/provider selector, disabled Codex provider, dependency-worker isolation and acquisition documentation, resource bounds and representative MCP invocation. No install/import/scanner execution, package/model downloads, dependency sandbox, provider call, credentials, benchmark or adoption. Prior October15 and November9 evidence remains historical.",
       "adopted_integration": false,
       "recorded_revisions": [
         "4c52fbb83bbca0dd13f2685453c9b661d8c95bf8",
-        "e48d771a26f7398b36256ceb8d8f94adce3d5c44"
+        "e48d771a26f7398b36256ceb8d8f94adce3d5c44",
+        "3c2c5d7a1ee148d228398070b91d3beaf0d73b11"
       ],
       "currentness": {
-        "checked_at": "2026-11-09T09:49:10.409463+00:00",
-        "observed_head": "e48d771a26f7398b36256ceb8d8f94adce3d5c44",
+        "checked_at": "2026-11-12",
+        "observed_head": "3c2c5d7a1ee148d228398070b91d3beaf0d73b11",
         "default_branch": "main",
         "state": "changed",
         "review_required": false,
-        "scope": "Read-only remote HEAD observation; recorded_revisions and dated source evidence preserved.",
+        "scope": "Pinned current main and representative source reviewed; prior pins/results preserved; no runtime qualification.",
         "source_assessment_completed": true,
         "qualification_required": true,
-        "assessment_outcome": "source-screened-not-tested"
+        "assessment_outcome": "source-reviewed-bounded"
       },
       "upstream_metadata": {
         "repository_id": "1187630119",
         "archived": false,
         "default_branch": "main",
-        "checked_date": "2026-11-09"
+        "checked_date": "2026-11-12"
       },
       "historical_evidence_basis": "Pinned README, package metadata, resource-bounds and suppression documentation screened; no execution or full audit.",
       "historical_recorded_revisions": [
         "4c52fbb83bbca0dd13f2685453c9b661d8c95bf8"
       ],
       "source_review": {
-        "review_date": "2026-11-09",
-        "reviewed_revision": "e48d771a26f7398b36256ceb8d8f94adce3d5c44",
-        "review_state": "source-screened-not-tested",
+        "review_date": "2026-11-12",
+        "reviewed_revision": "3c2c5d7a1ee148d228398070b91d3beaf0d73b11",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative source refresh, not exhaustive scanner audit or runtime qualification.",
         "findings": [
-          "SkillSpector current scanner separates static and model-backed analysis; third-party downloads and provider keys remain explicit additional authority/rights.",
-          "Disposable dependency-worker sandbox is Linux-only x86_64/aarch64 seccomp; unsupportedOS/kernel/architecture failclosed. It does not sandbox host scanner/network client.",
-          "Model registry README disables codex_cli because read-only sandbox still allows host reads; scanner output is evidence to review, not automatic skill safety/admission."
+          "Source package2.12.0 declares Apache-2.0, Alpha status and Python>=3.12,<3.16. Static/optional semantic scanning is pre-installation evidence, not antivirus containment, a guarantee, installation permission or a replacement for independent review.",
+          "LLM analysis is enabled by default when available and sends analyzer-eligible file contents to the configured provider; DSSE/signing metadata may be included. --no-llm keeps ordinary content analysis static/local, but OSV still receives dependency names/versions and acquisition may fetch remote inputs, so it is not automatically an offline mode.",
+          "Unset provider selection tries optional nv_inference then nv_build. In unbound API-key paths lacking active credentials, a configured standard OpenAI fallback can supply the chat route; explicit bindings and native/CLI providers have separate behavior. Pin actual recipient/model and credentials, not just a provider label. Paid inference/quota/retention remains separate from the free scanner license.",
+          "Opt-in locked npm dependency inspection fetches exact public registry tarballs with SHA-512 integrity and runs static analysis in a disposable worker; it does not invoke npm, install packages or execute scanned package code. Linux x86_64/AArch64 seccomp isolation is limited to this worker, not the host scanner/network client. Unsupported platforms or isolation failures leave incomplete coverage rather than proving safety.",
+          "Codex CLI provider remains registered but disabled for untrusted skill analysis because a read-only sandbox permits host-file reads; direct completion is rejected before spawning. Compatibility with scanning Codex skills does not mean the Codex-backed semantic provider is admitted.",
+          "Default exit status collapses SAFE and CAUTION to0. Findings, suppressions/baselines, requested-versus-actual semantic execution and inspection completeness must be examined separately; use explicit findings/incomplete/coverage policies for a future gate. A risk score or catalog signature cannot authorize installing an untrusted skill.",
+          "Resource documentation has shared artifact/byte/workflow ceilings and explicit incomplete states; these are not measured peak RAM or a shared dollar reservation. MCP uses graph invocation and temp tracking for failed/cancelled scans, but this bounded review did not establish all provider subprocess/download retirement, full Stop or host containment. Qualify each exact transport before automation."
         ],
-        "limitations": [
-          "Representative paths only; uninspected code/dependencies remain unqualified.",
-          "Windows compatibility, resource consumption, complete egress, cancellation/Stop and total costs require bounded runtime qualification unless explicitly established by separate existing evidence."
-        ],
-        "scope": "Human-reviewed pinned public README, rights signals and representative implementation/configuration; targeted source screen, not exhaustive security review.",
         "evidence": [
           {
-            "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/README.md#L3",
-            "lines": "3-6"
+            "path": "pyproject.toml",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/pyproject.toml#L5",
+            "lines": "5-25"
           },
           {
-            "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/README.md#L39",
-            "lines": "39-39"
+            "path": "README.md",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/README.md#L1085",
+            "lines": "1085-1098"
           },
           {
-            "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/README.md#L322",
-            "lines": "322-333"
+            "path": "README.md",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/README.md#L832",
+            "lines": "832-851"
           },
           {
-            "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/src/skillspector/dependency_sandbox.py#L4",
-            "lines": "4-22"
+            "path": "src/skillspector/providers/__init__.py",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/src/skillspector/providers/__init__.py#L175",
+            "lines": "175-186"
           },
           {
-            "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/src/skillspector/dependency_sandbox.py#L88",
+            "path": "src/skillspector/providers/__init__.py",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/src/skillspector/providers/__init__.py#L218",
+            "lines": "218-265"
+          },
+          {
+            "path": "src/skillspector/providers/codex_cli/provider.py",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/src/skillspector/providers/codex_cli/provider.py#L16",
+            "lines": "16-20"
+          },
+          {
+            "path": "src/skillspector/dependency_sandbox.py",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/src/skillspector/dependency_sandbox.py#L4",
+            "lines": "4-24"
+          },
+          {
+            "path": "src/skillspector/dependency_sandbox.py",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/src/skillspector/dependency_sandbox.py#L88",
             "lines": "88-121"
+          },
+          {
+            "path": "docs/DEPENDENCY_CONTENT_INSPECTION.md",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/docs/DEPENDENCY_CONTENT_INSPECTION.md#L17",
+            "lines": "17-78"
+          },
+          {
+            "path": "docs/ANALYSIS_RESOURCE_BOUNDS.md",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/docs/ANALYSIS_RESOURCE_BOUNDS.md#L3",
+            "lines": "3-41"
+          },
+          {
+            "path": "src/skillspector/mcp_server.py",
+            "url": "https://github.com/NVIDIA/SkillSpector/blob/3c2c5d7a1ee148d228398070b91d3beaf0d73b11/src/skillspector/mcp_server.py#L153",
+            "lines": "153-196"
           }
         ],
-        "execution_authority": "none"
-      }
+        "limitations": [
+          "No scanner, dependency worker or provider executed; no software/model downloads or installation.",
+          "Source claims and limits were inspected; no detection-rate, privacy, Windows runtime, full Stop or safety guarantee established.",
+          "Host scanner, network acquisition, static analysis, semantic provider, MCP transport and dependency worker cannot inherit each other's qualification."
+        ]
+      },
+      "historical_source_reviews": [
+        {
+          "review_date": "2026-11-09",
+          "reviewed_revision": "e48d771a26f7398b36256ceb8d8f94adce3d5c44",
+          "review_state": "source-screened-not-tested",
+          "findings": [
+            "SkillSpector current scanner separates static and model-backed analysis; third-party downloads and provider keys remain explicit additional authority/rights.",
+            "Disposable dependency-worker sandbox is Linux-only x86_64/aarch64 seccomp; unsupportedOS/kernel/architecture failclosed. It does not sandbox host scanner/network client.",
+            "Model registry README disables codex_cli because read-only sandbox still allows host reads; scanner output is evidence to review, not automatic skill safety/admission."
+          ],
+          "limitations": [
+            "Representative paths only; uninspected code/dependencies remain unqualified.",
+            "Windows compatibility, resource consumption, complete egress, cancellation/Stop and total costs require bounded runtime qualification unless explicitly established by separate existing evidence."
+          ],
+          "scope": "Human-reviewed pinned public README, rights signals and representative implementation/configuration; targeted source screen, not exhaustive security review.",
+          "evidence": [
+            {
+              "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/README.md#L3",
+              "lines": "3-6"
+            },
+            {
+              "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/README.md#L39",
+              "lines": "39-39"
+            },
+            {
+              "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/README.md#L322",
+              "lines": "322-333"
+            },
+            {
+              "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/src/skillspector/dependency_sandbox.py#L4",
+              "lines": "4-22"
+            },
+            {
+              "url": "https://github.com/NVIDIA/SkillSpector/blob/e48d771a26f7398b36256ceb8d8f94adce3d5c44/src/skillspector/dependency_sandbox.py#L88",
+              "lines": "88-121"
+            }
+          ],
+          "execution_authority": "none"
+        }
+      ]
     },
     {
       "repository": "PurpleAILAB/xbow-validation-benchmarks",
@@ -12788,33 +12936,34 @@
       "layer": "Tools and browsing",
       "stage": "shortlisted",
       "purpose": "Source-access adapters for a named research coverage gap.",
-      "fit": "F / BO-T03: optional removable adapter, outside canonical data authority.",
+      "fit": "E/H/I/J; optional F / existing BO-T03: General personal-assistant source access and research coverage beyond job search; trigger-only removable adapter versus direct/connected source tools. Keep canonical data, credentials, action grants and recipient/budget/Stop controls in Core.",
       "disposition": "Deferred; comparison remains trigger-only. November 9: current pinned representative source reviewed; no runtime qualification or adoption.",
       "next_gate": "Retain trigger-only defer until an unmet source need; pin each helper artifact, qualify platform/source terms, account/profile/cookie boundaries and CDP exposure, token redaction, network cost, watcher cleanup and all-process Stop.",
       "id": "panniantong-agent-reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
       "canonical_repository": "Panniantong/Agent-Reach",
-      "link_checked": "2026-11-09",
+      "link_checked": "2026-11-12",
       "link_state": "verified",
       "source_records": [
         "capability.agent-reach"
       ],
       "evidence_dates": [
         "2026-09-04",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-12"
       ],
-      "evidence_basis": "November 9 pinned public tree, README, available license/manifest/deployment metadata and the specifically cited representative source inspected. Findings are bounded to cited surfaces; no candidate execution or benchmark.",
+      "evidence_basis": "November 9 pinned public tree, README, available license/manifest/deployment metadata and the specifically cited representative source inspected. Findings are bounded to cited surfaces; no candidate execution or benchmark. November12 duplicate check confirms unchanged reviewed HEAD; fit clarified for general-assistant research without job-search limitation. No additional source/runtime qualification.",
       "adopted_integration": false,
       "recorded_revisions": [
         "c70ae6da5d39bc90e09ad2ae0575ccc89f31e284"
       ],
       "currentness": {
-        "checked_at": "2026-11-09T09:49:12.590115+00:00",
+        "checked_at": "2026-11-12",
         "observed_head": "c70ae6da5d39bc90e09ad2ae0575ccc89f31e284",
         "default_branch": "main",
-        "state": "unreviewed_pin",
+        "state": "unchanged",
         "review_required": false,
-        "scope": "Read-only remote HEAD observation; recorded_revisions and dated source evidence preserved.",
+        "scope": "Remote HEAD unchanged from November9 reviewed pin; no repeated source qualification. Scope clarified for general research.",
         "source_assessment_completed": true,
         "qualification_required": true,
         "assessment_outcome": "source-reviewed-bounded"
@@ -12823,7 +12972,7 @@
         "repository_id": "1165277268",
         "archived": false,
         "default_branch": "main",
-        "checked_date": "2026-11-09"
+        "checked_date": "2026-11-12"
       },
       "historical_evidence_basis": "Dated discovery catalog; executable qualification unrun.",
       "historical_recorded_revisions": [],
@@ -12869,7 +13018,8 @@
           }
         ],
         "execution_authority": "none"
-      }
+      },
+      "historical_fit": "F / BO-T03: optional removable adapter, outside canonical data authority."
     },
     {
       "repository": "browser-use/browser-use",
@@ -16590,6 +16740,247 @@
           "Per-model family, quantization, CPU/GPU, API/UI/MCP and standalone/cluster variants require independent qualification."
         ]
       }
+    },
+    {
+      "repository": "DietrichGebert/ponytail",
+      "canonical_repository": "DietrichGebert/ponytail",
+      "id": "dietrichgebert-ponytail",
+      "name": "Ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Reuse-first coding, review and audit instructions with host-specific skills, lifecycle hooks, optional codebase mapping and Claude session metrics.",
+      "fit": "H/J; separate Q-153 / dev.ponytail: evaluate development-process reuse and maintainability against existing Abrams build-versus-reuse, minimal-change and instruction controls, an original short prompt, selective MIT components and defer. No product model/API routing or runtime assistant adoption.",
+      "disposition": "Source researched; planned and untested. MIT root; executable Node lifecycle hooks and host configuration/state writes are distinct from portable prompt reuse. Upstream Claude-only benchmark savings are conditional and unreplicated; no Abrams savings or cross-provider parity established.",
+      "next_gate": "Compare unchanged upstream, selected licensed prompt/map components, a minimal original policy and defer against existing controls. Pin host/plugin/Node/model/effort/settings and preserve canonical AGENTS.md, user scope, accessibility/security/data-loss checks and project precedence. Before runtime admission, bound read paths and injected context recipients; inspect optional band/session import and retention/deletion separately; qualify Windows activation, compaction, same-repo concurrency, subagent scoping, off/uninstall and full descendant Stop. Require held-out implementation/review tasks with executed acceptance tests and equal scope/quality, full input/output/reasoning/cache tokens, latency, retries and total cost under the existing USD25 monthly metered cap. Do not reuse benchmark bypassPermissions or paid harness defaults. No installation, hook trust, global settings, imports, provider call or benchmark execution is authorized by intake.",
+      "source_records": [
+        "dev.ponytail"
+      ],
+      "link_checked": "2026-11-12",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846"
+      ],
+      "evidence_dates": [
+        "2026-11-12"
+      ],
+      "evidence_basis": "Pinned README/LICENSE/package/plugin manifests, skill, representative activation/runtime/subagent/map hooks and benchmark methods/results source. Source-only; no candidate execution, import, installation, credentials or provider calls.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-12",
+        "reviewed_revision": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative prompt/host-hook implementation, rights and benchmark methodology; not exhaustive audit or qualification of every advertised adapter.",
+        "findings": [
+          "Ponytail is a coding/review instruction and host-adapter package, not an inference engine, provider router or personal assistant runtime. Reuse-first/minimal-complete-change rules overlap existing Abrams build-versus-reuse and instruction controls; evaluate incremental value against those controls and a short original prompt, not only an empty baseline.",
+          "The inspected v5 skill requires tracing affected callers/tests/config, preserving validation, security, data-loss protection and accessibility, and leaving a meaningful small check for nontrivial logic. It also prefers minimal scope and shortest complete diffs; these are recommendations, not enforced correctness or authority. Preserve project/user requirements and canonical instructions; do not replace Abrams AGENTS.md or let ultra-mode scope pushback omit authorized work.",
+          "This is executable plugin infrastructure as well as prompt text: lifecycle hooks invoke Node, inject session/subagent context, spawn a bounded map subprocess and write mode/statusline files. Activation can copy statusline scripts into the host configuration directory and emit a setup nudge; intake authorizes none of those changes. Off mode skips activation, while subagent matcher failure or unknown input defaults to injection. Scope must be tested rather than assumed.",
+          "Live mode is project-keyed when the host supplies CLAUDE_PROJECT_DIR, but same-repository sessions still share mode and hosts without it use shared state. Require independent session/child-agent activation, compaction, off and uninstall receipts; disabling future instruction injection does not undo prior edits or terminate independently running jobs.",
+          "The automatic map reads source filenames and extracts symbols via regex (default2000-character budget,4000-file limit), then adds them to model context. Local map generation is not local-only model processing: the configured host may send that context to its provider. Bound workspace reads, recipients and retention. Optional Claude band/board imports historical sessions and stores local metrics; do not admit transcript import by default.",
+          "The -53% code/-45% output-token/-26% cost/-41% time headline is an upstream Claude Code2.1.288/Opus5.5 study:39 tasks,5 runs,585 sessions, no Bash. Results are task-median geometric means, not observed Abrams savings. Only18 surgical tasks have hidden execution checks;21 remaining tasks measure delivery/compilation with an LLM completeness judge, not equivalent application quality. Privacy-recipient case passed2/5 runs in every arm; six security tasks passed all arms, so it establishes no security improvement.",
+          "Tests-left-behind98% does not mean98% correctness: upstream mutation detection was66% overall and69% where a test exists versus77% for baseline tests. Reply preference versus no skill was not significant. Source LOC excludes tests, and output-token reductions omit instruction/input/cache/reasoning overhead. The harness records total_cost_usd plus input/output/cache tokens and warms cache before live cells, so matched cache state and full lifecycle accounting are essential.",
+          "An older five-task API study in the repository reports greater cost for two OpenAI reasoning-model arms because input/reasoning overhead outweighed shorter code, with caching telemetry limitations. That historical different-version study is not a current route result, but directly defeats provider-independent savings claims. Current v5 results cannot be transferred to Codex/Gemini/local models without matched experiments.",
+          "Adapters exist for Codex and multiple other hosts, but behavior is tier-specific: some only read always-on instructions, others persist levels or inject every turn. Claude-only band/UI and headless exclusions differ from skill compatibility. Native Windows-oriented hook paths exist, but this review did not execute or qualify the installed host/runtime pairing.",
+          "MIT root permits reuse with copyright/license notices and warranty disclaimer; preserve those on substantial copied material. Node hooks consume startup/prompt/subagent time and extra context; optional board/history adds storage. Provider inference remains separately metered or allowance-bound; no installed plugin, benchmark, global configuration change or adoption is established."
+        ],
+        "evidence": [
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/LICENSE#L5-L20"
+          },
+          {
+            "path": "package.json",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/package.json#L19-L38"
+          },
+          {
+            "path": "skills/ponytail/SKILL.md",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/skills/ponytail/SKILL.md#L15-L52"
+          },
+          {
+            "path": "hooks/claude-codex-hooks.json",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/hooks/claude-codex-hooks.json#L1-L40"
+          },
+          {
+            "path": "hooks/ponytail-activate.js",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/hooks/ponytail-activate.js#L53-L71"
+          },
+          {
+            "path": "hooks/ponytail-activate.js",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/hooks/ponytail-activate.js#L118-L153"
+          },
+          {
+            "path": "hooks/ponytail-subagent.js",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/hooks/ponytail-subagent.js#L8-L11"
+          },
+          {
+            "path": "hooks/ponytail-subagent.js",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/hooks/ponytail-subagent.js#L32-L82"
+          },
+          {
+            "path": "hooks/ponytail-runtime.js",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/hooks/ponytail-runtime.js#L46-L77"
+          },
+          {
+            "path": "hooks/ponytail-map.js",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/hooks/ponytail-map.js#L4-L20"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/README.md#L124-L130"
+          },
+          {
+            "path": "docs/agent-portability.md",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/docs/agent-portability.md#L9-L18"
+          },
+          {
+            "path": "benchmarks/results/2026-10-07-agentic.md",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/benchmarks/results/2026-10-07-agentic.md#L3-L34"
+          },
+          {
+            "path": "benchmarks/results/2026-10-07-agentic.md",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/benchmarks/results/2026-10-07-agentic.md#L38-L88"
+          },
+          {
+            "path": "benchmarks/results/2026-10-07-agentic.md",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/benchmarks/results/2026-10-07-agentic.md#L100-L125"
+          },
+          {
+            "path": "benchmarks/agentic/run.py",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/benchmarks/agentic/run.py#L289-L332"
+          },
+          {
+            "path": "benchmarks/results/2026-06-17-cost-verification.md",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/benchmarks/results/2026-06-17-cost-verification.md#L24-L37"
+          },
+          {
+            "path": "benchmarks/results/2026-06-17-cost-verification.md",
+            "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/benchmarks/results/2026-06-17-cost-verification.md#L59-L70"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "lemomo-ai/lemo-opuscar",
+      "canonical_repository": "lemomo-ai/lemo-opuscar",
+      "id": "lemomo-ai-lemo-opuscar",
+      "name": "Lemo-Opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Coding-agent film-style library and code-rendered creative toolkit using browser graphics, ffmpeg, audio and optional voice/image generation.",
+      "fit": "H / Q-154: optional general personal-assistant creative production versus ComfyUI, OpenMontage, fframes and a minimal original renderer/job adapter. Compare exact upstream plugin/library, eligible licensed components, original implementation and defer; no assistant-runtime or Core-model adoption.",
+      "disposition": "Source researched; planned and untested. Mixed MIT/CC BY-NC4/CC BY4 rights with commercial-film permission and exclusions require intended-use review.99 current styles are inventory, not qualified workflows; Windows/dependencies, account egress, resources, lifecycle and Stop remain gates.",
+      "next_gate": "Resolve code/docs/product-embedding/commercial-film and per-asset/voice/output rights; compare upstream, eligible components, minimal original adapter and defer. Pin library commit plus dependency/browser/ffmpeg/voice/model/assets and reject implicit mutable updates/install. Qualify synthetic creative fixtures, task quality and accessibility, Windows shell/GPU and full render resources, file/network/provider/account grants, consent and retention/deletion. Require durable owned job IDs, queued/in-flight browser/ffmpeg/voice/image Stop and descendant receipts, bounded retries/time/disk and aggregate spend reservations within USD25 monthly metered cap. No install, download, render or provider call authorized.",
+      "source_records": [
+        "media.lemo-opuscar"
+      ],
+      "link_checked": "2026-11-12",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "f2471cacca270963baa2e1c72b8a7b25dfe0d95c"
+      ],
+      "evidence_dates": [
+        "2026-11-12"
+      ],
+      "evidence_basis": "Pinned README/license/plugin/setup/dependency and representative render/image/voice source review; style prompt inventory excluding template. No candidate execution/import/install, model/media download, provider/account/personal-data use or benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-12",
+        "reviewed_revision": "f2471cacca270963baa2e1c72b8a7b25dfe0d95c",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative public source; not exhaustive security audit, rights clearance or runtime qualification.",
+        "findings": [
+          "Current README advertises99 styles after33 additions on November12; pinned tree contains99 style STYLE.md files excluding styles/_template. The screenshot66 is historical. Styles and demo availability are not99 tested workflows or measured output quality.",
+          "This is a coding-agent creative skill/library and code-rendering toolkit, not an autonomous assistant or video foundation model. Plugin hands the host agent library instructions; script/content execution and host model usage are separate capabilities.",
+          "Licensing is mixed: MIT code, CC BY-NC4 documentation/style prompts, CC BY4 demo films/stills with third-party exceptions. Additional permission allows making and delivering commercial/client films and keeping adapted personal styles, but embedding docs/adaptations into a commercially advantaged product/service beyond that permission needs a commercial license. Six narration tracks, Clawd and third-party marks are excluded; per-demo assets/voices/fonts/data and output rights require separate review.",
+          "Skill instructions request automatic library fetch/update and early dependency installation. Managed setup follows mutable main with fetch/reset-hard; source pin does not pin the later library checkout. Node20+, ffmpeg7+, Python3.11+ or uv are required; npm/Python/browser installs and optional voice/model downloads are consequential deferred effects.",
+          "Asset fetcher verifies manifest SHA256 after download, but that does not qualify all transitive packages, browser binaries, demo source or newly generated content. Core Python dependencies are largely unpinned and npm manifests use version ranges; record exact resolved artifacts before execution.",
+          "Voice paths differ: English Kokoro uses local model files; voice requirements also include online edge-tts and Whisper. Optional image generation invokes the user signed-in Codex CLI, so prompts and account usage are not local-only and need explicit recipient/account/cost authorization. No provider or model/media calls were performed.",
+          "Renderer uses headless Chromium and ffmpeg with default3 workers, per-output PID locks, exit/signal cleanup and bounded page-readiness wait. WebGL loss detection/software fallback warnings are source controls, not proof of supported Windows GPU performance or full CPU/RAM/VRAM/disk/latency bounds.",
+          "Local static serving binds127.0.0.1, but browser pages and agent-authored code still require explicit file/network authority. Image helper uses timeout and process-group kill with fallback; qualify Windows-specific behavior, descendant cleanup and cancellation of browser/ffmpeg/provider work. No Abrams durable job identity, aggregate cost reservation or all-process Stop qualification is established."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/README.md#L7-L26"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/README.md#L45-L105"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/LICENSE#L8-L56"
+          },
+          {
+            "path": "plugin/.claude-plugin/plugin.json",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/plugin/.claude-plugin/plugin.json#L1-L8"
+          },
+          {
+            "path": "plugin/skills/lemo-opuscar/SKILL.md",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/plugin/skills/lemo-opuscar/SKILL.md#L8-L24"
+          },
+          {
+            "path": "plugin/skills/lemo-opuscar/scripts/setup.sh",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/plugin/skills/lemo-opuscar/scripts/setup.sh#L8-L43"
+          },
+          {
+            "path": "plugin/skills/lemo-opuscar/scripts/setup.sh",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/plugin/skills/lemo-opuscar/scripts/setup.sh#L87-L113"
+          },
+          {
+            "path": "package.json",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/package.json#L1-L13"
+          },
+          {
+            "path": "requirements.txt",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/requirements.txt#L1-L8"
+          },
+          {
+            "path": "requirements-voice.txt",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/requirements-voice.txt#L1-L6"
+          },
+          {
+            "path": "tools/fetch.sh",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/tools/fetch.sh#L90-L101"
+          },
+          {
+            "path": "core/render/video.mjs",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/core/render/video.mjs#L9-L52"
+          },
+          {
+            "path": "core/render/browser.mjs",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/core/render/browser.mjs#L1-L18"
+          },
+          {
+            "path": "core/render/serve.mjs",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/core/render/serve.mjs#L1-L41"
+          },
+          {
+            "path": "core/render/page.mjs",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/core/render/page.mjs#L76-L93"
+          },
+          {
+            "path": "core/image/gen_image.py",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/core/image/gen_image.py#L187-L213"
+          },
+          {
+            "path": "core/image/gen_image.py",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/core/image/gen_image.py#L221-L261"
+          },
+          {
+            "path": "core/tts/tts.py",
+            "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f2471cacca270963baa2e1c72b8a7b25dfe0d95c/core/tts/tts.py#L21-L54"
+          }
+        ],
+        "limitations": [
+          "No render, provider call, installation, model/media download or benchmark execution.",
+          "Not every style/demo/tool or third-party asset reviewed; screenshot66 is superseded by pinned inventory99.",
+          "Upstream instructions do not authorize automated installation or third-party effects."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -17233,7 +17624,12 @@
       "related_repositories": [
         "Panniantong/Agent-Reach"
       ],
-      "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD."
+      "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD.",
+      "current_refresh": {
+        "date": "2026-11-12",
+        "revision": "c70ae6da5d39bc90e09ad2ae0575ccc89f31e284",
+        "scope": "Screenshot cross-check; unchanged Agent-Reach pin retains prior source review; no execution."
+      }
     },
     {
       "record_id": "catalog.abrams-authored",
@@ -18187,7 +18583,12 @@
       "related_repositories": [
         "tashfeenahmed/freellmapi"
       ],
-      "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD."
+      "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD.",
+      "current_refresh": {
+        "date": "2026-11-12",
+        "revision": "ae915683cdbfa074d89bf5aa5e8415dfcfc2ad98",
+        "scope": "Screenshot cross-check; unchanged Agent-Reach pin retains prior source review; no execution."
+      }
     },
     {
       "record_id": "proxy.magpie",
@@ -18423,7 +18824,12 @@
       "related_repositories": [
         "NVIDIA/SkillSpector"
       ],
-      "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD."
+      "upstream_check_scope": "See repository currentness or supplemental model/route observations; internal controls and unresolved identities do not have an upstream HEAD.",
+      "current_refresh": {
+        "date": "2026-11-12",
+        "revision": "3c2c5d7a1ee148d228398070b91d3beaf0d73b11",
+        "scope": "Screenshot cross-check; unchanged Agent-Reach pin retains prior source review; no execution."
+      }
     },
     {
       "record_id": "service.mobile-next-cloud",
@@ -19086,6 +19492,32 @@
         "JustVugg/colibri"
       ],
       "upstream_check_scope": "Q152 hierarchical inference, exact model/backend/hardware and API/UI/MCP variants separately gated; no execution."
+    },
+    {
+      "record_id": "dev.ponytail",
+      "coverage": "November12 screenshot intake",
+      "related_repositories": [
+        "DietrichGebert/ponytail"
+      ],
+      "upstream_check_scope": "Pinned source review; planned/untested; no execution.",
+      "current_refresh": {
+        "date": "2026-11-12",
+        "revision": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+        "scope": "Screenshot cross-check; unchanged Agent-Reach pin retains prior source review; no execution."
+      }
+    },
+    {
+      "record_id": "media.lemo-opuscar",
+      "coverage": "November12 screenshot intake",
+      "related_repositories": [
+        "lemomo-ai/lemo-opuscar"
+      ],
+      "upstream_check_scope": "Pinned source review; planned/untested; no execution.",
+      "current_refresh": {
+        "date": "2026-11-12",
+        "revision": "f2471cacca270963baa2e1c72b8a7b25dfe0d95c",
+        "scope": "Screenshot cross-check; unchanged Agent-Reach pin retains prior source review; no execution."
+      }
     }
   ],
   "source_review_followthrough": {
