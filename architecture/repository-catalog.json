@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-14",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 308,
-  "github_repository_count": 205,
+  "registered_record_count": 309,
+  "github_repository_count": 206,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -16981,6 +16981,234 @@
           "Upstream instructions do not authorize automated installation or third-party effects."
         ]
       }
+    },
+    {
+      "repository": "vercel-labs/ui",
+      "canonical_repository": "vercel-labs/ui",
+      "id": "vercel-labs-ui",
+      "name": "UI SDK (Vercel Labs)",
+      "url": "https://github.com/vercel-labs/ui",
+      "layer": "Interface and media",
+      "stage": "shortlisted",
+      "purpose": "Headless UI behavior primitives for keyboard navigation, focus, selection, dismissal, popups, drag/drop and form/ARIA behavior, with framework adapters and optional page-agent/WebMCP bridges plus development guidance.",
+      "fit": "E/I/J; separate H / Q-155: Accessible personal-assistant interface foundations and optional typed UI automation versus native HTML/current controls, eligible Radix/Base UI/headless alternatives, CopilotKit interaction components and minimal original primitives. Compare exact upstream core+adapter, selected licensed behaviors, original adapter and defer. Separate interface behavior, agent bridge and developer skill; no product model/API router or Core/runtime adoption.",
+      "disposition": "Source researched; planned and untested. Apache-2.0 root/packages; core/React source version0.1.0-beta.2, React>=19 peer requirement, repository Node24/pnpm10.34.5. Five adapter implementations and upstream tests are evidence to investigate, not Abrams accessibility/browser/SSR/Windows qualification. Agent actions and WebMCP exposure remain separately gated; no SDK install or skill activation.",
+      "next_gate": "Compare exact core+adapter, eligible behavior components, minimal original implementation and defer against actual interface gaps. Pin release/package/dependencies and intended asset/skill rights; qualify existing React/build/SSR/Tauri-WebView2/native browser pairing without changing frozen runtime decisions. Test keyboard/focus/ARIA, screen-reader and touch/IME/RTL/zoom/high-contrast behavior, portals/modal nesting, controlled form state, hydration and subscription/listener disposal. Preserve Core canonical state and backend-enforced recipient/action grants; explicitly deny unapproved agent actions and keep WebMCP registration opt-in. Verify stale/disabled/read-only/hidden targets, async approval race/timeout/disposal, partial-action receipts/history limitations and all host-effect Stop. Measure bundle/interaction/resource and development/maintenance/exit costs; no arbitrary cloud or paid service dependency and preserve USD25 monthly metered cap.",
+      "source_records": [
+        "ui.vercel-ui-sdk"
+      ],
+      "link_checked": "2026-11-14",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "724a7d6c2d0ca1251a8eb6172462ae220c484714"
+      ],
+      "evidence_dates": [
+        "2026-11-14"
+      ],
+      "evidence_basis": "Pinned README/LICENSE/root and core/React manifests, repository toolchain metadata and representative behavior/adapter, page-agent/WebMCP/permission and test source with two independent bounded reviews. No installation, target import/build/tests/browser execution, skill activation, providers or candidate benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-14",
+        "reviewed_revision": "724a7d6c2d0ca1251a8eb6172462ae220c484714",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative source and test design; not exhaustive audit, accessibility certification or runtime qualification.",
+        "findings": [
+          "UI SDK is a behavior/component foundation, not a complete chat application, model, generative-UI runtime or provider router. Shared core and React/Vue/Svelte/Solid/Web Component adapters need independent host-specific qualification; optional agent tooling is a separate capability.",
+          "Root and package metadata declare Apache-2.0. Core/React version0.1.0-beta.2 and README beta status imply version/API stability and migration questions. React adapter requires React/ReactDOM>=19; repository .nvmrc24 and pnpm10.34.5 describe development tooling, not a verified Windows/browser runtime matrix or a runtime Node minimum.",
+          "Development skill and agent-oriented documentation are untrusted intake content, not activated project instructions. No npx skills/npm/pnpm commands were run; preserve user/project precedence, exact package/artifact rights, build-hook review and the existing test/quality requirements before any reuse.",
+          "createAgent supports direct component actions and a configurable allow callback; ordinary supported actions can be accepted when no callback exists, while confirmation-marked targets have separate protection. WebMCP registration requires its own allow function but can still be configured permissively. UI annotations and frontend callbacks are not Core/backend authorization or irreversible-effect consent.",
+          "Source rechecks disabled/read-only/marks after asynchronous approval and supports approval-wait abort/timeout and registration cleanup. Multiple-step actions can leave earlier steps applied after a later refusal; history/undo and UI disposal cannot be assumed to reverse remote/filesystem/payment effects or terminate already-running host work. Require durable per-action receipts and Core Stop for effects.",
+          "Permission documentation and implementation can diverge: the reviewed query/listItems source does not supply the opening callback, while an inspected permissions paragraph still describes query opening a closed list. Use exact pinned behavior tests and receipts rather than treating documentation or tool descriptions as proof.",
+          "Native button/link/form semantics receive explicit handling, but default submits and component callbacks can perform real application effects. Core-attached events have a contract different from React handlers: a user React preventDefault cannot suppress certain core events. Verify form/state/composition and validation in actual pages rather than assuming pointer-handler equivalence.",
+          "React subscriptions/ref detach, deferred instance destruction for StrictMode/Activity/Suspense and idempotent core cleanup are implemented. Modal scroll locks change page-wide styles with per-document reference tracking/restoration. These are source controls, not zero-leak, callback-settlement or external-job cancellation evidence.",
+          "The authored browser matrix is incomplete across adapters: Chromium covers framework projects, Firefox/WebKit primarily the web adapter; leak checks use Chromium CDP. Some axe fixtures disable page-structure rules and CI allows retries. No tests were run here and neither accessibility certification nor Abrams screen-reader/WebView2/SSR support follows from test presence.",
+          "Hidden/secret marks constrain bridge snapshots/actions but do not establish isolation from every application observer or raw DOM access. WebMCP annotations are hints, not authorization or prompt-injection protection. Minimize and grant snapshot/change-log recipients explicitly; act success or history/undo is not a receipt for an external effect."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/LICENSE"
+          },
+          {
+            "path": "package.json",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/package.json"
+          },
+          {
+            "path": "packages/core/package.json",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/package.json"
+          },
+          {
+            "path": "packages/react/package.json",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/react/package.json"
+          },
+          {
+            "path": ".nvmrc",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/.nvmrc"
+          },
+          {
+            "path": "apps/docs/content/docs/agents/connect-an-agent/permissions.mdx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/apps/docs/content/docs/agents/connect-an-agent/permissions.mdx"
+          },
+          {
+            "path": "apps/docs/content/docs/agents/skills.mdx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/apps/docs/content/docs/agents/skills.mdx#L6-L28"
+          },
+          {
+            "path": "packages/core/skills/ui-sdk/references/agent-ready.md",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/skills/ui-sdk/references/agent-ready.md#L15-L68"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1892-L1956"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1155-L1191"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1215-L1249"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1794-L1801"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L241-L311"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L397-L422"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1435-L1515"
+          },
+          {
+            "path": "apps/docs/content/docs/agents/connect-an-agent/permissions.mdx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/apps/docs/content/docs/agents/connect-an-agent/permissions.mdx#L107-L131"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1631-L1682"
+          },
+          {
+            "path": "apps/docs/content/docs/agents/connect-an-agent/permissions.mdx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/apps/docs/content/docs/agents/connect-an-agent/permissions.mdx#L83-L105"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1921-L1937"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1716-L1754"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1596-L1628"
+          },
+          {
+            "path": "apps/docs/content/docs/agents/connect-an-agent/permissions.mdx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/apps/docs/content/docs/agents/connect-an-agent/permissions.mdx#L127-L131"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1905-L1956"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1830-L1875"
+          },
+          {
+            "path": "packages/core/src/page/agent/agent.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/page/agent/agent.ts#L1161-L1191"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/README.md#L3-L22"
+          },
+          {
+            "path": "packages/core/src/foundation/platform/button.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/foundation/platform/button.ts#L20-L99"
+          },
+          {
+            "path": "packages/core/src/foundation/forms/form.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/foundation/forms/form.ts#L1-L10"
+          },
+          {
+            "path": "packages/core/src/foundation/forms/form.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/foundation/forms/form.ts#L178-L224"
+          },
+          {
+            "path": "packages/react/src/use-primitive.tsx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/react/src/use-primitive.tsx#L101-L128"
+          },
+          {
+            "path": "packages/react/src/use-primitive.tsx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/react/src/use-primitive.tsx#L195-L260"
+          },
+          {
+            "path": "packages/react/src/use-primitive.tsx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/react/src/use-primitive.tsx#L754-L775"
+          },
+          {
+            "path": "packages/react/src/use-primitive.tsx",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/react/src/use-primitive.tsx#L934-L943"
+          },
+          {
+            "path": "packages/core/src/foundation/kernel/primitive.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/foundation/kernel/primitive.ts#L450-L465"
+          },
+          {
+            "path": "packages/core/src/foundation/popups/modal.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/foundation/popups/modal.ts#L6-L50"
+          },
+          {
+            "path": "packages/core/src/foundation/popups/modal.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/src/foundation/popups/modal.ts#L80-L99"
+          },
+          {
+            "path": "tests/playwright.config.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/tests/playwright.config.ts#L12-L28"
+          },
+          {
+            "path": "tests/playwright.config.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/tests/playwright.config.ts#L77-L108"
+          },
+          {
+            "path": "tests/playwright.config.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/tests/playwright.config.ts#L133-L154"
+          },
+          {
+            "path": "tests/specs/dialog.a11y.spec.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/tests/specs/dialog.a11y.spec.ts#L12-L44"
+          },
+          {
+            "path": "tests/specs/dialog.a11y.spec.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/tests/specs/dialog.a11y.spec.ts#L67-L101"
+          },
+          {
+            "path": "tests/specs/dialog.ssr.spec.ts",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/tests/specs/dialog.ssr.spec.ts#L5-L47"
+          },
+          {
+            "path": "packages/core/skills/ui-sdk/references/testing.md",
+            "url": "https://github.com/vercel-labs/ui/blob/724a7d6c2d0ca1251a8eb6172462ae220c484714/packages/core/skills/ui-sdk/references/testing.md#L1-L7"
+          }
+        ],
+        "limitations": [
+          "Representative source inspection, not exhaustive audit or certification.",
+          "No candidate install/import/build/browser tests, SDK/skill activation, live agent/WebMCP/provider or benchmark execution.",
+          "Per-adapter/component/browser, ordinary UI, developer guidance and agent-control variants cannot inherit each other's qualification."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -19518,6 +19746,14 @@
         "revision": "f2471cacca270963baa2e1c72b8a7b25dfe0d95c",
         "scope": "Screenshot cross-check; unchanged Agent-Reach pin retains prior source review; no execution."
       }
+    },
+    {
+      "record_id": "ui.vercel-ui-sdk",
+      "coverage": "November14 pinned source intake",
+      "related_repositories": [
+        "vercel-labs/ui"
+      ],
+      "upstream_check_scope": "Q155 core/adapter UI behavior, developer guidance and optional agent/WebMCP bridge separately gated; no execution."
     }
   ],
   "source_review_followthrough": {
