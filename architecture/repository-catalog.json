@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 309,
-  "github_repository_count": 206,
+  "registered_record_count": 310,
+  "github_repository_count": 207,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -17209,6 +17209,242 @@
           "Per-adapter/component/browser, ordinary UI, developer guidance and agent-control variants cannot inherit each other's qualification."
         ]
       }
+    },
+    {
+      "repository": "vstorm-co/agenticos",
+      "canonical_repository": "vstorm-co/agenticos",
+      "id": "vstorm-co-agenticos",
+      "name": "AgenticOS",
+      "url": "https://github.com/vstorm-co/agenticos",
+      "layer": "Agent runtimes",
+      "stage": "shortlisted",
+      "purpose": "Self-hosted Pydantic-AI agent platform combining shared chat/projects, model profiles, retrieval, skills/MCP, browser/sandbox capabilities, approvals, budgets, audit and optional desktop/mobile/channel interfaces.",
+      "fit": "E/H/I/J; separately gated C / Q-156: General personal-assistant platform and selected model/profile, knowledge, approval/run and collaborative interface components versus existing Core adapters and eligible LibreChat/OpenJarvis/Hermes/platform contenders. Compare exact upstream, licensed components, minimal original adapters and defer. Product cloud/local routing and developer CLI delegation are separate studies; no change to frozen initial runtimes or Core decision.",
+      "disposition": "Source researched; planned and untested. Root Apache-2.0 does not cover every bundled dependency/asset obligation: inventory includes AGPL/LGPL/MPL components and deployment-review sandbox packages. Backend/frontend source version1.74.0; backend Python>=3.15 and PostgreSQL/pgvector/Redis/worker/container ecosystem. Desktop Windows claims are not Abrams host/backend qualification. Deployment, personal data, model routes, external tools and schedules remain unadmitted.",
+      "next_gate": "Compare upstream, eligible components, minimal original Core adapters and defer under exact source/image/dependency/model/tool pins and intended-use rights. Qualify Windows desktop versus container/backend/browser/sandbox/CLI configurations and full RAM/VRAM/disk/CPU/network costs. Enforce actual serving provider/model attribution, manual route fidelity, all fallback/parser/embedding/trace/diagnostic recipients, corpus/tenant/source permissions and retention/deletion/export receipts. Keep Core canonical state, grants, credentials and effect/run identity; qualify configurable approvals, native-host consent, tenant/key scopes and revoked/queued/routine authority. Require replay/ambiguity and all-provider/browser/container/CLI-child Stop evidence, pre-reserved global time/token/USD budgets across concurrent and ancillary services, independent task/retrieval quality and maintenance/exit costs. Preserve USD25 monthly metered cap. No deployment/install/build, credentials, provider calls, downloads or schedule activation authorized.",
+      "source_records": [
+        "assistant.agenticos"
+      ],
+      "link_checked": "2026-11-15",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "cbad4afa3365653ed0a5f9a9c53c45c167b90319"
+      ],
+      "evidence_dates": [
+        "2026-11-15"
+      ],
+      "evidence_basis": "Pinned README/LICENSE/NOTICE/third-party inventory, backend/frontend/desktop metadata and Compose source, plus independent bounded model/data/resource and auth/approval/budget/Stop reviews. No candidate execution/import/install/build, service/provider/account use, credentials, model/media downloads, personal data or benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-15",
+        "reviewed_revision": "cbad4afa3365653ed0a5f9a9c53c45c167b90319",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative public source/configuration and rights metadata; not exhaustive audit, runtime qualification or endorsement of governance claims.",
+        "findings": [
+          "The root and app manifests declare Apache-2.0, but bundled dependency notices list PyMuPDF under AGPL-3.0-only and other LGPL/MPL/runtime obligations; the inventory leaves sandbox runtime packages under deployment review. Review exact distribution/reuse scope, images, assets, model/tool terms and attribution separately; a permissive root license is not blanket component clearance.",
+          "Source manifests report1.74.0 and backend Python>=3.15; frontend Next/React and optional Tauri desktop are separate surfaces. Compose can pull latest-tagged images, create persistent PostgreSQL/pgvector/Redis services and run migrations; a checkout's override changes development mounts/exposure. Pin exact images/runtime/dependencies and cleanup/backup plan. Upstream4vCPU/8GB deployment guidance is not local-model or current-host fit.",
+          "Configured Pydantic fallback models can serve requests while run provider/secret labels retain primary identity, as upstream documentation explicitly notes. Exact provider/model attribution, manual selection fidelity, budget and recipient audit must be repaired or independently proved before routing admission; a selectable model list is insufficient.",
+          "Local chat selection does not make the RAG pipeline offline: parser, embedding, indexing and query recipients are independent. Collection credentials can fail closed, but source-system permissions are not automatically mirrored. Validate corpus/tenant/recipient grants, embedding version/dimensions, citation quality and deletion across files/vectors/backups separately.",
+          "Absent retention policy means indefinite retention. Audit retention has a floor but the inspected audit sweep is not implemented; some knowledge cleanup requires confirmed vector removal and queued file-cleanup work. Settings or queued cleanup are not completed erasure/export receipts.",
+          "Diagnostics default enabled with a remote collector, independently from optional token-configured Logfire tracing. Trace content can include prompts/outputs unless suppressed; diagnostic payload minimization was not exhaustively validated. Credential vault protection does not encrypt every stored document/vector/workspace file; review disk encryption, logs, recipients and retention per subsystem.",
+          "JWT/session/API-key organization binding, scoped RBAC and configurable approval controls exist, but row-level resource access and actual mode/tool wiring remain separate. A permissive/no approval gate or standing APPROVE_ALL mode is not a Core grant; always-asking tools have distinct treatment. Sandbox command execution relies on container/network containment, not command filtering.",
+          "Desktop whole-computer consent is explicitly not a sandbox and can allow commands without a separate prompt per command. Browser exceptions and external MCP/provider-native tools require their own network/credential/approval boundaries. Do not transfer container guarantees to native CLI/host, channel or browser variants.",
+          "Workflow budget reservations exist with lease-expiry/concurrency overshoot limits; ordinary request checks do not reserve spend and concurrent calls can overshoot. Voice-preview/visitor-dictation costs can sit outside model budgets. Require aggregate Core-owned pre-call reservations for every provider, worker and ancillary service, independent of USD estimates and usage labels.",
+          "Routine authority checks, parked cancellation ownership and native process-group/Windows JobObject controls are substantive source mechanisms, not universal Stop evidence. Qualify revocation and queued/approval/prefill/in-flight browser/container/CLI/provider cases, all descendants, late responses and ambiguous committed effects. Cancellation cannot undo an external write or sent message."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/LICENSE"
+          },
+          {
+            "path": "NOTICE",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/NOTICE"
+          },
+          {
+            "path": "THIRD_PARTY_NOTICES.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/THIRD_PARTY_NOTICES.md"
+          },
+          {
+            "path": "backend/pyproject.toml",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/pyproject.toml"
+          },
+          {
+            "path": "frontend/package.json",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/frontend/package.json"
+          },
+          {
+            "path": "docker-compose.yml",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/docker-compose.yml"
+          },
+          {
+            "path": "backend/app/agents/model_resolver.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/model_resolver.py#L108-L177"
+          },
+          {
+            "path": "backend/app/agents/model_resolver.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/model_resolver.py#L684-L696"
+          },
+          {
+            "path": "docs/models.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/docs/models.md#L206-L221"
+          },
+          {
+            "path": "docs/models.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/docs/models.md#L640-L679"
+          },
+          {
+            "path": "backend/app/services/embedding_resolution.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/embedding_resolution.py#L11-L31"
+          },
+          {
+            "path": "backend/app/services/embedding_resolution.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/embedding_resolution.py#L184-L209"
+          },
+          {
+            "path": "backend/app/services/rag/embeddings.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/rag/embeddings.py#L82-L125"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/README.md#L393"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/README.md#L526-L534"
+          },
+          {
+            "path": "backend/app/core/retention.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/core/retention.py#L14-L36"
+          },
+          {
+            "path": "backend/app/services/retention.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/retention.py#L462-L504"
+          },
+          {
+            "path": "backend/app/core/config.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/core/config.py#L83-L85"
+          },
+          {
+            "path": "backend/app/core/config.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/core/config.py#L316-L330"
+          },
+          {
+            "path": "backend/app/core/logfire_setup.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/core/logfire_setup.py#L38-L44"
+          },
+          {
+            "path": "docs/security.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/docs/security.md#L40-L57"
+          },
+          {
+            "path": "docs/security.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/docs/security.md#L78-L94"
+          },
+          {
+            "path": "backend/app/core/config.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/core/config.py#L841-L856"
+          },
+          {
+            "path": "backend/pyproject.toml",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/pyproject.toml#L1-L5"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/README.md#L590-L595"
+          },
+          {
+            "path": "backend/app/api/deps.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/api/deps.py#L596-L640"
+          },
+          {
+            "path": "backend/app/api/deps.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/api/deps.py#L706-L760"
+          },
+          {
+            "path": "backend/app/core/permissions.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/core/permissions.py#L672-L711"
+          },
+          {
+            "path": "backend/app/agents/capabilities/approval/_policy.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/capabilities/approval/_policy.py#L29-L51"
+          },
+          {
+            "path": "backend/app/agents/capabilities/approval/_policy.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/capabilities/approval/_policy.py#L87-L101"
+          },
+          {
+            "path": "backend/app/agents/capabilities/approval/_policy.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/capabilities/approval/_policy.py#L179-L258"
+          },
+          {
+            "path": "backend/app/agents/approval.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/approval.py#L25-L54"
+          },
+          {
+            "path": "backend/app/agents/capabilities/sandbox/_permissions.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/capabilities/sandbox/_permissions.py#L67-L90"
+          },
+          {
+            "path": "backend/app/agents/capabilities/browser_use/_endpoint.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/capabilities/browser_use/_endpoint.py#L133-L197"
+          },
+          {
+            "path": "desktop/src-tauri/src/computer_access.rs",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/desktop/src-tauri/src/computer_access.rs#L149-L163"
+          },
+          {
+            "path": "desktop/src-tauri/src/computer_access.rs",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/desktop/src-tauri/src/computer_access.rs#L184-L240"
+          },
+          {
+            "path": "backend/app/services/workflow_execution/budget.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/workflow_execution/budget.py#L1-L15"
+          },
+          {
+            "path": "backend/app/services/workflow_execution/budget.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/workflow_execution/budget.py#L63-L87"
+          },
+          {
+            "path": "backend/app/agents/capabilities/budget/_capability.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/capabilities/budget/_capability.py#L957-L1014"
+          },
+          {
+            "path": "backend/app/agents/routine_authority.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/agents/routine_authority.py#L16-L42"
+          },
+          {
+            "path": "backend/app/services/routine_authority.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/routine_authority.py#L253-L285"
+          },
+          {
+            "path": "backend/app/services/routine_authority.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/routine_authority.py#L413-L438"
+          },
+          {
+            "path": "backend/app/services/agent_runner.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/agent_runner.py#L7856-L7877"
+          },
+          {
+            "path": "backend/app/services/agent_runner.py",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/backend/app/services/agent_runner.py#L8584-L8603"
+          },
+          {
+            "path": "desktop/src-tauri/src/local_work.rs",
+            "url": "https://github.com/vstorm-co/agenticos/blob/cbad4afa3365653ed0a5f9a9c53c45c167b90319/desktop/src-tauri/src/local_work.rs#L682-L705"
+          }
+        ],
+        "limitations": [
+          "Representative source only; unreviewed dependencies, paths and transports remain unqualified.",
+          "No target execution/import/install/build, service/provider/CLI/account use, credentials, personal data, schedule, model/media downloads or benchmark.",
+          "Whole app, selected components, model/RAG routes, server/desktop/mobile/channel and sandbox/native variants cannot inherit one another's results."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -19754,6 +19990,14 @@
         "vercel-labs/ui"
       ],
       "upstream_check_scope": "Q155 core/adapter UI behavior, developer guidance and optional agent/WebMCP bridge separately gated; no execution."
+    },
+    {
+      "record_id": "assistant.agenticos",
+      "coverage": "November15 pinned source intake",
+      "related_repositories": [
+        "vstorm-co/agenticos"
+      ],
+      "upstream_check_scope": "Q156 platform/components and separately gated local/cloud, desktop/native and container variants; no execution."
     }
   ],
   "source_review_followthrough": {
