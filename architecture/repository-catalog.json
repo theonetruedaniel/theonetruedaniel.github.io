@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated": "2026-11-16",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 311,
-  "github_repository_count": 208,
+  "registered_record_count": 312,
+  "github_repository_count": 209,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -17636,6 +17636,224 @@
           "Discovery, installation/update/remove and every individual skill/host remain separately gated; package metadata is not a qualified release artifact."
         ]
       }
+    },
+    {
+      "repository": "RunanywhereAI/runanywhere-sdks",
+      "canonical_repository": "RunanywhereAI/runanywhere-sdks",
+      "id": "runanywhereai-runanywhere-sdks",
+      "name": "RunAnywhere SDKs",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks",
+      "requested_source_url": "https://github.com/RunanywhereAI/runanywhere-sdks",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "Cross-platform on-device inference SDKs over a C++ core for language, vision, speech, voice pipelines, embeddings, RAG and selected image backends; optional model fleet/telemetry services and hybrid speech are separate variants.",
+      "fit": "E/H/I/J / Q-158: General personal-assistant local chat, document retrieval, dictation, read-aloud and device-resident multimodal work. Compare exact Python loopback/OpenAI-compatible and Electron/Web adapters against existing Ollama/direct engine adapters and LiteRT-LM; optional mobile voice/device work is separately qualified. Capability/engine selection is not Abrams cloud/local provider policy, credential ownership or automatic model admission. Developer benefit is reusable native bindings and bake-off harness adapters. Compare upstream SDK, eligible licensed components, original minimal adapters and defer.",
+      "disposition": "Source researched; planned and untested. Conditional RunAnywhere License1.0 incorporates Apache2.0 for eligible users with additional commercial conditions; model/backend/package rights remain separate. Windows Electron is preview, exact support varies by SDK/backend/device. No install, model download, inference, server, Console, microphone/camera or provider activation performed.",
+      "next_gate": "First resolve exact distribution/usage eligibility under conditional license, third-party/backend/model terms and any commercial quote; do not label plain Apache2.0. Pin SDK release, native artifacts, engine/model/quantization and build toolchain separately. Compare same held-out assistant tasks against current local/direct controls, including quality/tool/structured output, cold/warm latency, RSS/VRAM/context, disk/bandwidth/power and headroom. Qualify Windows x64 exact binding and accelerator, renderer/native isolation, loopback server auth/bind/limits and cancellation, downloads/cache hashes and removal. Separate offline inference from Console registration/telemetry/download and hybrid cloud egress; require minimized recipients/payloads, fail-closed no-egress and no-cloud fallback tests. Core retains state, credentials, routes, effects, budget and all-worker Stop; verify voice capture/playback consent, stream interruption, unload/teardown and no post-Stop effects. LAN Connect is separately excluded pending transport/auth controls. Measure model/storage/hosting, subscriptions/license, maintenance and exit costs; no candidate execution authorized.",
+      "source_records": [
+        "inference.runanywhere-sdks"
+      ],
+      "link_checked": "2026-11-16",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "87865ea825d131498cf255b129ae81f26449e637"
+      ],
+      "evidence_dates": [
+        "2026-11-16"
+      ],
+      "evidence_basis": "Pinned README, conditional LICENSE, root/native/package metadata plus independent bounded platform/backend and privacy/network/lifecycle source reviews; not runtime verification or comprehensive audit.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-16",
+        "reviewed_revision": "87865ea825d131498cf255b129ae81f26449e637",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative platform bindings, capability dispatch, network/model lifecycle and licensing; no build or installed artifact qualification.",
+        "findings": [
+          "Shared C++ core and thin SDK bindings can reduce integration duplication for local assistant chat, retrieval and voice. Actual modalities depend on registered engines and device/package capability; README engine/SDK matrices and enums do not prove Windows feature parity or exact installed pairing.",
+          "Root license is RunAnywhere License1.0, not unconditional Apache2.0. Free grant defines eligible personal/noncommercial, small organizations meeting both funding/revenue thresholds, educational/nonprofit/government and OSI-licensed-project categories. Other use requires a commercial agreement; threshold transition and attribution conditions apply. Exact project/distribution eligibility and separate engine/model rights must be resolved before reuse.",
+          "Python local serving and Electron/Web bindings are plausible distinct integration variants. Compare the existing Ollama/direct local route first; adding an SDK does not improve model reasoning by itself or admit a new global cloud/provider router. No benchmark improvement measured.",
+          "README marks Electron Windows x64 preview; Apple MLX/CoreML and Android Snapdragon Hexagon paths are hardware-specific. LiteRT/ExecuTorch framework values are documented as reserved, not integrated backends. CUDA/WebGPU availability requires the exact package/build and hardware to be verified. Python voice/image and other feature rows include stub/partial states. Native accelerator flags and package payloads need separate inspection: CUDA is opt-in, Vulkan may fall back to CPU, and QHexRT requires authorized private artifacts. Do not infer all advertised modalities or hardware support from the shared API.",
+          "Source distribution metadata needs reconciliation before any install: root Package.swift explicitly directs Swift consumers to a separate generated distribution repository and warns these monorepo tags lack generated Swift sources. Root quick-start URLs/versions and binding-specific artifact/version claims are not interchangeable; verify exact released package and native payloads instead of copying a README install command.",
+          "Offline inference claims do not establish zero network traffic: model provisioning/downloads, optional Console device registration and telemetry, and optional hybrid cloud speech are separate source surfaces. Review exact initialization/defaults and each recipient per binding; no cloud credentials or Console service admitted.",
+          "Python public initialization documentation says no auth/telemetry, but the delegated runtime conditionally initializes desktop control-plane auth/telemetry when configured. Browser telemetry has periodic POST transport; native shutdown can flush queued telemetry. Verify exact build/configuration through init, idle, failures and teardown; do not infer no-egress from local inference or one docstring.",
+          "Python convenience model resolution can follow Hugging Face main; native download SHA verification is conditional on a supplied descriptor hash and cancelled partials may be retained. Native Hugging Face auth can inherit environment/token-file credentials. Initial qualification must be credential-free with immutable model/file hashes, recipient controls, cache quotas and explicit cleanup. No actual credential was accessed.",
+          "LAN Connect is documented as trusted-LAN, app-scoped macOS hosting/mobile clients with no TLS, pairing PIN or mutual authentication; it is not a qualified Windows hosting option. Electron MessagePort IPC is unrelated. Exclude LAN serving pending separate threat model/admission.",
+          "Local tool calls, voice pipelines and OpenAI-compatible endpoints remain untrusted workers behind Core-owned grants and effects. Qualify prompt/tool protocol, endpoint binding/auth, downloads/cache integrity, microphone/camera consent, request cancel/unload, retained data and full all-worker Stop independently.",
+          "No model weights, SDK release/native binary or sibling app repositories were downloaded or executed. SDK/source pin is not exact binary/model provenance; source cost/free wording and upstream speed tables are not measured cost, performance or admission evidence for this PC."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/LICENSE"
+          },
+          {
+            "path": "package.json",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/package.json"
+          },
+          {
+            "path": "CMakeLists.txt",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/CMakeLists.txt"
+          },
+          {
+            "path": "Package.swift",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/Package.swift"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/LICENSE#L12-L79"
+          },
+          {
+            "path": "bindings/electron/LICENSE",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/electron/LICENSE#L1-L15"
+          },
+          {
+            "path": "bindings/web/packages/core/LICENSE",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/web/packages/core/LICENSE#L1-L15"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/README.md#L413-L429"
+          },
+          {
+            "path": "bindings/electron/README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/electron/README.md#L1-L53"
+          },
+          {
+            "path": "bindings/electron/package.json",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/electron/package.json#L1-L56"
+          },
+          {
+            "path": "bindings/python/native/CMakeLists.txt",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/python/native/CMakeLists.txt#L39-L105"
+          },
+          {
+            "path": "bindings/python/PACKAGING.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/python/PACKAGING.md#L1-L20"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/README.md#L433-L479"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/README.md#L35-L53"
+          },
+          {
+            "path": "core/src/plugin/rac_plugin_registry.cpp",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/core/src/plugin/rac_plugin_registry.cpp#L389-L435"
+          },
+          {
+            "path": "core/src/plugin/rac_plugin_registry.cpp",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/core/src/plugin/rac_plugin_registry.cpp#L655-L690"
+          },
+          {
+            "path": "CMakeLists.txt",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/CMakeLists.txt#L72-L88"
+          },
+          {
+            "path": "engines/llamacpp/CMakeLists.txt",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/engines/llamacpp/CMakeLists.txt#L51-L78"
+          },
+          {
+            "path": "engines/llamacpp/CMakeLists.txt",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/engines/llamacpp/CMakeLists.txt#L145-L208"
+          },
+          {
+            "path": "engines/qhexrt/CMakeLists.txt",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/engines/qhexrt/CMakeLists.txt#L1-L48"
+          },
+          {
+            "path": "bindings/python/pyproject.toml",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/python/pyproject.toml#L79-L85"
+          },
+          {
+            "path": "bindings/web/README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/web/README.md#L99-L122"
+          },
+          {
+            "path": "bindings/web/packages/core/src/Infrastructure/DeviceCapabilities.ts",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/web/packages/core/src/Infrastructure/DeviceCapabilities.ts#L14-L103"
+          },
+          {
+            "path": "bindings/web/README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/web/README.md#L165-L175"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/README.md#L462-L475"
+          },
+          {
+            "path": "engines/cloud/CMakeLists.txt",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/engines/cloud/CMakeLists.txt#L1-L31"
+          },
+          {
+            "path": "bindings/python/PACKAGING.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/python/PACKAGING.md#L1-L50"
+          },
+          {
+            "path": "Package.swift",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/Package.swift#L9-L34"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/README.md#L150-L158"
+          },
+          {
+            "path": "bindings/python/runanywhere/_runtime.py",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/python/runanywhere/_runtime.py#L129-L242"
+          },
+          {
+            "path": "bindings/python/runanywhere/__init__.py",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/python/runanywhere/__init__.py#L165-L184"
+          },
+          {
+            "path": "bindings/web/packages/core/src/Adapters/TelemetryAdapter.ts",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/web/packages/core/src/Adapters/TelemetryAdapter.ts#L71-L200"
+          },
+          {
+            "path": "core/src/infrastructure/telemetry/telemetry_json.cpp",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/core/src/infrastructure/telemetry/telemetry_json.cpp#L245-L309"
+          },
+          {
+            "path": "bindings/python/runanywhere/download.py",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/python/runanywhere/download.py#L421-L490"
+          },
+          {
+            "path": "core/src/infrastructure/download/download_orchestrator.cpp",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/core/src/infrastructure/download/download_orchestrator.cpp#L1519-L1577"
+          },
+          {
+            "path": "core/src/infrastructure/http/rac_http_hf_auth.cpp",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/core/src/infrastructure/http/rac_http_hf_auth.cpp#L23-L129"
+          },
+          {
+            "path": "bindings/python/runanywhere/_runtime.py",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/python/runanywhere/_runtime.py#L243-L257"
+          },
+          {
+            "path": "bindings/web/packages/core/src/Public/SDKCore.ts",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/web/packages/core/src/Public/SDKCore.ts#L1962-L2050"
+          },
+          {
+            "path": "core/src/core/rac_core.cpp",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/core/src/core/rac_core.cpp#L257-L312"
+          },
+          {
+            "path": "bindings/web/packages/core/src/Adapters/TelemetryAdapter.ts",
+            "url": "https://github.com/RunanywhereAI/runanywhere-sdks/blob/87865ea825d131498cf255b129ae81f26449e637/bindings/web/packages/core/src/Adapters/TelemetryAdapter.ts#L192-L244"
+          }
+        ],
+        "limitations": [
+          "Representative source review, not exhaustive audit or release/binary/model verification.",
+          "No candidate import/install/build, model download/inference, service/provider/Console, live audio/video capture, credentials or benchmark.",
+          "Platform/backend/model variants and any paid license/service rights remain separate gates."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -20197,6 +20415,14 @@
         "vercel-labs/skills"
       ],
       "upstream_check_scope": "Q157 find-skills discovery and separately gated CLI install/update/remove/host effects; no ecosystem-wide admission or execution."
+    },
+    {
+      "record_id": "inference.runanywhere-sdks",
+      "coverage": "November16 pinned source intake",
+      "related_repositories": [
+        "RunanywhereAI/runanywhere-sdks"
+      ],
+      "upstream_check_scope": "Q158 SDK/platform/license and network/lifecycle review only; no sibling app/model admission or execution."
     }
   ],
   "source_review_followthrough": {
