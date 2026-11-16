@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 310,
-  "github_repository_count": 207,
+  "registered_record_count": 311,
+  "github_repository_count": 208,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -17445,6 +17445,197 @@
           "Whole app, selected components, model/RAG routes, server/desktop/mobile/channel and sandbox/native variants cannot inherit one another's results."
         ]
       }
+    },
+    {
+      "repository": "vercel-labs/skills",
+      "canonical_repository": "vercel-labs/skills",
+      "id": "vercel-labs-skills",
+      "name": "Find Skills / Skills CLI",
+      "url": "https://github.com/vercel-labs/skills",
+      "requested_source_url": "https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Find-skills discovery instructions plus the Skills CLI search/install/update/remove workflow for agent skill packages; source discovery, ranking, advisory audits and host installation are separate capabilities.",
+      "fit": "H/J; optional E/I / Q-157: Capability discovery and developer bake-off intake across general personal-assistant needs versus the existing curated catalog, Codex skill tooling, direct repository/source search and a minimal original discovery adapter. Compare the exact skill/CLI, eligible licensed discovery components, original implementation and defer. This is not model/API routing, security admission or blanket adoption of skills.sh entries.",
+      "disposition": "Source researched; planned and untested. MIT root; source package1.8.1 with Node>=22.20.0 and repository pnpm12.18.0. Search is networked, telemetry defaults on, interactive find can enter installation and remote audits are advisory. No CLI/npx command, search query, install, global setting or skill activation was performed; discovered members remain unregistered until individually assessed.",
+      "next_gate": "Compare exact upstream find-skills/CLI, search-only components, minimal original discovery workflow and defer against named coverage gaps. Pin CLI/source/artifact and each selected skill/helper with separate rights; inspect full prompt/scripts/hooks/dependencies and precedence before activation. Require approved minimized queries/recipients, telemetry/audit policy, honest error/empty distinction, stable source identity and independent held-out relevance/quality/security evidence beyond install/star counts. Separate noninteractive read-only discovery from interactive install, global writes, symlink/copy, update/remove and all-host scope. Qualify Windows paths/permissions, source/lock integrity, stale/mutable updates, rollback/removal, retained context and all process/host-effect Stop. Measure full query/model/context/resource, maintenance and exit cost within Core-owned USD25 monthly metered budget; no npx, install, account or ecosystem-wide admission authorized.",
+      "source_records": [
+        "dev.vercel-find-skills"
+      ],
+      "link_checked": "2026-11-16",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "af860243b8c68053b3b5151e3732b9322933674d"
+      ],
+      "evidence_dates": [
+        "2026-11-16"
+      ],
+      "evidence_basis": "Pinned linked SKILL.md, README/LICENSE/package metadata and independent bounded discovery/search/telemetry and installation/update/lock/audit source reviews. No candidate execution/import/npx/install, live discovery API queries, skill activation, providers or benchmark.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-16",
+        "reviewed_revision": "af860243b8c68053b3b5151e3732b9322933674d",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Linked skill instructions and representative CLI source; not exhaustive audit or qualification of any returned skill.",
+        "findings": [
+          "The requested file is discovery/install guidance, and its repository also ships a real CLI. Treat its installation commands and popularity/source recommendations as material to evaluate, not active instructions. Register this workflow once; do not bulk-admit or inflate counts with returned skills, referenced repositories or catalog members.",
+          "The skill recommends leaderboard, install counts, owner reputation and GitHub stars to judge candidates. These are discovery/ranking signals, not evidence of correctness, prompt-injection resistance, rights, compatibility or permission to execute. Compare incremental coverage and held-out relevance against existing curated/direct-source discovery, then review exact candidate contents independently.",
+          "Search sends raw query and optional owner to a configurable Skills API origin, default skills.sh. Telemetry separately defaults on and can send raw query/result count and agent/version metadata to a different endpoint. Disabling telemetry does not disable search egress; approve recipients and redact personal/project details before any query.",
+          "Multi-term discovery can issue up to six dropped-term searches and merge by hit count, returned rank and install counts. Remote errors/non-OK can become empty results, so no-result output does not establish ecosystem absence or adequate coverage. Qualify timeouts, cancellation, failure visibility, retries/fan-out and query budgets.",
+          "Explicit-query find prints options while interactive selection can invoke runAdd. CLI add can mutate project/global and host-specific directories; Windows can use junctions or copy fallbacks. Noninteractive search and interactive install are separate scopes; no automatic global -g/-y behavior from the linked skill is admitted.",
+          "Lock/provenance and pinned restore behavior are useful identity mechanisms, not code trust. Update can advance recorded commits, and removal does not undo already injected instructions, data exposure, prior edits or external host effects. Require exact selected source/artifact hashes, intended target paths and explicit upgrade/removal receipts.",
+          "Remote security auditing is advisory and explicitly does not block installation. Telemetry opt-out also affects audit fetching in inspected source. Scores, missing audit results and exit/success displays cannot replace content review or Core admission; review audit recipients, payload and coverage separately.",
+          "MIT applies to this source package; each discovered skill and bundled dependency retains its own terms and executable surface. Node>=22.20.0 source requirement and Windows-oriented paths do not establish the installed host/agent pairing, total cost, safe activation or unified cancellation of arbitrary skill/host work."
+        ],
+        "evidence": [
+          {
+            "path": "skills/find-skills/SKILL.md",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/skills/find-skills/SKILL.md"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/LICENSE"
+          },
+          {
+            "path": "package.json",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/package.json"
+          },
+          {
+            "path": "skills/find-skills/SKILL.md",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/skills/find-skills/SKILL.md#L1-L31"
+          },
+          {
+            "path": "skills/find-skills/SKILL.md",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/skills/find-skills/SKILL.md#L43-L80"
+          },
+          {
+            "path": "skills/find-skills/SKILL.md",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/skills/find-skills/SKILL.md#L106-L118"
+          },
+          {
+            "path": "src/find.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/find.ts#L12-L13"
+          },
+          {
+            "path": "src/find.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/find.ts#L41-L92"
+          },
+          {
+            "path": "src/find.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/find.ts#L95-L145"
+          },
+          {
+            "path": "src/find.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/find.ts#L230-L266"
+          },
+          {
+            "path": "src/find.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/find.ts#L356-L407"
+          },
+          {
+            "path": "src/find.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/find.ts#L410-L444"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L3-L4"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L43-L48"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L75-L77"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L132-L168"
+          },
+          {
+            "path": "docs/troubleshooting.md",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/docs/troubleshooting.md#L36-L40"
+          },
+          {
+            "path": "src/add.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/add.ts#L3104-L3242"
+          },
+          {
+            "path": "src/installer.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/installer.ts#L116-L163"
+          },
+          {
+            "path": "src/installer.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/installer.ts#L229-L300"
+          },
+          {
+            "path": "src/installer.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/installer.ts#L562-L605"
+          },
+          {
+            "path": "src/local-lock.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/local-lock.ts#L35-L51"
+          },
+          {
+            "path": "src/local-lock.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/local-lock.ts#L232-L246"
+          },
+          {
+            "path": "src/skill-lock.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/skill-lock.ts#L13-L46"
+          },
+          {
+            "path": "src/update.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/update.ts#L1260-L1300"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L83-L125"
+          },
+          {
+            "path": "src/add.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/add.ts#L3203-L3242"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L1-L62"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L75-L76"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L132-L170"
+          },
+          {
+            "path": "src/remove.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/remove.ts#L217-L275"
+          },
+          {
+            "path": "src/remove.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/remove.ts#L408-L492"
+          },
+          {
+            "path": "src/git.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/git.ts#L256-L283"
+          },
+          {
+            "path": "src/telemetry.ts",
+            "url": "https://github.com/vercel-labs/skills/blob/af860243b8c68053b3b5151e3732b9322933674d/src/telemetry.ts#L175-L191"
+          }
+        ],
+        "limitations": [
+          "Representative source review, not exhaustive audit, live search evaluation or returned-skill review.",
+          "No CLI/npx/install/import, live search/telemetry/audit request, skill activation, providers, accounts or benchmark execution.",
+          "Discovery, installation/update/remove and every individual skill/host remain separately gated; package metadata is not a qualified release artifact."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -19998,6 +20189,14 @@
         "vstorm-co/agenticos"
       ],
       "upstream_check_scope": "Q156 platform/components and separately gated local/cloud, desktop/native and container variants; no execution."
+    },
+    {
+      "record_id": "dev.vercel-find-skills",
+      "coverage": "November16 pinned source intake",
+      "related_repositories": [
+        "vercel-labs/skills"
+      ],
+      "upstream_check_scope": "Q157 find-skills discovery and separately gated CLI install/update/remove/host effects; no ecosystem-wide admission or execution."
     }
   ],
   "source_review_followthrough": {
