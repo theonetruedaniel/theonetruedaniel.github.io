@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-21",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 312,
-  "github_repository_count": 209,
+  "registered_record_count": 313,
+  "github_repository_count": 210,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -17854,6 +17854,89 @@
           "Platform/backend/model variants and any paid license/service rights remain separate gates."
         ]
       }
+    },
+    {
+      "repository": "phone-harness/phone-harness",
+      "canonical_repository": "phone-harness/phone-harness",
+      "id": "phone-harness-phone-harness",
+      "name": "Phone Harness",
+      "url": "https://github.com/phone-harness/phone-harness",
+      "requested_source_url": "https://github.com/phone-harness/phone-harness",
+      "layer": "Devices and access",
+      "stage": "shortlisted",
+      "purpose": "Agent-facing phone interaction CLI for local Android via ADB and local iPhone via macOS Mirroring, with separate hosted phone options.",
+      "fit": "Q-159 / G/H/I/J. Compare with PhoneUse, Poki and direct device adapters on synthetic app navigation, reading a screen and drafting within an authorized app. For development, compare repeatable mobile UI checks on owned test devices. Evaluate upstream, licensed components, a narrow Abrams adapter and deferral. Device execution sits behind the Abrams Core action policy.",
+      "disposition": "Source researched, planned and untested. MIT root license. Source metadata lists alpha version 0.3.3 and Python >=3.10. Local Android is the first Windows comparison. Local iPhone needs macOS Mirroring and screen/input permissions. Hosted devices and hosted MCP have separate service and privacy requirements.",
+      "next_gate": "Pin host, artifact, device, OS and backend. Begin with owned synthetic devices and minimal app and action grants. Verify accurate screen reads, target selection, takeover, mixed-script text, revocation, cancellation and ambiguous-action receipts. Contain the CLI as general code execution. Require approved screen and text recipients, telemetry controls, local cleanup and evidence that Stop reaches each worker. Qualify hosted identity, retention, disposal, quotas and dated charges separately.",
+      "source_records": [
+        "device.phone-harness"
+      ],
+      "link_checked": "2026-11-21",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "f5096606b10eb757d03467944bccd82f8aba385f"
+      ],
+      "evidence_dates": [
+        "2026-11-21"
+      ],
+      "evidence_basis": "Pinned README, license, package metadata and representative Android, iPhone, CLI, telemetry and remote transport source.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-21",
+        "reviewed_revision": "f5096606b10eb757d03467944bccd82f8aba385f",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Pinned README, license, package metadata and representative Android, iPhone, CLI, telemetry and remote transport source.",
+        "findings": [
+          "Android source uses ADB subprocesses for screenshots, accessibility data and input. Windows is a documented host option. The Mirroring path instead uses a macOS window and local OCR, so it requires different host permissions and presents different failure modes.",
+          "The CLI script runner uses Python exec on the supplied script. Its helper set is a convenience interface. Abrams would need a separately enforced action boundary to restrict host access and phone effects.",
+          "Telemetry source describes normal CLI telemetry as opt-out and Hermes telemetry as opt-in. Inspect settings and trace actual recipients in any qualification. Screen captures and account data need independent handling rules for local and hosted paths.",
+          "The remote iPhone adapter sends operations to a hosted HTTPS service. Hosted Android, hosted iPhone and hosted MCP are separate variants. A request timeout leaves the outcome of an in-flight external effect uncertain.",
+          "The MIT source license is separate from device prerequisites, runtime dependency rights and hosted entitlement. Hosted pricing, retention, resource use and cancellation remain unmeasured. No devices, services or models were exercised."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/LICENSE"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/pyproject.toml"
+          },
+          {
+            "path": "src/phone_harness/android.py",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/src/phone_harness/android.py"
+          },
+          {
+            "path": "src/phone_harness/mirror.py",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/src/phone_harness/mirror.py"
+          },
+          {
+            "path": "src/phone_harness/run.py",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/src/phone_harness/run.py#L440-L469"
+          },
+          {
+            "path": "src/phone_harness/helpers.py",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/src/phone_harness/helpers.py#L110-L150"
+          },
+          {
+            "path": "src/phone_harness/telemetry.py",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/src/phone_harness/telemetry.py#L1-L25"
+          },
+          {
+            "path": "src/phone_harness/remote.py",
+            "url": "https://github.com/phone-harness/phone-harness/blob/f5096606b10eb757d03467944bccd82f8aba385f/src/phone_harness/remote.py#L111-L148"
+          }
+        ],
+        "limitations": [
+          "No SDK or CLI installation, device pairing, screen access, phone actions, provider calls or benchmarks.",
+          "Service internals, artifact provenance, performance and cancellation remain unverified."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -20423,6 +20506,14 @@
         "RunanywhereAI/runanywhere-sdks"
       ],
       "upstream_check_scope": "Q158 SDK/platform/license and network/lifecycle review only; no sibling app/model admission or execution."
+    },
+    {
+      "record_id": "device.phone-harness",
+      "coverage": "November 21 pinned source intake",
+      "related_repositories": [
+        "phone-harness/phone-harness"
+      ],
+      "upstream_check_scope": "Q-159 representative device transports, CLI and privacy review"
     }
   ],
   "source_review_followthrough": {
