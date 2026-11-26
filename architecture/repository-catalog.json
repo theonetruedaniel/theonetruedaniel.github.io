@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-25",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 313,
-  "github_repository_count": 210,
+  "registered_record_count": 314,
+  "github_repository_count": 211,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -17937,6 +17937,84 @@
           "Service internals, artifact provenance, performance and cancellation remain unverified."
         ]
       }
+    },
+    {
+      "repository": "pierridotite/mobile-agent-testers",
+      "canonical_repository": "pierridotite/mobile-agent-testers",
+      "id": "pierridotite-mobile-agent-testers",
+      "name": "Mobile Agent Testers",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "requested_source_url": "https://github.com/pierridotite/mobile-agent-testers",
+      "layer": "Skills and development",
+      "stage": "shortlisted",
+      "purpose": "Persona-driven exploratory QA on Android emulators, iOS simulators and mobile browser profiles, with reports, screenshots and experimental Android replay.",
+      "fit": "Q-160 / H/I/J. Evaluate as a developer QA harness for Abrams mobile web and future companion flows. Compare seeded defect detection across locale, text scale and viewport, then turn independently confirmed bugs into deterministic checks. Compare upstream, reusable MIT components, an original persona matrix, and ordinary Playwright or Maestro controls.",
+      "disposition": "Source reviewed, planned and untested. MIT repository. GitHub Actions uses Linux for Android and browser jobs and macOS for iOS simulation. The Windows setup entry does not establish local iOS simulator support. Reports of upstream runs are external observations.",
+      "next_gate": "Use a synthetic Abrams-owned app or site and a small held-out defect set. Compare detection recall, false positives, repeatability, actionable evidence and trace replay against scripted controls. Pin builds, actions, dependencies and model route. Verify credential scope, permitted destinations, artifact visibility, encryption, deletion and matrix-wide cancellation. Measure provider charges, runner minutes, cold starts, concurrency and maintenance before scaling.",
+      "source_records": [
+        "dev.mobile-agent-testers"
+      ],
+      "link_checked": "2026-11-25",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "39578548345535e45c81b6b47e94aa2af7cfb0a4"
+      ],
+      "evidence_dates": [
+        "2026-11-25"
+      ],
+      "evidence_basis": "Pinned README, MIT license, workflow, Android runner, encryption source and replay/configuration documentation.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-25",
+        "reviewed_revision": "39578548345535e45c81b6b47e94aa2af7cfb0a4",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Pinned README, MIT license, workflow, Android runner, encryption source and replay/configuration documentation.",
+        "findings": [
+          "The workflow builds apps and runs independent persona jobs with distinct platform runners and explicit job deadlines. The first Abrams experiment should use mobile web or Android and a small matrix. iOS simulation needs a macOS runner and supplies different evidence from physical-device testing.",
+          "Android replay is experimental, with separate replay-only inputs and an option to close tool network access for a replay. Validate whether selectors and assertions survive version changes. A replay constraint does not establish containment during agent exploration.",
+          "The workflow can use private checkout credentials and model credentials. Result archives and app-build archives use distinct encryption paths. Replay-only outcomes have a separate upload step. Inspect logs, model requests and each artifact class for access, retention and secret exposure before sharing builds or test data.",
+          "Upstream reports model cost and defect counts for its own demos. Public runner availability does not establish private-runner quotas, model entitlement or the cost of an Abrams run. Pin the real route and record total cost. Source and docs were inspected without running setup, launching a workflow or calling a model."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/pierridotite/mobile-agent-testers/blob/39578548345535e45c81b6b47e94aa2af7cfb0a4/README.md"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/pierridotite/mobile-agent-testers/blob/39578548345535e45c81b6b47e94aa2af7cfb0a4/LICENSE"
+          },
+          {
+            "path": "PRIVACY.md",
+            "url": "https://github.com/pierridotite/mobile-agent-testers/blob/39578548345535e45c81b6b47e94aa2af7cfb0a4/PRIVACY.md"
+          },
+          {
+            "path": ".github/workflows/agent-testers.yml",
+            "url": "https://github.com/pierridotite/mobile-agent-testers/blob/39578548345535e45c81b6b47e94aa2af7cfb0a4/.github/workflows/agent-testers.yml"
+          },
+          {
+            "path": "scripts/android/run_agent.sh",
+            "url": "https://github.com/pierridotite/mobile-agent-testers/blob/39578548345535e45c81b6b47e94aa2af7cfb0a4/scripts/android/run_agent.sh"
+          },
+          {
+            "path": "scripts/encrypt_results.sh",
+            "url": "https://github.com/pierridotite/mobile-agent-testers/blob/39578548345535e45c81b6b47e94aa2af7cfb0a4/scripts/encrypt_results.sh"
+          },
+          {
+            "path": "docs/replay.md",
+            "url": "https://github.com/pierridotite/mobile-agent-testers/blob/39578548345535e45c81b6b47e94aa2af7cfb0a4/docs/replay.md"
+          },
+          {
+            "path": "docs/configuration.md",
+            "url": "https://github.com/pierridotite/mobile-agent-testers/blob/39578548345535e45c81b6b47e94aa2af7cfb0a4/docs/configuration.md"
+          }
+        ],
+        "limitations": [
+          "Planning and source inspection only. No install, workflow, build, model request, credentials or benchmark.",
+          "Model quality, host requirements, replay reliability, containment and costs remain unverified."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -20514,6 +20592,14 @@
         "phone-harness/phone-harness"
       ],
       "upstream_check_scope": "Q-159 representative device transports, CLI and privacy review"
+    },
+    {
+      "record_id": "dev.mobile-agent-testers",
+      "coverage": "November 25 pinned source intake",
+      "related_repositories": [
+        "pierridotite/mobile-agent-testers"
+      ],
+      "upstream_check_scope": "Q-160 developer QA matrix, replay and artifact review"
     }
   ],
   "source_review_followthrough": {
