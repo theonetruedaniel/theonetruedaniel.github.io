@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25",
+  "updated": "2026-11-28",
   "scope": "Repository identities explicitly linked in the frozen catalog, dated intake overlays and collected research references; not an installed dependency list.",
-  "registered_record_count": 314,
-  "github_repository_count": 211,
+  "registered_record_count": 315,
+  "github_repository_count": 212,
   "production_integrations_adopted": 0,
   "stage_definitions": {
     "collected": "Collected reference",
@@ -18015,6 +18015,81 @@
           "Model quality, host requirements, replay reliability, containment and costs remain unverified."
         ]
       }
+    },
+    {
+      "repository": "opensetlabs/openset-llm",
+      "canonical_repository": "opensetlabs/openset-llm",
+      "id": "opensetlabs-openset-llm",
+      "name": "OpenSet LLM",
+      "url": "https://github.com/opensetlabs/openset-llm",
+      "requested_source_url": "https://github.com/opensetlabs/openset-llm",
+      "layer": "Models and inference",
+      "stage": "shortlisted",
+      "purpose": "CPU kernels and runtime patches for PrismML’s llama.cpp fork, serving ternary Bonsai-2-27B through an OpenAI-compatible local endpoint.",
+      "fit": "Q-161 / E/H/I/J, BO-04 and BO-05. Compare the actual WSL2 CPU route with Ollama and direct llama.cpp for private chat, summarization and structured extraction. Match weights where supported to isolate engine changes and compare lighter models separately as complete routes. Developer fit is a reproducible local endpoint for testing.",
+      "disposition": "Source reviewed, planned and untested. MIT patch set. Linux x86-64 or WSL2 is documented. Host throughput, memory headroom and model quality remain unverified.",
+      "next_gate": "Pin engine, weights, draft sidecar, CPU feature path and WSL2 memory ceiling. Compare plain and speculative decoding at equal context lengths, including first-token time, throughput, memory, paging, disk, power and answer quality. Check loopback exposure, request cancellation, disk resume and cleanup with synthetic data.",
+      "source_records": [
+        "inference.openset-llm"
+      ],
+      "link_checked": "2026-11-28",
+      "link_state": "verified",
+      "recorded_revisions": [
+        "ba9197ccdcb43fcf8119346820e5e172320e8764"
+      ],
+      "evidence_dates": [
+        "2026-11-28"
+      ],
+      "evidence_basis": "Pinned benchmarks and representative license, installer, serving and deployment sources.",
+      "adopted_integration": false,
+      "source_review": {
+        "review_date": "2026-11-28",
+        "reviewed_revision": "ba9197ccdcb43fcf8119346820e5e172320e8764",
+        "review_state": "source-reviewed-bounded",
+        "execution_authority": "none",
+        "scope": "Representative source and documented benchmarks.",
+        "findings": [
+          "Upstream reports 17–20 tokens/s on an eight-vCPU Ice Lake server. Its AVX2-only plain server results of 5.8–7.2 tokens/s came from Ice Lake with AVX-512 disabled. Actual laptop throughput is unmeasured.",
+          "The 5.95 GB ternary Bonsai weights and roughly 7.3 GB of setup downloads leave memory, context, speculation, paging and concurrency to qualify on the actual host.",
+          "Engine-release checksum verification and downloads from mutable model main revisions are separate provenance concerns. Pin engine, weight and sidecar hashes and verify exact MIT and Apache 2.0 terms.",
+          "The wrapper defaults to loopback with disk resume enabled. Compose publishes on host loopback and specifies persistent model storage and a restart policy. Assess request cancellation, shutdown, access control and retained session data.",
+          "Upstream runtime comparisons do not establish quality equivalence to full-precision weights. Compare output accuracy and structured output on held-out Abrams tasks."
+        ],
+        "evidence": [
+          {
+            "path": "README.md",
+            "url": "https://github.com/opensetlabs/openset-llm/blob/ba9197ccdcb43fcf8119346820e5e172320e8764/README.md"
+          },
+          {
+            "path": "NOTICE",
+            "url": "https://github.com/opensetlabs/openset-llm/blob/ba9197ccdcb43fcf8119346820e5e172320e8764/NOTICE"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/opensetlabs/openset-llm/blob/ba9197ccdcb43fcf8119346820e5e172320e8764/LICENSE"
+          },
+          {
+            "path": "install.sh",
+            "url": "https://github.com/opensetlabs/openset-llm/blob/ba9197ccdcb43fcf8119346820e5e172320e8764/install.sh"
+          },
+          {
+            "path": "serve",
+            "url": "https://github.com/opensetlabs/openset-llm/blob/ba9197ccdcb43fcf8119346820e5e172320e8764/serve"
+          },
+          {
+            "path": "Dockerfile",
+            "url": "https://github.com/opensetlabs/openset-llm/blob/ba9197ccdcb43fcf8119346820e5e172320e8764/Dockerfile"
+          },
+          {
+            "path": "docker-compose.yml",
+            "url": "https://github.com/opensetlabs/openset-llm/blob/ba9197ccdcb43fcf8119346820e5e172320e8764/docker-compose.yml"
+          }
+        ],
+        "limitations": [
+          "No install, build, weights, inference or benchmark.",
+          "Actual host eligibility, performance and quality remain unverified."
+        ]
+      }
     }
   ],
   "model_repositories": [
@@ -20600,6 +20675,14 @@
         "pierridotite/mobile-agent-testers"
       ],
       "upstream_check_scope": "Q-160 developer QA matrix, replay and artifact review"
+    },
+    {
+      "record_id": "inference.openset-llm",
+      "coverage": "November 28 pinned source intake",
+      "related_repositories": [
+        "opensetlabs/openset-llm"
+      ],
+      "upstream_check_scope": "Q-161 CPU inference and deployment review"
     }
   ],
   "source_review_followthrough": {
